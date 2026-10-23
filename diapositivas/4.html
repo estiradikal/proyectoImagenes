@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 4: Análisis Estadístico del Ruido y Pruebas de Distribución</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.8; color: #2c3e50; max-width: 950px; margin: 0 auto; padding: 20px; background-color: #ecf0f1; }
+        h1, h2, h3 { color: #2980b9; }
+        h1 { border-bottom: 4px solid #2980b9; padding-bottom: 10px; text-align: center; }
+        .card { background: white; border-radius: 10px; padding: 25px; margin-bottom: 25px; box-shadow: 0 6px 12px rgba(0,0,0,0.1); }
+        .highlight { background-color: #e8f8f5; padding: 15px; border-left: 5px solid #1abc9c; margin: 20px 0; border-radius: 0 8px 8px 0; }
+        .warning { background-color: #fdedec; padding: 15px; border-left: 5px solid #e74c3c; margin: 20px 0; border-radius: 0 8px 8px 0; }
+        code { background: #f4f4f4; padding: 3px 6px; border-radius: 4px; font-family: 'Courier New', monospace; color: #c0392b; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #bdc3c7; padding: 12px; text-align: left; }
+        th { background-color: #2980b9; color: white; }
+    </style>
+</head>
+<body>
+
+    <h1>Guía de Estudio: Análisis Estadístico del Ruido</h1>
+
+    <div class="card">
+        <h2>1. Diferencia Fundamental: Resonancia (MRI) vs. Tomografía (CT)</h2>
+        <p>El profesor hizo mucho énfasis en por qué los histogramas de estas dos imágenes son radicalmente distintos:</p>
+        <ul>
+            <li><strong>Resonancia Magnética:</strong> Mide la intensidad de una señal electromagnética. Los valores de los píxeles son siempre <strong>positivos</strong> (de 0 a 65,535 si es de 16 bits). Un valor de 0 significa ausencia total de señal (negro).</li>
+            <li><strong>Tomografía (CT):</strong> Mide la atenuación de los Rayos X. Utiliza las <strong>Unidades Hounsfield (HU)</strong>. Aquí los valores son negativos y positivos:
+                <ul>
+                    <li>-1000 HU: Aire (el rayo pasa directo sin chocar).</li>
+                    <li>0 HU: Agua.</li>
+                    <li>+30 a +100 HU: Tejido blando.</li>
+                    <li>+1000 HU o más: Hueso (el rayo choca fuertemente y se atenúa).</li>
+                </ul>
+            </li>
+        </ul>
+        <div class="highlight">
+            <p><strong>¿Por qué en CT hay valores negativos en el histograma?</strong> Porque el eje X del histograma de una tomografía mostrará valores desde -2000 (aire) hasta +3000 (hueso denso). En resonancia, el eje X solo va de 0 a 65,000.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>2. ¿Qué es el Ruido y cómo se aísla?</h2>
+        <p>El ruido son las "hormiguitas" o fluctuaciones aleatorias de intensidad. Para analizarlo, el profesor pidió seleccionar una <strong>región homogénea</strong> de la imagen, es decir, una zona de fondo negro (donde no hay tejido).</p>
+        <p><strong>Lógica:</strong> En el mundo real, esa zona debería ser puramente negra (valor 0). Si encontramos píxeles con valores de 10, 50 o 100, eso es 100% ruido. Si tomáramos una zona con tejido, los valores serían una mezcla de tejido real + ruido, lo que arruinaría el análisis estadístico.</p>
+    </div>
+
+    <div class="card">
+        <h2>3. Pruebas Estadísticas: El Valor P (p-value)</h2>
+        <p>El profesor explicó cómo saber matemáticamente si el ruido sigue una distribución específica (como la Gaussiana, Rayleigh, Gamma o Chi-cuadrado). Se usan pruebas como <strong>Kolmogorov-Smirnov</strong> (para muchos datos) o <strong>Shapiro-Wilk</strong> (para pocos datos).</p>
+        
+        <div class="warning">
+            <h3>Regla de Oro del Valor P (Según la clase):</h3>
+            <p>Cuando ejecutas la prueba, obtienes un <strong>Estadístico</strong> y un <strong>Valor P</strong>.</p>
+            <ul>
+                <li>Si <strong>Valor P &lt; 0.05</strong>: Los datos <strong>NO</strong> siguen la distribución que estás evaluando. (Se rechaza la hipótesis).</li>
+                <li>Si <strong>Valor P &gt; 0.05</strong>: Los datos <strong>SÍ</strong> siguen la distribución evaluada. (No hay evidencia para rechazarla).</li>
+            </ul>
+            <p><em>Nota: El profesor usó la analogía del "agua de cebolla". No puedes usar el mismo remedio para todas las enfermedades. De igual forma, no puedes usar un filtro para ruido Gaussiano en una imagen que tiene ruido Rayleigh, porque no funcionará.</em></p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>4. Distribuciones Estadísticas del Ruido</h2>
+        <table>
+            <tr>
+                <th>Tipo de Imagen</th>
+                <th>Distribución del Ruido</th>
+                <th>Explicación Física</th>
+            </tr>
+            <tr>
+                <td>Cámaras Planas (Fotos)</td>
+                <td><strong>Gaussiana</strong> (Normal)</td>
+                <td>El sensor captura luz y electrones con fluctuaciones naturales que forman una campana de Gauss.</td>
+            </tr>
+            <tr>
+                <td>Resonancia (MRI)</td>
+                <td><strong>Rayleigh</strong></td>
+                <td>La señal de radiofrecuencia tiene un componente real y uno imaginario (números complejos). Al combinar ambos para obtener la magnitud, el ruido sigue una distribución Rayleigh (no tiene valores negativos).</td>
+            </tr>
+            <tr>
+                <td>Tomografía (CT)</td>
+                <td><strong>Poisson</strong></td>
+                <td>Se basa en el conteo de fotones de rayos X que llegan al detector. El conteo de eventos discretos sigue una distribución de Poisson.</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 6: Detección de Bordes (Sobel, Laplaciano y Varianza)</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.8; color: #2c3e50; max-width: 950px; margin: 0 auto; padding: 20px; background-color: #ecf0f1; }
+        h1, h2, h3 { color: #d35400; }
+        h1 { border-bottom: 4px solid #d35400; padding-bottom: 10px; text-align: center; }
+        .card { background: white; border-radius: 10px; padding: 25px; margin-bottom: 25px; box-shadow: 0 6px 12px rgba(0,0,0,0.1); }
+        .highlight { background-color: #fef5e7; padding: 15px; border-left: 5px solid #d35400; margin: 20px 0; border-radius: 0 8px 8px 0; }
+        .warning { background-color: #fdedec; padding: 15px; border-left: 5px solid #e74c3c; margin: 20px 0; border-radius: 0 8px 8px 0; }
+        code { background: #f4f4f4; padding: 3px 6px; border-radius: 4px; font-family: 'Courier New', monospace; color: #c0392b; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #bdc3c7; padding: 12px; text-align: left; }
+        th { background-color: #d35400; color: white; }
+        .math { font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 1.1em; }
+    </style>
+</head>
+<body>
+
+    <h1>Guía de Estudio: Detección de Bordes</h1>
+
+    <div class="card">
+        <h2>1. Detalles del Control 1 (50% de la nota)</h2>
+        <p>El profesor aclaró cómo será la evaluación:</p>
+        <ul>
+            <li><strong>Fecha:</strong> 28 de octubre (dentro de 15 días).</li>
+            <li><strong>Formato:</strong> 8 a 10 minutos por grupo. Compartir pantalla y mostrar el código en Colab.</li>
+            <li><strong>Contenido:</strong> Deben mostrar los temas vistos hasta hoy (Espacios de color, Histogramas, Suavizado, Detección de bordes).</li>
+            <li><strong>Preguntas:</strong> El profesor hará preguntas cortas como: "¿Por qué usaste un kernel de 5x5 y no de 3x3?", "¿Qué pasa si cambias el sigma?", "¿Por qué usaste la fórmula de luminancia y no el promedio?".</li>
+            <li><strong>Imágenes obligatorias:</strong> Deben aplicar los algoritmos a 3 tipos de imágenes:
+                <ol>
+                    <li>Una imagen plana (foto de celular o webcam).</li>
+                    <li>Una imagen de resonancia magnética (el cerebro).</li>
+                    <li>Una imagen de tomografía.</li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>2. Filtros de Paso Alto (Detección de Bordes)</h2>
+        <p>A diferencia de los filtros pasa-bajos (que suavizan), los pasa-altos <strong>eliminan las bajas frecuencias</strong> (las zonas planas) y resaltan las <strong>altas frecuencias</strong> (los cambios bruscos entre píxeles, es decir, los bordes).</p>
+        
+        <h3>A. El Operador de Sobel (Primera Derivada)</h3>
+        <p>Está basado en la discretización de la primera derivada. Como una imagen es 2D, necesitamos calcular el gradiente en dos direcciones:</p>
+        <ul>
+            <li><strong>Sobel X (Horizontal):</strong> Detecta bordes verticales (cambios de izquierda a derecha).</li>
+            <li><strong>Sobel Y (Vertical):</strong> Detecta bordes horizontales (cambios de arriba a abajo).</li>
+        </ul>
+        <p><strong>La analogía del profesor:</strong> Es como caminar en la oscuridad. Las zonas planas (bajas frecuencias) no te hacen sentir nada. Si te chocas con un muro (un borde), sientes un cambio brusco (alta frecuencia).</p>
+
+        <h3>B. Magnitud y Dirección del Gradiente</h3>
+        <p>A partir de las dos imágenes de Sobel (X e Y), podemos crear dos matrices nuevas:</p>
+        <ul>
+            <li><strong>Magnitud (Fuerza del borde):</strong> <span class="math">√(Sobel_X² + Sobel_Y²)</span>. Indica qué tan fuerte es el cambio. Se usa para saber si hay un borde o solo ruido.</li>
+            <li><strong>Dirección (Ángulo):</strong> <span class="math">arctan(Sobel_Y / Sobel_X)</span>. Indica hacia dónde apunta el borde (de 0 a 360 grados).</li>
+        </ul>
+        <div class="highlight">
+            <p><strong>¿Para qué sirve la dirección del gradiente?</strong> Visualmente no aporta mucho, pero es el "input" vital para el algoritmo de Canny que veremos la próxima clase. Sirve para trazar el contorno del objeto.</p>
+        </div>
+
+        <h3>C. El Operador Laplaciano (Segunda Derivada)</h3>
+        <p>Es otro filtro de paso alto, pero usa la segunda derivada. Su kernel básico es una cruz con un valor negativo grande en el centro y unos positivos alrededor (ej. -4 en el centro, 1 en la cruz).</p>
+        <ul>
+            <li><strong>Efecto:</strong> Detecta bordes en todas las direcciones. Es mucho más sensible al ruido que Sobel.</li>
+            <li><strong>Mejora de imagen:</strong> Si a la imagen original le sumas el resultado del Laplaciano, obtienes una imagen con los bordes realzados (se ve más nítida).</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>3. Operadores basados en la Varianza</h2>
+        <p>El profesor introdujo un enfoque diferente. En lugar de usar un kernel fijo, se calcula la <strong>varianza</strong> de una vecindad (ej. 3x3) y se aplica la fórmula:</p>
+        <p><span class="math">R = 1 - (1 / (1 + Varianza))</span></p>
+        <ul>
+            <li>Si la zona es plana, la varianza es 0. <span class="math">R = 1 - (1/1) = 0</span> (Negro).</li>
+            <li>Si la zona tiene muchos cambios (borde o ruido), la varianza es alta. <span class="math">R</span> tiende a <span class="math">1</span> (Blanco).</li>
+        </ul>
+        <p><strong>Nota:</strong> El resultado de R va entre 0 y 1. Para poder verlo en imagen, el profesor indicó que se debe multiplicar por 255.</p>
+    </div>
+
+    <div class="card">
+        <h2>4. Próximo paso: El método de Canny</h2>
+        <p>El profesor mencionó que para la próxima clase verán el método de Canny. Este algoritmo necesita obligatoriamente la <strong>magnitud</strong> y la <strong>dirección</strong> del gradiente (calculadas con Sobel o Laplaciano). Canny es un filtro mucho más avanzado que logra bordes finos y continuos.</p>
+    </div>
+
+</body>
+</html>

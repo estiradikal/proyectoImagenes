@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceptos: Procesamiento de Imágenes Médicas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f7f6;
+        }
+        h1, h2, h3 { color: #2c3e50; }
+        h1 { border-bottom: 3px solid #3498db; padding-bottom: 10px; text-align: center; }
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .highlight { background-color: #e8f4f8; padding: 15px; border-left: 4px solid #3498db; margin: 15px 0; }
+        code { background: #eee; padding: 2px 6px; border-radius: 4px; font-family: monospace; }
+        ul { padding-left: 20px; }
+    </style>
+</head>
+<body>
+
+    <h1>Resumen de Conceptos: Imágenes Digitales y Médicas</h1>
+
+    <div class="card">
+        <h2>1. ¿Qué es una imagen digital?</h2>
+        <p>Una imagen digital no es más que una <strong>matriz de números</strong>. Si tú amplías una foto hasta el infinito, verás que está compuesta por pequeños cuadritos llamados <strong>píxeles</strong>.</p>
+        <ul>
+            <li><strong>El píxel:</strong> Es la unidad básica. Tiene un único color sólido.</li>
+            <li><strong>Los números:</strong> Cada píxel almacena valores numéricos que representan la intensidad de la luz.</li>
+            <li><strong>Imágenes a color:</strong> No son una sola matriz, sino <strong>tres matrices</strong> superpuestas: una para el Rojo (R), una para el Verde (G) y una para el Azul (B). A cada una se le llama <em>canal</em>.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>2. Resolución de la imagen</h2>
+        <ul>
+            <li><strong>Resolución Espacial:</strong> Es la cantidad de área del mundo real que representa un solo píxel. A menor área por píxel, mayor nitidez (como las cámaras de 128 megapíxeles).</li>
+            <li><strong>Profundidad de bits:</strong> Es cuántos valores distintos puede tener un píxel. Una imagen normal (8 bits) tiene 256 valores (0 a 255).</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>3. Imágenes Médicas (Resonancias y Tomografías)</h2>
+        <div class="highlight">
+            <p>Las imágenes médicas son tridimensionales (3D). Por eso, en lugar de píxeles, hablamos de <strong>Voxels</strong> (píxeles con volumen/profundidad).</p>
+        </div>
+        <ul>
+            <li><strong>Más precisión:</strong> No usan 8 bits, sino 16 o 32 bits. Esto permite ver diferencias minúsculas en tejidos blandos (como el cerebro).</li>
+            <li><strong>Formato DICOM:</strong> Es el estándar universal para imágenes médicas (archivos <code>.dcm</code>). Contiene la imagen y mucha información del paciente y del resonador.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>4. Los cortes anatómicos (Las "tajadas")</h2>
+        <p>Como el cuerpo es 3D, los médicos lo dividen en cortes para poder verlo en pantalla:</p>
+        <ul>
+            <li><strong>Axial:</strong> Te cortan de arriba hacia abajo (como si te pasaran un cuchillo por la cintura).</li>
+            <li><strong>Coronal:</strong> Te miran de frente (el corte va de oreja a oreja).</li>
+            <li><strong>Sagital:</strong> Te miran de perfil (el corte va de la nariz a la nuca).</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>5. Ruido</h2>
+        <p>Son las "hormiguitas" o puntos de colores aleatorios que aparecen en las fotos con poca luz. Es un error inherente a cualquier sensor electrónico. En el procesamiento de imágenes, el objetivo es aplicar filtros para suavizar la imagen y que el ruido no confunda a los algoritmos (por ejemplo, que el algoritmo no crea que un punto de ruido es el borde de un tumor).</p>
+    </div>
+
+</body>
+</html>

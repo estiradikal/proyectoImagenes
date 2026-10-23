@@ -1,0 +1,1765 @@
+[0.00s -> 20.00s]  de lo que sí puede obtener feedback, si por ejemplo implementa lo que veremos hoy, lo que puede obtener es feedback, retroalimentación, que pues le servirá para el control número dos.
+[20.00s -> 42.00s]  Pero pues ahí está, si usted quiere implementar más cosas y tal, pues asegúrese de que lo muestre durante la exposición de ustedes. Recuerden que no es necesario preparar de apositiva, recuerden que no es necesario preparar grandes discursos.
+[42.00s -> 59.00s]  No, ustedes recuerden, son sólo ocho minutos por grupo, todos los miembros del grupo tienen que estar, ustedes verán cómo, cómo lo presentan, si lo presentan sólo uno, si lo presentan todos, ya ustedes verán.
+[60.00s -> 76.00s]  La cosa pues es que no, no pues, no pues se asusten, sí, en ese sentido. Bien. Y bueno, respecto de lo de la clase pasada, ¿alguien quiere mostrar lo que hizo la clase pasada?
+[79.00s -> 83.00s]  La implementación de qué vimos, qué fue lo que vimos.
+[90.00s -> 115.00s]  Recuerden que nosotros vimos la clase pasada, la implementación de filtros de paso alto, que son filtros de, de qué era, filtros de detección, de bordes, sí, hablábamos que
+[116.00s -> 126.00s]  en procesamiento de imágenes nosotros tenemos dos, dos maneras de trabajar con las imágenes. Una es en el dominio espacial de la imagen,
+[127.00s -> 143.00s]  que es trabajar directamente con los valores de intensidad de pizzeris, para ir a contar lo que venga en el canal, sea gris, sea RGB, sea HSV, sea GUV, el que sea.
+[144.00s -> 154.00s]  Bien. Adicionalmente, tenemos otra forma de trabajar, que es el dominio de las frecuencias.
+[155.00s -> 167.00s]  Eso tiene que ver con transformar nuestra imagen, es decir, transformar los valores que tenemos en la imagen, partiendo del hecho que nuestra imagen es una señal,
+[168.00s -> 180.00s]  capturada con un hardware cualquiera, transformamos nuestra imagen y esa imagen la convertimos en un espectro de frecuencias.
+[181.00s -> 185.00s]  ¿Cómo la transformamos utilizando la transformada discreta de Fourier?
+[186.00s -> 194.00s]  Sí, eso no lo vamos a ver aquí en esta, en esta clase o de pronto lo hablaré, pero muy por encima.
+[195.00s -> 203.00s]  Pero eso está implementado, sí, eso está implementado y usted puede pasar de una a otra.
+[203.00s -> 214.00s]  Entonces, al usted transformar la imagen al dominio de las frecuencias, les mostré la clase pasada, una imagen de cómo queda nuestra, nuestra imagen de entrada,
+[215.00s -> 226.00s]  sí, da una imagen cualquiera cómo queda vista desde el dominio de las frecuencias, que es como unos discos, con unos rayos que van hacia las esquinas.
+[227.00s -> 232.00s]  Y de allí podemos aplicar filtros diseñados para el dominio de las frecuencias.
+[234.00s -> 244.00s]  Cuando nosotros aplicamos filtros diseñados en el dominio de las frecuencias, tenemos obviamente que aplicarlo ya es sobre nuestra imagen transformada en dominio de frecuencias,
+[245.00s -> 247.00s]  no sobre nuestra imagen original.
+[247.00s -> 260.00s]  Bien, pero esos filtros que hemos usado para el dominio de las frecuencias también existen para la versión espacial de la imagen,
+[261.00s -> 267.00s]  es decir, trabajando con los valores crudos de los canales de color con los que llega la imagen.
+[268.00s -> 288.00s]  Sí, que son los filtros que hemos visto, que el gaussiano y con los valores que hemos visto, vimos para filtros de paso bajo gaussiano, el filtro mediano, el filtro promedio,
+[289.00s -> 297.00s]  sí, y filtros de paso alto que eran, filtros que me dejaban a mí pasar altas frecuencias.
+[298.00s -> 306.00s]  De nuevo, una imagen lo podemos ver como una onda, sí, cuando siempre les he puesto el mismo ejemplo,
+[307.00s -> 313.00s]  usted se despierta las dos de la mañana, está dormido, no puede ver nada porque está en la penumbra
+[313.00s -> 322.00s]  y usted se levanta, sus pies son los que van detectando si el piso suyo está bien organizadito o no.
+[323.00s -> 329.00s]  Sí, si su piso está bien organizado, si usted no tiene nada regado en el suelo, si usted va ruidrapido,
+[330.00s -> 336.00s]  usted no va a sentir gran cosa en el piso, si usted va a sentir el piso liso, es decir, no hay ruido allí.
+[336.00s -> 347.00s]  Bien, es decir, esas bajas frecuencias, sí, se las siente sus pies, la siente en forma de bajas frecuencias,
+[348.00s -> 352.00s]  mientras que cuando usted se choca contra la pared porque usted no puede ver, porque usted está dormido,
+[353.00s -> 359.00s]  está en la penumbra, se choca contra la pared, ¿qué ocurre allí? Allí ocurre una alta frecuencia,
+[360.00s -> 369.00s]  ¿sabiénselo en términos de una onda? Sí, mientras no haya nada de obstáculos, es una baja frecuencia
+[370.00s -> 374.00s]  y cuando se encuentra con un obstáculo, es una alta frecuencia.
+[376.00s -> 383.00s]  Entonces, tenemos nosotros filtros dedicados a dejar pasar solamente esas altas frecuencias,
+[383.00s -> 390.00s]  que es cuando hay un, que en el dominio espacial, es decir, con los valores de pizeles normalitos,
+[391.00s -> 399.00s]  es cuando nuestra imagen tiene un alto cambio de un valor en un pizel respecto al siguiente.
+[400.00s -> 404.00s]  Por ejemplo, cuando, por ejemplo, en esta imagen, cuando, por ejemplo, les pongo el ejemplo de este fondo,
+[404.00s -> 412.00s]  porque me gusta, cuando pasamos de este cafecito a este gris, que es el marco de este tablero,
+[413.00s -> 419.00s]  o cuando pasamos de este cafecito clarito a este café casi oscuro, o sea, usted su ojo es capaz de detectar
+[420.00s -> 431.00s]  que hay un cambio de intensidad de color aquí, ¿sí? Es decir, ahí se topa con un borde, se topa con un cambio, ¿sí?
+[431.00s -> 442.00s]  Sin embargo, hay pequeños cambios abruscos en algunos casos que tenemos en pizeles aún cuando nuestra superficie aparentemente es uniforme,
+[443.00s -> 450.00s]  ¿sí? Por ejemplo, en esta, en los pizeles relacionados con esta camisa, son más o menos del mismo color,
+[450.00s -> 461.00s]  pero si ampliamos la imagen, pueden ver, pueden verse algunas pelucitas allí, esas pelucitas que como que varían de intensidad en cada,
+[462.00s -> 472.00s]  en cada frame respecto al otro, esas pelucitas son ruido, ¿sí? Entonces necesitamos un filtro que no, que no se evite,
+[473.00s -> 484.00s]  o sea, que nos limpie esas pelucitas, pueden ser bien, sea por el ruido de la cámara, o bien, sea puede ser por ruido propiamente del objeto,
+[485.00s -> 496.00s]  puede ser texturas rugosas, por ejemplo, esta madera que está aquí, usted puede ver que esto tiene una textura de madera, ¿sí?
+[497.00s -> 508.00s]  Por ejemplo, si mi cara, supongamos que mi cara está en obra negra, ¿sí? Que yo soy una persona pues con un montón de ganos y cosas, ¿sí?
+[509.00s -> 521.00s]  Entonces hay mucho ruido en mi cara, ¿sí? Entonces yo me aplico un filtro fuerte que hace que me limpie esas bajas frecuencias, esas variaciones en las bajas frecuencias
+[521.00s -> 530.00s]  y me deje pasar solamente las bajas frecuencias. Entonces por eso le llamamos filtro de paso bajo, a esos filtros que me suavizan la imagen.
+[531.00s -> 538.00s]  Entonces ya me hace ver un poco más, más bonito, más, más pinta, más presentable, ¿sí? Más tonto hermoso.
+[538.00s -> 560.00s]  Si yo quiero una foto artística para efectos artísticos donde solamente me dibuje el croquismio de la silueta mía, entonces necesito un filtro que deje pasar solamente las altas frecuencias.
+[561.00s -> 570.00s]  Es decir, los cambios abruptos de intensidad, por ejemplo, del fondo respecto a mí, que soy el objeto en la imagen que ustedes están viendo.
+[571.00s -> 585.00s]  Ahí con eso tenemos nuestras dos diferenciaciones, filtro de paso bajo, filtro de paso alto. En alguna literatura se le llama filtro paso altas, paso bajas o filtro de paso bajo.
+[586.00s -> 598.00s]  Eso de paso alto a paso bajas es generalmente en literatura española, ustedes saben que en España se habla un poquito distinto, todos como más poético, más, ¿sí?
+[599.00s -> 621.00s]  Mientras que en Latinoamérica se ve la literatura, por ejemplo, es central, o sea, algún repositorio de la UNAM o de universidades argentinas, que es de donde no encuentra bastante información, son repositorios públicos, entonces se ve mucho de filtro de paso bajo, filtro de paso alto.
+[621.00s -> 646.00s]  Eso es lo que hemos visto hasta ahora. También hemos visto filtrados utilizando información de la varianza en nuestra imagen. Les expliqué el último pasito cómo hacer un filtrado basándonos en la varianza.
+[647.00s -> 657.00s]  Es decir, no solamente filtrados basados en operación de convolución, sino también en operaciones relacionadas con la varianza.
+[658.00s -> 669.00s]  Y hasta allí vamos. ¿Para qué nos, por qué vimos primero el filtro, los filtros de paso bajo, o sea, los filtros de suavizado, disminución de ruido?
+[669.00s -> 674.00s]  Porque es el primer paso antes de yo aplicar un filtro de paso alto.
+[674.00s -> 690.00s]  Lo vimos en la clase pasada, algunos compartían pantalla y iban mostrando si usted aplica un filtro de paso alto a una imagen ruidosa sin haber aplicado primero un filtro de paso bajo adecuado.
+[690.00s -> 705.00s]  Y acuerdo al ruido de su imagen y con la intensidad propia del ruido que tiene su imagen, que no necesariamente su imagen puede ser muy ruidosa, pero sí puede tener texturas rugosas y demás.
+[705.00s -> 712.00s]  O puede ser que su imagen esté más o menos bien hechicita, puede que su imagen sea un desastre, pero eso sea con lo que usted tiene que trabajar.
+[712.00s -> 722.00s]  Y usted aplica un filtro de paso alto sin haber suavizado primero la imagen con filtro de paso bajo.
+[722.00s -> 739.00s]  Entonces, al intentar usted segmentar el borde del objeto, dibujar el croquisito del objeto, pues no solamente se le va a ir ahí la silhueta del objeto, sino que también se le va a ir la silhueta de todos estos ruidecitos,
+[739.00s -> 747.00s]  de todas esas pelucitas que son detectadas en la imagen.
+[747.00s -> 755.00s]  Y no queremos eso, queremos es solamente la silhueta de los objetos.
+[755.00s -> 765.00s]  Yo no quiero que esta textura sea segmentada, si yo solamente quiero segmentar dónde están los objetos, delinear dónde están los objetos.
+[765.00s -> 768.00s]  Yo no quiero que esta textura sea segmentada.
+[768.00s -> 782.00s]  Entonces me toca suavizar bien para que el color quede casi que homogéneo para así ya poder sobre ese resultado aplicar ahora sí un filtro de paso alto.
+[783.00s -> 791.00s]  Entonces, yo les dije al principio del curso que estos procesos son muy artesanales, sí.
+[791.00s -> 797.00s]  Pero aquí, pero también les dije que algunos procesos van antes que otros procesos.
+[797.00s -> 805.00s]  Por ejemplo, aquí filtro de paso bajo van primero antes de los filtros de paso alto por lo general.
+[805.00s -> 815.00s]  Bien, es decir, yo aplico primero suavizado para homogenizar antes de que de delinear dónde están los objetos.
+[815.00s -> 819.00s]  Sí, que si ya viene siendo artesanal.
+[819.00s -> 827.00s]  Ah, pues los valores, por ejemplo, del sigma, el tamaño del kernel para filtros gaussianos.
+[827.00s -> 839.00s]  El tamaño del kernel para no solamente filtro gaussianos, sino también para filtros, como se llama este, el filtro promedio.
+[839.00s -> 843.00s]  Sí, o el filtro mediana.
+[843.00s -> 850.00s]  Ya vimos el efecto de hacer en el caso del kernel gaussiano incrementar el tamaño del kernel.
+[850.00s -> 855.00s]  También lo vimos en el filtro promedio, en el filtro mediana.
+[855.00s -> 865.00s]  Y también incrementar el tamaño del sigma, disminuirlo, hacer que nuestra campana gaussiana sea más alargada o sea más achatada.
+[865.00s -> 868.00s]  Y esos efectos los vimos.
+[868.00s -> 872.00s]  Bien, todo esto es un resumen del control 1.
+[872.00s -> 880.00s]  Y eso se debería haber reflejado en lo que ustedes hacen en la en su en su trabajo.
+[880.00s -> 889.00s]  Alguien quiere compartir pantalla y mostrar qué hicieron esta semana respecto de los filtros de paso alto.
+[889.00s -> 895.00s]  Vimos dos, recuerden, sobel y vimos el laplaciano.
+[896.00s -> 901.00s]  Alguien quiere mostrar con sus imágenes.
+[901.00s -> 926.00s]  Nadie trabajó esta semana.
+[931.00s -> 948.00s]  Cuenten a ver, alcen la mano ahí con ese botón.
+[948.00s -> 952.00s]  ¿Quién hizo algo esta semana de esto?
+[952.00s -> 967.00s]  Por ahí recibió un correo. Yo sí había cometido una equivocación con respecto al cálculo de la magnitud de la dirección del gradiente.
+[967.00s -> 976.00s]  Así que yo había dicho que era el atangente del gradiente vertical dividido del gradiente horizontal.
+[976.00s -> 983.00s]  Allí una pequeña fe de ratas no es la tangente sino el arco tangente, o sea la tangente inversa.
+[983.00s -> 995.00s]  Allí tenemos estos valores de la magnitud del gradiente constituyen la tangente.
+[995.00s -> 1002.00s]  Para obtener el ángulo necesitamos sacar la inversa.
+[1002.00s -> 1012.00s]  Allí una pequeña fe de ratas me hizo caer en cuenta quién fue el que me mandó el correo.
+[1012.00s -> 1024.00s]  Allí está. Alguien hizo el cálculo de la magnitud y dirección. Alguien lo hizo.
+[1024.00s -> 1036.00s]  Steven, alguien más lo hizo. Otro grupo, hay 16 personas más en esta llamada, o sea mínimo 4 grupos.
+[1036.00s -> 1053.00s]  Alguien lo hizo adicional.
+[1053.00s -> 1065.00s]  ¿No les interesaría tener feedback de mi parte o voy antes del control dentro de 8 días?
+[1065.00s -> 1075.00s]  Steven, si quiere compartanos pantalla y nos muestra qué hizo. Recuerden, hoy es feedback, no es el control.
+[1075.00s -> 1079.00s]  Sí.
+[1079.00s -> 1085.00s]  Ahí con el grupo de trabajo lo hicimos, algunas cosas.
+[1085.00s -> 1104.00s]  Vuestre a ver qué hicieron.
+[1104.00s -> 1120.00s]  Ahí se ve. Dejo de compartir. Dele compartir a toda la pantalla para que eso sí cierre las pestañas de incógnito.
+[1120.00s -> 1149.00s]  No me tiras.
+[1149.00s -> 1156.00s]  Entonces son dos filtros en el horizontal y el vertical.
+[1156.00s -> 1163.00s]  Los valores que se han definido en la clase.
+[1163.00s -> 1176.00s]  Y entonces la implementación.
+[1176.00s -> 1185.00s]  Entonces lo probó con el main plan.
+[1185.00s -> 1198.00s]  Entonces enviamos al kernel el básico.
+[1198.00s -> 1204.00s]  Para algún momento provee que no recutabas.
+[1215.00s -> 1239.00s]  Mético.
+[1239.00s -> 1264.00s]  Mético.
+[1264.00s -> 1285.00s]  Ahí se ve.
+[1285.00s -> 1292.00s]  entonces ahí se va saliendo el este kernel
+[1292.00s -> 1294.00s]  mhm
+[1294.00s -> 1297.00s]  Ajá
+[1297.00s -> 1300.00s]  y
+[1300.00s -> 1305.00s]  Mándale por favor, mandale por favor el el
+[1305.00s -> 1308.00s]  ah bueno y vemos el laplaciano
+[1308.00s -> 1311.00s]  mandale el de sobel
+[1311.00s -> 1313.00s]  el de sobel
+[1313.00s -> 1315.00s]  si
+[1315.00s -> 1317.00s]  por favor
+[1321.00s -> 1323.00s]  como no tengo referencia
+[1339.00s -> 1341.00s]  el de sobel creo que no lo tenemos
+[1343.00s -> 1345.00s]  póngalo ahí, simplemente no hay rapido
+[1345.00s -> 1347.00s]  ah ok
+[1351.00s -> 1353.00s]  o bueno usted hizo
+[1353.00s -> 1355.00s]  calculó la magnitud del gradiente
+[1355.00s -> 1357.00s]  con este laplaciano
+[1357.00s -> 1359.00s]  si, creo que está acá
+[1365.00s -> 1367.00s]  es la magnitud
+[1367.00s -> 1369.00s]  nosotros estamos confundidos
+[1369.00s -> 1373.00s]  cuando pensábamos que eso le aplicaba al kernel
+[1375.00s -> 1377.00s]  como posición a posición
+[1377.00s -> 1379.00s]  pero ojalá mate resultante no
+[1381.00s -> 1385.00s]  si, no lo entiendo
+[1385.00s -> 1387.00s]  osea como hacía el plicarlo al kernel
+[1387.00s -> 1389.00s]  si por eso, eso era uno de las confusiones
+[1389.00s -> 1391.00s]  osea técnicamente
+[1391.00s -> 1393.00s]  lo que usted dijo
+[1393.00s -> 1395.00s]  esa foración de la magnitud del gradiente
+[1395.00s -> 1397.00s]  se le aplicaba finalmente a la matriz resultante
+[1397.00s -> 1399.00s]  no posición a posición
+[1399.00s -> 1401.00s]  si osea
+[1401.00s -> 1403.00s]  es la misma operación de convolución
+[1405.00s -> 1407.00s]  pero con un kernel
+[1407.00s -> 1409.00s]  que estamos definiendo
+[1409.00s -> 1411.00s]  que nos sirve para detectar bordes
+[1415.00s -> 1417.00s]  osea tal cual está ahí
+[1417.00s -> 1419.00s]  si, convolución
+[1419.00s -> 1421.00s]  y la entrada de parámetro
+[1421.00s -> 1423.00s]  imagen plana
+[1423.00s -> 1425.00s]  y el kernel
+[1425.00s -> 1427.00s]  esa imagen plana
+[1427.00s -> 1429.00s]  esa variable imagen plana
+[1429.00s -> 1431.00s]  de donde sale
+[1431.00s -> 1433.00s]  sale acá
+[1433.00s -> 1435.00s]  era de
+[1435.00s -> 1437.00s]  procesamiento de la imagen
+[1437.00s -> 1439.00s]  en esta celda
+[1439.00s -> 1441.00s]  acá
+[1441.00s -> 1443.00s]  esta
+[1445.00s -> 1447.00s]  osea es una imagen que ya ha sido suavizada
+[1447.00s -> 1449.00s]  o que es su imagen procesada
+[1451.00s -> 1453.00s]  que es procesada
+[1453.00s -> 1455.00s]  pero
+[1455.00s -> 1457.00s]  lo que usted ha dicho no abrirla
+[1457.00s -> 1459.00s]  y pasar a la escala de grises
+[1459.00s -> 1461.00s]  pero no le aplicó nada
+[1461.00s -> 1463.00s]  lo que yo acabé de decir ahora
+[1463.00s -> 1465.00s]  es que
+[1465.00s -> 1467.00s]  primero suaviza
+[1467.00s -> 1469.00s]  y después
+[1469.00s -> 1471.00s]  a ese suavizado
+[1471.00s -> 1473.00s]  le aplica
+[1473.00s -> 1475.00s]  el
+[1475.00s -> 1477.00s]  como se llama? el filtro
+[1477.00s -> 1479.00s]  de paso alto
+[1479.00s -> 1481.00s]  osea en este caso
+[1481.00s -> 1483.00s]  el plano
+[1483.00s -> 1485.00s]  entonces por que no
+[1485.00s -> 1487.00s]  por que no primero
+[1487.00s -> 1489.00s]  suaviza la imagen
+[1489.00s -> 1491.00s]  y a ese resultado el suavizado
+[1491.00s -> 1493.00s]  osea esa matriz que resulta
+[1493.00s -> 1495.00s]  tu imagen suavizada
+[1495.00s -> 1497.00s]  le aplica
+[1497.00s -> 1499.00s]  el
+[1499.00s -> 1501.00s]  el laplaciano
+[1501.00s -> 1503.00s]  o el sobel o cualquiera de estos
+[1505.00s -> 1507.00s]  listo broga
+[1507.00s -> 1509.00s]  porque porque yo
+[1509.00s -> 1511.00s]  como lo dije anteriormente
+[1511.00s -> 1513.00s]  yo primero
+[1513.00s -> 1515.00s]  tengo que asegurarme que mi imagen
+[1515.00s -> 1517.00s]  esté suavizada
+[1517.00s -> 1519.00s]  que esté homogenizada
+[1519.00s -> 1521.00s]  que el ruido
+[1521.00s -> 1523.00s]  haya disminuido para ahora
+[1523.00s -> 1525.00s]  y después
+[1525.00s -> 1527.00s]  detectar bordes
+[1527.00s -> 1529.00s]  porque si no ese ruido
+[1529.00s -> 1531.00s]  se me detecta como bordes
+[1531.00s -> 1533.00s]  se me detecta en forma
+[1533.00s -> 1535.00s]  de pelusa
+[1535.00s -> 1537.00s]  listo listo
+[1537.00s -> 1539.00s]  de acuerdo
+[1543.00s -> 1545.00s]  osea haga de cuenta un flujo grama
+[1545.00s -> 1547.00s]  dices aquí un flujo grama?
+[1547.00s -> 1549.00s]  si si
+[1549.00s -> 1551.00s]  entonces primer paso
+[1551.00s -> 1553.00s]  abrir la imagen segundo paso
+[1553.00s -> 1555.00s]  aplicar filtro de paso
+[1555.00s -> 1557.00s]  bajo osea un suavizado
+[1557.00s -> 1559.00s]  osea usted tiene que
+[1559.00s -> 1561.00s]  cacharriar
+[1561.00s -> 1563.00s]  que filtro le aplica
+[1563.00s -> 1565.00s]  o si aplica una secuencia
+[1565.00s -> 1567.00s]  de filtros
+[1567.00s -> 1569.00s]  primero aplica un promedio
+[1569.00s -> 1571.00s]  aplica un cauciano
+[1571.00s -> 1573.00s]  o simplemente un cauciano
+[1573.00s -> 1575.00s]  o simplemente un promedio
+[1575.00s -> 1577.00s]  o simplemente un mediana
+[1577.00s -> 1579.00s]  u otro filtro
+[1579.00s -> 1581.00s]  que usted encuentre por ahí
+[1581.00s -> 1583.00s]  y luego a partir
+[1583.00s -> 1585.00s]  con ese resultado
+[1585.00s -> 1587.00s]  a ese resultado le aplica
+[1587.00s -> 1589.00s]  un filtro
+[1589.00s -> 1591.00s]  de paso alto para detectar
+[1591.00s -> 1593.00s]  los bordes
+[1593.00s -> 1595.00s]  ese sería como el tercer paso
+[1595.00s -> 1597.00s]  de su flujo grama
+[1597.00s -> 1599.00s]  primero abrir imagen segundo
+[1599.00s -> 1601.00s]  aplicar filtro de paso bajo
+[1601.00s -> 1603.00s]  tercero aplicar filtro de paso alto
+[1603.00s -> 1605.00s]  osea detectar bordes
+[1605.00s -> 1607.00s]  hasta ahí vamos en el tercer paso
+[1607.00s -> 1609.00s]  del flujo grama
+[1611.00s -> 1613.00s]  listo entro igual con la batra cierto
+[1613.00s -> 1615.00s]  o usted hecho que con la batra imágenes
+[1615.00s -> 1617.00s]  no debería mucho el cambio cierto
+[1619.00s -> 1621.00s]  si osea por ejemplo
+[1621.00s -> 1623.00s]  si porque las de resonancia
+[1623.00s -> 1625.00s]  tienen un ruido
+[1625.00s -> 1627.00s]  hablamos mucho de que tienen ruido
+[1627.00s -> 1629.00s]  o Riley
+[1629.00s -> 1631.00s]  que hay diversos
+[1631.00s -> 1633.00s]  filtrados
+[1633.00s -> 1635.00s]  para ruido Riley
+[1635.00s -> 1637.00s]  pero que también nos sirve
+[1637.00s -> 1639.00s]  como
+[1639.00s -> 1641.00s]  rápidamente
+[1641.00s -> 1643.00s]  un filtro rápido sería
+[1643.00s -> 1645.00s]  el filtro mediana
+[1645.00s -> 1647.00s]  nos sirve
+[1647.00s -> 1649.00s]  mucho mejor que el filtro promedio
+[1649.00s -> 1651.00s]  para
+[1651.00s -> 1653.00s]  suavizar las imágenes de resonancia
+[1653.00s -> 1655.00s]  magnética
+[1657.00s -> 1659.00s]  a ver que tal si
+[1659.00s -> 1661.00s]  a ver usted donde tiene
+[1661.00s -> 1663.00s]  el resultado
+[1663.00s -> 1665.00s]  de convolución
+[1665.00s -> 1667.00s]  osea de donde
+[1667.00s -> 1669.00s]  usted hace la convolución
+[1669.00s -> 1671.00s]  con un kernel gausiano por ejemplo
+[1673.00s -> 1675.00s]  sería pasarle la imagen y el kernel
+[1675.00s -> 1677.00s]  ajá
+[1677.00s -> 1679.00s]  tiene eso por ahi
+[1679.00s -> 1681.00s]  o ya hecho
+[1681.00s -> 1683.00s]  si pues no toca pasarle el kernel
+[1683.00s -> 1685.00s]  y el kernel
+[1687.00s -> 1689.00s]  un filtro de paso
+[1691.00s -> 1693.00s]  ajá si uno de esos que tiene ahi
+[1693.00s -> 1695.00s]  cualquiera
+[1701.00s -> 1703.00s]  si los demas
+[1703.00s -> 1705.00s]  si quien tiene dudas por favor
+[1705.00s -> 1707.00s]  de una pregunta
+[1709.00s -> 1711.00s]  a la imagen plana
+[1711.00s -> 1713.00s]  ajá
+[1713.00s -> 1715.00s]  si por ahora hagámoslo con la imagen plana
+[1715.00s -> 1717.00s]  ustedes que lo hace con
+[1717.00s -> 1719.00s]  yo pensé que ya lo había hecho con las otras
+[1721.00s -> 1723.00s]  si lo hicimos
+[1723.00s -> 1725.00s]  y pues miramos ahí con lo que se ha montado
+[1725.00s -> 1727.00s]  pero
+[1727.00s -> 1729.00s]  pero los filtros te ha montado una seta
+[1729.00s -> 1731.00s]  que se lo he disputado ya
+[1731.00s -> 1733.00s]  entonces ya vamos para allá
+[1733.00s -> 1735.00s]  primero con la imagen plana
+[1743.00s -> 1745.00s]  esta es la imagen suaviza
+[1745.00s -> 1747.00s]  esta
+[1747.00s -> 1749.00s]  listo
+[1749.00s -> 1751.00s]  entonces ese resultado cuárdelo
+[1751.00s -> 1753.00s]  en una variable osea el resultado
+[1753.00s -> 1755.00s]  de convolución
+[1755.00s -> 1757.00s]  donde usted llamo la función de convolución allí
+[1757.00s -> 1759.00s]  puede mostrar
+[1759.00s -> 1761.00s]  la función
+[1761.00s -> 1763.00s]  de convolución
+[1763.00s -> 1765.00s]  con la imagen
+[1765.00s -> 1767.00s]  de convolución
+[1767.00s -> 1769.00s]  de convolución
+[1769.00s -> 1771.00s]  que a lo largo de la edad
+[1771.00s -> 1773.00s]  y por su fe
+[1773.00s -> 1775.00s]  y por su fe
+[1775.00s -> 1777.00s]  y por su fe
+[1777.00s -> 1779.00s]  y por su fe
+[1779.00s -> 1781.00s]  y por su fe
+[1781.00s -> 1783.00s]  y por la edad
+[1783.00s -> 1785.00s]  y por su fe
+[1785.00s -> 1787.00s]  y por su fe
+[1787.00s -> 1806.20s]  No, no, no, pero suba, o sea, o sea, ¿Usted dónde fue?
+[1807.20s -> 1808.20s]  Sí, he sacado.
+[1813.20s -> 1816.20s]  Tiene que estar por ahí, por ahí, tiene que estar.
+[1816.20s -> 1817.20s]  Ok, ok, ok.
+[1818.20s -> 1824.20s]  Eso, entonces ese resultado, ese resultado en realidad es imagen suavizada.
+[1824.20s -> 1825.20s]  ¿Eso es máteles?
+[1826.20s -> 1830.20s]  Sí, o sea, póngale ahí, imagen suaviza.
+[1830.20s -> 1833.20s]  Ah, no, pues que usted todo lo tiene en términos de resultado.
+[1833.20s -> 1835.20s]  Tiene que cambiar el nombre a todas las variables.
+[1836.20s -> 1841.20s]  Entonces si quiere póngale ahí abajo, entonces si quiere allá abajo,
+[1841.20s -> 1846.20s]  imagen guionvajo suavizada, es igual al resultado.
+[1864.20s -> 1868.20s]  Y si quiere, hágale un punto copy.
+[1875.20s -> 1880.20s]  Resultado punto copy para copiar de todo lo que yo,
+[1880.20s -> 1882.20s]  todo lo que yo les he dicho de ese tema.
+[1884.20s -> 1885.20s]  Eso es un método, ¿no?
+[1885.20s -> 1887.20s]  Entonces va con paréntesis.
+[1888.20s -> 1889.20s]  Sí, sí, me lo he escrito.
+[1894.20s -> 1897.20s]  ¿Ese ejecuté a celda otra vez?
+[1902.20s -> 1903.20s]  ¿Ya quedó ejecutada?
+[1904.20s -> 1905.20s]  Sí, ya.
+[1906.20s -> 1910.20s]  Listo, entonces esa variable tiene nuestro, o sea,
+[1910.20s -> 1913.20s]  esa variable es la imagen suavizada.
+[1914.20s -> 1917.20s]  Esa imagen es la, está suavizada.
+[1917.20s -> 1921.20s]  Listo, entonces ahora sobre esa imagen vas a detectar bordes.
+[1922.20s -> 1925.20s]  Te vayas para abajo donde aplique,
+[1925.20s -> 1929.20s]  donde es donde llama convolución con el kernel laplaciano.
+[1932.20s -> 1933.20s]  ¿Qué le pasó?
+[1939.20s -> 1942.20s]  Listo, ¿dónde se hizo la magnitud?
+[1943.20s -> 1944.20s]  ¿Ah?
+[1944.20s -> 1950.20s]  O sea, donde usted llama convolución con el kernel laplaciano.
+[1951.20s -> 1956.20s]  Ajá, eso, entonces ponga ahí la imagen suavizada.
+[1958.20s -> 1963.20s]  Allí ya estamos garantizando de que primero suavizamos la imagen
+[1963.20s -> 1968.20s]  y a ese suavizado es al que le aplicamos el filtro de paso alto.
+[1968.20s -> 1973.20s]  Es claro para todos, alguien está perdido, por favor, pregunte.
+[1974.20s -> 1976.20s]  ¿Pues están dormidos?
+[1977.20s -> 1979.20s]  ¿Pues están andando el desayuno?
+[1988.20s -> 1992.20s]  Bueno, entonces miremos el resultado de esa,
+[1992.20s -> 1995.20s]  de esa, de esa detección.
+[1996.20s -> 1999.20s]  El kernel, el horizontal y el vertical.
+[1999.20s -> 2001.20s]  Es el kernel que toca cambiar.
+[2003.20s -> 2008.20s]  Sí, pues queremos detectar horizontal y verticalmente eso.
+[2008.20s -> 2009.20s]  Ahí ya se ve.
+[2009.20s -> 2012.20s]  Listo, entonces, ahorita quiero, entonces, que juegue.
+[2013.20s -> 2017.20s]  Desvolvamos para arriba al paso anterior del suavizado
+[2018.20s -> 2022.20s]  y veamos el efecto que tiene en la detección del borde
+[2022.20s -> 2024.20s]  hacer un suavizado bien fuerte.
+[2027.20s -> 2031.20s]  Quiero que le aplique un suavizado bien fuerte.
+[2033.20s -> 2038.20s]  Y a ver qué tal nos queda la detección del borde.
+[2041.20s -> 2044.20s]  Si le cambien los valores, ¿sónde es kernel?
+[2045.20s -> 2048.20s]  Usted tiene un montón de kernels por ahí definidos.
+[2048.20s -> 2051.20s]  Uno de tres por tres por tres, cinco por cinco.
+[2051.20s -> 2052.20s]  Entonces, pásale uno de eso.
+[2052.20s -> 2054.20s]  Ah, ok, ok, ya te entendí.
+[2054.20s -> 2056.20s]  Al suavizado inicial.
+[2058.20s -> 2061.20s]  O sea, cambia lo que hizo de suavizado
+[2061.20s -> 2063.20s]  y póngale un kernel bien fuerte.
+[2065.20s -> 2067.20s]  ¿No tiene siete por siete?
+[2068.20s -> 2069.20s]  No, no se llama.
+[2070.20s -> 2072.20s]  Ok, listo, el más fuerte que tenga.
+[2076.20s -> 2080.20s]  Entonces, ¿dónde habíamos definido esa variable
+[2080.20s -> 2081.20s]  y imagen suavizada?
+[2085.20s -> 2087.20s]  Pero igual va a cambiar el kernel.
+[2091.20s -> 2101.20s]  Entonces, eso es el de que volver a ejecutar, ¿no?
+[2101.20s -> 2105.20s]  Entonces, ahorita ejecute la otra en la que detectó el borde.
+[2105.20s -> 2109.20s]  Entonces, a ver, pero antes de ejecutarla,
+[2109.20s -> 2113.20s]  póngala justo donde está mostrando la imagen.
+[2114.20s -> 2118.20s]  O sea, póngala donde justo está mostrando el borde detectado.
+[2119.20s -> 2121.20s]  No lo entiendo, profe.
+[2122.20s -> 2125.20s]  Vamos, vamos al resultado del borde detectado.
+[2128.20s -> 2130.20s]  Para que todos veamos.
+[2130.20s -> 2131.20s]  Eso es la y.
+[2131.20s -> 2133.20s]  De ahora, ejecute esa celda.
+[2136.20s -> 2137.20s]  No, no, no.
+[2137.20s -> 2139.20s]  O sea, pero el anterior, ¿no?
+[2139.20s -> 2141.20s]  Porque el anterior ya se ejecutaba.
+[2141.20s -> 2143.20s]  Sí, pero hay que volverla a ejecutar,
+[2143.20s -> 2146.20s]  porque es sobre otro suavizado
+[2146.20s -> 2148.20s]  que acabamos de hacer, ¿no?
+[2149.20s -> 2150.20s]  Y ahora ejecute.
+[2152.20s -> 2153.20s]  Entonces, veamos.
+[2153.20s -> 2156.20s]  Aquí cambia el kernel.
+[2157.20s -> 2158.20s]  Hasta que esto me salga.
+[2166.20s -> 2167.20s]  Bienvenido.
+[2176.20s -> 2191.20s]  Ya, aquí simplemente la operación y este el kernel, el kernel que cambiamos.
+[2193.20s -> 2195.20s]  Si esa celda ya la ejecutó, listo.
+[2195.20s -> 2198.20s]  Ahorita la celda de la detección del borde vuelva a ejecutar.
+[2207.20s -> 2208.20s]  Esa, esa.
+[2215.20s -> 2217.20s]  Te muestro a ver el resultado.
+[2222.20s -> 2223.20s]  Listo, entonces ahí se ve.
+[2224.20s -> 2226.20s]  Ahí se ve que el globo.
+[2227.20s -> 2229.20s]  Los dos globitos que quedan ahí.
+[2232.20s -> 2234.20s]  Cada vez el borde es detectado menos.
+[2237.20s -> 2239.20s]  Especialmente el globito izquierdo.
+[2240.20s -> 2241.20s]  La última.
+[2241.20s -> 2245.20s]  Sí, en la última imagen que hice magnitud del gradiente.
+[2248.20s -> 2250.20s]  Dice que el globito izquierdo.
+[2254.20s -> 2256.20s]  O sea, pasa algo allí con el globito izquierdo.
+[2256.20s -> 2258.20s]  El borde está muy tenue, muy tenue.
+[2261.20s -> 2262.20s]  Sí.
+[2263.20s -> 2264.20s]  Puede copiar esa.
+[2265.20s -> 2267.20s]  Puede copiar esa imagen.
+[2271.20s -> 2275.20s]  O tómele una captura de, tómele una captura de pantalla de esa imagen.
+[2277.20s -> 2280.20s]  Al resultado normal del gradiente o toda la compresión.
+[2281.20s -> 2283.20s]  Bueno, toda pues.
+[2285.20s -> 2287.20s]  Y pégalo no se engorda.
+[2294.20s -> 2307.20s]  Ponga esa, ponga esa, esa hoja horizontal.
+[2313.20s -> 2315.20s]  En disposición, disposición.
+[2317.20s -> 2319.20s]  Orientación horizontal.
+[2320.20s -> 2324.20s]  Vuelve y, vuelve y pegue la, la esta.
+[2327.20s -> 2328.20s]  Vuelve y pegue.
+[2329.20s -> 2330.20s]  Listo.
+[2331.20s -> 2333.20s]  Entonces ahora repita el proceso.
+[2334.20s -> 2338.20s]  O sea, esto fue con un kernel de cinco por, con un suavizado es de cinco por cinco.
+[2339.20s -> 2342.20s]  Ahora repita el proceso con un kernel de tres por tres.
+[2350.20s -> 2352.20s]  O sea, como lo hayamos hecho antes.
+[2353.20s -> 2354.20s]  Si se quiere la compresión.
+[2355.20s -> 2357.20s]  Calculándolos los gradientes, no más cierto.
+[2358.20s -> 2361.20s]  Es que nosotros tenemos algo para comparar, pero en el suavizado.
+[2363.20s -> 2366.20s]  O sea, quiero, quiero, quiero que, quiero que vean todos el efecto.
+[2367.20s -> 2369.20s]  En la detección del borde.
+[2372.20s -> 2377.20s]  De cuando se aplica un suavizado fuerte o un suavizado no tan fuerte.
+[2380.20s -> 2381.20s]  Eso es lo que quiero.
+[2383.20s -> 2389.20s]  Eso, entonces, ejecute esa celda y ejecute la celda del, del borde.
+[2390.20s -> 2391.20s]  De la detección del borde.
+[2392.20s -> 2394.20s]  Recuerden que esto es secuencial, no?
+[2395.20s -> 2399.20s]  O sea, un resultado es entrada del siguiente, del siguiente proceso.
+[2401.20s -> 2405.20s]  Entonces, si yo modificó lo anterior, entonces me toca volver a ejecutar lo siguiente, no?
+[2405.20s -> 2406.20s]  Para qué?
+[2407.20s -> 2408.20s]  Porque es secuencial.
+[2415.20s -> 2416.20s]  Sigue como resultado.
+[2419.20s -> 2420.20s]  Pero.
+[2424.20s -> 2426.20s]  Piensa que el efecto se ve principalmente.
+[2428.20s -> 2429.20s]  En el globito.
+[2431.20s -> 2434.20s]  Piensa que el efecto se ve principalmente en el globito.
+[2435.20s -> 2438.20s]  De abajo a la izquierda.
+[2440.20s -> 2444.20s]  Y en la y el y en el globito del medio.
+[2445.20s -> 2447.20s]  Copia esa imagen y pegue el angoor.
+[2448.20s -> 2449.20s]  La tal cual.
+[2449.20s -> 2450.20s]  Piensa.
+[2451.20s -> 2452.20s]  Piensa que.
+[2453.20s -> 2454.20s]  La gran lo.
+[2455.20s -> 2456.20s]  No, no, no ahí.
+[2457.20s -> 2458.20s]  Fíjese que en la.
+[2460.20s -> 2461.20s]  En la que en la.
+[2462.20s -> 2464.20s]  O sea, la de arriba fue la de arriba.
+[2465.20s -> 2468.20s]  Para todos la de arriba fue haber aplicado primer.
+[2469.20s -> 2470.20s]  Mira, si, si, si, si, si.
+[2471.20s -> 2472.20s]  Si, si, si, si.
+[2473.20s -> 2474.20s]  Si, si, si, si.
+[2475.20s -> 2476.20s]  Si, si, si, si.
+[2476.20s -> 2485.20s]  Para todos, la de arriba fue haber aplicado primero un suavizado de 5x5, un kernel de 5x5 y después la
+[2485.20s -> 2490.20s]  detección del borde. En la de abajo es un kernel de 3x3 y después la detección del borde.
+[2494.20s -> 2502.20s]  ¿Qué notan ustedes en especial con la imagen de magnitud del gradiente? ¿Qué notan ustedes?
+[2506.20s -> 2531.20s]  ¿Dónde están más definidos los bordes? ¿Dónde están más? ¿Dónde ven más pelusa en la de arriba o en la de
+[2531.20s -> 2560.20s]  abajo? Fíjense que en la segunda columna del borde horizontal en el globito de abajo
+[2560.20s -> 2572.20s]  a la derecha en la segunda columna, es decir, eso corresponde al borde horizontal.
+[2573.20s -> 2587.20s]  Cierto? Sí. Se ve mucho más pronunciado los bordes en la de abajo, es decir, el correspondiente
+[2587.20s -> 2596.20s]  un kernel de 3x3. Y sí, tiene todo el sentido, porque yo hice un suavizado mucho menor en habiendo
+[2596.20s -> 2607.20s]  aplicado un kernel de 3x3 en la de abajo. Pero eso que el costo tiene, tiene el costo de que yo
+[2607.20s -> 2623.20s]  esté detectando más cosas que no son en la imagen de abajo como borde. Es decir, en la imagen de abajo
+[2623.20s -> 2638.20s]  hay mucha más pelucita que es detectada como borde. Eso se ve en el globo inferior derecho tanto en el borde
+[2638.20s -> 2644.20s]  horizontal como en la imagen de borde vertical, esa es la tercera columna y en la cuarta columna,
+[2644.20s -> 2649.20s]  que es magnitud del gradiente, si usted comparar la de arriba con la de abajo, recuerde la de abajo,
+[2649.20s -> 2654.20s]  es aplicar un filtro suavecito y en la de arriba un filtro mucho más grande.
+[2657.20s -> 2663.20s]  ¿Tiene de pronto ahí algún kernel donde el sigma sea bien grande?
+[2666.20s -> 2668.20s]  Creo que si no, mayor cosa en los juegos.
+[2669.20s -> 2683.20s]  Ok, entonces para después usted haga la prueba haciendo, por ejemplo, que es el de 7x7,
+[2683.20s -> 2692.20s]  que es el grande, con un sigma bien grande para que vea el efecto en la detección de bordes.
+[2693.20s -> 2699.20s]  ¿Sí? Porque usted ve la imagen suavizada y usted dice, ah, bueno, sí, listo, está suavizada,
+[2699.20s -> 2705.20s]  pero eso ¿qué implica para mí cuando yo vaya a detectar los bordes?
+[2706.20s -> 2713.20s]  Porque recuerden que sí, que sí, entre más grandes, entre más agresivos sea el borde,
+[2713.20s -> 2720.20s]  sí, más suavizada me queda la imagen, pero pierdo nitidez, pierdo detalle en los bordes de los objetos,
+[2720.20s -> 2726.20s]  entonces le va a quedar muy difícil a un filtro de detección de bordes, como en La Placiana,
+[2726.20s -> 2731.20s]  por ejemplo, le va a quedar muy difícil ver dónde están los bordes,
+[2731.20s -> 2736.20s]  entonces, claro, no va a haber muy buena detección de bordes,
+[2736.20s -> 2741.20s]  o sea, ni muy, muy ni tan, tan, pero eso ya le toca a usted jugar con esos parámetros.
+[2742.20s -> 2749.20s]  Por ejemplo, en otro aquí, hacemos algo como una pequeña materia de comparación.
+[2750.20s -> 2759.20s]  Eso es por ejemplo, no está en la operación de la magnitud del gradiente, sino en la suavización,
+[2759.20s -> 2761.20s]  bueno, si se diga así.
+[2762.20s -> 2769.20s]  Entonces, por ejemplo, si le enviamos, no sé, un kernel normal, lo quiera.
+[2770.20s -> 2772.20s]  Pero aplíquese la imagen suavizada.
+[2773.20s -> 2780.20s]  Ok, lo que me va a mostrar, que sea sobre la imagen suavizada.
+[2784.20s -> 2786.20s]  Si me entienden lo que...
+[2787.20s -> 2789.20s]  Sí, cambiará aquí el valor, pero...
+[2791.20s -> 2793.20s]  Si me asesora, estamos...
+[2795.20s -> 2798.20s]  Ah, pero entonces no, no, no podría aplicar aquí.
+[2803.20s -> 2806.20s]  No, tú quiera usarlo para aplicarlo, entonces, hacía la más suavizada.
+[2807.20s -> 2813.20s]  Pero técnicamente era como una materia de comparación ahí del...
+[2814.20s -> 2815.20s]  Pues, hágalo.
+[2817.20s -> 2819.20s]  Sobre qué materiales están aplicando.
+[2820.20s -> 2822.20s]  Sobre la plana.
+[2823.20s -> 2825.20s]  Entonces, ¿dónde está eso?
+[2826.20s -> 2827.20s]  Sí.
+[2827.20s -> 2830.20s]  ¿Dónde está explícitamente que dice imagen plana?
+[2830.20s -> 2831.20s]  Ahí.
+[2832.20s -> 2839.20s]  Entonces, cambié eso por imagen suavizada, imagen que un bajo suavizada.
+[2840.20s -> 2842.20s]  No supone que es secuencia, ¿no?
+[2845.20s -> 2849.20s]  ¿Usted me va a mostrar que es una comparación de detección de borde, ¿cierto?
+[2851.20s -> 2852.20s]  No.
+[2852.20s -> 2853.20s]  Ok, ok.
+[2853.20s -> 2854.20s]  ¿Qué me va a mostrar?
+[2854.20s -> 2859.20s]  No, es una comparación de suavizado.
+[2860.20s -> 2861.20s]  Ah, ok.
+[2861.20s -> 2862.20s]  Ah, ok, listo.
+[2862.20s -> 2863.20s]  Pero esa lesia...
+[2863.20s -> 2865.20s]  Entonces, es el papa anterior, listo.
+[2865.20s -> 2866.20s]  Entonces...
+[2866.20s -> 2867.20s]  Ahí está.
+[2870.20s -> 2871.20s]  Entonces...
+[2871.20s -> 2872.20s]  Es ejecutar celda.
+[2872.20s -> 2875.20s]  Sí, pero es para tener el filtro que le...
+[2876.20s -> 2883.20s]  Por ejemplo, podemos hacer sobre la comparación entre el horizontal y el vertical, ¿no sé?
+[2890.20s -> 2891.20s]  No.
+[2903.20s -> 2904.20s]  ¿Dónde está?
+[2906.20s -> 2908.20s]  Ah, el cargopas.
+[2921.20s -> 2922.20s]  Sí, está.
+[2924.20s -> 2925.20s]  Una pregunta.
+[2925.20s -> 2931.20s]  ¿Usted me está diciendo aquí que está suavizando, pero me está mostrando detección de borde?
+[2931.20s -> 2932.20s]  No la entiendo.
+[2932.20s -> 2933.20s]  No, no, no.
+[2933.20s -> 2935.20s]  ¿Dónde hicimos la detección de borde?
+[2935.20s -> 2936.20s]  La detección de borde...
+[2937.20s -> 2939.20s]  ...estaba en otra celda.
+[2942.20s -> 2946.20s]  No es que usted escrolé a tanto que me pierdo.
+[2946.20s -> 2948.20s]  Sí, sí, qué pena.
+[2949.20s -> 2952.20s]  Así que creo que algún compañero ha movido algo.
+[2966.20s -> 2970.20s]  Creo que nos está cogiendo la matriz de comparación.
+[2971.20s -> 2972.20s]  No, no sabe.
+[2972.20s -> 2976.20s]  Bueno, el cargó y saló, pero que nos obtendrá la matriz de comparación, pero lo tenés que me entera como...
+[2976.20s -> 2978.20s]  Pero bueno, bueno, bueno, bueno, bueno, bueno.
+[2978.20s -> 2980.20s]  Espérate, espérate, espérate, espérate, espérate.
+[2980.20s -> 2982.20s]  Mostrame el resultado.
+[2982.20s -> 2983.20s]  Sí, me vuelvo.
+[2983.20s -> 2984.20s]  No, no, no, no, no.
+[2984.20s -> 2985.20s]  Ese resultó ahí.
+[2987.20s -> 2988.20s]  O sea, ahí me está mostrando.
+[2988.20s -> 2990.20s]  Esa es una detección de borde.
+[2992.20s -> 2994.20s]  Esa es una detección de borde.
+[2996.20s -> 2999.20s]  Pero, o sea, aquí estamos aplicando el kernel y el gradient.
+[2999.20s -> 3000.20s]  Detección de borde.
+[3000.20s -> 3001.20s]  Ajá.
+[3001.20s -> 3002.20s]  Sí.
+[3002.20s -> 3003.20s]  Ajá, correcto.
+[3003.20s -> 3005.20s]  Entonces, me concundió con los conceptos.
+[3005.20s -> 3006.20s]  Sí, sí, ya.
+[3007.20s -> 3012.20s]  Yo pensé cuando usted decía detección de borde, se referías, felicitamente, a la manito del vector.
+[3012.20s -> 3014.20s]  Ve del vector del gradient.
+[3015.20s -> 3018.20s]  Sí, o sea, aquí es el borde, pero a nivel horizontal.
+[3019.20s -> 3020.20s]  Ok.
+[3020.20s -> 3023.20s]  La manito vertical es la detección de borde, pero a nivel vertical.
+[3023.20s -> 3029.20s]  Y la manito del gradient es la combinación de esas detecciones de borde horizontal y verticales.
+[3030.20s -> 3032.20s]  Ok, ok, ya listo.
+[3033.20s -> 3040.20s]  Sí, pero, pero igualmente, entonces, como usted mencionó, primero deberíamos hacerla suavizar la imagen.
+[3041.20s -> 3046.20s]  Sí, primero se suaviza la imagen y después detecta los bordes.
+[3047.20s -> 3048.20s]  Sí, perfecto.
+[3048.20s -> 3050.20s]  Ya, eso es, ya, dígame.
+[3051.20s -> 3057.20s]  Creo que ya la batería, la batería es el de seguro que estoy compartiendo los datos.
+[3057.20s -> 3058.20s]  Sí, listo.
+[3058.20s -> 3059.20s]  Listo, sí.
+[3059.20s -> 3060.20s]  Va a morir.
+[3060.20s -> 3061.20s]  Listo.
+[3061.20s -> 3064.20s]  Igualmente, el compañero puede ir compartiendo ese internet.
+[3064.20s -> 3066.20s]  No, no, no, así, ya está bien.
+[3067.20s -> 3069.20s]  O sea, ¿qué quería que todos vieran?
+[3070.20s -> 3072.20s]  ¿Cómo es la secuencia?
+[3072.20s -> 3079.20s]  Porque de pronto sí son, son, son de pronto confusiones que todos pueden, que algunos pueden tener.
+[3080.20s -> 3083.20s]  Yo primero, si quiere, puede ya dejar de compartir.
+[3084.20s -> 3085.20s]  Ok.
+[3086.20s -> 3087.20s]  Gracias.
+[3090.20s -> 3091.20s]  Yo primero.
+[3094.20s -> 3096.20s]  A ver, si yo lo pienso como un flujo grama.
+[3099.20s -> 3103.20s]  Entonces, aquí entra mi imagen, ¿cierto?
+[3104.20s -> 3106.20s]  El primer paso cuál es.
+[3106.20s -> 3111.20s]  Entonces, aquí entra mi imagen, ¿cierto?
+[3111.20s -> 3113.20s]  El primer paso cuál es.
+[3116.20s -> 3118.20s]  Abrir mi imagen, ¿no?
+[3122.20s -> 3124.20s]  El primer paso es abrir mi imagen.
+[3125.20s -> 3127.20s]  El segundo paso cuál es.
+[3129.20s -> 3131.20s]  ¿Cuál creen que es el segundo paso?
+[3136.20s -> 3139.20s]  De todo lo que hemos visto, cuál es el segundo paso?
+[3143.20s -> 3149.20s]  El segundo paso es definir el espacio de color adecuado.
+[3155.20s -> 3156.20s]  ¿Sí?
+[3157.20s -> 3161.20s]  Ya les dije que hay una gran variedad de espacios de color, ¿no?
+[3161.20s -> 3166.20s]  Entonces yo me puedo quedar con el canal H, del canal HSUV.
+[3166.20s -> 3167.20s]  Me puedo quedar.
+[3167.20s -> 3172.20s]  Resulta que para el proyecto en el que estoy, me resulta mucho mejor travar con el canal S.
+[3173.20s -> 3177.20s]  O resulta que para el proyecto mío me resulta mucho mejor travar con el canal V.
+[3177.20s -> 3181.20s]  Pues si ya eso ya le queda a usted, ¿cierto?
+[3181.20s -> 3186.20s]  Por eso dice el paso determinar, definir el espacio de color adecuado.
+[3187.20s -> 3192.20s]  ¿Sí? No, que es que me resulta mucho mejor el canal Y, del YUV.
+[3192.20s -> 3198.20s]  O resulta que me exhalé mucho mejor el canal gris combinando RGB.
+[3198.20s -> 3200.20s]  O resulta que me exhalé mucho mejor.
+[3202.20s -> 3208.20s]  Trabajar con el canal azul, con el canal blue de RGB.
+[3208.20s -> 3214.20s]  O por ejemplo, no sé, estoy tratando con imágenes aéreas satelitales para cultivos.
+[3216.20s -> 3220.20s]  Entonces, ¿cuál canal de estos creen que le puede que le sirva más?
+[3220.20s -> 3225.20s]  O sea, hay que probar obviamente, pero puede ser que el canal verde,
+[3225.20s -> 3228.20s]  porque son imágenes de cultivo, ¿cierto?
+[3228.20s -> 3231.20s]  Y los cultivos de qué color son generalmente, pues verde, ¿no?
+[3233.20s -> 3239.20s]  Entonces, muy probablemente con el canal verde del RGB me vaya mejor.
+[3239.20s -> 3240.20s]  Puede ser.
+[3240.20s -> 3245.20s]  O puede ser que usted descubra que con el HSUV, que con el canal H le sirva más.
+[3246.20s -> 3247.20s]  ¿Sí?
+[3248.20s -> 3251.20s]  Ya que no, que yo estoy trabajando con imágenes de resonancia magnética.
+[3251.20s -> 3257.20s]  Pues ya con ese canal es, porque eso no es, esas no son intensidad de color.
+[3259.20s -> 3260.20s]  ¿Sí?
+[3262.20s -> 3265.20s]  Ahí usted tiene toda una variedad de espacios de color para que escoja.
+[3266.20s -> 3271.20s]  Una vez yo hago eso, entonces ya que sigue primero, por lo general,
+[3271.20s -> 3273.20s]  hay que reducir el ruido.
+[3273.20s -> 3274.20s]  ¿Sí?
+[3275.20s -> 3277.20s]  ¿Cómo yo reduzco el ruido?
+[3279.20s -> 3286.20s]  Pues aplicando un filtro de paso bajo.
+[3288.20s -> 3294.20s]  O sea, o sea filtro de suavizado.
+[3296.20s -> 3297.20s]  ¿Sí?
+[3297.20s -> 3299.20s]  Que me suavice mi imagen.
+[3300.20s -> 3307.20s]  Recuerden que aquí el segundo paso es tomando la variable que me resultó del primer paso.
+[3307.20s -> 3313.20s]  El tercer paso es tomando la variable que me resultó de haber aplicado el segundo paso.
+[3314.20s -> 3319.20s]  Por ejemplo, si yo trabajé, si, si yo descubro que me sale mejor trabajar con el canal H,
+[3320.20s -> 3325.20s]  pues yo esta reducción de ruido a sobre quién la voy a aplicar sobre la imagen original.
+[3326.20s -> 3329.20s]  No, pues para eso definiste el canal H, ¿Sí? Ok.
+[3331.20s -> 3333.20s]  O sea, esto es secuencial.
+[3334.20s -> 3335.20s]  ¿Sí?
+[3335.20s -> 3342.20s]  Se puede tirar para el mismo todo lo que quiera, pero el algoritmo como tal es el siguiente paso
+[3342.20s -> 3348.20s]  es, es aplicado sobre el resultado del paso anterior.
+[3349.20s -> 3350.20s]  ¿Sí?
+[3350.20s -> 3351.20s]  ¿Me entiende?
+[3352.20s -> 3355.20s]  El siguiente paso es listo.
+[3355.20s -> 3362.20s]  Ya una vez usted aplicó un filtro de paso bajo, entonces ¿Qué vamos a hacer?
+[3362.20s -> 3364.20s]  Pues vamos a detectar bordes.
+[3367.20s -> 3368.20s]  ¿Visto?
+[3369.20s -> 3372.20s]  Entonces ¿Qué hago para detectar bordes?
+[3372.20s -> 3380.20s]  Pues pues aplicar, aplicar filtro de paso alto.
+[3380.20s -> 3384.20s]  O sea, filtro de detección de bordes.
+[3387.20s -> 3390.20s]  De detección de bordes.
+[3391.20s -> 3393.20s]  Aquí vimos nosotros una variedad.
+[3394.20s -> 3395.20s]  ¿Sí?
+[3395.20s -> 3397.20s]  Está el filtro de quién?
+[3397.20s -> 3406.20s]  El de sobre el que tiene que, el, el, el, que la detección de bordes horizontal,
+[3406.20s -> 3411.20s]  la detección de bordes vertical y pues yo, la combinación de esos dos que es,
+[3411.20s -> 3414.20s]  pues la, el gradiente, ¿No?
+[3414.20s -> 3417.20s]  Desería pues esta operación, ¿No?
+[3419.20s -> 3422.20s]  Y que también me da un ángulo, ¿Cierto?
+[3425.20s -> 3430.20s]  ¿Qué es esta operación?
+[3430.20s -> 3433.20s]  Está el de, el de ¿Cómo se llama?
+[3433.20s -> 3439.20s]  El filtro de, el de la plasiano.
+[3441.20s -> 3445.20s]  Que también me da borde horizontal, borde vertical y con,
+[3445.20s -> 3448.20s]  con borde horizontal y borde vertical sacó yo man,
+[3448.20s -> 3451.20s]  sacó yo manitud y saco dirección.
+[3452.20s -> 3453.20s]  ¿Sí?
+[3455.20s -> 3457.20s]  Hay otros filtros.
+[3457.20s -> 3458.20s]  ¿Sí?
+[3458.20s -> 3459.20s]  Hay otros filtros.
+[3459.20s -> 3464.20s]  Está el filtro de, hay un filtro que se llama filtro de PregWid.
+[3465.20s -> 3468.20s]  Hay otro filtro que se llama el filtro de Roberts.
+[3469.20s -> 3470.20s]  ¿Sí?
+[3470.20s -> 3473.20s]  Y hay otros filtros que me permiten a mí detectar bordes.
+[3473.20s -> 3477.20s]  Y hay uno, no es un filtro, es un algoritmo que lo vamos a ver hoy,
+[3477.20s -> 3479.20s]  que se llama el algoritmo de Kani.
+[3481.20s -> 3482.20s]  ¿Sí?
+[3482.20s -> 3484.20s]  El algoritmo de Kani.
+[3484.20s -> 3486.20s]  Son para detectar bordes.
+[3487.20s -> 3492.20s]  Cuando yo reduce ruido, cuando yo reduce ruido,
+[3498.20s -> 3500.20s]  cuando yo reduce ruido,
+[3500.20s -> 3503.20s]  les dio a ustedes una variedad de filtros.
+[3503.20s -> 3504.20s]  ¿Sí o qué?
+[3504.20s -> 3506.20s]  Les dije el filtro mediana,
+[3508.20s -> 3510.20s]  el filtro promedio,
+[3511.20s -> 3513.20s]  el filtro gaussiano,
+[3515.20s -> 3516.20s]  ¿Sí?
+[3516.20s -> 3519.20s]  Y hay otra cantidad diversa de filtros.
+[3520.20s -> 3521.20s]  ¿Sí?
+[3522.20s -> 3523.20s]  De nuevo,
+[3523.20s -> 3525.20s]  esta operación de detectar bordes
+[3525.20s -> 3529.20s]  es sobre el resultado de lo que me resultó
+[3529.20s -> 3531.20s]  de yo haber aplicado el filtro de paso bajo,
+[3531.20s -> 3533.20s]  o sea, el filtro de su avisado.
+[3535.20s -> 3536.20s]  ¿Sí me hago entender?
+[3537.20s -> 3540.20s]  O sea, yo esta detección de bordes,
+[3540.20s -> 3544.20s]  yo no la voy a aplicar sobre la imagen original,
+[3544.20s -> 3546.20s]  aún yo habiendo definido
+[3546.20s -> 3548.20s]  que voy a trabajar con el canal H
+[3548.20s -> 3552.20s]  y que voy a trabajar con filtro,
+[3552.20s -> 3554.20s]  no sé, el filtro gaussiano.
+[3555.20s -> 3557.20s]  Y resultó que ahora me dio por detectar bordes
+[3557.20s -> 3559.20s]  sobre la imagen original.
+[3559.20s -> 3560.20s]  Entonces, ¿para qué hiciste esto
+[3560.20s -> 3562.20s]  y para qué hiciste esto?
+[3562.20s -> 3564.20s]  Pues no tiene sentido, ¿cierto?
+[3564.20s -> 3566.20s]  O sea, si yo hago esta operación
+[3566.20s -> 3568.20s]  y si yo hago esta operación,
+[3568.20s -> 3570.20s]  pues es pausarla después, ¿cierto?
+[3570.20s -> 3572.20s]  No para dejarlas ahí.
+[3573.20s -> 3574.20s]  ¿Sí o qué?
+[3577.20s -> 3578.20s]  Y hasta ahí vamos.
+[3580.20s -> 3583.20s]  Hasta ahí vamos en detectar los bordes.
+[3583.20s -> 3586.20s]  Cuando yo detecto los bordes en una imagen,
+[3586.20s -> 3588.20s]  yo ya sé dónde,
+[3588.20s -> 3590.20s]  yo ya tengo indicio,
+[3590.20s -> 3593.20s]  yo ya tengo indicio de dónde están los objetos.
+[3593.20s -> 3596.20s]  Por ejemplo, lo que nos compartió ahorita,
+[3598.20s -> 3599.20s]  ¿quién era?
+[3600.20s -> 3601.20s]  ¿Quién era?
+[3601.20s -> 3602.20s]  Steven, ¿fue?
+[3602.20s -> 3603.20s]  Creo, sí.
+[3605.20s -> 3606.20s]  ¿Qué?
+[3606.20s -> 3608.20s]  De toda una imagen, ya sabemos
+[3608.20s -> 3611.20s]  dónde están los globos.
+[3612.20s -> 3614.20s]  ¿Cuáles son los objetos de detectar allí?
+[3614.20s -> 3615.20s]  Pues los globos.
+[3616.20s -> 3617.20s]  ¿Sí o qué?
+[3621.20s -> 3623.20s]  Yo puedo tirar aquí para el hino,
+[3623.20s -> 3625.20s]  puedo mandarle a un núcleo,
+[3626.20s -> 3629.20s]  por ejemplo, recuerden que estos filtros
+[3629.20s -> 3632.20s]  son basados en la operación de convolución.
+[3633.20s -> 3634.20s]  ¿Sí?
+[3634.20s -> 3636.20s]  Estos filtros son basados en la operación de convolución.
+[3636.20s -> 3637.20s]  Entonces, por ejemplo,
+[3637.20s -> 3640.20s]  si yo decido que voy a aplicar el filtro gaussiano,
+[3640.20s -> 3641.20s]  por ejemplo,
+[3642.20s -> 3644.20s]  recuerden que el filtro gaussiano,
+[3644.20s -> 3646.20s]  pues es un kernel gaussiano
+[3646.20s -> 3648.20s]  que se va moviendo,
+[3648.20s -> 3651.20s]  a la izquierda derecha, a lo largo de toda mi imagen.
+[3653.20s -> 3655.20s]  La operación que yo hago en el kernel,
+[3655.20s -> 3656.20s]  en esta posición,
+[3656.20s -> 3658.20s]  no tiene nada que ver
+[3658.20s -> 3660.20s]  con la posición del kernel
+[3660.20s -> 3663.20s]  en esta posición de la imagen de entrada.
+[3665.20s -> 3667.20s]  Por lo tanto, yo puedo decir, listo.
+[3667.20s -> 3669.20s]  De aquí para arriba,
+[3669.20s -> 3671.20s]  hágalo un núcleo del procesador.
+[3671.20s -> 3674.20s]  Y de aquí para abajo, otro núcleo del procesador.
+[3675.20s -> 3677.20s]  A que yo tengo ocho núcleos.
+[3677.20s -> 3679.20s]  Entonces, divida esta imagen en ocho.
+[3680.20s -> 3682.20s]  Mándele un...
+[3683.20s -> 3685.20s]  Mándele un pedazo de la imagen
+[3685.20s -> 3687.20s]  a cada núcleo del procesador.
+[3688.20s -> 3690.20s]  El kernel de convolución.
+[3690.20s -> 3692.20s]  Y que ahí lo haga de forma paralela.
+[3692.20s -> 3695.20s]  Eso sí, le toca después juntar los resultados.
+[3695.20s -> 3697.20s]  Y entonces, ya con eso,
+[3697.20s -> 3699.20s]  tendría su imagen ya filtrada.
+[3702.20s -> 3703.20s]  ¿Sí me hago entender?
+[3705.20s -> 3706.20s]  Ahora bien.
+[3707.20s -> 3709.20s]  O sea, eso es tirar paralelismo.
+[3709.20s -> 3711.20s]  Pero el algoritmo como tal,
+[3711.20s -> 3714.20s]  el siguiente cada uno de estos pasos
+[3714.20s -> 3717.20s]  requiere el resultado del paso anterior.
+[3717.20s -> 3718.20s]  Ahora bien.
+[3718.20s -> 3720.20s]  Para el tema de la reducción de ruido,
+[3720.20s -> 3722.20s]  en este pedacito,
+[3722.20s -> 3725.20s]  es como si yo le hiciera suma esto.
+[3726.20s -> 3728.20s]  Y me daría yo cuenta
+[3728.20s -> 3730.20s]  que para yo reducir el ruido,
+[3730.20s -> 3733.20s]  yo aquí puedo hacer varios
+[3733.20s -> 3735.20s]  supasos.
+[3735.20s -> 3737.20s]  Donde aquí, por ejemplo,
+[3737.20s -> 3740.20s]  aplico un filtro mediana.
+[3741.20s -> 3744.20s]  Y después aplico un filtro gaussiano
+[3744.20s -> 3747.20s]  sobre este resultado del filtro mediana.
+[3748.20s -> 3751.20s]  Y por último, aplico un filtro, no sé,
+[3751.20s -> 3753.20s]  por ejemplo, aquí un gaussiano
+[3753.20s -> 3755.20s]  con un sigma pequeño.
+[3755.20s -> 3757.20s]  Y luego aquí un gaussiano
+[3757.20s -> 3759.20s]  con un sigma un poquito más grande.
+[3759.20s -> 3762.20s]  Y resulta que sí me va mucho mejor aplicando
+[3762.20s -> 3763.20s]  este filtro.
+[3763.20s -> 3765.20s]  Después de este filtro, después de este filtro,
+[3765.20s -> 3766.20s]  después de este filtro.
+[3766.20s -> 3768.20s]  Puede ser que yo aplique más de un filtro
+[3768.20s -> 3770.20s]  para suavizar mi imagen.
+[3770.20s -> 3771.20s]  Puede ser.
+[3771.20s -> 3772.20s]  Sí.
+[3773.20s -> 3775.20s]  Pero el resultado
+[3775.20s -> 3777.20s]  del último de todos
+[3777.20s -> 3780.20s]  va a ser la entrada
+[3780.20s -> 3781.20s]  de quién,
+[3781.20s -> 3784.20s]  de mi detección de bordes.
+[3784.20s -> 3786.20s]  Sí me hago entender.
+[3787.20s -> 3789.20s]  No es al revés.
+[3789.20s -> 3791.20s]  O sea, yo no suavizo,
+[3791.20s -> 3793.20s]  yo no suavizo
+[3793.20s -> 3796.20s]  unos bordes detectados.
+[3799.20s -> 3801.20s]  Sí me hago entender.
+[3801.20s -> 3803.20s]  No es al revés.
+[3807.20s -> 3809.20s]  Yo sí puedo aplicar más de un filtro.
+[3809.20s -> 3811.20s]  ¿Por qué? Porque recuerden que yo tengo
+[3811.20s -> 3813.20s]  y puedo tener diversos filtros
+[3813.20s -> 3815.20s]  cada uno
+[3815.20s -> 3817.20s]  para diversos tipos de ruido.
+[3817.20s -> 3819.20s]  Y puede ser que una imagen tenga diversos
+[3819.20s -> 3820.20s]  tipos de ruido.
+[3820.20s -> 3821.20s]  Sí.
+[3821.20s -> 3824.20s]  Desaplique yo un filtro para un tipo de ruido.
+[3824.20s -> 3826.20s]  Después, sobre ese resultado,
+[3826.20s -> 3828.20s]  aplique otro filtro
+[3828.20s -> 3830.20s]  para reducir otro tipo de ruido
+[3830.20s -> 3832.20s]  que tiene esa imagen.
+[3833.20s -> 3835.20s]  Y unos dos o tres,
+[3835.20s -> 3837.20s]  con unos dos o tres filtros.
+[3837.20s -> 3839.20s]  Yo ya tendría mi imagen suavizada.
+[3841.20s -> 3843.20s]  Hasta que hay preguntas.
+[3843.20s -> 3845.20s]  Sigue estando la confusión
+[3845.20s -> 3847.20s]  de
+[3847.20s -> 3849.20s]  sobre qué yo tengo que aplicar
+[3851.20s -> 3853.20s]  un resultado
+[3855.20s -> 3857.20s]  hasta que hay dudas.
+[3867.20s -> 3869.20s]  Pregunta a alguien.
+[3869.20s -> 3871.20s]  No tiene
+[3871.20s -> 3873.20s]  qué buenas a la mano
+[3873.20s -> 3875.20s]  los que no hicieron la detección
+[3875.20s -> 3877.20s]  de bordes.
+[3905.20s -> 3907.20s]  Si nadie responde,
+[3907.20s -> 3909.20s]  voy a cambiar la pregunta.
+[3909.20s -> 3911.20s]  Todos los grupos
+[3911.20s -> 3913.20s]  hicieron detección de bordes.
+[3913.20s -> 3915.20s]  Necesito saber.
+[3915.20s -> 3917.20s]  Pueden darle el botón
+[3917.20s -> 3919.20s]  de alzar la mano
+[3919.20s -> 3921.20s]  para
+[3921.20s -> 3923.20s]  las personas que sí hicieron
+[3923.20s -> 3925.20s]  la detección de bordes,
+[3925.20s -> 3927.20s]  los que van aquí.
+[3935.20s -> 3937.20s]  ¿Me están escuchando?
+[3941.20s -> 3943.20s]  Yo escucho perfectamente,
+[3943.20s -> 3945.20s]  pero parece que estos muchachos
+[3945.20s -> 3947.20s]  no tienen acceso a la mano.
+[3951.20s -> 3953.20s]  ¿Cuándo tienen
+[3953.20s -> 3955.20s]  presentación de control de avance?
+[3955.20s -> 3957.20s]  Dentro de ocho días.
+[3957.20s -> 3959.20s]  Ahí nos damos cuenta.
+[3959.20s -> 3961.20s]  Presenta el escánico
+[3961.20s -> 3963.20s]  para que alcanzen a incluirlo.
+[3963.20s -> 3965.20s]  Y así le salen los bordes
+[3965.20s -> 3967.20s]  bien hermosos.
+[3967.20s -> 3969.20s]  Porque para acá
+[3969.20s -> 3971.20s]  necesitamos
+[3971.20s -> 3973.20s]  estos bordes ya detectados.
+[3973.20s -> 3975.20s]  Steven nos compartió,
+[3975.20s -> 3977.20s]  pero yo ni siquiera sé si los demás grupos
+[3977.20s -> 3979.20s]  para que me sigan el hilo.
+[3979.20s -> 3981.20s]  Pueden.
+[3993.20s -> 3995.20s]  Asumiendo que todos
+[3995.20s -> 3997.20s]  están en ese punto.
+[3997.20s -> 3999.20s]  Vamos a ver
+[3999.20s -> 4001.20s]  ese algoritmo
+[4001.20s -> 4003.20s]  que se llama el algoritmo de Kani.
+[4003.20s -> 4005.20s]  Sí.
+[4005.20s -> 4007.20s]  Esto no es un filtro.
+[4007.20s -> 4009.20s]  Esto es
+[4009.20s -> 4011.20s]  como lo podríamos
+[4011.20s -> 4013.20s]  definir como una filosofía,
+[4013.20s -> 4015.20s]  una cosa así.
+[4015.20s -> 4017.20s]  Incluso tiene toda una demostración
+[4017.20s -> 4019.20s]  de por qué funciona.
+[4019.20s -> 4021.20s]  Sí.
+[4021.20s -> 4023.20s]  Y está basado en que
+[4023.20s -> 4025.20s]  por ejemplo
+[4025.20s -> 4027.20s]  cuando yo
+[4027.20s -> 4029.20s]  detecto bordes,
+[4029.20s -> 4031.20s]  con ahorita lo que Steven nos compartió,
+[4031.20s -> 4033.20s]  si usted le hace zoom
+[4033.20s -> 4035.20s]  Steven
+[4035.20s -> 4037.20s]  a esa imagen
+[4037.20s -> 4039.20s]  resultante de los globitos
+[4039.20s -> 4041.20s]  se va a dar
+[4041.20s -> 4043.20s]  o sea si le hace zoom mucho zoom
+[4043.20s -> 4045.20s]  se va a dar cuenta
+[4045.20s -> 4047.20s]  que hay
+[4047.20s -> 4049.20s]  muchos pizeles
+[4049.20s -> 4051.20s]  para el borde.
+[4051.20s -> 4053.20s]  O sea
+[4053.20s -> 4055.20s]  hay muchos pizeles que están denotando
+[4055.20s -> 4057.20s]  el borde de cada globito.
+[4057.20s -> 4059.20s]  O sea es como si usted hubiera hecho
+[4059.20s -> 4061.20s]  con un marcador grueso.
+[4061.20s -> 4063.20s]  Sí.
+[4063.20s -> 4065.20s]  Como si usted hubiera hecho
+[4065.20s -> 4067.20s]  como si se dibujó un globito
+[4067.20s -> 4069.20s]  como así.
+[4069.20s -> 4071.20s]  Y luego había
+[4071.20s -> 4073.20s]  primero era un globito
+[4073.20s -> 4075.20s]  con forma de
+[4075.20s -> 4077.20s]  creo que era estrella,
+[4077.20s -> 4079.20s]  o de rombo.
+[4079.20s -> 4081.20s]  Una cosa así.
+[4083.20s -> 4085.20s]  Luego acá teníamos
+[4085.20s -> 4087.20s]  creo que era
+[4087.20s -> 4089.20s]  hacia un globito central
+[4089.20s -> 4091.20s]  y luego acá tendríamos
+[4091.20s -> 4093.20s]  acá dos globitos.
+[4093.20s -> 4095.20s]  Cierto que era así la cosa?
+[4095.20s -> 4097.20s]  Era como algo así.
+[4097.20s -> 4099.20s]  Cuando uno le hace
+[4099.20s -> 4101.20s]  zoom a la imagen
+[4101.20s -> 4103.20s]  se va a dar cuenta que hay muchos
+[4103.20s -> 4105.20s]  pizeles
+[4105.20s -> 4107.20s]  que están denotando
+[4107.20s -> 4109.20s]  el borde
+[4109.20s -> 4111.20s]  el borde segmentado.
+[4111.20s -> 4113.20s]  Lo que yo quiero
+[4113.20s -> 4115.20s]  es
+[4115.20s -> 4117.20s]  pintar con
+[4117.20s -> 4119.20s]  un marcador muy fino
+[4119.20s -> 4121.20s]  el borde.
+[4121.20s -> 4123.20s]  Es decir
+[4123.20s -> 4125.20s]  que el borde
+[4125.20s -> 4127.20s]  tenga, no sea tan grueso
+[4127.20s -> 4129.20s]  no me ocupa tantos pizeles
+[4129.20s -> 4131.20s]  sino que tenga de ancho uno.
+[4135.20s -> 4137.20s]  Es decir el borde
+[4137.20s -> 4139.20s]  de la imagen debería ser
+[4139.20s -> 4141.20s]  es
+[4141.20s -> 4143.20s]  donde debería ser es exactamente
+[4143.20s -> 4145.20s]  el centro
+[4145.20s -> 4147.20s]  bueno ahí me disculpan, el centro
+[4147.20s -> 4149.20s]  de lo que
+[4149.20s -> 4151.20s]  de lo que
+[4151.20s -> 4153.20s]  se detectó
+[4153.20s -> 4155.20s]  en
+[4155.20s -> 4157.20s]  los filtros estos que aplicaron para
+[4157.20s -> 4159.20s]  detección de ruido.
+[4159.20s -> 4161.20s]  Detección de bordes.
+[4163.20s -> 4165.20s]  Es como si
+[4165.20s -> 4167.20s]  a partir de un marcador grueso
+[4167.20s -> 4169.20s]  que son los filtros
+[4169.20s -> 4171.20s]  de detección de ruido
+[4171.20s -> 4173.20s]  sobel y todos estos
+[4173.20s -> 4175.20s]  todos estos
+[4175.20s -> 4177.20s]  es como si a partir de eso
+[4177.20s -> 4179.20s]  te hubiera cogido un marcador
+[4179.20s -> 4181.20s]  delgadítico
+[4181.20s -> 4183.20s]  micro punta
+[4183.20s -> 4185.20s]  y hubiera delineado
+[4185.20s -> 4187.20s]  ese borde.
+[4187.20s -> 4189.20s]  De la pregunta es
+[4189.20s -> 4191.20s]  pues
+[4191.20s -> 4193.20s]  que cuáles pizeles
+[4193.20s -> 4195.20s]  yo tengo que borrar
+[4195.20s -> 4197.20s]  sí tengo que borrar
+[4197.20s -> 4199.20s]  yo todos estos pizeles
+[4199.20s -> 4201.20s]  descartarlos como borde
+[4201.20s -> 4203.20s]  cierto
+[4203.20s -> 4205.20s]  para que
+[4205.20s -> 4207.20s]  para solo quedarme con cual
+[4207.20s -> 4209.20s]  con este pizel
+[4209.20s -> 4211.20s]  central
+[4213.20s -> 4215.20s]  si me hago entender
+[4215.20s -> 4217.20s]  o sea este lo tengo que descartar
+[4223.20s -> 4225.20s]  este lo tengo que descartar
+[4225.20s -> 4227.20s]  este lo tengo que descartar
+[4227.20s -> 4229.20s]  este también este también
+[4229.20s -> 4231.20s]  este todos estos pizeles
+[4231.20s -> 4233.20s]  del ancho del borde
+[4233.20s -> 4235.20s]  los tengo que descartar solamente me quedo
+[4235.20s -> 4237.20s]  con el central
+[4245.20s -> 4247.20s]  entonces nos toca a partir de
+[4247.20s -> 4249.20s]  que pues de nuestra matriz
+[4249.20s -> 4251.20s]  de que de magnitud
+[4251.20s -> 4253.20s]  y nuestra matriz de dirección del gradiente
+[4253.20s -> 4255.20s]  fíjense que cuando hago aquí
+[4255.20s -> 4257.20s]  zoom out
+[4257.20s -> 4259.20s]  si no se ven esos pizeles cierto
+[4259.20s -> 4261.20s]  no se ven
+[4261.20s -> 4263.20s]  pero al hacer zoom
+[4263.20s -> 4265.20s]  se ven
+[4267.20s -> 4269.20s]  ustedes lo pueden ver
+[4271.20s -> 4273.20s]  entonces
+[4273.20s -> 4275.20s]  de la misma forma trabaja Kani
+[4275.20s -> 4277.20s]  es como si le hiciera zoom
+[4277.20s -> 4279.20s]  a los bordes
+[4279.20s -> 4281.20s]  y empezara a ver
+[4281.20s -> 4283.20s]  esto
+[4283.20s -> 4285.20s]  esto no es borde
+[4285.20s -> 4287.20s]  y así sucesivamente
+[4287.20s -> 4289.20s]  entonces yo con que me voy a quedar al final
+[4289.20s -> 4291.20s]  me voy a quedar
+[4291.20s -> 4293.20s]  es con haber marcado
+[4293.20s -> 4295.20s]  con micro punta
+[4301.20s -> 4303.20s]  exactamente donde está
+[4303.20s -> 4305.20s]  el borde y cada borde
+[4305.20s -> 4307.20s]  va a tener
+[4307.20s -> 4309.20s]  de ancho un pizel
+[4309.20s -> 4311.20s]  creo que así era
+[4311.20s -> 4313.20s]  la figurita esta
+[4315.20s -> 4317.20s]  cosa que cuando yo haga zoom
+[4319.20s -> 4321.20s]  ese borde
+[4321.20s -> 4323.20s]  tenga por ancho
+[4323.20s -> 4325.20s]  máximo un pizel
+[4325.20s -> 4327.20s]  entonces usted va viendo
+[4327.20s -> 4329.20s]  que acá me toca es que
+[4329.20s -> 4331.20s]  descartar
+[4333.20s -> 4335.20s]  esto es como si yo hubiera sacado el esqueleto
+[4335.20s -> 4337.20s]  de cada borde
+[4337.20s -> 4339.20s]  entonces acá me toca descartar
+[4339.20s -> 4341.20s]  todo este montón
+[4341.20s -> 4343.20s]  de pizeles que fueron detectados
+[4343.20s -> 4345.20s]  como borde
+[4345.20s -> 4347.20s]  pero pues que no
+[4347.20s -> 4349.20s]  representan el esqueleto
+[4349.20s -> 4351.20s]  del borde
+[4351.20s -> 4353.20s]  hasta ahí
+[4353.20s -> 4355.20s]  alguien se perdió
+[4355.20s -> 4357.20s]  hasta ahí todo bien
+[4363.20s -> 4365.20s]  a ver que idea
+[4365.20s -> 4367.20s]  se les ocurre
+[4367.20s -> 4369.20s]  ustedes para por ejemplo
+[4369.20s -> 4371.20s]  descartar estos bordes
+[4371.20s -> 4373.20s]  piensen que tienen a la mano
+[4373.20s -> 4375.20s]  su matriz de magnitud
+[4375.20s -> 4377.20s]  y su matriz de dirección de gradiente
+[4377.20s -> 4379.20s]  por eso respedi que la tuvieran
+[4379.20s -> 4381.20s]  para hoy
+[4381.20s -> 4383.20s]  pero piensen que la tienen
+[4383.20s -> 4385.20s]  su matriz de magnitud
+[4385.20s -> 4387.20s]  y su matriz de dirección de gradiente
+[4387.20s -> 4389.20s]  la matriz de dirección de gradiente tiene
+[4389.20s -> 4391.20s]  son ángulos
+[4391.20s -> 4393.20s]  si o que
+[4393.20s -> 4395.20s]  es decir
+[4397.20s -> 4399.20s]  su matriz de dirección de gradiente
+[4399.20s -> 4401.20s]  tiene en este momento para este pizet
+[4401.20s -> 4403.20s]  tiene
+[4403.20s -> 4405.20s]  una flechita si
+[4405.20s -> 4407.20s]  obviamente no en forma de flechita
+[4407.20s -> 4409.20s]  tiene esos números
+[4409.20s -> 4411.20s]  pero su representación gráfica
+[4411.20s -> 4413.20s]  son flechitas
+[4415.20s -> 4417.20s]  son números pero la representación gráfica
+[4417.20s -> 4419.20s]  son flechitas
+[4419.20s -> 4421.20s]  ahí me esta marcando por ejemplo
+[4421.20s -> 4423.20s]  para este pizet
+[4423.20s -> 4425.20s]  me marca cero grados
+[4425.20s -> 4427.20s]  porque porque el borde
+[4427.20s -> 4429.20s]  va en dirección horizontal
+[4431.20s -> 4433.20s]  aquí también me marca cero grados
+[4433.20s -> 4435.20s]  aquí también me marca cero grados
+[4437.20s -> 4439.20s]  bueno aproximadamente cero
+[4439.20s -> 4441.20s]  más o menos para este pizet
+[4441.20s -> 4443.20s]  el borde aquí es más o menos horizontal
+[4443.20s -> 4445.20s]  si
+[4445.20s -> 4447.20s]  mientras que por ejemplo
+[4447.20s -> 4449.20s]  para estas zonas
+[4449.20s -> 4451.20s]  si
+[4451.20s -> 4453.20s]  para estas zonas
+[4453.20s -> 4455.20s]  donde tenemos
+[4455.20s -> 4457.20s]  pizeles alrededor
+[4457.20s -> 4459.20s]  supongan que tenemos algo como
+[4459.20s -> 4461.20s]  esto
+[4461.20s -> 4463.20s]  si
+[4463.20s -> 4465.20s]  si
+[4465.20s -> 4467.20s]  si
+[4467.20s -> 4469.20s]  si
+[4469.20s -> 4471.20s]  si
+[4471.20s -> 4473.20s]  si
+[4473.20s -> 4475.20s]  si
+[4475.20s -> 4477.20s]  si
+[4477.20s -> 4479.20s]  si
+[4479.20s -> 4481.20s]  si
+[4481.20s -> 4483.20s]  si
+[4483.20s -> 4485.20s]  si
+[4485.20s -> 4487.20s]  si
+[4487.20s -> 4489.20s]  si
+[4489.20s -> 4491.20s]  si
+[4491.20s -> 4493.20s]  si
+[4493.20s -> 4495.20s]  si
+[4495.20s -> 4497.20s]  si representamos esos ángulos
+[4497.20s -> 4499.20s]  con flechitas
+[4499.20s -> 4501.20s]  en estas zonas
+[4501.20s -> 4503.20s]  de este borde como van a ser
+[4503.20s -> 4505.20s]  van a ser
+[4505.20s -> 4507.20s]  inclinadas hacia la derecha
+[4507.20s -> 4509.20s]  cierto
+[4509.20s -> 4511.20s]  porque porque el borde
+[4511.20s -> 4513.20s]  va en esta dirección
+[4515.20s -> 4517.20s]  si
+[4517.20s -> 4519.20s]  si vamos y miramos
+[4519.20s -> 4521.20s]  a nuestra matriz de dirección de gradiente
+[4521.20s -> 4523.20s]  vamos a tener por acá
+[4523.20s -> 4525.20s]  45
+[4525.20s -> 4527.20s]  45 grados
+[4527.20s -> 4529.20s]  entonces lo tienen en grado
+[4529.20s -> 4531.20s]  puede ser que lo tienen en
+[4531.20s -> 4533.20s]  radianis
+[4533.20s -> 4535.20s]  depende de como hayan hecho el cálculo
+[4535.20s -> 4537.20s]  si
+[4537.20s -> 4539.20s]  podemos ver que para
+[4539.20s -> 4541.20s]  toda nuestra imagen
+[4541.20s -> 4543.20s]  vamos a tener
+[4543.20s -> 4545.20s]  nuestros pizeles tienen
+[4545.20s -> 4547.20s]  perdón Alejandro
+[4547.20s -> 4549.20s]  pero esta es la dirección
+[4549.20s -> 4551.20s]  del gradiente
+[4551.20s -> 4553.20s]  nosotros podemos usar la dirección
+[4553.20s -> 4555.20s]  del gradiente para calcular
+[4555.20s -> 4557.20s]  la dirección del borde
+[4557.20s -> 4559.20s]  y la relación es
+[4559.20s -> 4561.20s]  que la dirección del gradiente
+[4561.20s -> 4563.20s]  está 90 grados
+[4563.20s -> 4565.20s]  anticlockwise
+[4565.20s -> 4567.20s]  o sea en dirección opuesta
+[4567.20s -> 4569.20s]  a las manecillas del reloj
+[4571.20s -> 4573.20s]  y así nos da la dirección
+[4573.20s -> 4575.20s]  del borde
+[4575.20s -> 4577.20s]  ajá
+[4577.20s -> 4579.20s]  si porque la definición es que está
+[4579.20s -> 4581.20s]  perpendicular si
+[4581.20s -> 4583.20s]  pero habiendo hecho eso
+[4583.20s -> 4585.20s]  entonces tenemos nosotros
+[4585.20s -> 4587.20s]  que los bordes están
+[4587.20s -> 4589.20s]  o sea
+[4589.20s -> 4591.20s]  las direcciones de
+[4591.20s -> 4593.20s]  esa matriz de direcciones
+[4593.20s -> 4595.20s]  está de esta forma
+[4597.20s -> 4599.20s]  si
+[4601.20s -> 4603.20s]  recuerden la idea
+[4603.20s -> 4605.20s]  cual es la idea de descartar
+[4605.20s -> 4607.20s]  estos pizeles
+[4607.20s -> 4609.20s]  y solo me voy a quedar
+[4609.20s -> 4611.20s]  con este pizel
+[4611.20s -> 4613.20s]  central
+[4613.20s -> 4615.20s]  que es el esqueleto
+[4615.20s -> 4617.20s]  del borde
+[4617.20s -> 4619.20s]  recuerden que esa es la idea
+[4619.20s -> 4621.20s]  pregunta
+[4621.20s -> 4623.20s]  que se les ocurre
+[4623.20s -> 4625.20s]  que podamos hacer
+[4625.20s -> 4627.20s]  teniendo esas dos matrices
+[4627.20s -> 4629.20s]  la magnitud
+[4629.20s -> 4631.20s]  y la dirección
+[4631.20s -> 4633.20s]  que se le ocurre
+[4633.20s -> 4635.20s]  que podamos hacer
+[4639.20s -> 4641.20s]  si nosotros pintamos
+[4641.20s -> 4643.20s]  la matriz de
+[4643.20s -> 4645.20s]  dirección del gradiente
+[4647.20s -> 4649.20s]  si
+[4649.20s -> 4651.20s]  nos vamos a dar cuenta
+[4651.20s -> 4653.20s]  de que a medida que nosotros
+[4653.20s -> 4655.20s]  perdón si pintamos la
+[4655.20s -> 4657.20s]  matriz de magnitud del gradiente
+[4657.20s -> 4659.20s]  por ejemplo como ahorita estiven
+[4659.20s -> 4661.20s]  compartió la pantalla
+[4661.20s -> 4663.20s]  si estiven le hace artosum
+[4663.20s -> 4665.20s]  se va a dar cuenta
+[4665.20s -> 4667.20s]  que esa matriz de magnitud del gradiente
+[4669.20s -> 4671.20s]  en el centro del borde
+[4671.20s -> 4673.20s]  está bien pintado
+[4673.20s -> 4675.20s]  es el borde
+[4675.20s -> 4677.20s]  pero a medida que se aleja el borde
+[4677.20s -> 4679.20s]  se ve como
+[4681.20s -> 4683.20s]  como con este efecto así sombreado
+[4683.20s -> 4685.20s]  es decir a medida que me alejo
+[4685.20s -> 4687.20s]  del centro del borde
+[4687.20s -> 4689.20s]  se va como
+[4693.20s -> 4695.20s]  como aclarando mas
+[4695.20s -> 4697.20s]  si como
+[4697.20s -> 4699.20s]  el borde
+[4699.20s -> 4701.20s]  esto es como un degrade
+[4701.20s -> 4703.20s]  para que me entiendan
+[4703.20s -> 4705.20s]  está bien
+[4705.20s -> 4707.20s]  repintado en el centro
+[4707.20s -> 4709.20s]  del borde
+[4709.20s -> 4711.20s]  y a medida que me voy
+[4711.20s -> 4713.20s]  ensanchando en el borde
+[4713.20s -> 4715.20s]  se va
+[4715.20s -> 4717.20s]  como aclarando la cosa
+[4719.20s -> 4721.20s]  eso es lo que me denota
+[4721.20s -> 4723.20s]  mi matriz de magnitud del gradiente
+[4723.20s -> 4725.20s]  y mi matriz de dirección del gradiente
+[4725.20s -> 4727.20s]  me está diciendo para donde
+[4727.20s -> 4729.20s]  se está dirigiendo el borde
+[4731.20s -> 4733.20s]  teniendo esas dos
+[4733.20s -> 4735.20s]  informaciones gráficamente
+[4735.20s -> 4737.20s]  lo que ustedes están viendo allí
+[4739.20s -> 4741.20s]  que se les ocurre que podemos hacer
+[4743.20s -> 4745.20s]  porque recuerden que el objetivo es
+[4745.20s -> 4747.20s]  descartar
+[4747.20s -> 4749.20s]  todos esos pisceles
+[4749.20s -> 4751.20s]  todos esos pisceles
+[4751.20s -> 4753.20s]  que están relacionados
+[4753.20s -> 4755.20s]  que no estén relacionados
+[4755.20s -> 4757.20s]  con el centro
+[4757.20s -> 4759.20s]  de mi borde
+[4761.20s -> 4763.20s]  descartar esto que está aquí
+[4763.20s -> 4765.20s]  y descartar todo esto que está acá
+[4765.20s -> 4767.20s]  que se le ocurre que podemos hacer
+[4777.20s -> 4779.20s]  ideas
+[4784.20s -> 4786.20s]  quien quiera abrir el micrófono
+[4786.20s -> 4788.20s]  ahora el micrófono
+[4809.20s -> 4811.20s]  Angie, tú más o menos manejas
+[4811.20s -> 4813.20s]  la cosa, ¿cierto?
+[4815.20s -> 4817.20s]  ya estás procesando o no
+[4819.20s -> 4821.20s]  Angie, oya
+[4831.20s -> 4833.20s]  será que estos muchachos
+[4833.20s -> 4835.20s]  están en la asamblea
+[4835.20s -> 4837.20s]  y por eso no pueden hablar
+[4837.20s -> 4839.20s]  filtro de ruido
+[4839.20s -> 4841.20s]  aquí ya pasamos
+[4841.20s -> 4843.20s]  todos los filtros
+[4849.20s -> 4851.20s]  queremos es
+[4851.20s -> 4853.20s]  con lo que tenemos
+[4853.20s -> 4855.20s]  de magnitud del gradiente
+[4855.20s -> 4857.20s]  dirección del gradiente
+[4861.20s -> 4863.20s]  intentar eliminar
+[4863.20s -> 4865.20s]  esos pisceles
+[4865.20s -> 4867.20s]  que no son el centro
+[4867.20s -> 4869.20s]  de
+[4869.20s -> 4871.20s]  el borde
+[4895.20s -> 4897.20s]  ideas
+[4899.20s -> 4901.20s]  que tiene la matriz esa
+[4905.20s -> 4907.20s]  de magnitudes
+[4907.20s -> 4909.20s]  los valores de qué
+[4911.20s -> 4913.20s]  los valores de
+[4913.20s -> 4915.20s]  de intensidad de gradiente
+[4915.20s -> 4917.20s]  osea la combinación del filtro
+[4917.20s -> 4919.20s]  horizontal
+[4919.20s -> 4921.20s]  y vertical
+[4921.20s -> 4923.20s]  de detección de ruido
+[4923.20s -> 4925.20s]  osea que esa matriz
+[4925.20s -> 4927.20s]  me dice que tan fuerte es el cambio
+[4927.20s -> 4929.20s]  más alto el valor
+[4929.20s -> 4931.20s]  más fuerte es el cambio, ¿cierto?
+[4931.20s -> 4933.20s]  si
+[4933.20s -> 4935.20s]  y podríamos usar eso, ¿no?
+[4937.20s -> 4939.20s]  bien se vea muchachos
+[4941.20s -> 4943.20s]  por eso lo pinté
+[4943.20s -> 4945.20s]  con esta herramientica
+[4945.20s -> 4947.20s]  osea
+[4947.20s -> 4949.20s]  a medida que yo me alejo
+[4949.20s -> 4951.20s]  del centro del borde
+[4953.20s -> 4955.20s]  la cosa se
+[4955.20s -> 4957.20s]  se va volviendo más tenue
+[4957.20s -> 4959.20s]  el borde se va volviendo más tenue
+[4959.20s -> 4961.20s]  ya no está tan repintado
+[4961.20s -> 4963.20s]  como en el centro del borde
+[4967.20s -> 4969.20s]  eso me lo da
+[4969.20s -> 4971.20s]  mi matriz de magnitud del gradiente
+[4971.20s -> 4973.20s]  si usted se va la matriz
+[4973.20s -> 4975.20s]  de magnitud del gradiente
+[4975.20s -> 4977.20s]  y mira los valores
+[4977.20s -> 4979.20s]  se va a dar cuenta de que
+[4979.20s -> 4981.20s]  en estas zonas
+[4981.20s -> 4983.20s]  donde está el centro
+[4983.20s -> 4985.20s]  de su
+[4985.20s -> 4987.20s]  borde
+[4987.20s -> 4989.20s]  los valores de intensidad
+[4989.20s -> 4991.20s]  de gradiente
+[4991.20s -> 4993.20s]  son mucho mayores
+[4993.20s -> 4995.20s]  que los que están por decir
+[4995.20s -> 4997.20s]  en esta zona de acá fuera
+[4997.20s -> 4999.20s]  del borde
+[5001.20s -> 5003.20s]  son mucho mayores
+[5005.20s -> 5007.20s]  esa es una pista
+[5007.20s -> 5009.20s]  que podemos hacer
+[5009.20s -> 5011.20s]  daba que sabemos que entre
+[5011.20s -> 5013.20s]  más cercano yo este
+[5013.20s -> 5015.20s]  del centro del borde
+[5015.20s -> 5017.20s]  del centro de la línea
+[5017.20s -> 5019.20s]  si
+[5019.20s -> 5021.20s]  más alta la intensidad
+[5021.20s -> 5023.20s]  entonces yo que puedo hacer
+[5023.20s -> 5025.20s]  con esa información
+[5039.20s -> 5041.20s]  las muchachos
+[5041.20s -> 5043.20s]  que podemos hacer
+[5057.20s -> 5059.20s]  las muchachos que podemos hacer
+[5069.20s -> 5071.20s]  a ver
+[5091.20s -> 5093.20s]  a ver piensen por un momento
+[5093.20s -> 5095.20s]  en el centro del borde
+[5095.20s -> 5097.20s]  la magnitud del gradiente
+[5097.20s -> 5099.20s]  es mayor
+[5099.20s -> 5101.20s]  que a medida que me alejo
+[5101.20s -> 5103.20s]  a lo ancho
+[5103.20s -> 5105.20s]  de ese borde
+[5105.20s -> 5107.20s]  pintado
+[5107.20s -> 5109.20s]  es mucho mayor
+[5109.20s -> 5111.20s]  más alta la magnitud
+[5111.20s -> 5113.20s]  del gradiente
+[5113.20s -> 5115.20s]  que creen que puedo hacer
+[5187.20s -> 5189.20s]  a ver
+[5189.20s -> 5191.20s]  lo que hago
+[5191.20s -> 5193.20s]  a ver
+[5193.20s -> 5195.20s]  a ver
+[5195.20s -> 5197.20s]  para ver
+[5197.20s -> 5199.20s]  para ver
+[5199.20s -> 5201.20s]  a ver
+[5201.20s -> 5203.20s]  para ver
+[5203.20s -> 5205.20s]  para ver
+[5205.20s -> 5207.20s]  a ver
+[5209.20s -> 5211.20s]  para ver
+[5211.20s -> 5229.20s]  no
+[5229.20s -> 5234.20s]  nadie
+[5234.20s -> 5237.20s]  yo puedo
+[5237.20s -> 5244.28s]  que me resalta los bordes con una magnitud de gradiente y con una edición de gradiente,
+[5244.28s -> 5251.08s]  pues yo puedo aprovechar esa información para flaquear esto, para descartar todos estos
+[5251.08s -> 5260.00s]  pizeles que yo ya sé que tienen magnitud menor de gradiente. Estos pizeles tienen cada vez menor
+[5260.00s -> 5269.00s]  magnitud de gradiente, mientras que este que está en el centro del borde si tiene bastante magnitud de
+[5269.00s -> 5284.92s]  gradiente. Entonces, un paso adicional allí es, podemos llamarlo un tercer paso,
+[5288.20s -> 5298.00s]  porque primero y el segundo fue haber calculado esas magnitudes y direcciones de gradiente,
+[5298.44s -> 5315.68s]  un tercer paso es suprimir los no máximos. En decir, voy a descartar todos estos pizeles
+[5315.68s -> 5329.12s]  y lo voy a mandar a cero, o sea, como si yo los pintara de no borde, o sea, no son borde,
+[5330.12s -> 5342.92s]  les voy a coger y los voy a suprimir. Esta es la idea central, es decir, es nada de esto corresponde a
+[5342.92s -> 5352.52s]  borde y sólo me voy a quedar con una delgada línea que tiene de ancho un solo pizel, esa es la
+[5352.52s -> 5362.76s]  idea central. ¿Para qué? Para yo llegar al final a esto que habíamos tenido por aquí, esto que
+[5362.76s -> 5374.12s]  habíamos tenido aquí, sí, un borde de ancho uno, un pizelito. Ahora bien, es cómo, o sea,
+[5374.12s -> 5380.52s]  algoritmicamente hablando, cómo aprovechamos esa información, cómo aprovechamos esa información de
+[5380.52s -> 5390.96s]  los de la magnitud y la dirección del gradiente, cómo la aprovechamos para hacer es eso que
+[5390.96s -> 5401.70s]  queremos de suprimir esos no máximos. Me quiero quedar es con el máximo. Entonces, ¿Usted qué
+[5401.70s -> 5411.12s]  puede hacer? Vamos a coger, como nosotros en la matriz de dirección de gradiente, sabemos la
+[5411.12s -> 5419.32s]  dirección en la cual está viajando el borde en ese momento. Por ejemplo, para esta zona,
+[5419.48s -> 5426.36s]  todos estos pizeles, mi matriz de dirección de gradiente tiene estos ángulos, por decir,
+[5426.36s -> 5440.80s]  aquí 45 grados. Sí. Entonces, ¿Qué puedo hacer? Yo voy a preguntar cómo esta información me la
+[5440.80s -> 5445.52s]  está dando mi matriz de dirección de gradiente. Entonces, yo voy a preguntar a la matriz de
+[5445.52s -> 5462.36s]  magnitud del gradiente por el que está arriba y por el que está abajo de esa matriz de magnitud
+[5462.36s -> 5470.24s]  del gradiente. Si el ángulo hubiera sido así en un pizel dado, si el ángulo hubiera sido de 90
+[5470.24s -> 5476.72s]  grados, entonces, ¿Yo por quién tengo que preguntar por el día arriba y por el día abajo?
+[5479.92s -> 5486.56s]  Si para un pizel en cuestión, por decir, este que está aquí, el ángulo es
+[5488.68s -> 5492.72s]  0 grados, entonces, ¿Yo por quién tengo que preguntar?
+[5492.72s -> 5506.16s]  Tengo que preguntar por, ¿Por quién? Por el de la derecha y por el de la izquierda.
+[5508.16s -> 5516.80s]  ¿Qué voy a preguntar? Que si yo soy mayor que alguno de los dos que están a mí,
+[5517.12s -> 5524.16s]  en este caso, derecha o izquierda, si es de 90 grados, el de arriba o el de abajo,
+[5525.12s -> 5534.96s]  si está en 135 grados, entonces, pregunto por el de arriba de izquierda y el de abajo a la derecha.
+[5536.76s -> 5546.64s]  Sí. Si al preguntar por estos pizeles vecinos, yo soy más grande que esos dos vecinos,
+[5546.88s -> 5552.48s]  dependiendo de cuál grado yo tengo, si yo soy más grande que ellos dos, entonces,
+[5552.48s -> 5561.52s]  yo soy un borde fuerte. Entonces, yo me quedo tal cual estoy en mi madrid de magnitud de gradiente.
+[5563.52s -> 5569.68s]  Si resulta que hay uno que es más, por ejemplo, este de la derecha es más grande que yo.
+[5570.00s -> 5580.80s]  Sí. Significa que yo no soy un, yo no hago parte del centro del borde, yo no soy un borde fuerte.
+[5582.32s -> 5588.00s]  Entonces, ese pizel en cuestión se descartaría. ¿Qué descartar? Pues mandarlo a cero,
+[5588.72s -> 5590.16s]  o sea decir, no es borde.
+[5590.16s -> 5600.40s]  ¿Pregunta hasta ahí alguien perdido o no?
+[5608.40s -> 5615.04s]  Es decir, aquí estamos en un perfeccionamiento del borde de mi imagen. Estamos perfeccionando
+[5615.12s -> 5624.56s]  el borde de la imagen, ya habiendo sido detectado previamente con Sobel o con Laplace, Laplace,
+[5624.56s -> 5631.28s]  o con estos otros que les mencioné. Y lo que hacemos es tomar eso y perfeccionar lo más.
+[5634.48s -> 5640.96s]  Porque realmente a mí no me interesa que un borde tenga un ancho mayor a un pizel. Yo quiero
+[5641.04s -> 5649.04s]  es que el borde sea como un esqueleto. Eso yo quiero que el borde tenga ancho un pizel,
+[5649.04s -> 5654.88s]  no más, no más de ahí. O sea, como si se hubiera pintado con micropunta, no con un marcador de
+[5654.88s -> 5666.64s]  esto de supermercado. Dime algo entender. Entonces, me toca mirar la información
+[5666.64s -> 5673.12s]  tanto del la matriz de magnitud de gradiente como la matriz de dirección de gradiente.
+[5673.12s -> 5680.72s]  Si la matriz de magnitud del gradiente, perdón, de dirección de gradiente. Que el pizel en cuestión,
+[5680.72s -> 5686.24s]  obviamente yo tengo que recorrer todos los pizeles, pero el pizel en cuestión, el IJ,
+[5686.24s -> 5692.56s]  en este momento donde esté parado en la posición en la que esté, dice 90 grados. Entonces,
+[5692.56s -> 5697.12s]  yo tengo que mirar la matriz de magnitud de gradiente el de arriba y el de abajo.
+[5699.44s -> 5706.88s]  Si dice que en la posición donde esté IJ, dice 135 grados, entonces tengo que ir a mi
+[5706.88s -> 5712.24s]  matriz de magnitud de gradiente y preguntar por el de arriba a la izquierda y el de abajo a la derecha.
+[5713.44s -> 5721.00s]  Si me dice 45 grados. Entonces, por quién tengo yo que preguntar en la matriz de magnitud de
+[5721.00s -> 5733.24s]  gradiente. O sea, si es más o menos un pizel de esta zona por acá. ¿Por quién yo tengo que preguntar?
+[5734.60s -> 5735.80s]  ¿Por cuáles pizeles?
+[5735.80s -> 5751.48s]  Yo tengo que preguntar por el pizel de arriba a la derecha y el de abajo a la izquierda.
+[5751.48s -> 5762.44s]  Si es un pizel horizontal, cero grados o 180 grados apuntando a la izquierda,
+[5762.44s -> 5768.92s]  es por quién tengo que preguntar por el de la izquierda y por el de la derecha, bueno, derecha y izquierda.
+[5768.92s -> 5781.56s]  ¿Hasta aquí alguien perdido? ¿Alguien tiene preguntas, por favor?
+[5781.56s -> 5805.00s]  Este paso a mí me va a reducir gran cantidad del grosor de estos bordes. Me va a reducir
+[5805.00s -> 5809.88s]  muchísimo el grosor de esos bordes.
+[5813.88s -> 5832.04s]  Me los va a dejar de ancho uno, pero aún así van a seguir habiendo algunos pizeles por allí
+[5832.04s -> 5843.48s]  suelticos que están siendo detectados como bordes. Pasamos de esto a esto, pero van a ver por allí
+[5843.48s -> 5854.36s]  algunos pizeles que siguen siendo detectados por ahí, es decir, zonas que no están conectadas, puras
+[5854.36s -> 5868.92s]  zonas dispersas, van a ver puras lineasitas como estas y si mi imagen tiene mucho ruido y usted no
+[5868.92s -> 5876.68s]  aplica un buen suavizado, entonces van a ver muchas zonas por allí detectadas como ruido,
+[5877.00s -> 5891.00s]  detectadas como bordes perdón, pero que en realidad son ruido, pero aún así al hacerle zoom a estas
+[5891.00s -> 5895.96s]  zonas que no están incluso conectadas, que no hacen parte de ningún objeto, aún así tienen
+[5895.96s -> 5904.36s]  ancho uno, pero yo qué quiero hacer? Quiero eliminar estas zonas y incluso aún pueden haber,
+[5904.92s -> 5910.84s]  puede que haya habido un globo cierto? En la imagen original hay un globo en esta zona, pero al haber
+[5910.84s -> 5918.44s]  hecho esa operación de supresión de no máximos, tengo yo que la zona no está no está conectada,
+[5920.44s -> 5926.44s]  sí, que esta zona no está conectada. Puedo yo tener este caso también,
+[5927.40s -> 5937.16s]  que hayan algunos espacicitos en blanco por allí del bordemismo y yo quiero
+[5937.16s -> 5942.12s]  es que esté completamente conectada a esta zona porque es un objeto,
+[5944.84s -> 5949.28s]  es cómo hacemos también para conectar esas zonas, cómo hacemos?
+[5949.28s -> 5962.16s]  Aprovechando que tenemos esta información de los bordes de la imagen, magnitud y dirección de
+[5962.16s -> 5963.28s]  gradiente y todo esto.
+[5982.24s -> 5986.84s]  Podemos nosotros aplicar un cuarto paso,
+[5987.84s -> 5997.56s]  que sería, es una palabra rara, se llama hysteresis, no es hysteria, es hysteresis,
+[5997.56s -> 6000.64s]  ¿qué quiere decir hysteresis? ¿Alguien sabe qué significa esta palabra?
+[6006.12s -> 6008.76s]  ¿Alguien sabe qué significa esa palabra? ¿Histéresis?
+[6008.76s -> 6021.04s]  Por ejemplo, pensé en una idea condicionada, sí, o en un extractor de calor,
+[6023.24s -> 6028.88s]  sí, cómo funciona, cómo funciona un extractor de calor, él siempre está aprendido.
+[6028.88s -> 6043.16s]  Chicos, ¿cómo funciona un extractor de calor a una idea condicionada? Un ventilador cualquiera,
+[6043.16s -> 6047.36s]  él siempre está aprendido, por ejemplo, cuando usted prende el ventilador,
+[6047.36s -> 6053.96s]  usted se tiene en el ventilador, prendido en ese momento, si tiene ventilador.
+[6059.08s -> 6065.44s]  Parte de un estado inicial, de que está apagado y ya cuando el enciende pues cambia como sus condiciones,
+[6065.44s -> 6071.16s]  y va como aprendiendo de lo anterior de lo que él estaba, luego así es como lo de
+[6071.16s -> 6074.68s]  el hysteresis, no, apagó como lo del ventilador que dice propio.
+[6076.44s -> 6079.48s]  Si a usted le da calor, ¿qué pasa? ¿Usted lo prende, ¿cierto?
+[6081.96s -> 6085.16s]  Señor. ¿Y si le abrió?
+[6088.96s -> 6090.80s]  ¿Lo apago? Lo apaga.
+[6093.36s -> 6098.04s]  Pero usted dice, ay, tengo frío, lo voy a prender, ay, tengo calor, lo apago,
+[6098.04s -> 6106.88s]  me perdoné al revés, tengo calor, lo prendo, tengo frío, lo apago, y si es así 10 veces al día,
+[6106.88s -> 6114.60s]  entonces usted está apague prenda, apague prenda. Por ejemplo, piensen en un ventilador industrial.
+[6114.60s -> 6129.32s]  Por decir, supongamos que definimos una temperatura para un umbral de no sé, 20 grados, bueno,
+[6129.32s -> 6133.88s]  25, pues porque en cálisis soportamos un poquito más, entonces 25 grados.
+[6137.00s -> 6142.72s]  Entonces, si, si pasó a 25.1, se enciende,
+[6144.60s -> 6148.64s]  y si queda en 24.9, lo apago.
+[6151.48s -> 6156.28s]  ¿Qué pasa si la temperatura oscila en esta forma?
+[6156.28s -> 6159.24s]  Supongamos que esta línea es 25.
+[6161.32s -> 6167.24s]  Y a lo largo del tiempo, varía así la temperatura. ¿Qué pasaría?
+[6171.72s -> 6173.44s]  ¿Qué pasaría con el ventilador?
+[6175.32s -> 6178.56s]  Se prendería y se apagaría todo el tiempo, ¿cierto?
+[6178.56s -> 6181.80s]  Prende, apaga, prende, apaga, prende, apaga, y eso es malo.
+[6183.56s -> 6187.20s]  Eso está prendiendo y apagando, lo puede dañar, ¿cierto?
+[6190.68s -> 6192.24s]  Entonces uno que hace,
+[6194.36s -> 6200.68s]  entonces uno que hace, pues aplica, o sea, si yo no lo voy a estar ahí prendiendo y apagando,
+[6200.68s -> 6206.24s]  de ello que puedo hacer, pues aplicar
+[6209.36s -> 6210.80s]  un segundo umbral.
+[6214.28s -> 6216.68s]  Sí, por ejemplo, 20,
+[6218.20s -> 6224.20s]  de si está por, de si la temperatura ya bajó demasiado, es, lo puedo apagar.
+[6224.20s -> 6229.68s]  Si está muy por encima de 25, entonces lo enciendo,
+[6231.36s -> 6233.84s]  y entonces ¿qué pasa entre 20 y 25?
+[6234.72s -> 6239.08s]  ¿Qué pasa si la temperatura en este momento en la fábrica está de 22?
+[6240.88s -> 6241.96s]  Entonces ¿qué hago?
+[6243.24s -> 6247.64s]  Entonces yo digo, si ya estaba apagado, pues déjelo apagado.
+[6248.60s -> 6252.28s]  Si ya estaba prendido, pues déjelo prendido.
+[6256.08s -> 6257.08s]  ¿Sí?
+[6258.08s -> 6263.08s]  Eso hace que yo no esté todo el tiempo prenda y apague, prenda y apague.
+[6269.68s -> 6277.08s]  Sí, porque primero hay que se vuelve molesto, y segundo pues puedo dañar el ventilador
+[6277.08s -> 6280.08s]  con esa prendera y apagadera, ¿cierto?
+[6281.08s -> 6285.08s]  Entonces que la estérisis es básicamente lo que le estoy pintando,
+[6286.08s -> 6291.08s]  aplicar un segundo umbral y que dependiendo de lo que haya habido anteriormente,
+[6291.08s -> 6296.08s]  si estoy en ese rango medio, o sea, si estoy en esa zona,
+[6297.08s -> 6300.08s]  en esa zona que es como un poquito difusa,
+[6301.08s -> 6303.08s]  estoy en esta zona de acá adentro.
+[6312.08s -> 6314.08s]  Si estoy en esta zona,
+[6315.08s -> 6317.08s]  de acá adentro,
+[6318.08s -> 6323.08s]  entonces esta zona no va a ser, ni prenda lo del todo, ni apague lo del todo,
+[6323.08s -> 6327.08s]  o sea, va a ser es con base en lo que había antes.
+[6328.08s -> 6332.08s]  Por ejemplo, si estaba prendido, si, si caigo en esta zona azul,
+[6332.08s -> 6335.08s]  entonces si ya estaba apagado, pues déjelo apagado.
+[6335.08s -> 6338.08s]  Si ya estaba prendido, pues siga lo manteniendo prendido,
+[6338.08s -> 6344.08s]  hasta que ya baje tanto la temperatura que caiga por debajo del primer umbral,
+[6345.08s -> 6348.08s]  entonces si ya diga, bueno, apague el ventilador ahora sí,
+[6349.08s -> 6354.08s]  y si sube, y si empieza a subir 20, 21, 22, si está apagado,
+[6354.08s -> 6359.08s]  y sube 20, 21, 22, no lo voy a apagar, no lo voy a aprender inmediatamente,
+[6359.08s -> 6363.08s]  cuando lo voy a aprender, cuando ya supere ya el primer umbral,
+[6364.08s -> 6368.08s]  que ya dicanos, ya está haciendo ya mucho calor, entonces prenda el ventilador.
+[6369.08s -> 6375.08s]  Esto y procesito se llama hysteresis, que es tener en cuenta lo que había antes,
+[6379.08s -> 6381.08s]  para ahí tomar una decisión.
+[6385.08s -> 6390.08s]  Ese proceso lo vamos a aplicar en nuestros pizeles,
+[6391.08s -> 6395.08s]  en nuestros pizeles ya habiendo hecho la supresión de los no máximos.
+[6398.08s -> 6399.08s]  ¿Sí?
+[6402.08s -> 6404.08s]  ¿Cómo es entonces ese proceso?
+[6406.08s -> 6408.08s]  O sea, algoritmicamente pues hablando.
+[6411.08s -> 6412.08s]  ¿Sí?
+[6412.08s -> 6416.08s]  Entonces, yo habiendo hecho la supresión de los no máximos,
+[6416.08s -> 6421.08s]  entonces yo me voy a parar en todos y cada uno de los pizeles,
+[6421.08s -> 6425.08s]  de ese resultado, ojo, de ese resultado.
+[6426.08s -> 6429.08s]  Estoy parado en este pizel,
+[6429.08s -> 6434.08s]  entonces yo voy a mirar mis ocho vecinos,
+[6434.08s -> 6440.08s]  este pizel, este otro pizel, este pizel, este pizel, este pizel,
+[6440.08s -> 6443.08s]  este pizel, este y este.
+[6446.08s -> 6451.08s]  ¿Sepan ustedes que por lo que yo les definí de las dos temperaturas?
+[6451.08s -> 6457.08s]  Pues yo obviamente aquí también se requiere que yo defina dos umbrales,
+[6457.08s -> 6462.08s]  un umbral uno y un umbral dos, obviamente,
+[6462.08s -> 6465.08s]  donde el primer umbral, el primer umbral,
+[6465.08s -> 6469.08s]  obviamente es mayor que el segundo umbral, ¿cierto que sí?
+[6474.08s -> 6476.08s]  Entonces, ¿yo qué voy a hacer?
+[6476.08s -> 6481.08s]  Si este, si lo que hay en este valor, ¿ci?
+[6481.08s -> 6489.08s]  Si lo que hay en este valor es menor que el umbral más bajito,
+[6489.08s -> 6492.08s]  entonces de una, usted ya puede decir,
+[6492.08s -> 6501.08s]  ese pizel no es borde, es ruido, les mande lo a cero, ¿ci?
+[6501.08s -> 6506.08s]  Entonces aquí usted va a poner cero, o sea, va a quedar negro o oscuro,
+[6506.08s -> 6512.08s]  recuerden que cero es oscuro y doscientos cincuenta y cinco es blanco para las imágenes planas.
+[6515.08s -> 6518.08s]  ¿Si es mayor que el primer umbral?
+[6520.08s -> 6523.08s]  O sea, si es, si está por encima del primer umbral,
+[6523.08s -> 6529.08s]  entonces ¿qué? Pues si es, es un borde fuerte, o sea, estamos como en este caso,
+[6529.08s -> 6533.08s]  ah, subió, subió ya la temperatura demasiado, prende el ventilador.
+[6534.08s -> 6545.08s]  En este caso es el, el, el valor de que está aquí en el gradiente ya es muy, muy fuerte, ¿listo?
+[6545.08s -> 6551.08s]  Entonces ponga esto en doscientos cincuenta y cinco, o sea, es borde, es borde.
+[6553.08s -> 6556.08s]  Y lo que está aquí pues es fondo.
+[6560.08s -> 6565.08s]  ¿Si? Entonces ahí ¿qué hicimos? Lo que estaba,
+[6570.08s -> 6577.08s]  todo lo que estaba aquí lo mandamos a cero, lo mandamos inmediatamente a cero
+[6577.08s -> 6583.08s]  y todo lo que está acá decimos es, es efectivamente borde.
+[6584.08s -> 6591.08s]  ¿Si? Es decir, esto es blanco-blanco. Aquí ya no estamos en escala de gris, es blanco-blanco
+[6591.08s -> 6597.08s]  y esto es negro-negro. Entonces nos queda faltando esta zona de aquí.
+[6597.08s -> 6602.08s]  ¿Cierto que si? Nos queda faltando esta zona de decisión.
+[6603.08s -> 6609.08s]  ¿Si? Si está en esta zona de decisión, bueno, en realidad,
+[6609.08s -> 6617.08s]  esto no es la imagen original, es mi gradiente, mi gradiente.
+[6623.08s -> 6628.08s]  Si está entre el primer umbral y el segundo umbral.
+[6629.08s -> 6632.08s]  ¿Si? Entonces,
+[6635.08s -> 6641.08s]  entonces hace parte de esta zona azul difusa, o sea, es una zona que como que,
+[6641.08s -> 6646.08s]  uy, me toca mirar a ver desde ahí es donde viene, bueno, en el caso aquí de la temperatura,
+[6646.08s -> 6650.08s]  me tocaba ver era si el ventilador estaba apagado, déjelo apagado.
+[6650.08s -> 6653.08s]  Si el ventilador está prendido, déjelo prendido.
+[6654.08s -> 6659.08s]  No es sino hasta que, hasta que supere por el, por exceso, por defecto los umbrales,
+[6659.08s -> 6665.08s]  que ahí si ya inmediatamente prende o inmediatamente apaga, en este caso también.
+[6665.08s -> 6674.08s]  Entonces, cuando está en esta zona azul, que está entre el, entre el umbral uno y el umbral dos,
+[6674.08s -> 6682.08s]  entonces yo digo que esto es un borde débil, débil.
+[6683.08s -> 6687.08s]  Y entonces, ¿qué tratamiento le doy a ese borde débil?
+[6687.08s -> 6690.08s]  Es ahí donde viene la palabra histéresis.
+[6690.08s -> 6692.08s]  ¿Qué es?
+[6692.08s -> 6698.08s]  Entonces, mirar la información, ya me toca mirar, es los vecinos.
+[6701.08s -> 6710.08s]  Si, si en un paso previo, por ejemplo, este pixel fue clasificado como borde fuerte,
+[6711.08s -> 6719.08s]  entonces este pixel donde yo estoy parado, que es por el que estoy preguntando y que estoy diciendo que es borde débil,
+[6719.08s -> 6724.08s]  si está al lado de un borde fuerte, entonces es un borde fuerte.
+[6727.08s -> 6735.08s]  Pero si no hay ninguno a mi alrededor, si no hay nadie a mi alrededor de mis ocho vecinos,
+[6735.08s -> 6741.08s]  que sean un borde fuerte, o sea, que ya hayan sido marcados como doscientos cincuenta y cinco.
+[6743.08s -> 6746.08s]  O sea, que hayan superado el umbral dos.
+[6747.08s -> 6749.08s]  Entonces, ¿qué pasa?
+[6749.08s -> 6755.08s]  Es que muy probablemente es un ruido que fue detectado como borde.
+[6756.08s -> 6761.08s]  Entonces, mándelo inmediatamente a cero.
+[6761.08s -> 6771.08s]  Si, es como el caso del ventilador, vuelvo y repito, si está en esa zona entre 20 y 25 grados,
+[6771.08s -> 6777.08s]  pero no lo voy a aprender, no voy a aprender o a apagar el ventilador inmediatamente,
+[6777.08s -> 6783.08s]  no me toca preguntar si ya, si ya estaba aprendido previamente, desde el aprendido.
+[6786.08s -> 6790.08s]  Si estaba apagado previamente, siga lo manteniendo apagado.
+[6792.08s -> 6802.08s]  En este caso es, si es un borde de, o sea, está en esa zona difusa entre el umbral uno y el umbral dos,
+[6802.08s -> 6810.08s]  te ya me toca mirar, es alrededor, yo que tengo, mis vecinos, en el vegetario de pizeles, como son.
+[6811.08s -> 6820.08s]  Si son fuertes esos bordes, o sea, si ya fueron manda, si ya fueron puestos superior al umbral dos,
+[6820.08s -> 6827.08s]  o sea, al más alto, entonces yo puedo decir si ese pizel donde estoy parado es borde fuerte,
+[6827.08s -> 6837.08s]  entonces mándelo a 255, o sea, píntelo como borde, pero si, si definitivamente no,
+[6837.08s -> 6845.08s]  no hay ningún pizelami alrededor de esos ocho vecinos, que sea efectivamente un borde,
+[6845.08s -> 6852.08s]  sino que son inferiores al umbral uno, todos mis ocho vecinos,
+[6852.08s -> 6857.08s]  entonces muy probablemente es que yo como, yo estando en esta zona azul difusa,
+[6857.08s -> 6864.08s]  entonces yo también haga más partes de, o sea, yo tiendo más hacia abajo que hacia arriba,
+[6864.08s -> 6866.08s]  entonces un mándelo a cero.
+[6869.08s -> 6879.08s]  Entonces eso va a ser gráficamente que, que todas estas pelucitas que fueron detectadas como, como bordes,
+[6879.08s -> 6887.08s]  por ejemplo esta de aquí, todas estas pelucitas sean borradas,
+[6887.08s -> 6900.08s]  y por el efecto de haber aplicado el umbral uno, entonces estas zonas que inicialmente no estaban conectadas,
+[6900.08s -> 6906.08s]  ahora sí se conecten, todas estas zonas se van a conectar.
+[6908.08s -> 6910.08s]  ¿Por qué? Porque me toca mirar alrededor.
+[6910.08s -> 6919.08s]  Si lo ven, hay alguna pregunta,
+[6925.08s -> 6932.08s]  es cuál va a ser el efecto, el efecto gráfico de esto, pues ya tener una imagen más limpia,
+[6932.08s -> 6939.08s]  con bordes de ancho uno totalmente pintados de blanco, sea de 255,
+[6939.08s -> 6947.08s]  o sea ya es una imagen binarizada, cero quiere decir fondo, o sea negro,
+[6947.08s -> 6958.08s]  y 255 quiere decir borde, o sea pintado completamente de blanco,
+[6960.08s -> 6966.08s]  eso lo voy a tener ya esos dos valores, cero y 255, que es mi imagen ya binarizada,
+[6967.08s -> 6974.08s]  ahí ya no estamos en escala de grises, nada, cero o 255, puede ser cero o uno,
+[6974.08s -> 6980.08s]  pero recuerden que el visor de imágenes sea de Python o lo que sea,
+[6980.08s -> 6987.08s]  está esperando es algo entre cero y 255, 255 es blanco, cero es negro,
+[6987.08s -> 6995.08s]  entonces toca mandarlo de una a 255, porque usted lo manda a uno,
+[6995.08s -> 7000.08s]  pues a la hora de usted ver el resultado no va a haber nada,
+[7000.08s -> 7006.08s]  ¿por qué? porque está graficando cero o uno, algo que va de cero a 255,
+[7006.08s -> 7014.08s]  entonces le tocaría multiplicar ese resultado por 255, para que ahí si ya se vean los bordes,
+[7014.08s -> 7020.08s]  lo que está en uno queda convertido a 255, y lo que está en cero pues sí que está en dos,
+[7020.08s -> 7024.08s]  la multiplicación de cero, hay preguntas hasta aquí,
+[7031.08s -> 7039.08s]  preguntas, o todo claro, o está más perdidos que...
+[7051.08s -> 7053.08s]  cuando...
+[7056.08s -> 7059.08s]  cuando nosotros estamos aquí definiendo...
+[7061.08s -> 7066.08s]  cuando nosotros estamos aquí definiendo los...
+[7069.08s -> 7072.08s]  yo deje esto de los no máximos...
+[7072.08s -> 7081.08s]  cuando yo estoy aquí definiendo...
+[7084.08s -> 7094.08s]  de mirar a mis vecinos, fíjense que yo apenas definí cuatro, cuatro que cuatro posibles condiciones,
+[7094.08s -> 7101.08s]  si mi ángulo apunta hacia arriba a la derecha, hacia la derecha, hacia arriba,
+[7102.08s -> 7107.08s]  arriba a la izquierda, y no más,
+[7107.08s -> 7113.08s]  pero cuando usted calcula el arco tangente de su detección horizontal y de su detección vertical,
+[7113.08s -> 7120.08s]  obviamente eso le va a dar valores en el rango de cero a 360,
+[7120.08s -> 7126.08s]  o si usted está en radianes, entonces de menos dos pi a dos pi,
+[7126.08s -> 7131.08s]  o sea le pueden dar esos valores, es continuo,
+[7131.08s -> 7138.08s]  entonces usted qué es lo que tiene que hacer, pues tiene que discretizar estos valores,
+[7138.08s -> 7144.08s]  o sea los valores que tiene su matriz de direcciones de gradiente, que si es 10 grados,
+[7148.08s -> 7151.08s]  entonces eso está más cerca de qué,
+[7152.08s -> 7157.08s]  eso está más cerca de cero,
+[7160.08s -> 7163.08s]  eso está más cerca de cero, usted tiene que dejarlo en cero,
+[7163.08s -> 7168.08s]  que me dio 47 grados, eso está más cerca de 45,
+[7174.08s -> 7177.08s]  es decir está más cerca de esto que está acá,
+[7178.08s -> 7184.08s]  queda que me dio 120 grados, está más cerca de 135,
+[7185.08s -> 7189.08s]  que me dio 98 grados, eso está más cerca de 90,
+[7192.08s -> 7197.08s]  que está apuntando hacia abajo, completamente hacia abajo,
+[7198.08s -> 7201.08s]  o sea 270 grados,
+[7202.08s -> 7205.08s]  entonces lo dejas en 90,
+[7205.08s -> 7207.08s]  porque pues mirando para arriba o mirando para abajo,
+[7207.08s -> 7210.08s]  en este paso de la supresión de los máximos,
+[7210.08s -> 7213.08s]  tienes que mirar tanto el de arriba como el de abajo,
+[7216.08s -> 7219.08s]  obviamente hay un paso ahí que la discretización,
+[7219.08s -> 7222.08s]  o bueno normalización más bien sería la palabra,
+[7222.08s -> 7225.08s]  normalizar esos grados,
+[7226.08s -> 7231.08s]  para que sólo me resulten 4 posibles grados,
+[7231.08s -> 7234.08s]  mirando hacia arriba, arriba a la derecha,
+[7234.08s -> 7238.08s]  arriba a la izquierda y completamente horizontal,
+[7241.08s -> 7244.08s]  ya usted ya sabe que en la supresión de los máximos,
+[7244.08s -> 7246.08s]  entonces si está apuntando hacia arriba,
+[7246.08s -> 7248.08s]  entonces miro el de arriba y el de abajo,
+[7248.08s -> 7252.08s]  si está apuntando hacia arriba a la izquierda,
+[7252.08s -> 7256.08s]  entonces usted tiene que mirar el de arriba a la izquierda
+[7256.08s -> 7260.08s]  y el de abajo a la derecha, desde el pincel donde está parado,
+[7261.08s -> 7265.08s]  si está hacia la derecha completamente,
+[7265.08s -> 7268.08s]  entonces tiene que mirar el de la derecha y el de la izquierda,
+[7268.08s -> 7271.08s]  y si mira hacia arriba a la derecha,
+[7271.08s -> 7275.08s]  entonces tiene que preguntar por el de arriba a la derecha
+[7275.08s -> 7277.08s]  y el de abajo a la izquierda,
+[7277.08s -> 7283.08s]  entonces está ese paso que es la normalización,
+[7285.08s -> 7289.08s]  esto ya está implementado, ahí la profesora Patricia
+[7289.08s -> 7296.08s]  dejó un link, eso ya está implementado, eso ya está hecho,
+[7296.08s -> 7299.08s]  hay librerías que hacen esto,
+[7299.08s -> 7304.08s]  pero como este es el momento de usted ya aprender esto,
+[7304.08s -> 7309.08s]  entonces vence la pela de buscar esas referencias
+[7309.08s -> 7311.08s]  para guiarse en el proceso,
+[7311.08s -> 7315.08s]  pero que ustedes puedan implementarlo por ustedes mismos,
+[7315.08s -> 7318.08s]  hacer esa normalización,
+[7318.08s -> 7320.08s]  para que sólo tenga 4 posibles grados,
+[7320.08s -> 7324.08s]  0, 45, 90, 135 y no más,
+[7327.08s -> 7329.08s]  que hagan la supresión de los máximos,
+[7329.08s -> 7332.08s]  o sea que usted solito lo haga,
+[7332.08s -> 7334.08s]  y que haga la esterecis,
+[7334.08s -> 7336.08s]  entonces ya usted sabe quién es la esterecis,
+[7336.08s -> 7340.08s]  hay dos umbrales,
+[7340.08s -> 7343.08s]  hay dos umbrales.
+[7343.08s -> 7345.08s]  Perdón Alejandro,
+[7345.08s -> 7350.08s]  es que hacer este algoritmo más que implementarlo
+[7350.08s -> 7352.08s]  y hacer código,
+[7352.08s -> 7356.08s]  es meterse a la imagen y sentir la imagen,
+[7356.08s -> 7360.08s]  cuando usted es capaz de tocar los pinceles,
+[7360.08s -> 7362.08s]  y mirar a los lados,
+[7362.08s -> 7364.08s]  porque es lo que le toca hacer,
+[7364.08s -> 7366.08s]  usted separa en un pincel,
+[7366.08s -> 7368.08s]  mira a sus vecinos, toma decisiones,
+[7368.08s -> 7370.08s]  sigue buscando,
+[7370.08s -> 7372.08s]  a partir de ese momento,
+[7372.08s -> 7374.08s]  usted es capaz de hacer lo que quiera con las imágenes,
+[7374.08s -> 7376.08s]  porque usted ya sabe cómo pararse en un pincel,
+[7376.08s -> 7378.08s]  moverse a sus alrededores,
+[7378.08s -> 7380.08s]  tomar decisiones,
+[7380.08s -> 7382.08s]  y esto les envía uno para borde,
+[7382.08s -> 7384.08s]  pero llega un momento en que usted tiene que decir
+[7384.08s -> 7386.08s]  cuál es el objeto y cómo hace para,
+[7386.08s -> 7388.08s]  quién le dice cuál es el objeto,
+[7388.08s -> 7390.08s]  usted tiene que poner en algún punto
+[7390.08s -> 7392.08s]  y decir cuál es el objeto,
+[7392.08s -> 7394.08s]  usted tiene que aprender a mirar a sus vecinos,
+[7394.08s -> 7396.08s]  a explorar la imagen al interior,
+[7396.08s -> 7398.08s]  hacer este algoritmo,
+[7398.08s -> 7400.08s]  y ayuda uno a explorar,
+[7400.08s -> 7404.08s]  a entender cómo moverse dentro de una imagen,
+[7404.08s -> 7406.08s]  si usted aprende a hacer eso,
+[7406.08s -> 7410.08s]  ya está listo para hacer lo que quiera con imágenes.
+[7410.08s -> 7412.08s]  Sí, porque, por ejemplo,
+[7412.08s -> 7414.08s]  veo que algunos
+[7414.08s -> 7416.08s]  tienen un código,
+[7416.08s -> 7418.08s]  que eso es generado,
+[7418.08s -> 7420.08s]  sí,
+[7420.08s -> 7422.08s]  pero como yo no puedo
+[7422.08s -> 7424.08s]  controlar eso,
+[7424.08s -> 7426.08s]  porque sólo este de estos cursos,
+[7426.08s -> 7428.08s]  así,
+[7428.08s -> 7430.08s]  pues,
+[7430.08s -> 7432.08s]  resulta que la IAL está generando,
+[7432.08s -> 7434.08s]  sí, que llama a la librería,
+[7434.08s -> 7436.08s]  cani, no sé qué,
+[7436.08s -> 7438.08s]  y entonces tiene, dice,
+[7438.08s -> 7440.08s]  un bra al uno, un bra al dos,
+[7440.08s -> 7442.08s]  y entonces el DIAL CONTROL 2,
+[7442.08s -> 7444.08s]  yo le diré,
+[7444.08s -> 7446.08s]  ah, bueno,
+[7446.08s -> 7448.08s]  y usted porque escogió estos dos valores,
+[7448.08s -> 7450.08s]  y usted no sabe qué son esos dos valores,
+[7452.08s -> 7454.08s]  ah, que son los umbrales,
+[7458.08s -> 7460.08s]  o que usted le dio
+[7460.08s -> 7462.08s]  por jugar,
+[7462.08s -> 7464.08s]  pero sin saber,
+[7464.08s -> 7466.08s]  porque una cosa es jugar,
+[7466.08s -> 7468.08s]  porque usted sabe los rangos
+[7468.08s -> 7470.08s]  en los que se mueven los distintos parámetros,
+[7470.08s -> 7472.08s]  y otra cosa es jugar
+[7472.08s -> 7474.08s]  con los parámetros
+[7474.08s -> 7476.08s]  sin saber,
+[7476.08s -> 7478.08s]  sin tener ni idea de
+[7478.08s -> 7480.08s]  para qué sirven los parámetros.
+[7480.08s -> 7482.08s]  Si usted juega,
+[7482.08s -> 7484.08s]  sin tener idea,
+[7484.08s -> 7486.08s]  si ven los parámetros,
+[7486.08s -> 7488.08s]  entonces usted pone parámetros ahí,
+[7488.08s -> 7490.08s]  y tal vez,
+[7490.08s -> 7492.08s]  capaz que ni se dio cuenta
+[7492.08s -> 7494.08s]  para qué sirvieron.
+[7494.08s -> 7496.08s]  Sí, otra cosa,
+[7496.08s -> 7498.08s]  me parece bien
+[7498.08s -> 7500.08s]  cuando los grupos
+[7500.08s -> 7502.08s]  muestran gráficamente
+[7502.08s -> 7504.08s]  los resultados de cada paso,
+[7504.08s -> 7506.08s]  porque así pueden entender
+[7506.08s -> 7508.08s]  qué es lo que está pasando
+[7508.08s -> 7510.08s]  en cada paso.
+[7510.08s -> 7512.08s]  Así sean cosas
+[7512.08s -> 7514.08s]  secuenciales, o sea,
+[7514.08s -> 7516.08s]  que el resultado de esto me sirve
+[7516.08s -> 7518.08s]  para la entrada
+[7518.08s -> 7520.08s]  del siguiente paso,
+[7520.08s -> 7522.08s]  así como lo hicimos ahora.
+[7525.08s -> 7527.08s]  Sí, hay preguntas.
+[7539.08s -> 7541.08s]  Como acordamos la clase pasada,
+[7541.08s -> 7543.08s]  esto queda para el control número 2.
+[7543.08s -> 7545.08s]  Sí, en el campus está la lista
+[7545.08s -> 7547.08s]  de lo que es para el control 1.
+[7548.08s -> 7550.08s]  El que quiera, sin embargo,
+[7550.08s -> 7552.08s]  hacer esto
+[7552.08s -> 7554.08s]  para el control 1, pues bienvenido
+[7554.08s -> 7556.08s]  y, sí,
+[7556.08s -> 7558.08s]  igual la nota máxima es 5.
+[7559.08s -> 7561.08s]  Cada miembro del grupo será
+[7561.08s -> 7563.08s]  evaluado.
+[7563.08s -> 7565.08s]  Sí.
+[7565.08s -> 7567.08s]  Por tanto, tienen que estar todos.
+[7568.08s -> 7570.08s]  Y el que no esté, pues,
+[7570.08s -> 7572.08s]  entonces no tendrá la nota.
+[7574.08s -> 7576.08s]  Sí, porque yo no puedo darme cuenta
+[7576.08s -> 7578.08s]  si el que
+[7578.08s -> 7580.08s]  faltó, fue el que más trabajó,
+[7580.08s -> 7582.08s]  que no debería ser así.
+[7582.08s -> 7584.08s]  Pero no puedo darme
+[7584.08s -> 7586.08s]  yo cuenta de eso.
+[7588.08s -> 7590.08s]  Todos van a ser preguntados,
+[7590.08s -> 7592.08s]  todos van a ser evaluados.
+[7592.08s -> 7594.08s]  Recuerden que a mí me gusta mucho
+[7594.08s -> 7596.08s]  esos detalles finos de, bueno,
+[7596.08s -> 7598.08s]  y vi este valor usted porque lo puso.
+[7598.08s -> 7600.08s]  ¿Y esto por qué?
+[7600.08s -> 7602.08s]  ¿Por qué llamo esta librería?
+[7610.08s -> 7612.08s]  Espero, espero,
+[7612.08s -> 7614.08s]  no recibir correos
+[7614.08s -> 7616.08s]  de, de,
+[7616.08s -> 7618.08s]  de grupos, o sea,
+[7618.08s -> 7620.08s]  de que espero, pues,
+[7620.08s -> 7622.08s]  si, si está sucediendo,
+[7622.08s -> 7624.08s]  pues tienen que mandarlo,
+[7624.08s -> 7626.08s]  pero esperaría yo.
+[7626.08s -> 7628.08s]  Mi gran esperanza es que no hayan correos
+[7628.08s -> 7630.08s]  de
+[7630.08s -> 7632.08s]  grupos
+[7632.08s -> 7634.08s]  diciendo es que
+[7634.08s -> 7636.08s]  solo yo trabajé
+[7636.08s -> 7638.08s]  y los otros tres se desaparecieron,
+[7638.08s -> 7640.08s]  pero no han cancelado.
+[7640.08s -> 7642.08s]  Pues no quisiera ver eso,
+[7642.08s -> 7644.08s]  la verdad.
+[7644.08s -> 7646.08s]  Porque ya,
+[7646.08s -> 7648.08s]  muchos de ustedes ya están para graduarse.
+[7654.08s -> 7656.08s]  Bien.
+[7658.08s -> 7660.08s]  Bueno, entonces,
+[7660.08s -> 7662.08s]  a implementar esto
+[7664.08s -> 7666.08s]  con su imagen plana
+[7666.08s -> 7668.08s]  y con sus,
+[7668.08s -> 7670.08s]  sus otras imágenes.
+[7670.08s -> 7672.08s]  ¿Listo?
+[7676.08s -> 7678.08s]  Recuerden, dentro de ocho días,
+[7678.08s -> 7680.08s]  el control uno, si, si es que
+[7680.08s -> 7682.08s]  no hay flexibilidad,
+[7682.08s -> 7684.08s]  como hoy.
+[7684.08s -> 7686.08s]  Entonces, entramos de una,
+[7686.08s -> 7688.08s]  el primer grupo, comparte su pantalla
+[7688.08s -> 7690.08s]  y empieza, empieza a hablar.
+[7690.08s -> 7692.08s]  Hay preguntas
+[7692.08s -> 7694.08s]  sobre eso.
+[7706.08s -> 7708.08s]  Bueno,
+[7708.08s -> 7710.08s]  si no hay preguntas, entonces,
+[7710.08s -> 7712.08s]  nada.
+[7712.08s -> 7714.08s]  Que tengan buen resto de día
+[7714.08s -> 7716.08s]  y nos vemos entonces.
+[7716.08s -> 7718.08s]  Profes,
+[7718.08s -> 7720.08s]  tengo una dudita, pero es,
+[7720.08s -> 7722.08s]  aparte de lo del tema, para que me regale
+[7722.08s -> 7724.08s]  un segundo ahorita que
+[7724.08s -> 7726.08s]  terminamos aquí la clase.
+[7726.08s -> 7728.08s]  Bueno.
+[7730.08s -> 7732.08s]  Gracias, Profesor León.
+[7732.08s -> 7734.08s]  Hasta luego.

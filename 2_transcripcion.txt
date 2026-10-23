@@ -1,0 +1,1942 @@
+[0.00s -> 10.82s]  no tenemos idea o no queremos estar, por ejemplo, si es la que hace pasada, así que en nuestra
+[10.82s -> 16.30s]  revisión cuarta y contabilidad pues nos toca, nos toca qué? Pues nos toca aprender un poquito
+[16.30s -> 21.70s]  de contabilidad, no quiere decir que nos vayamos a volver a dar contadores, no, pero sí que
+[21.70s -> 27.54s]  cuando nos toca trabajar con un contador, pues le podemos entender un poquitipo y no
+[27.54s -> 31.12s]  por el tiempo de decirle qué es esto y qué es esto y qué es esto, porque es algo que
+[31.12s -> 33.42s]  vamos a cuidar para la situación, ¿sí?
+[35.48s -> 43.46s]  Pero creo que no todo el mundo tiene la misma paciencia que el persona, su amigo, su pareja,
+[43.46s -> 47.34s]  incluso a veces en esos casos hay rosa, ¿no?
+[49.70s -> 54.94s]  Nos quedan un método profesional que usted empieza a preguntar mucho qué es esto, qué es esto,
+[54.94s -> 59.54s]  qué es aquello, pues le empiezan a hacer a busca con la cara, ¿sí?
+[59.54s -> 63.68s]  Entonces, ahorita, pues si la distorsión de adultos es esto, entonces si a usted le
+[63.68s -> 71.58s]  empiezan a hablar qué de propósito de investigación, qué de comité ética, qué de estas cosas
+[71.58s -> 79.78s]  en medicina, los que van a trabajar con cosas médicas en su trabajo de grado, pues si o si
+[79.78s -> 84.70s]  les toca familiarizarse con esos términos, el psiquiatra con el que nosotros trabajamos,
+[84.70s -> 92.46s]  es muy paciente, muy jovial, muy, sí, pero puede ser que uno le toque trabajar con otra
+[92.46s -> 102.90s]  gente que, bueno, que no sea paciente y le diga, ah, es usted de saberlo, y tal, le pasó.
+[104.14s -> 112.02s]  Entonces, en ese curso nosotros vimos varias, varias cosas con que ese protocolo de
+[112.02s -> 120.42s]  investigación, cómo se deben tratar los datos de los pacientes, la ética, el estudio de los
+[120.42s -> 129.62s]  pacientes. Estas pruebas que se hacen no son, no son, no son para nada invasivas, ¿sí? Es decir,
+[129.62s -> 137.98s]  no se le va a abrir la cabeza a la persona, no se le va a administrar algún fármaco que haga que
+[137.98s -> 147.10s]  pues ellos tengan una reacción adversa, pero aún así en esos casos también aplica el curso de buenas
+[147.10s -> 154.18s]  prácticas clínicas. ¿Por qué? Porque sí estamos lidiando en datos personales de pacientes. Los
+[154.18s -> 162.46s]  mismos scans, o sea, los mismos, las mismas imágenes en sí hacen parte de los datos
+[164.50s -> 174.14s]  geométricos de los pacientes, ¿sí? No necesariamente clave que le han tenido a estos, sino esos scans
+[174.14s -> 182.74s]  hacen parte de la información personal de pacientes, ¿sí? Y debe ser tratado con
+[182.74s -> 190.26s]  la privacidad. ¿Qué decían ahí, que era la privacidad? Pues, de que usted no anda regando
+[192.26s -> 198.34s]  como chismes o cosas así, sobre todo de gente que usted probablemente conozca,
+[199.82s -> 203.26s]  ¿sí? No, que es que filano de tal, que posiblemente va a tener este sobreno.
+[204.26s -> 213.38s]  Sí, es por esa clase de cosas, es que se evita, se evita la diluminação de esa información
+[213.38s -> 221.34s]  personal, ¿sí? Entonces nosotros aquí tenemos que aprender cómo anonimizar, cómo anonimizar esa
+[221.34s -> 228.06s]  información, cómo anonimizar esos datos, ¿sí? Le mostraba la clase pasada que todos esos datos
+[228.06s -> 233.74s]  podemos encontrar, en el caso de las maneras de resonación imágenes, las podemos encontrar en el
+[233.74s -> 243.10s]  encabezado, ¿sí? Ahí abajo vamos a hablar un poquito más acerca de eso. Y yo quiero ver es
+[243.10s -> 260.02s]  cuántos estudios hubo de certificado, ¿sí? 30, 30, 30, ¿sí? Bien. Para las personas que
+[260.02s -> 265.82s]  toda esta semana me escribieron que los adicionales, el curso, como en el campus virtual, está el
+[265.82s -> 272.94s]  link. Yo no sé si ustedes vinieron a las clases pasadas. A ver, no sé porque no, no estoy aquí
+[272.94s -> 279.94s]  como pendiente de asistencia en cada de eso. Pero sí les pido que, bueno, en el curso,
+[279.94s -> 288.14s]  o las 8 personas restantes tratan el curso. Envolvó en las prácticas clínicas, porque sí,
+[288.14s -> 297.70s]  es solicitado cuando usted trabaja con las maneras, con cualquier estudio de paciente. Sí. Cuando se va a
+[297.70s -> 306.46s]  hacer un estudio de paciente, lucro seres o menos. ¿Qué pasa por un comité de ética? Todos los
+[306.46s -> 315.54s]  hospitales tienen que tener comités de ética, ¿sí? Donde examinan los estudios que se harán
+[315.54s -> 322.14s]  hacer con paciente, esos estudios tienen que ser más o menos efulgrados. O sea, no puede decir como
+[322.14s -> 326.34s]  que voy a estudiar la cura para el cáncer y tengo un fármato que tiene uranio, por ejemplo.
+[328.34s -> 331.02s]  O sea, es una cosa demasiado arriesgada.
+[333.94s -> 340.34s]  Si la gente no se le puede tanto que están por encima, en nombre de la ciencia. Así usted tenga la
+[340.34s -> 345.78s]  cura para el cáncer que involucremos de uranio, más plutonio, más otra cosa por ahí, varica,
+[345.78s -> 352.58s]  y que usted diga que eso sí sirve. Usted les llega a administrar eso a las personas y puede que sí,
+[352.58s -> 358.70s]  les pude el cáncer. Puede ser tan prometido, pero puede que tengan una reacción, al verse que
+[358.70s -> 367.82s]  los pueda dejar, no sé, para pléjico, deporvida, o les atrofia el cerebro, cosas así. Tiene que
+[367.82s -> 376.94s]  haber un equilibrio entre entre el objeto de estudio, pero también respecta la vida de las
+[376.94s -> 383.42s]  personas. Que si ellos se pueden retirar de los estudios, que no hay ningún tipo de inmersión.
+[385.98s -> 391.74s]  Es decir, que si un paciente se quiere retirar del estudio, no hay de que hay, pero es que yo
+[391.74s -> 394.86s]  participé en un estudio, pero me quedé con la pierna mala.
+[397.86s -> 406.74s]  Te deberías retornar a tu vida normal, estando en óptimas al cien por cien, en óptimas condición.
+[410.34s -> 417.38s]  Si nosotros no vamos a administrar ránicos, no vamos a nada de eso, pero sí vamos a
+[417.38s -> 422.54s]  tratar con el dato de pacientes y por eso está bien sigue siendo dominador este curso.
+[422.70s -> 427.86s]  ¿Bien? ¿Ustedes le van a pasar las imágenes?
+[429.58s -> 435.74s]  Si usted empieza a procesar eso, pero aún así en usted responsable, porque se está tratando
+[435.74s -> 444.70s]  con datos de seres humanos, tanto de pacientes. Y aquí estamos tratando ya de administrar
+[444.70s -> 450.22s]  otros terrenos, los oligales, porque ya hay tantos obligaciones sobre el caso de los
+[450.22s -> 454.06s]  presidenciales y para el editor de adhesión médicos.
+[456.06s -> 461.42s]  Y el personal puede darse una demanda por no haber hecho una de las cosas.
+[462.30s -> 466.90s]  Cuando usted tiene una comité ética, cuando usted tiene toda la investigación que va a
+[466.90s -> 470.94s]  la espalda, nuestro mestre trabaja con la opción de ir listo en el problema.
+[471.90s -> 479.02s]  Pero cuando usted hace las cosas así como de tubos móvil y tal, le creeré que no suben
+[479.02s -> 488.14s]  activo tanto peso. Eso no es de esta roneda, pero sí es en el bastante cuidado cuando se
+[488.14s -> 496.78s]  trabajan con esta clase de pedales. Es a las ocho personalitas que se ven opuesto,
+[496.78s -> 504.14s]  pero a las otras 30 mil bien, bacano que hicieron, porque podemos ir avanzando un poquito más.
+[505.18s -> 509.26s]  No sé si alguien tiene alguna pregunta aquí, algo.
+[509.26s -> 526.38s]  Yo les quiero compartir, a usted me voy a compartir dos cosas.
+[526.38s -> 537.50s]  Me voy a compartir.
+[537.50s -> 544.50s]  de la caída.
+[552.50s -> 557.50s]  Entonces, me voy a contratir
+[557.50s -> 562.50s]  una carpeta, esta primera carpeta.
+[567.50s -> 586.72s]  esta primera carpeta, y ahora en esa carpeta y la agreguen a su categoría, mientras tanto
+[586.72s -> 598.96s]  vayan abriendo un archivo en Google Colab, y hagan una variable como la ruta a esa carpeta
+[598.96s -> 613.52s]  y colocan la ruta a esa carpeta con los acentres. Todos tienen computador, ¿cierto?
+[613.52s -> 619.40s]  ¿Tú también computan ahora teniéndome?
+[619.40s -> 624.04s]  ¿cierto?
+[624.04s -> 631.44s]  Señor, pues por favor vamos haciendo eso, repito, agregue esa carpeta a su propio drive,
+[631.44s -> 639.96s]  o sea, me hablo dicho, copiena, copiena, si yo muevo esa ubicación, pues allá se teme el problema.
+[661.44s -> 685.16s]  Y vamos a hacer lo mismo con esta otra carpeta.
+[685.16s -> 699.28s]  Y esa iba en 2, pues vamos haciendo eso.
+[699.28s -> 718.80s]  Bueno, las personas que están llegando, por favor, estoy compartiendo en el chat unas
+[718.80s -> 729.60s]  carpetas con los acentres. Necesito que por favor las agreguen a su propio drive, es decir,
+[729.60s -> 736.88s]  que las copien, abran un archivo en Colab y al partir de ese archivo en Colab creen una
+[736.88s -> 763.56s]  variable en Python que apunte hacia esa esa carpeta que usted es, ¿cierto?
+[826.88s -> 856.68s]  Y por favor, hacer lo mismo con esta tercera carpeta.
+[856.68s -> 868.56s]  Si quieren este tercer archivo, colóquenlo en su drive, en una carpeta que se llame icono,
+[868.56s -> 885.32s]  es cuando ustedes, cuando ya hayan hecho eso, por favor, pues escriban en el chat o en el
+[885.32s -> 903.44s]  chat, ya lo hice, necesito por favor. El archivo del segundo y tercer link lo metemos en una
+[903.44s -> 914.56s]  misma carpeta. No, no, no, en carpetas separadas. O sea, los tres en carpetas separadas. Entonces,
+[914.56s -> 926.48s]  usted va al Google Colab y en tres variables distintas coloca en la ruta a esas tres,
+[926.48s -> 937.20s]  a esos tres elementos que les puso. Variable uno, la ruta al primero, variable dos, la ruta
+[937.20s -> 945.84s]  del segundo y así con el tercer. ¿Pero que las carpetas, ¿algún nombre específico para acá uno?
+[945.84s -> 958.64s]  No, pues, por ejemplo, la primera, pues puede ser, o sea, la tercera, pues póngale DICOM para hacer.
+[958.64s -> 972.60s]  DICOM? DICOM, DICOM. Recordemos que DICOM es el estándar que nos permite cambiar imágenes de
+[972.60s -> 982.32s]  resonación más dinéticas y tomografías utilizadas de pacientes. El estándar DICOM, o sea, yo les
+[982.32s -> 992.20s]  expliqué la clase pasada que una imagen de esas es como un pan tajado pero tridimensional. Tajado,
+[992.20s -> 1000.28s]  yo solo puedo hacer tajadas en una sola dimensión, pero en estas imágenes yo puedo hacer tajadas en
+[1000.28s -> 1008.76s]  las tres dimensiones, ¿sí? Vista axial, vista coronal y vista sagital. Eso es lo mismo en la clase
+[1008.76s -> 1021.84s]  pasada. En las imágenes, en el estándar DICOM, yo no puedo transportar ese objeto tridimensional como
+[1022.00s -> 1032.44s]  un objeto tridimensional. Entonces, ¿qué ocurre? O sea, todas esas tajadas, digamos así, todos esos
+[1032.44s -> 1043.12s]  cortes se toman como archivos individuales, ¿sí? Tenemos el otro estándar, el otro formato,
+[1043.44s -> 1054.00s]  que es el formato NIFTY, que ese formato, sí, en un solo archivo yo traigo toda, o sea,
+[1055.16s -> 1064.72s]  toda la representación en tres dimensiones del escaneo del paciente. El estándar DICOM,
+[1064.72s -> 1071.00s]  además de lo que les mencioné, de tener archivos individuales, también es toda una filosofía,
+[1071.72s -> 1080.28s]  porque en ese estándar, o sea, no solamente va a decir hay formas de guardar un archivo, sino que
+[1080.28s -> 1089.00s]  también es toda la información del encabezado, la forma como se adquieren las imágenes, la forma
+[1089.00s -> 1094.28s]  que no se codifican las imágenes, toda esta cuestión hace parte del estándar DICOM, o sea,
+[1094.28s -> 1102.72s]  además de una filosofía estándar y todo esto. NIFTY, sí, es más como un solo formato de archivo,
+[1102.72s -> 1109.32s]  donde se compactan todos esos archivos individuales en una única representación tridimensional,
+[1109.32s -> 1121.40s]  ¿sí? El formato, el formato DICOM, o sea, el estándar DICOM, cada uno de esos archivos tiene
+[1121.40s -> 1132.28s]  el formato punto DICOM, ¿sí? El tercer archivo que les mandé tiene ese formato, ¿por qué les mandé
+[1132.28s -> 1142.00s]  un tercer archivo solo uno? Porque son un montón, o sea, recordemos, puros cortes de cada paciente,
+[1142.60s -> 1150.04s]  pero pues en este momento, o sea, pues les pide eso, o sea, la capeta, en realidad, no les dije que
+[1150.04s -> 1154.96s]  la llamaran DICOM, mi capeta DICOM pesa dositas y medio y en este momento les voy a mandar dos
+[1154.96s -> 1164.52s]  y dos, tres, tres, dos, ¿sí? Por simplicidad, por simplicidad, que tendremos esto, es decir,
+[1165.52s -> 1173.72s]  un solo archivo, solamente va a morir un archivo de ahorita, ¿sí? Les mando de otros tres,
+[1173.72s -> 1180.52s]  encontró dos adicionales, uno de ellos es el segundo, es de tomografía, pero en el primero
+[1180.52s -> 1187.68s]  es de tomografía, o sea, el que tiene, por nombre directorio, un número largo, es tomografía
+[1187.68s -> 1194.36s]  computabilizada, pero unas personas que están inscritas en este grupo, en este curso, van a
+[1194.36s -> 1202.56s]  trabajar con imágenes de tomografía. ¿Quiénes son? En sus trabajos de grado, van a trabajar con
+[1202.56s -> 1219.48s]  imágenes de tomografía. ¿Quiénes son? ¿Aura? ¿Quién más? ¿Quiénes más? ¿Quiénes van a trabajar? Aparte
+[1219.48s -> 1233.72s]  ¿Laura? ¿Vale la pena entonces de cuál es la diferencia? ¿Cuál es la diferencia de las imágenes
+[1233.72s -> 1238.48s]  de tomografía computabilizada y las imágenes de resonación magnética? Pesar de que yo las
+[1238.48s -> 1248.24s]  puedo tener en archivos de home, ¿sí? Es la forma como se capturan las imágenes y obviamente lo
+[1248.24s -> 1256.88s]  que están los boxeles de la imagen, lo que varía, obviamente. Si no, pues estaríamos hablando del
+[1256.88s -> 1262.92s]  mismo método de captura, ¿no? No hablaríamos de tomografía por un lado y de resonancia magnética
+[1262.92s -> 1273.44s]  por el otro lado, ¿sí? Eso vamos a ver en este nuevo tico. ¿Qué hubo? ¿Cómo les ha ido ya con lo que les pedí?
+[1279.24s -> 1286.96s]  Si ustedes quieren el Google Colab que abran, si quieren lo pueden trabajar así individual pues
+[1286.96s -> 1293.12s]  para el tema de la clase o si quieren pues lo pueden compartir con los con los miembros de su grupo,
+[1293.12s -> 1300.40s]  no hay problema para que entre todos vayan ahí editando el mismo archivo o si quieren individual y
+[1300.40s -> 1310.60s]  ya después cuando estén trabajando con lo de su grupo pues allí, pues allí, pues allí,
+[1312.60s -> 1321.56s]  trabajando sobre el mismo archivo, no quiera. Por favor vayan escribiendo si ya terminaron.
+[1360.40s -> 1362.40s]  Subtítulos por la comunidad de Amara.org
+[1390.40s -> 1391.40s]  Subtítulos por la comunidad de Amara.org
+[1420.40s -> 1421.40s]  Subtítulos por la comunidad de Amara.org
+[1450.40s -> 1451.40s]  Subtítulos por la comunidad de Amara.org
+[1451.40s -> 1452.40s]  Subtítulos por la comunidad de Amara.org
+[1452.40s -> 1453.40s]  Subtítulos por la comunidad de Amara.org
+[1453.40s -> 1454.40s]  Subtítulos por la comunidad de Amara.org
+[1454.40s -> 1455.40s]  Subtítulos por la comunidad de Amara.org
+[1455.40s -> 1456.40s]  Subtítulos por la comunidad de Amara.org
+[1456.40s -> 1457.40s]  Subtítulos por la comunidad de Amara.org
+[1457.40s -> 1458.40s]  Subtítulos por la comunidad de Amara.org
+[1458.40s -> 1459.40s]  Subtítulos por la comunidad de Amara.org
+[1459.40s -> 1460.40s]  Subtítulos por la comunidad de Amara.org
+[1460.40s -> 1461.40s]  Subtítulos por la comunidad de Amara.org
+[1461.40s -> 1462.40s]  Subtítulos por la comunidad de Amara.org
+[1462.40s -> 1463.40s]  Subtítulos por la comunidad de Amara.org
+[1463.40s -> 1464.40s]  Subtítulos por la comunidad de Amara.org
+[1464.40s -> 1465.40s]  Subtítulos por la comunidad de Amara.org
+[1465.40s -> 1466.40s]  Subtítulos por la comunidad de Amara.org
+[1466.40s -> 1467.40s]  Subtítulos por la comunidad de Amara.org
+[1467.40s -> 1483.40s]  No veo más mensajes en el chat, necesito que por favor vayan escribiendo en el chat si ya hicieron lo que les dije, no para pedir avanzar.
+[1483.40s -> 1487.40s]  Listo bro, pero...
+[1487.40s -> 1491.40s]  Pero qué?
+[1492.40s -> 1502.40s]  Pues ya se dieron la carpeta, ya está descargado, pero no exactamente si quieres que ya visualicemos algo...
+[1502.40s -> 1516.40s]  No, no, no, no, no, ahí. En el Google collab haga tres variables donde cada una es un stream con la ruta a cada una de las fotos que les maté.
+[1516.40s -> 1519.40s]  Listo, listo, listo.
+[1519.40s -> 1528.40s]  Ustedes les enseñé cómo copiar la ruta de acceso en el árbol de archivos de Google
+[1528.40s -> 1538.40s]  Colab que apunte directamente a su archivo de Google Drive.
+[1538.40s -> 1548.40s]  Aún no es viven, bueno, por acá, bueno, los demás.
+[1548.40s -> 1550.40s]  Pero ustedes no tienen la...
+[1550.40s -> 1552.40s]  Un momento, cópidame.
+[1552.40s -> 1557.40s]  Ustedes no tienen la psicosis de que sienten que está tembla.
+[1557.40s -> 1559.40s]  Yo sí, en esta silla.
+[1559.40s -> 1561.40s]  Bien.
+[1561.40s -> 1588.40s]  Esa primera carpeta, Cristian, dijo que era hora de una resonancia o tomografía, ¿me recuerda, porfa?
+[1588.40s -> 1593.40s]  La carpeta que tiene por nombre...
+[1593.40s -> 1596.40s]  La carpeta que tiene por nombre, un número.
+[1596.40s -> 1599.40s]  Dice cincuenta y ocho.
+[1599.40s -> 1601.40s]  No, cincuenta y cuatro ochenta y siete.
+[1601.40s -> 1602.40s]  Okay.
+[1602.40s -> 1605.40s]  Y un bajo de dos mil seis, cero uno, cero uno.
+[1605.40s -> 1608.40s]  Esa es una tomografía.
+[1608.40s -> 1611.40s]  ¿Sí?
+[1611.40s -> 1617.40s]  La carpeta del com, que es una resonancia.
+[1618.40s -> 1620.40s]  Perdón, la imagen.
+[1620.40s -> 1625.40s]  Uy, que les dije que pusieran en la carpeta del com.
+[1625.40s -> 1633.40s]  Que esa imagen tiene por nombre uno, punto tres, punto doce, punto dos, punto, bueno, eso sí, un número de largísimo.
+[1633.40s -> 1637.40s]  Ese archivo corresponde a una resonancia.
+[1637.40s -> 1643.40s]  A uno de los slides de una resonancia magnética.
+[1643.40s -> 1648.40s]  Y la otra imagen que les compartí, que se llama, ¿cómo era?
+[1648.40s -> 1650.40s]  Dipón de CM.
+[1650.40s -> 1657.40s]  Esa corresponde a otra resonancia magnética, pero es de próstata.
+[1657.40s -> 1664.40s]  La imagen que el slide que les mandé de uno, punto tres, punto dos, punto dos, punto dos, para la verdad.
+[1665.40s -> 1671.40s]  Un paciente del HIV.
+[1671.40s -> 1678.40s]  Así que aquí empieza a trabajar lo que ustedes vieron en ese curso.
+[1678.40s -> 1681.40s]  Todo pues.
+[1681.40s -> 1683.40s]  Bien.
+[1683.40s -> 1687.40s]  Lo que vieron en el curso es en las más prácticas.
+[1688.40s -> 1693.40s]  Vamos a ver cómo podemos abrir esas imágenes.
+[1693.40s -> 1697.40s]  Es que les pregunté si lo hicieron y no respondieron.
+[1697.40s -> 1704.40s]  Y me pregunto, ¿alguien abrió alguna imagen de resonancia magnética?
+[1707.40s -> 1710.40s]  Durante el fin de semana.
+[1711.40s -> 1716.40s]  Vamos ahorita a ver cómo lo podemos hacer.
+[1716.40s -> 1719.40s]  ¿Cómo abrimos una imagen de esa?
+[1719.40s -> 1726.40s]  Entonces, ahora, en el archivo del Google collab, por favor,
+[1726.40s -> 1729.40s]  installen pyd.com.
+[1729.40s -> 1731.40s]  ¿De acuerdo?
+[1731.40s -> 1733.40s]  ¿Como ejecutar comandos?
+[1733.40s -> 1736.40s]  O sea, recuerden collab es para Python, ¿no?
+[1736.40s -> 1739.40s]  Pero yo también puedo ejecutar comandos de Linux,
+[1739.40s -> 1742.40s]  porque recuerden que ahí estamos en un ambiente de ejecución.
+[1742.40s -> 1747.40s]  Google nos prestan 120 gigas de disco duro,
+[1747.40s -> 1751.40s]  12 gigas de RAM, tanto procesador.
+[1751.40s -> 1755.40s]  Y estamos ahí en un Linux en la nube.
+[1755.40s -> 1759.40s]  Por favor, instalen pyd.com.
+[1759.40s -> 1762.40s]  ¿Se acuerdan cómo ejecutar comandos de Linux?
+[1762.40s -> 1767.40s]  Directamente desde una celda en Google collab, ¿se acuerdan?
+[1767.40s -> 1769.40s]  Yo le enseñé eso.
+[1776.40s -> 1778.40s]  ¿Se acuerdan? ¿Alguien se acuerda?
+[1780.40s -> 1782.40s]  Sí, señor.
+[1782.40s -> 1784.40s]  Signo de exclamación.
+[1784.40s -> 1786.40s]  Con el signo de exclamación.
+[1786.40s -> 1790.40s]  Entonces, por favor, instalen pyd.com.
+[1792.40s -> 1794.40s]  Gracias, señor.
+[1823.40s -> 1825.40s]  Por favor, la pregunta.
+[1825.40s -> 1828.40s]  ¿Para la primera carpeta hay alguna archivo en particular
+[1828.40s -> 1831.40s]  que vamos a apuntar para esa primer ruta?
+[1833.40s -> 1838.40s]  No, o sea, simplemente es la ruta al archivo di.com.
+[1841.40s -> 1845.40s]  Abre y abre todos los directores y copia.
+[1845.40s -> 1848.40s]  Y copia da la carpeta.
+[1848.40s -> 1852.40s]  Perdón, copia la ruta a ese archivo di.com.
+[1852.40s -> 1856.40s]  Y la pega en la variable que usted tiene.
+[1856.40s -> 1858.40s]  Obviamente como string, ¿no?
+[1858.40s -> 1860.40s]  Tiene que ser un string.
+[1860.40s -> 1862.40s]  ¿Qué hubo los demás?
+[1878.40s -> 1880.40s]  O sea, buscando lo que tengo ahí en la carpeta,
+[1880.40s -> 1883.40s]  lo que usted va a hacer por esa comunidad, ¿verdad?
+[1883.40s -> 1885.40s]  Entra esa corada o que te acercas un poco a tu mismo
+[1885.40s -> 1887.40s]  y configuradas por lo que mandó a alguien
+[1887.40s -> 1889.40s]  con el nombre de tu carpeta, ¿sí?
+[1891.40s -> 1893.40s]  ¿Qué? No entendí nada.
+[1898.40s -> 1900.40s]  No entendí nada, Kevin.
+[1908.40s -> 1910.40s]  No entendí nada.
+[1916.40s -> 1918.40s]  Ok, bueno.
+[1919.40s -> 1922.40s]  ¿Qué se está explicando lo que están haciendo?
+[1922.40s -> 1925.40s]  Yo les compartí tres links.
+[1925.40s -> 1929.40s]  Por favor, copia en eso en su Google Drive.
+[1933.40s -> 1935.40s]  Les compartí tres links.
+[1935.40s -> 1937.40s]  O copien en su Google Drive.
+[1937.40s -> 1939.40s]  Le dan agregar a mi Drive.
+[1939.40s -> 1941.40s]  O sea, que lo copian.
+[1941.40s -> 1944.40s]  Para que estén en su propio Drive.
+[1944.40s -> 1947.40s]  Ahora, abren un archivo de Google Cloud.
+[1947.40s -> 1949.40s]  Crean tres variables.
+[1951.40s -> 1954.40s]  Y cada una de esas variables es un string
+[1954.40s -> 1957.40s]  con la ruta a cada una de esas tres cosas
+[1957.40s -> 1959.40s]  que les compartí.
+[1959.40s -> 1963.40s]  Yo les enseñé cómo copiar la ruta de acceso
+[1965.40s -> 1968.40s]  de cualquier archivo carpeta o lo que sea
+[1968.40s -> 1970.40s]  de su Google Drive
+[1970.40s -> 1974.40s]  directamente para que sea leído
+[1974.40s -> 1976.40s]  en Google Cloud.
+[1979.40s -> 1981.40s]  A ver, alguien me puede compartir pantalla
+[1981.40s -> 1984.40s]  y mostrar lo que tiene.
+[1995.40s -> 1997.40s]  Gracias.
+[2025.40s -> 2027.40s]  Ya.
+[2050.40s -> 2052.40s]  A ver lo demás, bueno, lo demás.
+[2052.40s -> 2054.40s]  Ya.
+[2055.40s -> 2058.36s]  lo hicieron por que fue
+[2060.44s -> 2066.08s]  no escriban si ya o si no, si no lo están haciendo, están haciendo otra cosa,
+[2066.08s -> 2070.84s]  por favor, no necesito saber si puedo avanzar.
+[2070.84s -> 2075.64s]  Pero por acá sí, sí, lo demás
+[2076.20s -> 2080.56s]  bueno, entonces
+[2080.72s -> 2087.28s]  vamos a abrir la primera, vamos a abrir la primera imagen
+[2087.28s -> 2093.32s]  si, la del archivo.dcm
+[2094.32s -> 2098.68s]  vamos a abrir esa primera imagen
+[2105.20s -> 2108.20s]  y como hacemos
+[2109.16s -> 2116.28s]  primero yo le voy a mostrar de nuevo
+[2116.28s -> 2121.72s]  esto ya lo habíamos hablado, como
+[2122.72s -> 2127.68s]  ahí se llama lo que toca ensalar de Python la librería Python.com
+[2127.68s -> 2136.92s]  Google Cloud tiene instalado un montón de librerías en Google Cloud
+[2137.04s -> 2141.08s]  pero pues por infortunidad no tiene instalado
+[2141.08s -> 2144.08s]  justamente lo que necesito y la tenemos que instalar.
+[2144.08s -> 2148.92s]  Entonces, nos toca instalar Python.com
+[2148.92s -> 2152.20s]  tenisando el texto de paquetes PIP
+[2152.20s -> 2155.64s]  que se cuesta en los paquetes de librerías
+[2155.64s -> 2160.36s]  ya sé que se encarga de instalar librerías Python.
+[2160.36s -> 2165.24s]  Entonces, una vez ya instalado
+[2165.28s -> 2168.60s]  todo esto y tal y ya habiendo tenido los
+[2168.60s -> 2175.08s]  los enlaces, otro acceso, los archivos que les mandé
+[2175.08s -> 2178.96s]  nos toca hacer un pequeñísimo paréntesis
+[2178.96s -> 2184.32s]  de volver a mirar cómo podemos abrir una imagen
+[2184.32s -> 2187.72s]  común y corriente en dos dimensiones en
+[2187.72s -> 2192.04s]  donde pues se empieza en Google Cloud
+[2193.00s -> 2197.00s]  este tenemos estas librerías, vamos a ejecutarlas
+[2197.00s -> 2199.96s]  esta librería PIP es muy utilizada para
+[2199.96s -> 2204.60s]  imágenes comunes y corrientes, apng, jpg, si
+[2204.60s -> 2210.00s]  porque recuerden que el que rige las
+[2210.00s -> 2212.92s]  imágenes en dos dimensiones en cualquier
+[2212.92s -> 2216.00s]  formato, sea la cámara web suya, sea la
+[2216.00s -> 2219.08s]  cámara de su teléfono, la de su tableta, la de su computador
+[2219.80s -> 2225.84s]  es el estándar de compresión MPEC
+[2225.84s -> 2228.84s]  en este momento vamos en la versión 7
+[2228.84s -> 2232.44s]  sus de muchos años y vamos en la versión 7
+[2232.44s -> 2235.80s]  o sea, no es una cosa que cambie cada año ni nada de eso
+[2237.64s -> 2241.64s]  les mostré yo a ustedes que ese estándar
+[2241.64s -> 2244.72s]  no solamente me habla bien en la compresión que
+[2244.80s -> 2255.80s]  tiene la imagen sino también de todo la forma
+[2255.80s -> 2259.80s]  cómo se codifican las imágenes, si
+[2259.80s -> 2265.80s]  vuelvo y repito, les he mencionado a ustedes
+[2265.80s -> 2270.80s]  que el estándar de compresión MPEC es el que rige
+[2270.80s -> 2273.80s]  para todas las imágenes que ustedes tienen
+[2273.88s -> 2278.88s]  ahora que ustedes tienen hasta el iPhone 18
+[2278.88s -> 2281.88s]  la cámara de su teléfono es el estándar de
+[2281.88s -> 2288.88s]  compresión MPEC, no solamente es cómo se
+[2288.88s -> 2290.88s]  comprime una imagen porque la imagen ahí está
+[2290.88s -> 2293.88s]  comprimida porque se sale un montón de gígas
+[2293.88s -> 2296.88s]  para que pecen las cuantas megas está
+[2296.88s -> 2302.88s]  comprimida entonces allí no solamente
+[2302.88s -> 2306.88s]  rige la forma en la que se comprimen las imágenes
+[2306.88s -> 2310.88s]  sino que también rige la forma
+[2310.88s -> 2314.88s]  cómo se estandarizan los encabezados de las imágenes
+[2314.88s -> 2318.88s]  les mostré a ustedes los encabezados de las imágenes
+[2318.88s -> 2322.88s]  cómo funciona todo el tema de los encabezados
+[2322.88s -> 2326.88s]  digamos, se ha comprado una pantalla
+[2326.88s -> 2331.88s]  no, no, no, no, perdón, sí, estoy compartiendo
+[2331.88s -> 2334.88s]  sí, estoy compartiendo
+[2334.88s -> 2338.88s]  pero adicional a ello de forma análoga
+[2338.88s -> 2341.88s]  funciona el estándar de compras en las imágenes
+[2341.88s -> 2344.88s]  de resonación magnética, es decir, no solamente
+[2344.88s -> 2347.88s]  es cómo se adquieren las imágenes y se comprimen
+[2347.88s -> 2351.88s]  y se manejan en archivos sino que también
+[2351.88s -> 2354.88s]  cómo las imágenes tienen encabezados
+[2354.88s -> 2357.88s]  que me brindan a mi gran cantidad de información
+[2357.88s -> 2360.88s]  información del paciente, información incluso
+[2360.88s -> 2364.88s]  del médico, del chuso, de la IPS donde
+[2364.88s -> 2368.88s]  adquirieron las imágenes
+[2368.88s -> 2371.88s]  vamos a ver diferencias en especial en tomografías
+[2371.88s -> 2373.88s]  computabilizadas
+[2373.88s -> 2376.88s]  cómo cambia
+[2376.88s -> 2379.88s]  aún teniendo los mismos valores
+[2379.88s -> 2383.88s]  cómo hay variabilidad en las imágenes
+[2383.88s -> 2387.88s]  dependiendo del equipo utilizado
+[2387.88s -> 2392.88s]  y del sitio donde adquirieron las imágenes
+[2392.88s -> 2395.88s]  eso vamos a ver, y eso sigue siendo un problema
+[2395.88s -> 2398.88s]  que es muy enviado, es decir
+[2398.88s -> 2402.88s]  para las imágenes médicas
+[2402.88s -> 2404.88s]  los grandes avances que se han hecho para imágenes
+[2404.88s -> 2407.88s]  comunes y corrientes
+[2407.88s -> 2410.88s]  es exactamente lo mismo
+[2410.88s -> 2413.88s]  los mismos valores de intensidad
+[2413.88s -> 2416.88s]  si hay un valor de intensidad
+[2416.88s -> 2419.88s]  225, es el mismo 225 si fue tomado
+[2419.88s -> 2422.88s]  con un iPhone 18 o si fue tomado
+[2422.88s -> 2425.88s]  con una cámara web comunicorriente
+[2425.88s -> 2428.88s]  o si fue tomado con un alcatel
+[2428.88s -> 2431.88s]  es el mismo valor de intensidad, pero no podemos decir eso
+[2431.88s -> 2434.88s]  mismo sobre las imágenes de tomografía
+[2434.88s -> 2437.88s]  se va a hacer pacientes
+[2437.88s -> 2440.88s]  vamos a ver por qué pasa eso
+[2445.88s -> 2447.88s]  para eso primero vamos a abrir
+[2447.88s -> 2449.88s]  una imagen comunicorriente para ver
+[2449.88s -> 2452.88s]  qué es lo que hay listo
+[2452.88s -> 2455.88s]  yo tengo mi ruta de imagen comunicorriente
+[2455.88s -> 2457.88s]  esto lo puede hacer
+[2457.88s -> 2459.88s]  no les compartí esta imagen, te lo puede hacer
+[2459.88s -> 2462.88s]  con cualquier imagen
+[2462.88s -> 2465.88s]  abrimos la imagen con la librería
+[2465.88s -> 2467.88s]  pilo
+[2467.88s -> 2469.88s]  esta librería se llama pilo
+[2475.88s -> 2478.88s]  esta librería
+[2480.88s -> 2483.88s]  la librería pilo
+[2483.88s -> 2486.88s]  que tiene un montón de funciones
+[2486.88s -> 2488.88s]  y de métodos
+[2488.88s -> 2490.88s]  recuerda el procesamiento
+[2490.88s -> 2493.88s]  los programas en alentados
+[2493.88s -> 2496.88s]  tiene un montón de métodos asociados
+[2496.88s -> 2499.88s]  procesando imágenes
+[2499.88s -> 2502.88s]  pero esto es para dos dimensiones
+[2502.88s -> 2505.88s]  ya abrimos nuestra imagen
+[2505.88s -> 2508.88s]  y ahora si la imagen está abierta
+[2508.88s -> 2511.88s]  yo les mostré lo que podemos ver
+[2511.88s -> 2514.88s]  en la información de los pizzenes
+[2514.88s -> 2517.88s]  que hablábamos de tres datos
+[2519.88s -> 2522.88s]  que un dato corresponde al canal rock
+[2522.88s -> 2524.88s]  que corresponde al canal verde
+[2524.88s -> 2527.88s]  y otro dato corresponde al canal azul
+[2527.88s -> 2530.88s]  esto es lo que hay en el pizzel
+[2530.88s -> 2533.88s]  00 de mi imagen
+[2533.88s -> 2536.88s]  esto es lo que hay en mi pizzel 00 de mi imagen
+[2536.88s -> 2539.88s]  hablábamos de cuántos pizceles
+[2539.88s -> 2542.88s]  de una imagen
+[2542.88s -> 2544.88s]  tanto pizceles de ancho
+[2544.88s -> 2546.88s]  tanto de alto
+[2546.88s -> 2548.88s]  hablábamos de megapizeles
+[2548.88s -> 2551.88s]  hablábamos de miles de pizceles de ancho
+[2552.88s -> 2555.88s]  entre más pizceles yo tenga
+[2555.88s -> 2558.88s]  a la misma distancia al objeto
+[2558.88s -> 2560.88s]  obviamente voy a tener
+[2560.88s -> 2562.88s]  en cada pizcel
+[2562.88s -> 2564.88s]  me va a representar un marión mucho menor
+[2564.88s -> 2567.88s]  es decir la imagen va a quedar mucho más nítido
+[2567.88s -> 2570.88s]  a eso le llamamos resolución espacial
+[2570.88s -> 2572.88s]  es decir cuánta área del mundo real
+[2572.88s -> 2575.88s]  me puede representar cada pizcel
+[2575.88s -> 2577.88s]  hasta ahí
+[2577.88s -> 2579.88s]  con imágenes de dos dimensiones
+[2579.88s -> 2582.88s]  esto es lo que hace pasar
+[2582.88s -> 2585.88s]  hasta aquí alguna pregunta
+[2592.88s -> 2595.88s]  cuando yo paso al mundo
+[2595.88s -> 2598.88s]  de las imágenes de resolución
+[2598.88s -> 2600.88s]  esta cosa se dice
+[2600.88s -> 2603.88s]  cuando yo paso al mundo
+[2603.88s -> 2606.88s]  de las imágenes de resolución magnética
+[2606.88s -> 2609.88s]  esto es lo que hace la cosa
+[2609.88s -> 2612.88s]  cambió un poquito
+[2612.88s -> 2615.88s]  aquí tengo mi estructura en google drive
+[2615.88s -> 2618.88s]  tengo que cargar
+[2618.88s -> 2621.88s]  yo aquí tengo
+[2621.88s -> 2624.88s]  mi primera imagen
+[2624.88s -> 2627.88s]  la primera imagen de mi edad
+[2627.88s -> 2630.88s]  está con DCM
+[2630.88s -> 2633.88s]  está con DCM
+[2634.88s -> 2636.88s]  y esta mi imagen
+[2636.88s -> 2639.88s]  es la MRI01.dcm
+[2639.88s -> 2641.88s]  ¿cierto que sí?
+[2641.88s -> 2644.88s]  yo les dije a ustedes que estalaran
+[2644.88s -> 2646.88s]  que estalaran
+[2647.88s -> 2650.88s]  esto se me desconectó
+[2657.88s -> 2660.88s]  listo, entonces ¿qué queremos hacer?
+[2660.88s -> 2663.88s]  vamos a hacer lo siguiente
+[2663.88s -> 2666.88s]  vamos a mirar la información
+[2666.88s -> 2669.88s]  que hay
+[2669.88s -> 2672.88s]  en
+[2672.88s -> 2675.88s]  nuestras imágenes de DCM
+[2675.88s -> 2678.88s]  la información de los encabezados
+[2678.88s -> 2681.88s]  entonces
+[2681.88s -> 2684.88s]  vamos a ejecutar
+[2684.88s -> 2687.88s]  si quieren yo les paso este código
+[2688.88s -> 2691.88s]  entonces por favor
+[2691.88s -> 2694.88s]  no ejecutan
+[2694.88s -> 2697.88s]  obviamente
+[2697.88s -> 2699.88s]  usted tiene que cambiar allí
+[2699.88s -> 2702.88s]  donde yo puse el icon path
+[2702.88s -> 2705.88s]  usted va a poner la variable
+[2705.88s -> 2708.88s]  o sea la ruta que usted
+[2708.88s -> 2711.88s]  la ruta del primer
+[2711.88s -> 2714.88s]  del primer director
+[2714.88s -> 2717.88s]  alguien por favor que quiera compartir
+[2717.88s -> 2720.88s]  pantalla y mostrarnos su ejecución
+[2734.88s -> 2737.88s]  yo comparto por favor
+[2737.88s -> 2740.88s]  por todos ustedes
+[2745.88s -> 2764.88s]  pero
+[2764.88s -> 2768.88s]  yo la veo
+[2768.88s -> 2771.88s]  es ahí va a reemplazar
+[2771.88s -> 2776.88s]  de la primera ehh de
+[2776.88s -> 2780.88s]  esta imagen y de
+[2780.88s -> 2783.88s]  la próstata si
+[2801.88s -> 2824.84s]  Ya, creería que, creería que ya.
+[2824.84s -> 2831.88s]  Depreciado, cuéntame.
+[2831.88s -> 2836.68s]  Y muestra se encabezadas,
+[2836.68s -> 2839.36s]  ¿Cómo aliás?
+[2839.36s -> 2840.96s]  ¿Puedo hacer eso ahí?
+[2840.96s -> 2843.16s]  Los demás lo están haciendo, por favor.
+[2843.16s -> 2845.98s]  Necesito que me confirmen lo demás porque después
+[2845.98s -> 2848.28s]  me están diciendo que yo no los pongo.
+[2848.28s -> 2853.04s]  Encontrarse de código que la clase de acción interactiva
+[2853.04s -> 2859.76s]  un montón de cosas que ponen en la evaluación de los cursos. Ahí estamos viendo ya información
+[2859.76s -> 2873.20s]  de los encabezados. Usted puede poner ahí un print de pideja. Recuerda que esto es un diccionario
+[2873.20s -> 2884.24s]  de Python. Python representa el resonancia magnética como un diccionario. Recuerden que
+[2884.24s -> 2889.52s]  un diccionario es un tipo de edad exclusivo de Python, de clave de valor, clave de valor, clave de
+[2889.52s -> 2898.00s]  valor. Yo puedo imprimir el diccionario completico y ver cuáles son todos los atributos que tiene
+[2898.00s -> 2911.52s]  mi imagen. Eso no harían los atributos o son solo encabezados? Sí, sí, sí, o sea, aquí perdón,
+[2911.52s -> 2917.96s]  o sea, es el mismo. Pensé que me estaba hablando específicamente a mí. No, no, es que el diccionario
+[2917.96s -> 2924.72s]  se maneja esos atributos, pero pues aquí en dicón estamos hablando de encabezado, pero como es el
+[2924.72s -> 2931.84s]  tipo de edad diccionario, entonces puedo lo llamar, se me trocaron los cables. Es decir,
+[2931.84s -> 2937.80s]  usted puede darme ahí imprimir todo el diccionario y va a ver ahí todos los encabezados. Sí,
+[2939.24s -> 2945.96s]  hay unos son relacionados con el paciente, otros son relacionados con el fabricante del
+[2945.96s -> 2952.12s]  dispositivo del resonador, de cuenta yo le mostré la clase pasada, como es un resonador,
+[2952.48s -> 2961.92s]  un resonador que es un resonador. O sea, vimos que era un aparato, que eso tiene unos imanes,
+[2961.92s -> 2970.68s]  que eso gira muy alta velocidad y por eso es que está tapado, el paciente lo mete y el paciente
+[2970.68s -> 2975.80s]  cree que no hay nada y pero en realidad lo que hay es unos imanes girando, dice más velocidad,
+[2976.40s -> 2984.32s]  sino pues puede mirar el vídeo de la clase pasada que ahí está, que es un resonador,
+[2984.32s -> 2992.32s]  básicamente, o sea, la imagen de resonancia magnética, lo que hace un resonador es una señal
+[2992.32s -> 3002.12s]  electromagnética, es decir, es muy distinto a una tomografía, que en una tomografía es pura
+[3002.12s -> 3011.60s]  señal de rayos X, es decir, de radiación, la imagen de tomografías es radiación de rayos X,
+[3013.32s -> 3020.48s]  que el que creó los rayos X no sabía cómo llamar, o sea, no sabía qué nombre ponerle a ese
+[3020.48s -> 3028.24s]  invento que hizo, entonces digo pues rayos X, eso es todo, el más no sabía qué nombre ponerle,
+[3028.24s -> 3039.92s]  le puso rayos X y así se quedó, aunque en el alemán se llama el ronken, no se dice rayos X,
+[3039.92s -> 3048.40s]  se dice ronken, que ronken quiere decir radiación, pero bueno, en el español y en el inglés X
+[3048.40s -> 3055.32s]  para Y, en el inglés X para Y, rayos X, hace referencias al tipo que lo inventó, no sabía qué
+[3056.28s -> 3060.88s]  una imagen de tomografía computabilizada es como una versión de rayos X mucho más avanzada,
+[3060.88s -> 3071.44s]  porque son varios ángulos en los que se hace esa toma, es decir, no es lo mismo una imagen de
+[3071.44s -> 3080.04s]  resonancia magnética donde es radiación, perdón, es señal electromagnética producida por los
+[3080.04s -> 3085.68s]  protones después de ser excitados por el campo, por un campo de radiofrecuencia que se crea por
+[3085.68s -> 3095.32s]  esos sonidos que van tirando, es decir, estamos trabajando con campos electromagnéticos en las
+[3095.32s -> 3102.72s]  imágenes de resonancia magnética, mientras que en las imágenes de tomografía son,
+[3103.72s -> 3115.88s]  rayos X, en una imagen de rayos X común y corriente que simplemente se muestra en la radiación,
+[3118.76s -> 3128.96s]  y se capta es lo que la atenuación que hay al impactar esa radiación contra el tejido,
+[3128.96s -> 3140.48s]  por eso es que sirve para ver, por ejemplo, los huesos, porque la atenuación de los huesos es
+[3140.48s -> 3154.00s]  mucho más fuerte que la atenuación de estructuras blandas, grasas, líquidos, bueno, de lo mismo,
+[3154.00s -> 3161.04s]  agua, o sea, líquidos que uno tenga dentro sangre, y por eso es que se ve mejor y se usa más
+[3162.44s -> 3168.72s]  para ver estructuras sólidas, por ejemplo, los huesos, se fractura un brazo, hagas un par de
+[3168.72s -> 3176.76s]  rayos X. Si me aguanto a ver, ¿hay alguna pregunta hasta aquí?
+[3185.68s -> 3192.40s]  Bien, entonces veamos los encabezados que hay allí, veamos los encabezados que hay allí,
+[3193.40s -> 3203.76s]  vemos el fabricante general eléctric, esto es de un paciente que es, no sé dónde es,
+[3203.76s -> 3211.60s]  los Estados Unidos, no sé, bueno, no es de Colombia, este para, esta imagen,
+[3211.60s -> 3223.92s]  ¿puesto? Pregunta a los demás, ¿ejecutaron este mismo código con la ruta de su propio archivo?
+[3229.16s -> 3233.00s]  Entonces ahí tenemos atributos diversos y tal.
+[3233.72s -> 3242.16s]  Bien, y tenemos las intensidades, fíjese, tenemos cuál es la intensidad mínima, el valor mínimo,
+[3242.16s -> 3247.96s]  pues el valor mínimo es cero, pero pues aquí no hay cero presente, entonces es el mínimo que hay,
+[3247.96s -> 3255.16s]  de lo que hay en esa imagen, pero pues podemos ir desde cero en una imagen común y corriente,
+[3255.32s -> 3262.64s]  de cuánto a cuánto es que íbamos, de cero a doscientos cincuenta y cinco, aquí hasta cuánto vamos,
+[3262.64s -> 3275.96s]  vamos de cero a cuánto, abajo donde hay sin intensidades, dice a sesenta y cinco mil,
+[3276.40s -> 3286.16s]  de 156, eso cuánto corresponde?
+[3286.16s -> 3289.16s]  De sesenta y cinco mil.
+[3289.16s -> 3294.36s]  Está cuánto corresponde? Yo lo dije en la clase pasada,
+[3298.16s -> 3300.64s]  eso corresponde a 16 bits.
+[3300.64s -> 3307.64s]  ¿Es una constante? ¿Pues o de qué varía?
+[3307.64s -> 3313.64s]  De fabricante. Ok. De fabricante.
+[3313.64s -> 3317.64s]  Por eso uno siempre tiene que ver la información de la encabezada.
+[3317.64s -> 3321.64s]  No es lo mismo. No es lo mismo.
+[3321.64s -> 3326.64s]  No es lo mismo.
+[3326.64s -> 3332.64s]  Poderlos. O sea, estas tecnologías están evolucionando
+[3332.64s -> 3339.64s]  para intentar emular en este contexto médico
+[3339.64s -> 3345.64s]  los, como decirlo, los established y consolidado,
+[3345.64s -> 3349.64s]  que es la evolución que ha tenido las imágenes planas.
+[3349.64s -> 3352.64s]  Sí, la imagen es plana.
+[3352.64s -> 3361.64s]  Y el término correcto para llamar las imágenes con el corriente son imágenes planas.
+[3361.64s -> 3370.64s]  O sea, nosotros no tenemos ninguna duda de que el 224 que tomamos con el iPhone 18
+[3370.64s -> 3375.64s]  es el mismo 224 que tomamos con el celular cualquiera.
+[3375.64s -> 3379.64s]  Si la imagen se vea más feita, si hay un 224,
+[3379.64s -> 3384.64s]  está haciendo referencia a la misma intensidad de color ya.
+[3384.64s -> 3390.64s]  Mientras que en imágenes de resonancia magnética
+[3390.64s -> 3393.64s]  y en imágenes de tomografía computarizada peor aún,
+[3393.64s -> 3399.64s]  es un poquito más especial el caso por lo que apenas está en evolución.
+[3399.64s -> 3404.64s]  Esto ya lleva muchos años, pero aún así se sigue diciendo que está en evolución.
+[3404.64s -> 3407.64s]  Ahí tenemos unos cuantos ejemplos de pizzeris.
+[3407.64s -> 3410.64s]  Fíjense ahí, fíjense que ahí no tenemos,
+[3410.64s -> 3412.64s]  pero en este caso son boxeles, no?
+[3412.64s -> 3421.64s]  Fíjense que en este caso ya no tenemos cosas de 255 máximo.
+[3421.64s -> 3428.64s]  Fíjense que tenemos 4,220, 3,887 ya los uso últimamente.
+[3428.64s -> 3431.64s]  Ahí estamos utilizando la librería Matplotlips.
+[3431.64s -> 3433.64s]  Si usted puede ir arriba en el código,
+[3433.64s -> 3438.64s]  estamos utilizando la librería Matplotlips para graficar la imagen.
+[3438.64s -> 3441.64s]  ¿Sí?
+[3441.64s -> 3444.64s]  ¡Biban el código!
+[3444.64s -> 3448.64s]  Estamos utilizando la librería Matplotlips para,
+[3448.64s -> 3450.64s]  fíjense que no se puede instalarla,
+[3450.64s -> 3454.64s]  porque ya está instalada en Google Colab.
+[3454.64s -> 3458.64s]  Por casualmente, Pi.com si no está instalada.
+[3458.64s -> 3461.64s]  Y en un Pi, un Pi de las más utilizadas en Python,
+[3461.64s -> 3463.64s]  y no lo soporta al salario,
+[3463.64s -> 3465.64s]  solamente no se puede instalar Pi.com.
+[3465.64s -> 3467.64s]  Entonces, si usted puede bajar,
+[3467.64s -> 3472.64s]  estamos utilizando la librería Matplotlips para graficar.
+[3472.64s -> 3475.64s]  Yo no sé qué conocimiento tienen usted en Python,
+[3475.64s -> 3478.64s]  pero supongo que van grabando otro Python previamente.
+[3478.64s -> 3481.64s]  Entonces, saben de qué le estoy hablando
+[3481.64s -> 3484.64s]  de cuando está libreriendo un Pi Matplotlips,
+[3484.64s -> 3486.64s]  Matplotlips para graficar.
+[3486.64s -> 3488.64s]  ¿No un Pi para qué es?
+[3488.64s -> 3491.64s]  Para toda algebra lineal representación de matrices,
+[3491.64s -> 3493.64s]  tiene operaciones de matrices,
+[3493.64s -> 3496.64s]  tiene operaciones de vectores,
+[3496.64s -> 3499.64s]  para no tenerlas que implementar manualmente.
+[3499.64s -> 3500.64s]  ¿Sí?
+[3500.64s -> 3503.64s]  Ya están hechas y están optimizadas esas operaciones.
+[3503.64s -> 3506.64s]  Entonces, ahí estamos graficando la imagen.
+[3506.64s -> 3510.64s]  Pregunta, si estos monitores que tenemos nosotros,
+[3510.64s -> 3512.64s]  esas preguntas para todos,
+[3512.64s -> 3515.64s]  si estos monitores que tenemos nosotros
+[3515.64s -> 3517.64s]  solamente pueden despliegar 8 bits,
+[3517.64s -> 3520.64s]  es decir, los 16 millones de colores en los canales,
+[3520.64s -> 3523.64s]  robo verde y azul,
+[3523.64s -> 3525.64s]  es 255 a la 3,
+[3525.64s -> 3527.64s]  no es 255 para robo,
+[3527.64s -> 3530.64s]  255 para verde, 255 para azul.
+[3530.64s -> 3533.64s]  Si solamente podemos representar 8 bits,
+[3533.64s -> 3536.64s]  entonces, porque estamos viendo allí,
+[3536.64s -> 3538.64s]  en un monitor de 8 bits,
+[3538.64s -> 3541.64s]  lo que usted y yo tenemos en este momento,
+[3541.64s -> 3544.64s]  por muy avanzado que sea un monitor de 8 bits,
+[3544.64s -> 3547.64s]  porque tenemos entonces una gráfica de imagen,
+[3547.64s -> 3553.64s]  cuyos valores fíjense que están de 1.704.170,
+[3553.64s -> 3557.64s]  es decir, el máximo es 65.136.
+[3560.64s -> 3563.64s]  ¿Por qué entonces lo estamos viendo?
+[3563.64s -> 3575.64s]  ¿Puedes repetir la pregunta, profe?
+[3575.64s -> 3578.64s]  Si nosotros estamos utilizando monitores
+[3578.64s -> 3580.64s]  que pueden visualizar,
+[3580.64s -> 3585.64s]  o sea, pueden desplegar imágenes de profundidad de 8 bits,
+[3585.64s -> 3590.64s]  es decir, comparte valores de 0 a 255,
+[3591.64s -> 3593.64s]  y si le ponemos 3 canales,
+[3593.64s -> 3597.64s]  porque nuestros monitores son a color,
+[3597.64s -> 3601.64s]  podemos ver 255 a la 3,
+[3601.64s -> 3605.64s]  posibles colores.
+[3605.64s -> 3609.64s]  ¿Por qué entonces estamos viendo nosotros?
+[3609.64s -> 3611.64s]  En el monitor,
+[3611.64s -> 3614.64s]  estamos viendo
+[3614.64s -> 3617.64s]  una imagen de resonancia magnética,
+[3617.64s -> 3620.64s]  porque ahí está viéndose con la librería Macron.
+[3620.64s -> 3623.64s]  Pero en los ejemplos de los Póxeles,
+[3623.64s -> 3627.64s]  tenemos 521,
+[3627.64s -> 3630.64s]  3.400, no sé qué,
+[3630.64s -> 3633.64s]  4.170 y algo.
+[3633.64s -> 3636.64s]  ¿Por qué estamos viendo la imagen?
+[3636.64s -> 3638.64s]  ¿Por qué la vemos?
+[3639.64s -> 3642.64s]  No sé qué,
+[3642.64s -> 3646.64s]  ahí se ha mozando la gráfica,
+[3646.64s -> 3650.64s]  digamos, que convierte esos valores a 256
+[3650.64s -> 3653.64s]  en escala de 16.
+[3653.64s -> 3656.64s]  O sea, la librería lo está haciendo.
+[3656.64s -> 3659.64s]  O sea, la librería lo está haciendo.
+[3659.64s -> 3662.64s]  Por eso no nos podemos confiar tanto
+[3662.64s -> 3665.64s]  en lo que estamos viendo gráficamente,
+[3665.64s -> 3668.64s]  sino que tenemos que confiar más
+[3668.64s -> 3671.64s]  en los resultados de nuestros algoritmos.
+[3671.64s -> 3674.64s]  ¿Por qué? Porque lo que estamos viendo gráficamente
+[3674.64s -> 3677.64s]  es una versión reducida
+[3677.64s -> 3680.64s]  de algo que en realidad,
+[3680.64s -> 3682.64s]  porque los números no lo están diciendo,
+[3682.64s -> 3685.64s]  de algo que en realidad es mucho más grande.
+[3685.64s -> 3688.64s]  ¿Sí me hago entender?
+[3688.64s -> 3691.64s]  Entonces, no podemos confiarnos tanto
+[3691.64s -> 3694.64s]  en lo que estamos viendo,
+[3694.64s -> 3697.64s]  que es una versión reducida.
+[3697.64s -> 3700.64s]  Es una versión cantada
+[3700.64s -> 3703.64s]  para poder se ver en un monitor
+[3703.64s -> 3706.64s]  que es de 8 bits de profundidad.
+[3706.64s -> 3709.64s]  Sí, la librería hace un mapeo,
+[3709.64s -> 3712.64s]  el término es normalizar.
+[3712.64s -> 3715.64s]  El término es normalizar.
+[3715.64s -> 3718.64s]  Entonces, por ejemplo,
+[3718.64s -> 3721.64s]  nosotros en la imagen que estamos viendo,
+[3721.64s -> 3724.64s]  no estamos...
+[3724.64s -> 3727.64s]  Nuestros ojos no pueden ver
+[3727.64s -> 3730.64s]  todos los detalles
+[3730.64s -> 3733.64s]  que en realidad esa imagen tiene.
+[3733.64s -> 3736.64s]  ¿Dónde están esos detalles?
+[3736.64s -> 3739.64s]  ¿Están edados por los números
+[3739.64s -> 3742.64s]  de las intensidades?
+[3742.64s -> 3745.64s]  ¿Sí?
+[3745.64s -> 3748.64s]  ¿Sí me hago entender?
+[3754.64s -> 3757.64s]  Tenemos que tener mucho cuidado
+[3757.64s -> 3760.64s]  en la interpretación gráfica
+[3760.64s -> 3763.64s]  que obtenemos,
+[3763.64s -> 3766.64s]  porque sigue siendo reducida.
+[3766.64s -> 3768.64s]  Entonces,
+[3768.64s -> 3771.64s]  en este curso trabajamos más
+[3771.64s -> 3774.64s]  con los resultados numéricos
+[3774.64s -> 3777.64s]  de los algoritmos,
+[3777.64s -> 3780.64s]  y por eso es que hacemos otro tipo de gráficas
+[3780.64s -> 3783.64s]  que sí nos permiten visualizar
+[3783.64s -> 3786.64s]  información acerca de los objetos
+[3786.64s -> 3789.64s]  en las imágenes,
+[3789.64s -> 3792.64s]  a diferencia de estarlo viendo gráficamente.
+[3792.64s -> 3795.64s]  ¿Sí?
+[3795.64s -> 3798.64s]  Podemos ver gráficamente también.
+[3798.64s -> 3801.64s]  O sea, no le estoy diciendo que no,
+[3801.64s -> 3804.64s]  pero le estoy diciendo desde que es un apoyo
+[3804.64s -> 3807.64s]  más en lugar de
+[3807.64s -> 3810.64s]  una información absoluta
+[3810.64s -> 3813.64s]  y final del resultado
+[3813.64s -> 3816.64s]  que estamos viendo.
+[3816.64s -> 3819.64s]  Obviamente, un médico quiere ver
+[3819.64s -> 3822.64s]  dónde están las anomalías estructurales.
+[3822.64s -> 3825.64s]  ¿Quiere ver esa imagen?
+[3825.64s -> 3828.64s]  ¿Aquí hay un tumor o aquí hay tal cosa?
+[3828.64s -> 3831.64s]  Obviamente, en el caso de la próstata.
+[3831.64s -> 3834.64s]  O si queremos medir,
+[3834.64s -> 3837.64s]  el médico al final quiere ver, es una medición.
+[3837.64s -> 3840.64s]  No le interesa tanto los resultados gráficos,
+[3840.64s -> 3843.64s]  pero aún así el médico quiere ver,
+[3843.64s -> 3846.64s]  el psiquiatra, el neurocirujano quiere ver
+[3846.64s -> 3849.64s]  dónde tengo que meter la aguja
+[3849.64s -> 3852.64s]  del médico.
+[3852.64s -> 3855.64s]  Obviamente.
+[3855.64s -> 3858.64s]  Pero nosotros, que estamos juntándonos de código,
+[3858.64s -> 3861.64s]  nos toca ver más otro tipo de gráficas
+[3861.64s -> 3864.64s]  que nos permiten ver los números que hay.
+[3864.64s -> 3867.64s]  Obviamente, no vamos a imprimir número por número,
+[3867.64s -> 3870.64s]  pero, por ejemplo, para eso están los isogramas.
+[3870.64s -> 3873.64s]  Es decir, es una gráfica de frecuencias.
+[3873.64s -> 3876.64s]  Sí.
+[3876.64s -> 3879.64s]  Tenemos que utilizar otro tipo de gráficas.
+[3879.64s -> 3882.64s]  Entonces, ahí usted puede colocar ahí en un papelito.
+[3882.64s -> 3885.64s]  Tarea.
+[3885.64s -> 3888.64s]  Graficar un histograma.
+[3888.64s -> 3891.64s]  A ese código usted lo va a extender
+[3891.64s -> 3894.64s]  para graficar un histograma.
+[3894.64s -> 3897.64s]  ¿Qué es un histograma? Es un gráfico de barras
+[3897.64s -> 3900.64s]  donde en el eje horizontal van a estar todos los posibles colores.
+[3900.64s -> 3903.64s]  Es decir, todas las posibles intensidades.
+[3903.64s -> 3906.64s]  Es decir, va a ir de cero a cuánto.
+[3910.64s -> 3913.64s]  Su eje horizontal va a ir de cero a cuánto.
+[3921.64s -> 3924.64s]  Ahí en pantalla lo están viendo todos.
+[3924.64s -> 3927.64s]  ¿Va a ir de cero a cuánto?
+[3927.64s -> 3930.64s]  65.000.
+[3930.64s -> 3932.64s]  65.000 y tantas.
+[3932.64s -> 3935.64s]  Y en el eje vertical que va a ir,
+[3935.64s -> 3938.64s]  pues las frecuencias, o sea, cuántas,
+[3938.64s -> 3941.64s]  espontar, un histograma es un conteo.
+[3941.64s -> 3944.64s]  ¿Cuánto hay en...
+[3944.64s -> 3947.64s]  por cada valor de intensidad?
+[3947.64s -> 3950.64s]  ¿Cuántos posibles hay por cada valor de intensidad?
+[3952.64s -> 3955.64s]  Eso a nosotros nos brinda más información
+[3955.64s -> 3959.64s]  en este momento que viendo la imagen gráficamente.
+[3959.64s -> 3961.64s]  Obviamente.
+[3961.64s -> 3963.64s]  Sí, podemos ver.
+[3963.64s -> 3966.64s]  Sí, eso es una próstata.
+[3966.64s -> 3968.64s]  Nosotros no somos...
+[3968.64s -> 3970.64s]  ¿Cómo hay que llamar este?
+[3970.64s -> 3972.64s]  ¿Cómo hay que llamar el que trabaja eso?
+[3972.64s -> 3974.64s]  Purólogos.
+[3974.64s -> 3976.64s]  No somos purólogos para decir,
+[3976.64s -> 3978.64s]  ah, ¿qué está esto? ¿Qué está aquello?
+[3978.64s -> 3980.64s]  Nosotros somos ingenieros de sistemas.
+[3980.64s -> 3982.64s]  Vamos a procesar esa imagen.
+[3982.64s -> 3984.64s]  No a dar un concepto clínico
+[3984.64s -> 3986.64s]  ni nada de esto.
+[3989.64s -> 3991.64s]  Es...
+[3991.64s -> 3993.64s]  para hacer un histograma.
+[3993.64s -> 3995.64s]  A partir de ese código.
+[3995.64s -> 3997.64s]  Extiende el código para hacer un histograma.
+[3997.64s -> 4000.64s]  El gráfico de barra lo puede hacer
+[4000.64s -> 4003.64s]  con matplotlib.
+[4003.64s -> 4005.64s]  Sí.
+[4005.64s -> 4007.64s]  Bien, entonces,
+[4007.64s -> 4010.64s]  ahora vamos a hacer lo mismo
+[4010.64s -> 4013.64s]  con la imagen
+[4013.64s -> 4015.64s]  de tomografía,
+[4015.64s -> 4017.64s]  que es el archivo,
+[4017.64s -> 4019.64s]  es el segundo...
+[4019.64s -> 4021.64s]  es el segundo link que les vi.
+[4032.64s -> 4034.64s]  Es el segundo que les di.
+[4034.64s -> 4036.64s]  Entonces, vamos a hacerlo.
+[4036.64s -> 4039.64s]  Si quieres, deje de compartir la pantalla.
+[4039.64s -> 4041.64s]  Y si otra persona se quiere ofrecer
+[4041.64s -> 4043.64s]  para que la pantalla
+[4043.64s -> 4045.64s]  es el mismo código
+[4045.64s -> 4047.64s]  para el otro archivo,
+[4047.64s -> 4049.64s]  todo este,
+[4053.64s -> 4055.64s]  es el de la tomografía.
+[4075.64s -> 4077.64s]  Alguien se quiere ofrecer
+[4077.64s -> 4079.64s]  para compartir la pantalla.
+[4101.64s -> 4103.64s]  Nadie quiere ofrecer
+[4103.64s -> 4105.64s]  para a todo el código.
+[4105.64s -> 4107.64s]  Pero si no,
+[4107.64s -> 4109.64s]  para Starship 8,
+[4109.64s -> 4111.64s]  y elắmbre
+[4111.64s -> 4113.64s]  de Noticias Caracol.
+[4113.64s -> 4115.64s]  Bueno,
+[4115.64s -> 4117.64s]  en el código,
+[4117.64s -> 4119.64s]  y en el que compartimos,
+[4119.64s -> 4121.64s]  se quiere ofrecer
+[4121.64s -> 4123.64s]  para compartir la pantalla.
+[4123.64s -> 4125.64s]  Hay un código
+[4125.64s -> 4128.14s]  para cambiarnos
+[4130.64s -> 4132.64s]  la pantalla.
+[4162.64s -> 4165.64s]  Pes, bueno, ya, ya, ya.
+[4165.64s -> 4194.64s]  Eh, se ve algo, la verdad, no sé.
+[4195.64s -> 4196.64s]  Es de aquí.
+[4196.64s -> 4198.64s]  Me dice que está comprarte en el pantalla, pero...
+[4198.64s -> 4200.64s]  Sí, sí, aquí se va a ver.
+[4200.64s -> 4202.64s]  Está bueno.
+[4202.64s -> 4204.64s]  ¿Este es el?
+[4204.64s -> 4206.64s]  Ese profe.
+[4206.64s -> 4208.64s]  ¿Y este es?
+[4208.64s -> 4210.64s]  ¿Ese es la segunda imagen que les molde?
+[4210.64s -> 4212.64s]  ¿No es tomografía?
+[4212.64s -> 4214.64s]  Ese es el de como?
+[4214.64s -> 4217.64s]  El segundo, sí, qué pedido.
+[4217.64s -> 4220.64s]  No, no, acabámoslo con el tercero, por favor.
+[4220.64s -> 4222.64s]  Pero pues acá...
+[4223.64s -> 4225.64s]  Exactamente.
+[4225.64s -> 4229.64s]  Si no tengo la ruta que te quieres.
+[4229.64s -> 4231.64s]  A ver, espera.
+[4231.64s -> 4240.64s]  Por favor, si alguien no está entendiendo algo de una, pregunte, por favor, necesito que esto quede más claro que el agua del cauca, por favor.
+[4240.64s -> 4243.64s]  ¿Con qué ruta lo como con este, Dico?
+[4243.64s -> 4246.64s]  O sea, sigo explorando acá todo esto.
+[4246.64s -> 4249.64s]  Ya después ruta con esa carpeta, la verdad, no supe.
+[4250.64s -> 4252.64s]  Esperé un momento, Dico.
+[4254.64s -> 4256.64s]  ¿Lo va a pasar?
+[4256.64s -> 4258.64s]  ¿Una de esas?
+[4263.64s -> 4267.64s]  No sucede dónde la tenía almacenada, pero aquí lo voy a pasar.
+[4267.64s -> 4269.64s]  Pues pues sí.
+[4269.64s -> 4273.64s]  ¿Qué es de ese directorio hacia adentro?
+[4273.64s -> 4275.64s]  ¿Qué es?
+[4276.64s -> 4279.64s]  Ah, ok.
+[4297.64s -> 4302.64s]  Repito, si alguien no está entendiendo, por favor, se lo pide.
+[4302.64s -> 4304.64s]  Ajuda.
+[4318.64s -> 4323.64s]  54, 87, 98, 43.
+[4332.64s -> 4334.64s]  ¿Qué es de ese?
+[4346.64s -> 4349.64s]  Así es que no le den esa ruta.
+[4357.64s -> 4360.64s]  Yo creo que ahí para allá pues está igual.
+[4360.64s -> 4369.64s]  Si quiere, si quiere vamos al, si quiere, si quiere amplíe, amplíe esta del, amplíe, amplíe la ventana.
+[4369.64s -> 4371.64s]  ¿Para la ventana?
+[4375.64s -> 4377.64s]  ¿Ves que te vas a mostrar toda carpeta?
+[4377.64s -> 4379.64s]  Ahora, ahora, sí, sí.
+[4379.64s -> 4383.64s]  Entonces, ahora vaya al árbol de archivos de ahí, el de ahí.
+[4383.64s -> 4389.64s]  Abajo, abajo, abajo, abajo, abajo, abajo, abajo, ahí.
+[4389.64s -> 4392.64s]  No, no, no.
+[4392.64s -> 4396.64s]  ¿Dónde están los íconos aquellos que estaban dándole clic?
+[4396.64s -> 4398.64s]  El de abajo.
+[4398.64s -> 4404.64s]  Despliegue ahí, vaya hasta la carpeta aquella.
+[4410.64s -> 4412.64s]  ¿Esa es la carpeta?
+[4412.64s -> 4414.64s]  Sí.
+[4414.64s -> 4416.64s]  ¿Eres el uno?
+[4416.64s -> 4418.64s]  Sí, sí.
+[4418.64s -> 4420.64s]  Ahora ahí.
+[4424.64s -> 4426.64s]  Entonces, que coja el primero.
+[4426.64s -> 4428.64s]  Entonces, le da clic derecho.
+[4428.64s -> 4430.64s]  Ahora.
+[4430.64s -> 4432.64s]  Y copia ruta, así es.
+[4432.64s -> 4434.64s]  Entonces, pega toda esa ruta ahí.
+[4435.64s -> 4441.64s]  Yo espero que el ahora, sí, yo espero que el ahora esté poniendo la ventana.
+[4441.64s -> 4443.64s]  ¿Esto?
+[4443.64s -> 4445.64s]  ¿Eso?
+[4445.64s -> 4448.64s]  Es que debo la primera ruta que nos mandó, no, no, la tercera.
+[4450.64s -> 4452.64s]  Claro.
+[4452.64s -> 4454.64s]  Bien.
+[4454.64s -> 4459.64s]  Espero que el ahora esté prestando la atención a eso, porque ya va a trabajar con estas imágenes, su trabajo delante.
+[4459.64s -> 4463.64s]  ¿Qué está moviendo ahí en ejemplos de pisceles?
+[4463.64s -> 4468.64s]  ¿Qué está en el lado ucraniano?
+[4468.64s -> 4473.64s]  ¿Qué estamos viendo allí en los valores de los pisceles?
+[4473.64s -> 4478.64s]  Esto es una imagen de tomografía.
+[4478.64s -> 4482.64s]  A pesar de que viene en el archivo de com también.
+[4482.64s -> 4485.64s]  ¿Qué estamos viendo?
+[4485.64s -> 4490.64s]  Todo dice menos dormir.
+[4490.64s -> 4493.64s]  Veamos información de la encabezada.
+[4521.64s -> 4523.64s]  Lo demás.
+[4523.64s -> 4526.64s]  Lo demás lo digo muy callado, Dios mío.
+[4526.64s -> 4529.64s]  Por favor, lo demás.
+[4529.64s -> 4532.64s]  Estamos viendo valores negativos.
+[4532.64s -> 4535.64s]  ¿Qué está pasando aquí?
+[4535.64s -> 4538.64s]  ¿Qué creen que pasamos?
+[4551.64s -> 4554.64s]  Profes, pues, a ver, yo...
+[4554.64s -> 4557.64s]  ¿Cómo estoy trabajando con eso? Yo voy a leer algo.
+[4557.64s -> 4559.64s]  No sé, tengo que ver con eso.
+[4559.64s -> 4562.64s]  Cuente a ver que usted que ha leído, a ver, cuente, cuente.
+[4562.64s -> 4567.64s]  O sea, es que yo he visto que en las tomografías se usa algo que son llamadas soniaes.
+[4567.64s -> 4570.64s]  House, house, algo así se volvió el nombre.
+[4570.64s -> 4572.64s]  Huntsville.
+[4572.64s -> 4577.64s]  Y eso yo he visto que va de valores negativos hasta positivos, no sé si es por eso.
+[4577.64s -> 4579.64s]  Bueno, cuente más el chile.
+[4579.64s -> 4581.64s]  Sí, es eso. Cuente más.
+[4581.64s -> 4584.64s]  No, pues, profe, o sea, de lo que me acuerdo, sí.
+[4584.64s -> 4588.64s]  Eso, pues, sí son unos valores que salen de la tomografía.
+[4588.64s -> 4594.64s]  Y eso básicamente es dependiendo de cuánto impacta la radiación en los tejidos o algo así.
+[4594.64s -> 4598.64s]  Porque, claro, los que son más blanditos, como usted ha dicho,
+[4598.64s -> 4601.64s]  los molagrasa, todo eso deja pasar más radiación.
+[4601.64s -> 4605.64s]  En cambio, algo más denso, como un músculo o el hueso, pues no.
+[4605.64s -> 4607.64s]  Entonces, es como que se traduce a esos valores.
+[4607.64s -> 4609.64s]  Eso es lo que había entendido.
+[4609.64s -> 4611.64s]  No sé si estoy bien.
+[4611.64s -> 4613.64s]  Sí, sí, cuente más.
+[4615.64s -> 4618.64s]  No, profe, no tengo nada más para contar.
+[4618.64s -> 4620.64s]  Oh.
+[4620.64s -> 4627.64s]  Alguien más en este de los que está aquí va a trabajar con imágenes de resonancia magnética en el grupo,
+[4627.64s -> 4629.64s]  no solamente Laura.
+[4635.64s -> 4639.64s]  Bueno, pues, yo estoy trabajando con resonaciones magnéticas, pero del cerebro.
+[4639.64s -> 4644.64s]  Bueno, pero usted es de resonancia magnética.
+[4648.64s -> 4650.64s]  Mira a ti, ¿quién habló?
+[4650.64s -> 4651.64s]  ¿Quién habló?
+[4651.64s -> 4652.64s]  Hola, profe, yo.
+[4652.64s -> 4653.64s]  Angie.
+[4653.64s -> 4654.64s]  ¿Me escucha?
+[4654.64s -> 4655.64s]  No, sí, sí.
+[4655.64s -> 4661.64s]  Si no que es que combatido en la pota, o sea, veo, son las letras iniciales.
+[4661.64s -> 4663.64s]  Pero sí, ya, listo.
+[4663.64s -> 4665.64s]  Y la otra es la.
+[4665.64s -> 4669.64s]  Angie dice que va a trabajar con imágenes de resonancia magnética.
+[4669.64s -> 4671.64s]  Eso fue lo que vimos ahoritica.
+[4671.64s -> 4676.64s]  Son intensidades a partir de un campo electromagnético.
+[4676.64s -> 4679.64s]  Hasta ahí, original.
+[4679.64s -> 4684.64s]  Ya en este campo de la tomografía, pero igualmente esto sirve para todos.
+[4684.64s -> 4685.64s]  ¿Por qué?
+[4685.64s -> 4687.64s]  Porque usted no sabe la vida mucho a vueltas.
+[4687.64s -> 4689.64s]  El mundo es un pañuelo, de verdad.
+[4690.64s -> 4694.64s]  Y, entonces, puede ser que usted le termine gustando estas imágenes o que, por ejemplo,
+[4694.64s -> 4696.64s]  vean, le va a contar después a esa persona.
+[4696.64s -> 4699.64s]  Yo trabajaba con imágenes de retina.
+[4699.64s -> 4700.64s]  ¿Sí?
+[4700.64s -> 4702.64s]  Esas son imágenes de fondo de ojo.
+[4702.64s -> 4705.64s]  O sea, el médico, o sea, le pone una pistolita en el ojo.
+[4705.64s -> 4711.64s]  El médico lo que está viendo es el fondo del ojo.
+[4711.64s -> 4713.64s]  ¿Y el fondo del ojo?
+[4713.64s -> 4715.64s]  ¿Alguien ha visto una imagen de retina?
+[4720.64s -> 4722.64s]  Mostrar un poquito.
+[4722.64s -> 4726.64s]  Esto es un pequeño, muy pequeño, muy pequeño paréntesis.
+[4726.64s -> 4727.64s]  ¿Sí?
+[4732.64s -> 4736.64s]  Esto es un muy pequeño, muy pequeño paréntesis.
+[4736.64s -> 4739.64s]  Esto es una imagen de fondo de ojo.
+[4739.64s -> 4747.64s]  Resulta que yo estaba trabajando en intentar segmentar estos vasos sanguíneos.
+[4747.64s -> 4750.64s]  ¿Para qué no sirve segmentar estos vasos sanguíneos?
+[4750.64s -> 4757.64s]  Porque yo puedo medir cuánto turtuoso es esto.
+[4757.64s -> 4760.64s]  ¿Qué la turtuosidad es?
+[4760.64s -> 4766.64s]  ¿Qué tan irregular es el camino?
+[4766.64s -> 4768.64s]  ¿Sí?
+[4768.64s -> 4770.64s]  ¿Para?
+[4772.64s -> 4774.64s]  Esto tiene ahí.
+[4778.64s -> 4780.64s]  Sí, sí.
+[4792.64s -> 4800.64s]  Turtuosidad significa es qué tan así es una línea muy turtuosa.
+[4800.64s -> 4804.64s]  Esta línea es muy suave. ¿Se están viendo allí?
+[4805.64s -> 4810.64s]  Esta es muy turtuosa, una línea muy turtuosa,
+[4810.64s -> 4813.64s]  como se dice ahí el camino es muy turtuoso.
+[4813.64s -> 4815.64s]  ¿Sí?
+[4816.64s -> 4818.64s]  ¿Para qué me sirve medir?
+[4818.64s -> 4822.64s]  O sea, esto se puede medir, se puede dar un número que me dice
+[4822.64s -> 4824.64s]  cuánto turtuoso es un vaso sanguíneo,
+[4824.64s -> 4827.64s]  de esos que se ven en el frente por tu ojo.
+[4827.64s -> 4829.64s]  ¿Eso para qué sirve?
+[4829.64s -> 4831.64s]  Eso sirve de biomarcadores.
+[4831.64s -> 4833.64s]  Hay un montón de cosas.
+[4834.64s -> 4838.64s]  Demencias presión alta.
+[4838.64s -> 4840.64s]  Un montón de cosas.
+[4840.64s -> 4842.64s]  Solamente a partir de esa imagen.
+[4844.64s -> 4848.64s]  Es algo que sirve, o sea, viene mucha relevancia.
+[4849.64s -> 4852.64s]  Sí, o sea, lo es pendejar.
+[4852.64s -> 4855.64s]  Y entonces yo me fui para España.
+[4855.64s -> 4860.64s]  Y entonces, ahí se me dieron aquí,
+[4860.64s -> 4863.64s]  usted va a trabajar allá en lo que lo pongan a hacer.
+[4863.64s -> 4866.64s]  Si allá no trabajes con esas imágenes,
+[4866.64s -> 4868.64s]  pues usted no me vaya a poner a revirar.
+[4868.64s -> 4870.64s]  Yo voy.
+[4870.64s -> 4873.64s]  Y yo ya tenía cositas desarrolladas, código desarrollado.
+[4873.64s -> 4876.64s]  En ese tiempo no existía la IANA de eso.
+[4876.64s -> 4878.64s]  Tenía yo el código desarrollado.
+[4881.64s -> 4884.64s]  En este campo, cuando llego allá me dicen,
+[4884.64s -> 4887.64s]  no, nosotros no trabajamos con esas imágenes.
+[4887.64s -> 4890.64s]  Nosotros estamos trabajando con imágenes de diatomeas,
+[4890.64s -> 4894.64s]  que son de algas marinas microscópicas.
+[4897.64s -> 4900.64s]  Son algas marinas microscópicas que...
+[4917.64s -> 4920.64s]  Estas imágenes de diatomeas son estas.
+[4924.64s -> 4926.64s]  Son estas imágenes.
+[4926.64s -> 4929.64s]  O sea, usted puede tener una imagen microscópica
+[4929.64s -> 4931.64s]  y puede tener esta imagen así.
+[4932.64s -> 4934.64s]  Estas son algas marinas.
+[4936.64s -> 4938.64s]  Sí.
+[4938.64s -> 4940.64s]  Sí.
+[4940.64s -> 4942.64s]  Sí.
+[4942.64s -> 4944.64s]  Sí.
+[4944.64s -> 4946.64s]  Sí.
+[4947.64s -> 4949.64s]  Y para qué sirven...
+[4949.64s -> 4952.64s]  Para qué sirven segmentar estas cositas?
+[4952.64s -> 4955.64s]  Son algas, no son bacterias.
+[4955.64s -> 4958.64s]  Pero yo puedo tener una imagen de esas.
+[4958.64s -> 4960.64s]  Así, puedo tener imagen de estas.
+[4960.64s -> 4962.64s]  Estas son imágenes microscópicas.
+[4962.64s -> 4965.64s]  Cuando usted va a panse y usted se resbala en las piedritas,
+[4965.64s -> 4968.64s]  eso es porque está repleto de estas cositas,
+[4968.64s -> 4970.64s]  de estas diatomeas.
+[4972.64s -> 4975.64s]  Ahí usted puede ver que las formas son distintas.
+[4975.64s -> 4977.64s]  ¿Qué?
+[4977.64s -> 4979.64s]  ¿Qué me dice eso?
+[4979.64s -> 4981.64s]  Esta corresponde a una especie.
+[4981.64s -> 4983.64s]  Esta corresponde a otra especie.
+[4983.64s -> 4985.64s]  Esta corresponde a otra especie.
+[4985.64s -> 4988.64s]  Son especies totalmente distintas.
+[4988.64s -> 4990.64s]  Para qué me sirven segmentar
+[4990.64s -> 4993.64s]  esto y clasificarla de acuerdo a especies?
+[4993.64s -> 4996.64s]  ¿Por qué resulta que esto me permite
+[4996.64s -> 4999.64s]  dar paleontológicamente un río?
+[4999.64s -> 5002.64s]  También sirve para análisis forense.
+[5003.64s -> 5006.64s]  Me sirve para detectar la salud de un río.
+[5006.64s -> 5010.64s]  Que la presencia o ausencia de ciertas especies
+[5010.64s -> 5013.64s]  me puede a mí brindar biomarcadores
+[5013.64s -> 5015.64s]  de la salud de un río.
+[5015.64s -> 5019.64s]  Si un río está siendo contaminado con psicóloga,
+[5019.64s -> 5021.64s]  bueno, esto aluminio,
+[5021.64s -> 5023.64s]  o con el castillo,
+[5023.64s -> 5025.64s]  o por ejemplo,
+[5025.64s -> 5027.64s]  o por ejemplo,
+[5027.64s -> 5029.64s]  o por ejemplo,
+[5029.64s -> 5031.64s]  voy a llamar esto aluminio,
+[5031.64s -> 5033.64s]  o por ejemplo,
+[5033.64s -> 5035.64s]  esto es para separar el oro
+[5035.64s -> 5037.64s]  en la minería ilegal,
+[5037.64s -> 5039.64s]  en el curio.
+[5039.64s -> 5041.64s]  Sí, o sea,
+[5041.64s -> 5043.64s]  esto sirve para muchas cosas.
+[5043.64s -> 5045.64s]  Y eso era un proyecto europeo
+[5045.64s -> 5048.64s]  de 2 millones de euros.
+[5048.64s -> 5050.64s]  Y ellos estaban trabajando en eso.
+[5050.64s -> 5052.64s]  Empezó el primer día,
+[5052.64s -> 5053.64s]  me dijeron,
+[5053.64s -> 5055.64s]  muy bueno que usted esté trabajando
+[5055.64s -> 5057.64s]  con un aire de fondo de ojo o de retina.
+[5057.64s -> 5059.64s]  Se dice en fondo de ojo.
+[5059.64s -> 5061.64s]  Médico,
+[5061.64s -> 5063.64s]  usted le pone una pistolita en el ojo
+[5063.64s -> 5065.64s]  que tiene un bombillo.
+[5065.64s -> 5067.64s]  El médico lo que está viendo es esto.
+[5067.64s -> 5069.64s]  Es decir, está viendo la parte
+[5069.64s -> 5071.64s]  de adentro del ojo.
+[5071.64s -> 5073.64s]  Y no nos interesa
+[5073.64s -> 5075.64s]  trabajar con esa imágenes,
+[5075.64s -> 5077.64s]  estamos ahorita trabajando con esa imágenes.
+[5077.64s -> 5079.64s]  Es que pasó, se hicieron
+[5079.64s -> 5081.64s]  cuatro publicaciones.
+[5081.64s -> 5083.64s]  Gracias a eso pude volver
+[5083.64s -> 5085.64s]  a un congreso.
+[5086.64s -> 5088.64s]  Y tuve misión
+[5088.64s -> 5090.64s]  en el trato de grano.
+[5090.64s -> 5092.64s]  Es decir, algo que yo pensaba
+[5092.64s -> 5094.64s]  que yo me iba a casar con estas imágenes.
+[5097.64s -> 5099.64s]  Y mentiras que terminé fue trabajando
+[5099.64s -> 5101.64s]  con algo que yo en la vida había oído
+[5101.64s -> 5103.64s]  hablar.
+[5103.64s -> 5105.64s]  Dice, te atomeas
+[5105.64s -> 5107.64s]  es un tipo de microalga.
+[5107.64s -> 5109.64s]  Entonces yo me imaginaba
+[5109.64s -> 5111.64s]  salgas, las salgas marinas,
+[5111.64s -> 5113.64s]  ramitas de esas verdes.
+[5113.64s -> 5115.64s]  Es decir,
+[5115.64s -> 5117.64s]  hay más de 20.000
+[5117.64s -> 5119.64s]  especies.
+[5119.64s -> 5121.64s]  Es decir, usted puede entrenar un modelo
+[5121.64s -> 5123.64s]  de lla para
+[5123.64s -> 5125.64s]  clasificar de acuerdo a las especies.
+[5125.64s -> 5127.64s]  Hay especies que se ven aquí que no se ven
+[5127.64s -> 5129.64s]  en otras partes del mundo.
+[5129.64s -> 5131.64s]  Hay especies que se ven en otras partes del mundo
+[5131.64s -> 5133.64s]  y que no se ven aquí.
+[5133.64s -> 5135.64s]  Hay libros enteros para intentar clasificar
+[5135.64s -> 5137.64s]  que si tiene esta pelótica aquí
+[5137.64s -> 5139.64s]  corresponde a una especie que
+[5139.64s -> 5141.64s]  si tiene esta curvita
+[5141.64s -> 5143.64s]  aquí, que si tiene
+[5143.64s -> 5145.64s]  esta cerradurita aquí
+[5145.64s -> 5147.64s]  es otra especie que si tiene
+[5147.64s -> 5149.64s]  esta franquita, esta franelita
+[5149.64s -> 5151.64s]  es otra especie.
+[5151.64s -> 5153.64s]  Esos libros se llaman claves.
+[5153.64s -> 5155.64s]  Y hay libros
+[5155.64s -> 5157.64s]  pornísimos enteros dedicados
+[5157.64s -> 5159.64s]  a claves.
+[5159.64s -> 5161.64s]  Entonces me tocó hacer dejar de hablar
+[5161.64s -> 5163.64s]  con médicos y empezar a hablar con biólogos.
+[5163.64s -> 5165.64s]  Fortunadamente
+[5165.64s -> 5167.64s]  me tocó contactar
+[5167.64s -> 5169.64s]  a los del departamento de Bielunía de
+[5169.64s -> 5171.64s]  Univalle y ahí conocí a los biólogos
+[5171.64s -> 5173.64s]  de Univalle y yo dejé
+[5173.64s -> 5175.64s]  trabajar con médicos y pasé a trabajar
+[5175.64s -> 5177.64s]  con biólogos.
+[5177.64s -> 5179.64s]  Moraleja
+[5179.64s -> 5181.64s]  usted tiene que conocer de todo un poquito
+[5181.64s -> 5183.64s]  hermano porque alguien dice
+[5183.64s -> 5185.64s]  yo solamente voy a trabajar con imágenes
+[5185.64s -> 5187.64s]  de razón, esa magnética viejo
+[5187.64s -> 5189.64s]  eso no es así
+[5189.64s -> 5191.64s]  usted va donde
+[5191.64s -> 5193.64s]  está la plata y si la plata está aquí
+[5193.64s -> 5195.64s]  con imágenes de tomografía
+[5195.64s -> 5197.64s]  le tocó trabajar con esa y qué más
+[5197.64s -> 5199.64s]  va a hacer
+[5199.64s -> 5201.64s]  usted me puede quedar protestando que no
+[5201.64s -> 5203.64s]  que es que yo solamente trabajé con dicón
+[5203.64s -> 5205.64s]  y ya no
+[5205.64s -> 5207.64s]  que es que yo no sé porque yo trabajo
+[5207.64s -> 5209.64s]  un procesamiento de imágenes pero con imágenes planas
+[5209.64s -> 5211.64s]  así
+[5211.64s -> 5213.64s]  pero si estás en el proyecto donde te van
+[5213.64s -> 5215.64s]  a pagar
+[5215.64s -> 5217.64s]  pero con imágenes de tomografía usted le toca
+[5217.64s -> 5219.64s]  revisar un poquito qué es lo que vio en el curso
+[5219.64s -> 5221.64s]  de procesamiento de imágenes y ya y se acabó
+[5221.64s -> 5223.64s]  sí
+[5223.64s -> 5225.64s]  me gusta dar estos cuentos así
+[5225.64s -> 5227.64s]  echar estos cuentos así porque
+[5227.64s -> 5229.64s]  pues sirve para que usted
+[5229.64s -> 5231.64s]  es
+[5231.64s -> 5233.64s]  no decirlo
+[5233.64s -> 5235.64s]  es como que no se cierre en tanto
+[5235.64s -> 5237.64s]  yo solamente porque si hay gente
+[5237.64s -> 5239.64s]  que si dice eso, yo estoy trabajando
+[5239.64s -> 5241.64s]  en tal cosa y
+[5241.64s -> 5243.64s]  y no más y paré de contar
+[5243.64s -> 5245.64s]  no sé, hay que conocer
+[5245.64s -> 5247.64s]  de todo un poquito
+[5247.64s -> 5249.64s]  listo, entonces ahora sí volvamos
+[5249.64s -> 5251.64s]  a leer
+[5251.64s -> 5253.64s]  ahora sí volvamos al ejemplo
+[5253.64s -> 5255.64s]  de
+[5255.64s -> 5257.64s]  nuestra imágenes de Resonance Magnética
+[5257.64s -> 5259.64s]  ¿Por qué estamos teniendo estos valores?
+[5259.64s -> 5261.64s]  ¿Ah?
+[5261.64s -> 5263.64s]  menos
+[5263.64s -> 5265.64s]  2022, 35
+[5265.64s -> 5267.64s]  y laura si tenía razón
+[5267.64s -> 5269.64s]  al mencionar
+[5269.64s -> 5271.64s]  lo que son las unidades
+[5271.64s -> 5273.64s]  Hounspeak
+[5273.64s -> 5275.64s]  ahí es
+[5275.64s -> 5277.64s]  eso
+[5279.64s -> 5281.64s]  eso no sirve para nada
+[5281.64s -> 5283.64s]  no sirve para nada
+[5283.64s -> 5285.64s]  esto
+[5285.64s -> 5287.64s]  sí
+[5289.64s -> 5291.64s]  en una imagen
+[5291.64s -> 5293.64s]  de tomografía
+[5293.64s -> 5295.64s]  trabajamos diversos ángulos
+[5295.64s -> 5297.64s]  rayos X de diversos ángulos
+[5297.64s -> 5299.64s]  pero
+[5299.64s -> 5301.64s]  la forma de capturar
+[5301.64s -> 5303.64s]  la forma de almacenar la información
+[5303.64s -> 5305.64s]  es igual que una Resonance Magnética
+[5305.64s -> 5307.64s]  es decir, estamos liliando con imágenes tridimensionales
+[5307.64s -> 5309.64s]  y
+[5309.64s -> 5311.64s]  y entonces la unidad
+[5311.64s -> 5313.64s]  básica no es un pixel sino que es un
+[5313.64s -> 5315.64s]  boxel, listo? hasta ahí que igualito
+[5315.64s -> 5317.64s]  a Resonance Magnética
+[5317.64s -> 5319.64s]  la diferencia es
+[5319.64s -> 5321.64s]  que se usa
+[5321.64s -> 5323.64s]  para capturar
+[5323.64s -> 5325.64s]  esas imágenes
+[5325.64s -> 5327.64s]  y que valores resultan
+[5327.64s -> 5329.64s]  sí
+[5329.64s -> 5331.64s]  que valores resultan
+[5331.64s -> 5333.64s]  les vuelvo y lo repito por tercera vez
+[5333.64s -> 5335.64s]  una imagen de Resonance Magnética
+[5335.64s -> 5337.64s]  es un campo electromagnético
+[5337.64s -> 5339.64s]  lo que se mide
+[5339.64s -> 5341.64s]  es el tiempo de respuesta
+[5341.64s -> 5343.64s]  sí
+[5343.64s -> 5345.64s]  básicamente podemos decir
+[5345.64s -> 5347.64s]  que una imagen
+[5347.64s -> 5349.64s]  de Resonancia, es decir
+[5349.64s -> 5351.64s]  la intensidad
+[5351.64s -> 5353.64s]  en una imagen
+[5353.64s -> 5355.64s]  de Resonancia Magnética
+[5357.64s -> 5359.64s]  es decir, cada
+[5359.64s -> 5361.64s]  valorcito de intensidad 1, 2
+[5361.64s -> 5363.64s]  hasta 65.000
+[5363.64s -> 5365.64s]  y pico
+[5365.64s -> 5367.64s]  un valorcito de esos
+[5367.64s -> 5369.64s]  en cada boxel es el resultado
+[5369.64s -> 5371.64s]  de haber aplicado una función
+[5371.64s -> 5373.64s]  que depende
+[5373.64s -> 5375.64s]  de varios factores, el primero
+[5375.64s -> 5377.64s]  es la densidad de los crotones
+[5377.64s -> 5379.64s]  el segundo
+[5379.64s -> 5381.64s]  es un parámetro llamado T1
+[5381.64s -> 5383.64s]  que es el tiempo de relajación
+[5383.64s -> 5385.64s]  longitudinal
+[5385.64s -> 5387.64s]  el siguiente parámetro es un parámetro
+[5387.64s -> 5389.64s]  T2 que es el tiempo de relajación
+[5389.64s -> 5391.64s]  transversal
+[5391.64s -> 5393.64s]  sí, o sea, todos estos son ondas
+[5393.64s -> 5395.64s]  electromagnéticas
+[5395.64s -> 5397.64s]  esas ondas tienen varios parámetros
+[5397.64s -> 5399.64s]  densidad
+[5399.64s -> 5401.64s]  de crotones, tiempo de relajación
+[5401.64s -> 5403.64s]  longitudinal, tiempo de relajación transversal
+[5403.64s -> 5405.64s]  la relajación
+[5405.64s -> 5407.64s]  efectiva
+[5407.64s -> 5409.64s]  el tiempo de repetición
+[5409.64s -> 5411.64s]  y un tiempo de eco
+[5411.64s -> 5413.64s]  sí
+[5413.64s -> 5415.64s]  esto me permite capturar
+[5415.64s -> 5417.64s]  el tiempo que se demora
+[5417.64s -> 5419.64s]  esa señal
+[5419.64s -> 5421.64s]  en regresar al lector
+[5421.64s -> 5423.64s]  y con base en ello se le asignó
+[5423.64s -> 5425.64s]  un número que va al 3.0
+[5425.64s -> 5427.64s]  y 2.165.000
+[5427.64s -> 5429.64s]  es decir, es un número
+[5429.64s -> 5431.64s]  que está en 16 bits
+[5431.64s -> 5433.64s]  sí
+[5433.64s -> 5435.64s]  es decir, yo puedo tener
+[5435.64s -> 5437.64s]  imágenes
+[5437.64s -> 5439.64s]  12, 15
+[5439.64s -> 5441.64s]  100
+[5441.64s -> 5443.64s]  80, 350
+[5443.64s -> 5445.64s]  250, es decir
+[5445.64s -> 5447.64s]  supongo que estás en una
+[5447.64s -> 5449.64s]  súper imagen, súper chiquitica
+[5449.64s -> 5451.64s]  de resumencia magnética
+[5451.64s -> 5453.64s]  cada valorcito de esto
+[5453.64s -> 5455.64s]  me estás expresando
+[5455.64s -> 5457.64s]  intensidad
+[5457.64s -> 5459.64s]  bien
+[5459.64s -> 5461.64s]  en el paradigma
+[5461.64s -> 5463.64s]  de las imágenes de resumción
+[5463.64s -> 5465.64s]  de tomografía, perdón
+[5465.64s -> 5467.64s]  es una cosa totalmente distinta
+[5467.64s -> 5469.64s]  sí
+[5471.64s -> 5473.64s]  este
+[5473.64s -> 5475.64s]  menos 2.000 que estamos
+[5475.64s -> 5477.64s]  viendo aquí
+[5477.64s -> 5479.64s]  22, este 35
+[5479.64s -> 5481.64s]  este 1.014
+[5481.64s -> 5483.64s]  corresponden
+[5483.64s -> 5485.64s]  no a valores de intensidad, sino a valores
+[5487.64s -> 5489.64s]  de unidades
+[5491.64s -> 5493.64s]  un espíritu
+[5493.64s -> 5495.64s]  es el tipo
+[5495.64s -> 5497.64s]  un espíritu es el tipo
+[5497.64s -> 5499.64s]  que creó esto
+[5499.64s -> 5501.64s]  sí
+[5501.64s -> 5503.64s]  es un tipo que tenía una empresa
+[5503.64s -> 5505.64s]  de música
+[5505.64s -> 5507.64s]  y decidió
+[5507.64s -> 5509.64s]  no sé cachargar con esto
+[5509.64s -> 5511.64s]  y pues terminó creando
+[5513.64s -> 5515.64s]  todo un
+[5515.64s -> 5517.64s]  sistema de unidades
+[5517.64s -> 5519.64s]  y que creó el sistema
+[5519.64s -> 5521.64s]  que creó la tecnología
+[5521.64s -> 5523.64s]  computarizada
+[5523.64s -> 5525.64s]  es otra persona y ese tipo
+[5525.64s -> 5527.64s]  es un premio nuevo
+[5527.64s -> 5529.64s]  de física
+[5531.64s -> 5533.64s]  en una imagen de tomografía
+[5533.64s -> 5535.64s]  utilizada
+[5535.64s -> 5537.64s]  tenemos unidades
+[5537.64s -> 5539.64s]  cada valor
+[5539.64s -> 5541.64s]  corresponde a un valor
+[5541.64s -> 5543.64s]  en unidades
+[5543.64s -> 5545.64s]  es unidades de intensidad
+[5545.64s -> 5547.64s]  es unidades de atendación
+[5549.64s -> 5551.64s]  no es
+[5551.64s -> 5553.64s]  intensidad de luz
+[5553.64s -> 5555.64s]  como en una imagen plana
+[5555.64s -> 5557.64s]  no es intensidad
+[5557.64s -> 5559.64s]  de campo electromagnético
+[5559.64s -> 5561.64s]  como en una imagen de resonación
+[5561.64s -> 5563.64s]  es unidades
+[5563.64s -> 5565.64s]  es una unidad de atendación
+[5565.64s -> 5567.64s]  Laura lo dijo
+[5567.64s -> 5569.64s]  que tanto impactó
+[5569.64s -> 5571.64s]  el rayo X
+[5571.64s -> 5573.64s]  en el tejido
+[5573.64s -> 5575.64s]  pienso que
+[5575.64s -> 5577.64s]  esa definición
+[5577.64s -> 5579.64s]  es como lo más reducida posible
+[5579.64s -> 5581.64s]  esto
+[5581.64s -> 5583.64s]  puede no estar aquí hablando hasta las tres
+[5583.64s -> 5585.64s]  para remotar sobre ese
+[5585.64s -> 5587.64s]  sobre ese principio físico
+[5587.64s -> 5589.64s]  pero que no lo interesa como mucho
+[5589.64s -> 5591.64s]  es ver
+[5591.64s -> 5593.64s]  cuánta atendación
+[5593.64s -> 5595.64s]  o sea cuánta capacidad
+[5595.64s -> 5597.64s]  de
+[5597.64s -> 5599.64s]  de resistencia
+[5599.64s -> 5601.64s]  tuvo el tejido
+[5601.64s -> 5603.64s]  o el líquido
+[5603.64s -> 5605.64s]  o la grasa
+[5605.64s -> 5607.64s]  o el hueso
+[5607.64s -> 5609.64s]  a ese rayo X que impactó
+[5609.64s -> 5611.64s]  eso
+[5611.64s -> 5613.64s]  es lo que se mide
+[5613.64s -> 5615.64s]  en
+[5615.64s -> 5617.64s]  estas unidades once
+[5617.64s -> 5619.64s]  porque
+[5619.64s -> 5621.64s]  menos dos mil
+[5621.64s -> 5623.64s]  porque cien
+[5623.64s -> 5625.64s]  porque menos cien
+[5625.64s -> 5627.64s]  porque no existen dos mil colores
+[5627.64s -> 5629.64s]  de grises para yo poder
+[5629.64s -> 5631.64s]  aplicar un tipo de grisa
+[5631.64s -> 5633.64s]  cada unidad hauntsville
+[5633.64s -> 5635.64s]  si
+[5635.64s -> 5637.64s]  el ojo humano
+[5637.64s -> 5639.64s]  solamente puede ver
+[5639.64s -> 5641.64s]  un puñado de colores
+[5641.64s -> 5643.64s]  no más
+[5643.64s -> 5645.64s]  hemos visto el ejemplo con la imagen
+[5645.64s -> 5647.64s]  de la resonancia magnética
+[5649.64s -> 5651.64s]  con los valores
+[5651.64s -> 5653.64s]  de los rayos X se manejan
+[5653.64s -> 5655.64s]  tantos valores que nos toca
+[5655.64s -> 5657.64s]  digamos que escandalizarlos
+[5657.64s -> 5659.64s]  un poquito
+[5659.64s -> 5661.64s]  si
+[5661.64s -> 5663.64s]  las pantallas de color solamente
+[5663.64s -> 5665.64s]  pueden ver
+[5665.64s -> 5667.64s]  doscientos cincuenta y cinco valores
+[5667.64s -> 5669.64s]  de gris no más
+[5669.64s -> 5671.64s]  porque son ocho bits
+[5671.64s -> 5673.64s]  si solamente sacamos un canal
+[5673.64s -> 5675.64s]  los quedamos con niveles de gris
+[5675.64s -> 5677.64s]  así es pues bauticemos a eso canal rojo
+[5677.64s -> 5679.64s]  canal verde canal azul
+[5679.64s -> 5681.64s]  cuando nosotros visualizamos un solo canal
+[5681.64s -> 5683.64s]  lo vemos como gris
+[5683.64s -> 5685.64s]  por la intensidad de grises
+[5685.64s -> 5687.64s]  en realidad es el canal azul, es el canal verde
+[5687.64s -> 5689.64s]  o es el canal rojo cuando lo vemos
+[5689.64s -> 5691.64s]  de forma separada
+[5691.64s -> 5693.64s]  solamente estamos viendo
+[5693.64s -> 5695.64s]  256 posibilidades
+[5695.64s -> 5697.64s]  debido a este problema
+[5697.64s -> 5699.64s]  entonces se desarrolló el concepto de
+[5699.64s -> 5701.64s]  ventanas
+[5701.64s -> 5703.64s]  si
+[5703.64s -> 5705.64s]  ventanas
+[5705.64s -> 5707.64s]  que quieren decir esas tales ventanas
+[5707.64s -> 5709.64s]  es coger un valor
+[5709.64s -> 5711.64s]  que va a ser el punto medio
+[5711.64s -> 5713.64s]  si
+[5713.64s -> 5715.64s]  es coger un valor
+[5715.64s -> 5717.64s]  que va a ser el punto medio
+[5717.64s -> 5719.64s]  y entonces
+[5719.64s -> 5721.64s]  me quedo
+[5721.64s -> 5723.64s]  o sea ese valor va a representar un rango
+[5725.64s -> 5727.64s]  un rango de valores
+[5727.64s -> 5729.64s]  por encima y por debajo
+[5729.64s -> 5731.64s]  si
+[5731.64s -> 5733.64s]  a este
+[5733.64s -> 5735.64s]  por encima y por debajo
+[5735.64s -> 5737.64s]  le llamamos ancho de ventanas
+[5739.64s -> 5741.64s]  si
+[5743.64s -> 5745.64s]  por ejemplo si vamos a medir
+[5745.64s -> 5747.64s]  estructuras de tejidos de abdomen
+[5747.64s -> 5749.64s]  entonces
+[5749.64s -> 5751.64s]  la mayoría de valores
+[5751.64s -> 5753.64s]  van a
+[5753.64s -> 5755.64s]  o sea la mayor
+[5755.64s -> 5757.64s]  no son tejidos blandos
+[5757.64s -> 5759.64s]  que van a ser las de
+[5759.64s -> 5761.64s]  el intestino o el estómago
+[5761.64s -> 5763.64s]  o sea no es hueso lo que vamos a
+[5763.64s -> 5765.64s]  escanear
+[5765.64s -> 5767.64s]  allí resulta
+[5767.64s -> 5769.64s]  que
+[5769.64s -> 5771.64s]  eso va a presentar valores más o menos
+[5771.64s -> 5773.64s]  de menos 100
+[5773.64s -> 5775.64s]  a 100 unidades
+[5775.64s -> 5777.64s]  hawnspiel
+[5777.64s -> 5779.64s]  es decir cuando nosotros venimos aquí
+[5779.64s -> 5781.64s]  vemos este menos 2.000
+[5781.64s -> 5783.64s]  estos sí están unidades
+[5783.64s -> 5785.64s]  en una imagen plana
+[5785.64s -> 5787.64s]  vemos qué intensidad pixel es
+[5787.64s -> 5789.64s]  224
+[5789.64s -> 5791.64s]  eso no tiene unidades
+[5791.64s -> 5793.64s]  eso no tiene el cordón
+[5793.64s -> 5795.64s]  es 224
+[5795.64s -> 5797.64s]  unidades de color azul
+[5797.64s -> 5799.64s]  simplemente es un número ya
+[5799.64s -> 5801.64s]  mientras que este
+[5801.64s -> 5803.64s]  menos 2.000 si es
+[5803.64s -> 5805.64s]  si tiene una unidad que es UH
+[5805.64s -> 5807.64s]  o unidad hawnspiel
+[5807.64s -> 5809.64s]  si me voy a entender
+[5809.64s -> 5811.64s]  si como decimos metros kilómetros
+[5811.64s -> 5813.64s]  de segundos
+[5813.64s -> 5815.64s]  litros
+[5815.64s -> 5817.64s]  para estas
+[5817.64s -> 5819.64s]  imágenes
+[5819.64s -> 5821.64s]  ese menos 2.000
+[5821.64s -> 5823.64s]  si tiene
+[5823.64s -> 5825.64s]  una unidad llamada
+[5825.64s -> 5827.64s]  UH
+[5827.64s -> 5829.64s]  unidad hawnspiel
+[5829.64s -> 5831.64s]  si
+[5831.64s -> 5833.64s]  volvamos al tema
+[5833.64s -> 5835.64s]  del abdomen
+[5835.64s -> 5837.64s]  si estamos haciendo un escaneo
+[5837.64s -> 5839.64s]  de paciente en el abdomen
+[5839.64s -> 5841.64s]  vamos a ver
+[5841.64s -> 5843.64s]  mucho valores entre el menos 100
+[5843.64s -> 5845.64s]  y 100
+[5845.64s -> 5847.64s]  si
+[5849.64s -> 5851.64s]  la ventana
+[5851.64s -> 5853.64s]  de ese abdomen
+[5853.64s -> 5855.64s]  va a aplicar
+[5855.64s -> 5857.64s]  esas
+[5857.64s -> 5859.64s]  esas intensidades de gris
+[5859.64s -> 5861.64s]  solamente ha dicho
+[5861.64s -> 5863.64s]  a esa franja de valores
+[5863.64s -> 5865.64s]  y todo por encima
+[5865.64s -> 5867.64s]  de dicha franja o por debajo de dicha franja
+[5867.64s -> 5869.64s]  lo va a poner en blanco, lo va a poner en negre
+[5869.64s -> 5871.64s]  si por eso es que estamos
+[5871.64s -> 5873.64s]  viendo esta imagen así
+[5873.64s -> 5875.64s]  los que vemos esto así
+[5875.64s -> 5877.64s]  fíjense
+[5877.64s -> 5879.64s]  esto tiene el mismo color
+[5879.64s -> 5881.64s]  es negro, esto tiene el mismo otro color
+[5881.64s -> 5883.64s]  si lo ven
+[5883.64s -> 5885.64s]  y ya esto
+[5885.64s -> 5887.64s]  si ya tiene
+[5887.64s -> 5889.64s]  variaciones de intensidad de gris
+[5889.64s -> 5891.64s]  si lo ven
+[5893.64s -> 5895.64s]  por eso es que aquí estamos
+[5895.64s -> 5897.64s]  viendo estos menos 2.000
+[5897.64s -> 5899.64s]  y vemos constante
+[5899.64s -> 5901.64s]  constantemente
+[5901.64s -> 5903.64s]  es porque estamos viendo una mancha
+[5903.64s -> 5905.64s]  de color aquí, otra mancha
+[5905.64s -> 5907.64s]  de un solo color aquí
+[5907.64s -> 5909.64s]  y ya es en este pedazo
+[5909.64s -> 5911.64s]  donde si ya vemos las variaciones de intensidad
+[5911.64s -> 5913.64s]  es decir, si nosotros
+[5913.64s -> 5915.64s]  seguimos imprimiendo estas matrices
+[5915.64s -> 5917.64s]  vamos a ver que
+[5917.64s -> 5919.64s]  en esta zona
+[5919.64s -> 5921.64s]  en esta zona si tenemos
+[5921.64s -> 5923.64s]  variaciones de intensidad
+[5923.64s -> 5925.64s]  pero en un rango determinado
+[5925.64s -> 5927.64s]  si
+[5929.64s -> 5931.64s]  si estamos midiendo
+[5931.64s -> 5933.64s]  esto si ya es casi que constante
+[5933.64s -> 5935.64s]  o sea estándar para
+[5935.64s -> 5937.64s]  casi, casi le vamos a ver
+[5937.64s -> 5939.64s]  porque no tanto
+[5939.64s -> 5941.64s]  si es parte blanda
+[5943.64s -> 5945.64s]  la ventana
+[5945.64s -> 5947.64s]  es de 60
+[5947.64s -> 5949.64s]  la ventana es de 60
+[5949.64s -> 5951.64s]  y los valores
+[5951.64s -> 5953.64s]  que vamos a ver allí son de 30
+[5953.64s -> 5955.64s]  a 50
+[5955.64s -> 5957.64s]  unidades
+[5957.64s -> 5959.64s]  es decir, si nosotros vemos los valores
+[5959.64s -> 5961.64s]  de Boxel
+[5961.64s -> 5963.64s]  para zonas
+[5963.64s -> 5965.64s]  que han medido, que están relacionadas
+[5965.64s -> 5967.64s]  con partes blandas del cuerpo humano
+[5967.64s -> 5969.64s]  vamos a ver, es puro
+[5969.64s -> 5971.64s]  entre 30 y 50
+[5983.64s -> 5985.64s]  y ya
+[5985.64s -> 5987.64s]  vamos a ver
+[5987.64s -> 5989.64s]  que es un rango
+[5989.64s -> 5991.64s]  de 50
+[5991.64s -> 5993.64s]  y ya
+[5993.64s -> 5995.64s]  es un rango
+[5995.64s -> 5997.64s]  de 50
+[5997.64s -> 5999.64s]  y ya
+[5999.64s -> 6001.64s]  es un rango
+[6001.64s -> 6003.64s]  de 50
+[6003.64s -> 6005.64s]  y ya
+[6005.64s -> 6007.64s]  es un rango
+[6007.64s -> 6009.64s]  de 50
+[6009.64s -> 6011.64s]  y ya
+[6011.64s -> 6013.64s]  es un rango
+[6013.64s -> 6015.64s]  de 50
+[6015.64s -> 6017.64s]  y ya
+[6017.64s -> 6019.64s]  es un rango
+[6019.64s -> 6021.64s]  de 50
+[6021.64s -> 6023.64s]  y ya
+[6023.64s -> 6025.64s]  es un rango
+[6025.64s -> 6027.64s]  de 50
+[6027.64s -> 6029.64s]  y ya
+[6029.64s -> 6031.64s]  es un rango
+[6031.64s -> 6033.64s]  de 50
+[6033.64s -> 6035.64s]  y ya
+[6035.64s -> 6037.64s]  es un rango
+[6037.64s -> 6039.64s]  de 50
+[6039.64s -> 6054.24s]  pues está hablando, no se escucha.
+[6054.24s -> 6066.52s]  ¿Dónde me quedé? ¿Dónde me quedé?
+[6066.52s -> 6095.96s]  En el punto 2, listo, gracias, para la parte o sea, para la parte o sea,
+[6095.96s -> 6103.00s]  vamos en compusas y nos estamos haciendo un escaneo de partes oceas, vamos a ver en los valores de
+[6103.00s -> 6111.16s]  de boxel, valores cercanos a 3,000 positivo, a 3,000, eso que quiere decir de que hubo más
+[6111.16s -> 6123.48s]  atenuación de los varios X entrando a ese tejido ocea. Si trabajamos con pulmón, si es decir,
+[6123.48s -> 6130.04s]  si le hacemos un escaneo a paciente en la zona cercana el pulmón, si, entonces en la imagen
+[6130.04s -> 6139.60s]  resultante vamos a ver valores entre 1.500, 1.600, 1.700, pero también vamos a ver 1.400,
+[6139.60s -> 6151.16s]  1.300, 1.200, es decir, 500 más o menos 500, 1.500 más o menos 500, es decir, entre 1.000 y 2.000,
+[6151.88s -> 6164.16s]  listo? Si vamos a trabajar imágenes de hígado, vamos a tener una ventana de 100 a 150 y los valores
+[6164.16s -> 6174.56s]  son entre 70 y 80, es decir, podemos ver valores, si le hacemos un escaneo a paciente del hígado,
+[6174.96s -> 6187.16s]  entonces en la imagen resultante vamos a tener es valores de atenuación de 70, 80, 120, pero
+[6187.16s -> 6198.00s]  también podemos tener 40, 30, 20, menos 10, menos 20. ¿Quién se inventó esto? Pues el tipo
+[6198.00s -> 6206.52s]  Hounsfield, ¿por qué se lo inventó? Porque los rayos X son una cosa casi que continua,
+[6208.12s -> 6215.84s]  ¿sí? Y medir eso varía mucho de dispositivo a dispositivo, entonces intentó como standardizar
+[6215.84s -> 6224.32s]  un poco la adquisición de las imágenes y los valores resultantes y se dieron cuenta de que para
+[6224.32s -> 6232.64s]  ciertas partes del cuerpo, sí, para ciertas partes del cuerpo se presentan estos valores
+[6232.64s -> 6240.72s]  resultantes, dependiendo de la atenuación que tenga el rayo X en el tejido involucrado,
+[6241.68s -> 6248.80s]  si me voy a entender. Entonces, volvemos otra vez, pregunta, ¿por qué entonces vemos este
+[6248.80s -> 6258.72s]  menos del milanquino? ¿Por qué, de dónde salieron esos valores? ¿Sí? Recuerden que el
+[6258.72s -> 6265.24s]  voxel representa es un pequeño volumen físico del paciente, así como un pixel representa
+[6265.24s -> 6272.04s]  es una pequeña área del mundo real, el voxel representa un volumen físico, o sea,
+[6272.04s -> 6280.24s]  los áreas en el volumen, tres dimensiones, el paciente, ¿sí? El escáner mide cuánto se
+[6280.24s -> 6286.96s]  atenúan esos rayos X al atravesar el cuerpo, ¿sí? Eso hay que medirlo de algún modo,
+[6288.48s -> 6297.80s]  ¿sí? Entonces, ¿cómo se mide esa reconstrucción de esa atenuación que tuvo ese rayo X en
+[6297.80s -> 6305.92s]  esa parte del tejido? Para eso se aplica una fórmula, es decir, cada unidad Hounsville es igual
+[6305.92s -> 6322.44s]  a que a mil multiplicado por la división entre un coeficiente, un coeficiente del voxel involucrado,
+[6322.44s -> 6332.00s]  menos el coeficiente de atenuación del agua dividido por el coeficiente de atenuación del agua.
+[6332.00s -> 6341.88s]  Esas, estos, este mil del agua se puede buscar, ¿sí? Eso se puede buscar, ¿sí?
+[6341.88s -> 6353.16s]  O eficiente de atenuación, ¿sí? Y aquí es donde viene de que varía de equipo a equipo,
+[6353.16s -> 6364.96s]  porque es que dependiendo de la energía que se use a emitir el, así se llama la señal
+[6365.04s -> 6374.08s]  de rayos X, dependiendo de la cantidad de energía que se utilice, ¿sí?
+[6376.84s -> 6388.72s]  Por ejemplo, a 80 kiloelectrovoltios tenemos, para la grasa tenemos menos 69 unidades Hounsville,
+[6389.60s -> 6399.04s]  pero si nosotros utilizamos otro equipo en donde se emitan 120 kiloelectrovoltios,
+[6399.04s -> 6407.64s]  para ese mismo tejido grasoso vamos a obtener menos 58 unidades Hounsville. Es decir,
+[6407.64s -> 6416.56s]  ahí es donde vemos que dependiendo de la energía utilizada, ¿sí? De la cantidad de energía que
+[6416.56s -> 6427.92s]  se utilice para emitir el as de rayos X, vamos a obtener un valor de unidad Hounsville para ese
+[6427.92s -> 6439.92s]  mismo tejido, para esa misma ubicación respecto de utilizar otro, otro, otra cantidad de energía
+[6439.92s -> 6449.24s]  kiloelectrovoltios para capturar la misma área, bueno, bueno, el mismo volumen del mismo tejido,
+[6449.24s -> 6456.24s]  del mismo paciente, simplemente con haber cambiado la energía, la cantidad de energía utilizada.
+[6459.20s -> 6467.84s]  Eso no ocurre, por ejemplo, con las imágenes planas. Por ejemplo, les digo, usted va y mira
+[6467.84s -> 6477.28s]  una imagen plana y usted ve el 224 en su matriz. Ese 224 no importa si vino de un iPhone 17,
+[6477.28s -> 6486.48s]  no importa si vino de un, de un, de un, de una cámara web, no importa si vino de allí.
+[6489.48s -> 6495.76s]  Mientras que en las imágenes de resonación magnética, perdón, en las imágenes de tomografía,
+[6495.76s -> 6505.60s]  disculpenme, vemos que sí hay diferencia dependiendo de cuánta energía se aplicó para emitir el as de
+[6505.60s -> 6512.96s]  rayos X. Sí, es decir, si yo vengo y miro este menos 2,000 que hay aquí,
+[6515.80s -> 6522.12s]  muy probablemente va a ser, perdón, muy probablemente que hubiera sido otro valor distinto,
+[6523.12s -> 6531.96s]  si yo hubiera aplicado otra cantidad de energía para emitir el rayo X para ese paciente.
+[6531.96s -> 6537.60s]  Ahora bien, ¿dónde está esa información? ¿De cuánta energía se capturó y todo eso?
+[6537.60s -> 6547.80s]  Volvemos al encabezado. Depende, obviamente, del dispositivo, pero también depende del
+[6547.80s -> 6559.04s]  del que captura la información, en nuestro caso, de las IPSs de radiología.
+[6562.16s -> 6566.88s]  Hay un estándar para eso, ¿no? Cada IPS se maneja su propia cosa. De hecho,
+[6566.88s -> 6574.00s]  en la semana pasada, se vino una reunión y una estudiante de doctorado, quieren medir ese
+[6574.00s -> 6580.56s]  nivel de variabilidad que produce, o sea, estamos hablando ya de doctorado, ¿sí? O sea,
+[6580.56s -> 6586.80s]  es decir, es algo que no existe en este aumento, quieren intentar medir el nivel de variabilidad
+[6586.80s -> 6600.72s]  que le puede producir la variabilidad entre dispositivo y dispositivo y entre IPS e IPS,
+[6600.72s -> 6609.52s]  porque una IPS aplica cierta cantidad de energía, versus otra IPS que puede aplicar otra cantidad
+[6609.52s -> 6616.40s]  de energía. ¿Por qué creen que lo hace? ¿Por qué creen que una IPS aplica una cantidad de
+[6616.40s -> 6624.36s]  energía? ¿Por qué creen que otra IPS aplica otra cantidad de energía? ¿Por qué creen que se aplica?
+[6630.72s -> 6641.48s]  ¿Por qué sí? Por ejemplo, usted no sé, el que está en Enzana, entonces lo mandan por una IPS para
+[6641.48s -> 6649.48s]  que le tomen una tomografía y entonces le resultan, le resultan en mind con 2200 o menos 2200, así.
+[6651.60s -> 6658.92s]  Y va a otra IPS, alguna deshura, por ejemplo, y entonces le toman otra medida y le van a
+[6658.92s -> 6666.60s]  aparecer otros valores. ¿Por qué creen que va a pasar eso? Si es la misma cabeza del paciente,
+[6666.60s -> 6671.32s]  o sea, supongamos que fue el mismo paciente el que fue la otra IPS, ¿por qué le va a resultar
+[6671.32s -> 6680.16s]  distinto? Primero, porque la máquina distinta muy bien. Segundo, ¿por qué? Pues por los costos.
+[6680.48s -> 6690.56s]  En psiquiatra, la semana pasada, nos decimos, volvemos a la resonancia magnética. Recuerden que
+[6693.76s -> 6702.40s]  son tajadas las que se guardan. La tuvimos, son tajadas las que se guardan. Una IPS,
+[6702.40s -> 6709.76s]  puede decir, yo voy a tomar una tajada de la resonancia magnética cada centímetro del
+[6709.76s -> 6718.88s]  mundo real, cada centímetro, tomo una tajada. Es decir, es ir a un escaneo, una tajada. Otra IPS
+[6718.88s -> 6725.36s]  puede decir cada 1.5 centímetros, ¿por qué creen que lo hacen? No hay una ley colombiana que diga
+[6725.36s -> 6731.32s]  que tiene que ser acá tanto. No es ley colombiana, pero sí protocolos, estándares que dicen
+[6731.32s -> 6739.88s]  que tanto debería tomar. Pero ¿por qué entonces una IPS lo hace un centímetro y otra 1.5? Pues
+[6739.88s -> 6745.84s]  porque obviamente va a ser más barato hacerlo cada 1.5 o cada 2 centímetros que hacerlo cada
+[6745.84s -> 6750.92s]  1 centímetro. Es menos energía la que se usa, el paciente sale más rápido, entonces puede atender
+[6750.92s -> 6758.76s]  más pacientes y cada paciente es más platica para la IPS. Es menos energía la que soy utilizando,
+[6758.76s -> 6766.00s]  entonces me llega el recibo no tan caro porque siente. Toda esa factora incluye.
+[6770.76s -> 6777.04s]  Entonces, por ejemplo, la muchacha está pasando pena, o sea, está pasando trabajos,
+[6777.04s -> 6785.60s]  porque tiene resonancia magnética de una de DIME, la clínica DIME, otra de otra IPS y otras del
+[6785.60s -> 6794.32s]  psiquiátrico, perdón del psiquiátrico de Valle de Lili. El psiquiátrico no tiene resonador y que
+[6794.32s -> 6803.28s]  le ocurre. ¿Y qué le está ocurriendo a la muchacha? Está pasando trabajos porque son distintas
+[6803.28s -> 6811.32s]  distintas medidas utilizadas para capturar la resonancia magnética y ella quiere trabajar con
+[6811.32s -> 6817.56s]  todos esos pacientes, porque al final todos son pacientes calenios del sur occidente de Colombia,
+[6817.56s -> 6823.00s]  son pacientes muy particulares. Nosotros como población del sur occidente de Colombia,
+[6823.00s -> 6827.96s]  tenemos ciertas particularidades que no tienen la gente, por ejemplo, de Antioquia,
+[6827.96s -> 6835.16s]  que no tienen la gente de Cundinamarca y Boyacá. Somos muy particulares. Sí,
+[6835.88s -> 6845.60s]  ese es un buen estudio, pero el problema es las benditas imágenes que en la adquisición de esas
+[6845.60s -> 6853.92s]  imágenes ya hubo variabilidad, es decir, y quiere intentar capturar o medir esa variabilidad para
+[6853.92s -> 6858.20s]  ser tenida en cuenta por algún modelo de inteligencia artificial o cualquier cosa que
+[6858.20s -> 6865.12s]  quiere entrenar. Porque usted a la IA le puede meter lo que usted quiera, pero si usted le mete
+[6865.12s -> 6871.40s]  cosas que ya tienen un sesgo previo, la IA no va a tener en cuenta esos sesgos previos,
+[6871.40s -> 6876.36s]  sino que va a actuar con base en esos sesgos. Este va a dar unos resultados sesgados,
+[6876.36s -> 6883.64s]  pero la IA no sabrá si son sesgados o no. Quien al final sabe si son sesgados o no, es usted mismo.
+[6884.64s -> 6893.16s]  Sí, ella quiere intentar meterle a la IA o al modelo que entrene, si sea una red neuronal,
+[6893.16s -> 6900.20s]  sea lo que sea, esa variabilidad ya calcular de alguna forma como la piensa calcular ella,
+[6900.20s -> 6907.64s]  a ver, eso es una tesis doctoral. Pero quiero que tengan en cuenta de que es un problema que
+[6907.64s -> 6915.72s]  existe y con lo cual hay que alinear, al menos hasta que se encuentre algún método de estandarización.
+[6917.48s -> 6923.60s]  Pero para eso pues falta todavía. Hay alguna pregunta hasta aquí. Yo sé que esto es complejo
+[6923.60s -> 6933.12s]  de entender un poquito. En el campus virtual deje una lectura de tomografía computarizada. Si,
+[6933.12s -> 6941.28s]  si usted quiere profundizar sobre esto de las unidades, hay esta lectura que la deje en el campus
+[6941.28s -> 6948.04s]  virtual. Si usted quiere profundizar en ese tema. Si.
+[6955.16s -> 6961.64s]  Bien, entonces ahorita, perdón, antes de avanzar, hay preguntas, más preguntas.
+[6963.12s -> 6976.52s]  Ya para, ya para terminar este tema, si nosotros entonces vemos una matriz.
+[6978.68s -> 6984.48s]  Tenemos que volvimos de tres dimensiones, la volvimos dos dimensiones y vemos es menos
+[6984.48s -> 6999.20s]  950 menos 100 mil positivo menos 850 40 500 menos 700 por 100 150. Esto es un sólo un ejemplo.
+[7000.60s -> 7003.32s]  Esto está relacionado con aire.
+[7005.44s -> 7009.20s]  Porque el aire tiene unas unidades Housefield de menos mil.
+[7010.20s -> 7016.48s]  Es decir, esto está relacionado con aire. Es decir, ese boxeo, ese boxeo es aire.
+[7017.80s -> 7026.64s]  No hay nada allí. No hay tejido allí de paciente. Este menos 100. Este boxeo hace referencia.
+[7026.64s -> 7031.36s]  La escala que había aquí.
+[7032.64s -> 7037.04s]  Partes blandas. Fíjense. Tres blandas.
+[7038.72s -> 7046.88s]  30 50 con una ventana de 60. O sea, 30 50 más 60 por encima y 60 por debajo.
+[7047.88s -> 7056.56s]  Si, entonces este menos 100 que hay aquí es probablemente grasa, un poco sal blanda.
+[7056.56s -> 7061.56s]  Seguido blanda. Al igual que este 40 seguido blanda.
+[7064.56s -> 7067.44s]  Si, entonces este mil que hay aquí.
+[7068.44s -> 7075.08s]  Si tenemos 3000 por acá, que es, que es este mil positivo que hay aquí.
+[7075.16s -> 7076.56s]  Si esto es, pues.
+[7078.76s -> 7079.12s]  Si.
+[7083.88s -> 7084.36s]  Si lo ven.
+[7088.28s -> 7091.32s]  Es decir, si lo que lo que nosotros vemos acá.
+[7092.88s -> 7095.48s]  Y creo que esta la tomografía menos 2000.
+[7095.56s -> 7098.40s]  Esto que creen que es menos 2000.
+[7100.32s -> 7101.20s]  Esto que es.
+[7101.64s -> 7102.60s]  Esto es aire.
+[7103.64s -> 7104.20s]  Eire.
+[7105.08s -> 7107.64s]  Claro que se ve en puntado en negro.
+[7109.20s -> 7113.88s]  O sea, esto aquí es aire. O sea, no es, no es, no es nada del paciente. Es mero aire.
+[7115.20s -> 7116.48s]  Si es mero aire.
+[7118.68s -> 7120.68s]  Mientras que si nosotros imprimimos.
+[7121.88s -> 7128.52s]  Cosas, pero o sea, valores de boxeles, los valores de boxeles relacionados con la
+[7129.12s -> 7135.60s]  con estas zonas de acá, el centro, vamos a encontrar valores.
+[7136.84s -> 7142.28s]  Ya de 40, 50, 60, porque son tejidos blancos.
+[7146.64s -> 7148.44s]  Estas cositas blancas que hay aquí.
+[7149.92s -> 7150.40s]  Pero.
+[7153.68s -> 7155.72s]  De resto que es es puro hueso.
+[7156.72s -> 7169.64s]  Por eso esa imagen se llama desde el cráneo, usted al un sujeto, o sea, no es colombiano, no, no, no, no está de internet, pero es que es, es, es una medición del cráneo del paciente.
+[7172.12s -> 7172.44s]  Si.
+[7173.24s -> 7175.96s]  Si fíjense cómo se ve el cráneo del paciente.
+[7179.12s -> 7180.36s]  En una tomografía.
+[7180.48s -> 7180.88s]  Fía.
+[7182.80s -> 7188.80s]  Es muy distinto de cómo se vería el cráneo del paciente en la imagen de resonancia magnética.
+[7189.80s -> 7195.24s]  Vamos a abrir la imagen de resonancia magnética, que es el último archivo que nos queda.
+[7195.72s -> 7197.24s]  Es, por favor, habrá mucho.
+[7201.08s -> 7202.40s]  Si, por favor, habrá mucho.
+[7210.80s -> 7212.16s]  Si, por favor, habrá mucho.
+[7213.16s -> 7214.56s]  Si, por favor, habrá mucho.
+[7215.36s -> 7216.52s]  Si, por favor, habrá mucho.
+[7217.52s -> 7218.96s]  Si, por favor, habrá mucho.
+[7219.96s -> 7221.36s]  Si, por favor, habrá mucho.
+[7222.36s -> 7223.68s]  Si, por favor, habrá mucho.
+[7224.96s -> 7232.32s]  Alguien que quiera compartir pantalla y mostrar esa imagen abierta, la del número hiperlapísima.
+[7232.96s -> 7233.32s]  Si.
+[7233.72s -> 7234.32s]  Si.
+[7247.12s -> 7247.52s]  Pregunta.
+[7247.52s -> 7253.80s]  Si quedo claro la diferencia entre una imagen de tomografía y una imagen de resonancia magnética.
+[7253.80s -> 7254.80s]  Si quedo claro.
+[7255.12s -> 7255.60s]  Si.
+[7259.88s -> 7262.76s]  De dónde salen esos valores negativos.
+[7263.08s -> 7265.20s]  Usted puede buscar la escala en internet.
+[7265.20s -> 7267.12s]  O sea, no te las tenés que aprender de memoria.
+[7267.12s -> 7269.60s]  Eso es un país que se van aprendiendo como con la práctica.
+[7270.04s -> 7270.36s]  Si.
+[7270.88s -> 7277.84s]  Pero pues, al menos, a ver de que ya si yo veo un número negativo, pues voy a buscar la escala y a esto corresponde a hueso,
+[7277.84s -> 7280.48s]  esto corresponde a tejido del lando, esto corresponde a aire.
+[7280.88s -> 7282.40s]  Si.
+[7283.36s -> 7291.92s]  Números muy altos positivos, hueso, más de mil, es puro hueso, lo que, lo que hay allí.
+[7292.60s -> 7298.12s]  Números bajitos positivos, tejido blando.
+[7299.80s -> 7305.76s]  Ya uno puede buscar esas unidades, que para el hígado, que para el páncreas, que para el corazón,
+[7306.16s -> 7313.52s]  o sea, ya articularmente, pero a muy grosso modo, hueso, mayor unidad, el mayor es a mil.
+[7313.52s -> 7317.12s]  O sea, si usted ve mil, mil, mil, mil, mil, mil, mil, es puro hueso.
+[7318.84s -> 7322.36s]  Puro hueso, lo que hay allí en esos volúmenes.
+[7323.80s -> 7327.12s]  Valores entre cero y cien por allí, tejido blando.
+[7328.04s -> 7333.76s]  Valores por debajo de mil, perdón, por debajo de menos mil.
+[7334.72s -> 7343.48s]  Es que, puro aire, o sea, es decir, no es, no hace parte ya del paciente,
+[7343.48s -> 7345.80s]  puede del aire que alguien te diga alrededor.
+[7348.92s -> 7355.12s]  Por favor, abramos la imagen del último paciente que ese paciente, si es del HV, por favor.
+[7357.52s -> 7359.96s]  Alguien que te impacta, pantalla, por favor.
+[7359.96s -> 7364.28s]  Y yo, profe, ya comparto.
+[7390.96s -> 7392.72s]  Me dice si se está viendo ya.
+[7392.72s -> 7395.16s]  Sí, sí, estoy viendo, sí.
+[7404.48s -> 7410.16s]  Ya imprimamos, por favor, el, o sea, ya, ya abrió esa imagen del paciente.
+[7410.16s -> 7418.28s]  Sí, pues, ahí se ve.
+[7418.28s -> 7425.16s]  Sí, ahí está, bueno, sí, o sea, se ve, pero, bueno, está ahí, pues, toda chueca.
+[7425.16s -> 7432.08s]  Sí, pues, no sé, o sea, no sé, salió mal o, o así debe verse, no sé.
+[7432.08s -> 7438.56s]  O sea, que, no sé, o sea, porque estamos usando un mismo código,
+[7439.28s -> 7442.76s]  mismo código, pues, base, si quieren, si quieren, les voy a pasar.
+[7442.76s -> 7452.16s]  Este pedazo de código, es que quiere en una nueva base, ponga el código que lo estoy pasando allí,
+[7452.16s -> 7454.48s]  esto aplica, por favor, para los demás.
+[7454.48s -> 7457.96s]  Espero que me estén siguiendo con el tema del código.
+[7457.96s -> 7463.04s]  No vamos a hacer aquí línea por línea, porque, o sea, es bastante lo que hay que explicar.
+[7464.04s -> 7466.84s]  Entonces, por eso, le estoy pegando el código aquí.
+[7466.84s -> 7474.00s]  No pienlo y peguenlo y coloque la ruta, la ruta a la imagen, propiamente.
+[7474.00s -> 7493.92s]  Allí necesitamos la ruta a la carpeta, donde está, lojada, esa imagen.
+[7493.92s -> 7495.12s]  Ah, ok.
+[7504.00s -> 7524.20s]  Una imagen de resonancia magnética viene, ya hay solamente el espacio, un solo corte,
+[7524.20s -> 7531.76s]  es decir, una sola tajada, yo ahí les pasé, una sola tajada por facilidad.
+[7531.76s -> 7547.08s]  Les voy a poner el enlace de, les voy a poner el enlace de todas las, todas las tajadas de ese paciente,
+[7547.96s -> 7555.60s]  aquí, para lograr así tener la reconstrucción entre éste y completa de ese, de ese paciente.
+[7555.60s -> 7561.24s]  Sí, pero por ahora trabajemos solamente con una sola tajada de ese paciente.
+[7561.24s -> 7565.00s]  Listo, ¿el que ahora lo logramos abrir?
+[7565.00s -> 7573.88s]  No sé por qué no me deja, o sea, copiar la ruta y está igual y no sé por qué no me deja.
+[7574.20s -> 7576.96s]  Pues miremos el error a ver qué pasa en el error.
+[7580.96s -> 7585.00s]  O sea, por eso, ¿dónde está su imagen?
+[7588.00s -> 7590.68s]  O sea, ¿entra ahí donde está su imagen?
+[7593.68s -> 7595.60s]  Sí, pero feo, o sea, ahí la ruta está bien.
+[7595.60s -> 7602.68s]  Listo, entonces esa ruta al directorio, no la ruta a la imagen.
+[7603.48s -> 7608.24s]  O sea, mejor dicho, baje, baje, o sea, vamos a la celda del código que te puse.
+[7608.24s -> 7612.28s]  Ok, pues.
+[7612.28s -> 7617.12s]  ¿Cuál es esa?
+[7617.12s -> 7625.76s]  Bueno, no sé, solamente data, content drive, my drive, pd.com, no más.
+[7626.76s -> 7631.48s]  O sea, borde todo ese número.
+[7631.48s -> 7637.24s]  Necesitamos ahí, sí, porque ahí estamos especificando la ruta al directorio.
+[7637.24s -> 7639.44s]  Ah, listo, yo clicaré a la imagen.
+[7639.44s -> 7642.16s]  Ahí, pues sí, se ve igual.
+[7642.16s -> 7647.84s]  Ahí hay que ver después por qué estamos dando así todo hecho.
+[7647.84s -> 7651.68s]  Pero esa imagen corresponde a un paciente.
+[7652.12s -> 7656.64s]  Vamos a imprimir el diccionario y contiene todos los atributos.
+[7656.64s -> 7658.44s]  Solamente imprima el diccionario.
+[7661.44s -> 7666.68s]  Te da print y al diccionario que tiene, que tiene la.
+[7666.68s -> 7690.76s]  ¿Cuál es el diccionario allí que me está representando todos los encabezados?
+[7690.76s -> 7700.72s]  Pues, pero igual, acá, creo que se ve, o sea, si, pero queremos imprimirlo todo para
+[7700.72s -> 7706.80s]  ver todos los atributos, queremos que ahí estamos viendo unos cuantos, queremos verlos
+[7706.80s -> 7707.80s]  todos.
+[7707.80s -> 7714.80s]  El diccionario, ¿cuál es usted acá que está aquí?
+[7714.80s -> 7717.80s]  Profe, ¿lo escucha?
+[7717.80s -> 7719.80s]  Sí, sí, yo le oigo.
+[7719.80s -> 7721.80s]  ¿Cuál es?
+[7721.80s -> 7724.80s]  Ok, no sé por eso.
+[7724.80s -> 7727.80s]  Si es este el nombre del diccionario para ponerlo.
+[7730.80s -> 7734.80s]  ¿De todas esas variables cuál es el diccionario?
+[7734.80s -> 7736.80s]  Ok.
+[7736.80s -> 7741.80s]  ¿Recuerden que el PAIDICON?
+[7741.80s -> 7748.80s]  Recordemos, PAIDICON al leer una imagen la convierte en un diccionario.
+[7748.80s -> 7750.80s]  Ah, ok.
+[7750.80s -> 7758.80s]  Entonces es donde estoy leyendo la variable en la cual es cargada la resonancia.
+[7758.80s -> 7760.80s]  Eso es un diccionario.
+[7760.80s -> 7762.80s]  Ok.
+[7763.80s -> 7774.80s]  Creo que era por un tanto, no me acuerdo cómo se ponía.
+[7774.80s -> 7777.80s]  Si, si, ¿sabes?
+[7777.80s -> 7779.80s]  Si quieren leer.
+[7779.80s -> 7784.80s]  Si quieren leer, le damos la imagen individual.
+[7784.80s -> 7789.80s]  Aquí le puse el código para que le damos la imagen individual.
+[7789.80s -> 7792.80s]  Y imprimamos el diccionario.
+[7792.80s -> 7798.80s]  Cambie la ruta por la ruta suya.
+[7798.80s -> 7801.80s]  Para esa imagen.
+[7801.80s -> 7806.80s]  Pero que usted lo que tiene es diccionario.
+[7806.80s -> 7808.80s]  Sí, así se llama su director.
+[7808.80s -> 7810.80s]  El diccionario.
+[7823.80s -> 7825.80s]  Bueno, póngala, póngala.
+[7825.80s -> 7830.80s]  Si quiere abra, por favor, abra aquí el árbol de...
+[7830.80s -> 7835.80s]  de DRIVE, el árbol de archivos.
+[7838.80s -> 7840.80s]  El árbol de archivos de DRIVE.
+[7848.80s -> 7851.80s]  Está diconema yúscula.
+[7852.80s -> 7857.80s]  Y le da mi derecho por que arruta desde el tercer.
+[7860.80s -> 7862.80s]  Y pega todo eso, listo.
+[7862.80s -> 7864.80s]  Vamos a ejecutar.
+[7867.80s -> 7871.80s]  Exactamente, que esos son tóntonos encabezados
+[7871.80s -> 7874.80s]  que tiene el estándar y cómo.
+[7874.80s -> 7878.80s]  Ahí podemos ver si quiere darle cuenta.
+[7878.80s -> 7882.80s]  Ahí podemos ver si quiere darle control más.
+[7884.80s -> 7886.80s]  Yo estoy ciego.
+[7886.80s -> 7890.80s]  Otro poquito, otro poquito más.
+[7890.80s -> 7892.80s]  Es, no menos ahí.
+[7892.80s -> 7894.80s]  Ahí ya todos ven.
+[7896.80s -> 7899.80s]  Espero que los demás estén siguiendo.
+[7899.80s -> 7901.80s]  Estén siguiendo.
+[7901.80s -> 7903.80s]  Sí, sí.
+[7903.80s -> 7907.80s]  Es piense que estamos viendo allí.
+[7907.80s -> 7911.80s]  Información del dispositivo.
+[7911.80s -> 7913.80s]  No, ¿qué estás haciendo?
+[7913.80s -> 7916.80s]  Perdón, perdón. No sé si me subí sin querer.
+[7916.80s -> 7920.80s]  Información del dispositivo.
+[7922.80s -> 7927.80s]  La fecha del estudio, fíjense, mayo 31, es 2026.
+[7928.80s -> 7930.80s]  Baje.
+[7933.80s -> 7935.80s]  Baje.
+[7937.80s -> 7939.80s]  Baje más, lo hacen más.
+[7939.80s -> 7943.80s]  Estamos viendo allí los atributos y fíjense lo que hace que aparece.
+[7943.80s -> 7945.80s]  Bajo mucho.
+[7947.80s -> 7949.80s]  Fíjense ahí lo que aparece.
+[7949.80s -> 7951.80s]  Hospital universitario.
+[7951.80s -> 7956.80s]  Y empezamos nosotros a tener problemas aquí.
+[7956.80s -> 7958.80s]  Estamos empezando.
+[7958.80s -> 7960.80s]  Es cerebro simple, adulto.
+[7960.80s -> 7964.80s]  Y le dicen imágenes diagnosticas.
+[7964.80s -> 7968.80s]  Fíjense que están en español, ¿no?
+[7968.80s -> 7970.80s]  Baje.
+[7970.80s -> 7973.80s]  Entonces fíjese, fíjese lo que aparece.
+[7973.80s -> 7979.80s]  Aquí ya, aquí ya estamos empezando a tocar al diálogo.
+[7979.80s -> 7981.80s]  ¿Por qué?
+[7982.80s -> 7985.80s]  Estamos ya empezando aún.
+[7988.80s -> 7992.80s]  A trabajar cosas ilegales.
+[7996.80s -> 7999.80s]  Simplemente miren lo que está ahí en la pantalla.
+[8004.80s -> 8007.80s]  Porque aparece el nombre del paciente muy bien.
+[8008.80s -> 8012.80s]  Es que nos toca hacer anonimizar todo eso, ¿verdad?
+[8018.80s -> 8021.80s]  Nos toca anonimizar todo eso.
+[8021.80s -> 8024.80s]  Ojo, aquí estamos en una clase.
+[8024.80s -> 8028.80s]  Esto es una clase, esto es una especie académica.
+[8028.80s -> 8032.80s]  Nos toca poner esas altidades.
+[8032.80s -> 8035.80s]  Bueno, ¿está temblando?
+[8035.80s -> 8037.80s]  Pues, pues, mía.
+[8041.80s -> 8044.80s]  Nos toca entonces anonimizar esto.
+[8050.80s -> 8054.80s]  ¿Por qué no les quería yo pasar todos los scans del paciente?
+[8054.80s -> 8058.80s]  Porque nos toca anonimizar esto primero.
+[8059.80s -> 8064.80s]  Pita todos esos datos que apunten a un paciente en específico.
+[8067.80s -> 8070.80s]  Y esto es, aquí es supremamente crítico.
+[8070.80s -> 8073.80s]  Esto es, esto es crítico, crítico, crítico.
+[8074.80s -> 8077.80s]  Esto no lo podemos hacer
+[8077.80s -> 8080.80s]  bajo los criterios de las buenas prácticas clínicas.
+[8080.80s -> 8082.80s]  El curso que vimos.
+[8083.80s -> 8086.80s]  ¿Cómo podemos nosotros anonimizar esto?
+[8086.80s -> 8089.80s]  Pues poner todos esos campos como vacíos.
+[8098.80s -> 8105.80s]  Todos los IPs y las etiquetas privadas, removerlas.
+[8106.80s -> 8108.80s]  La, la,
+[8109.80s -> 8112.80s]  como se llama esta librería,
+[8112.80s -> 8114.80s]  nos provee una función que se llama
+[8114.80s -> 8116.80s]  Remove Private Tax,
+[8116.80s -> 8119.80s]  que lo que hace es remover todas esas etiquetas
+[8119.80s -> 8123.80s]  que sean de privadas del paciente.
+[8123.80s -> 8125.80s]  ¿Sí?
+[8126.80s -> 8128.80s]  Entonces,
+[8128.80s -> 8130.80s]  vamos a coger esa,
+[8130.80s -> 8133.80s]  vamos a coger entonces ese,
+[8133.80s -> 8136.80s]  ese scan y lo vamos a anonimizar.
+[8136.80s -> 8138.80s]  Allí les paso un código
+[8138.80s -> 8141.80s]  que nos permite anonimizar.
+[8141.80s -> 8144.80s]  Es simplemente ir y modificar ese edicionario.
+[8144.80s -> 8146.80s]  Recuerde.
+[8146.80s -> 8149.80s]  Pidicon al cargar el scan lo que hace es,
+[8149.80s -> 8151.80s]  ahí lo puse en el chat.
+[8151.80s -> 8154.80s]  Pidicon lo que hace al cargar el scan es
+[8154.80s -> 8158.80s]  representar toda esa información en un,
+[8158.80s -> 8159.80s]  en un edicionario.
+[8159.80s -> 8160.80s]  Entonces,
+[8160.80s -> 8162.80s]  que lo que tenemos que hacer en Python
+[8162.80s -> 8164.80s]  es ir y cambiar esos atributos,
+[8164.80s -> 8166.80s]  ese es clave valor del,
+[8166.80s -> 8168.80s]  del diccionario.
+[8168.80s -> 8170.80s]  Pero también Pidicon nos ofrece una
+[8170.80s -> 8172.80s]  función que se llama
+[8172.80s -> 8174.80s]  Remove Private Tax,
+[8174.80s -> 8176.80s]  que lo que hace es eliminar aquellos,
+[8176.80s -> 8178.80s]  aquellos atributos que sean privados.
+[8178.80s -> 8180.80s]  Pues aquellos encarizados
+[8180.80s -> 8182.80s]  que son relacionados con,
+[8182.80s -> 8184.80s]  con privados.
+[8184.80s -> 8186.80s]  Y va a ser el paciente.
+[8186.80s -> 8188.80s]  Entonces ejecutemos eso.
+[8188.80s -> 8190.80s]  Entonces, ¿Qué vamos a hacer allí?
+[8190.80s -> 8192.80s]  Modificamos el diccionario
+[8192.80s -> 8194.80s]  y guardando el diccionario,
+[8194.80s -> 8195.80s]  o sea,
+[8195.80s -> 8197.80s]  guardando una nueva imagen,
+[8197.80s -> 8200.80s]  pero ya versión anonimizada.
+[8200.80s -> 8202.80s]  Recuerde.
+[8202.80s -> 8205.80s]  El tipo de dato en Pidicon
+[8205.80s -> 8207.80s]  es un diccionario el que me está
+[8207.80s -> 8209.80s]  representando la imagen.
+[8209.80s -> 8211.80s]  Uno de esos atributos,
+[8211.80s -> 8213.80s]  clave valor,
+[8213.80s -> 8215.80s]  es la imagen en sí misma que contiene
+[8215.80s -> 8218.80s]  los datos de los valores de los pixels,
+[8218.80s -> 8220.80s]  pues de los voxeles.
+[8223.80s -> 8225.80s]  Pero en general todo es un,
+[8225.80s -> 8226.80s]  es un diccionario,
+[8226.80s -> 8228.80s]  es de simplemente ir y modificar
+[8228.80s -> 8229.80s]  ese diccionario.
+[8229.80s -> 8231.80s]  En esos atributos,
+[8231.80s -> 8232.80s]  de,
+[8232.80s -> 8235.80s]  que me están representando a esos pacientes,
+[8235.80s -> 8237.80s]  pero pues el nombre del paciente,
+[8237.80s -> 8239.80s]  la cédula de esa vuelta.
+[8241.80s -> 8243.80s]  Realmente allí tenemos que
+[8243.80s -> 8245.80s]  especificar una ruta de salida.
+[8245.80s -> 8247.80s]  Puede ser, puede ser el mismo,
+[8247.80s -> 8249.80s]  puede ser el mismo directorio
+[8249.80s -> 8251.80s]  de Pidicon que usted tiene.
+[8259.80s -> 8261.80s]  O sea, que guarde la imagen
+[8261.80s -> 8263.80s]  allí en ese director biológico.
+[8277.80s -> 8279.80s]  Papilla, en el mundo real,
+[8279.80s -> 8281.80s]  ¿esto es responsabilidad
+[8281.80s -> 8282.80s]  de la institución?
+[8282.80s -> 8283.80s]  ¿Qué de las imágenes
+[8283.80s -> 8286.80s]  o le tocaría a uno como investigador?
+[8289.80s -> 8290.80s]  Buena pregunta,
+[8290.80s -> 8291.80s]  pues su crecimiento
+[8291.80s -> 8293.80s]  se le ha señalado en ingresantes.
+[8295.80s -> 8297.80s]  Supuestamente eso no puede salir.
+[8297.80s -> 8298.80s]  Ni siquiera de investigador
+[8298.80s -> 8299.80s]  debería tener acceso
+[8299.80s -> 8300.80s]  a esas cosas.
+[8302.80s -> 8303.80s]  ¿Puede ser?
+[8303.80s -> 8305.80s]  Pero pues como en Colombia todo es,
+[8307.80s -> 8309.80s]  todo un chiste, entonces,
+[8311.80s -> 8312.80s]  supuestamente el que empieza
+[8312.80s -> 8314.80s]  a trabajar con las imágenes
+[8314.80s -> 8316.80s]  no debería tener acceso a eso.
+[8319.80s -> 8320.80s]  O sea,
+[8320.80s -> 8322.80s]  la misma institución debería,
+[8322.80s -> 8324.80s]  o sea, el equipo de sistemas
+[8324.80s -> 8326.80s]  de la institución,
+[8326.80s -> 8327.80s]  de las imágenes,
+[8327.80s -> 8328.80s]  de las imágenes,
+[8328.80s -> 8329.80s]  de las imágenes,
+[8329.80s -> 8330.80s]  de las imágenes,
+[8330.80s -> 8331.80s]  de las imágenes,
+[8331.80s -> 8332.80s]  de las imágenes,
+[8332.80s -> 8333.80s]  de las imágenes.
+[8333.80s -> 8334.80s]  Y entonces,
+[8334.80s -> 8335.80s]  eso no es un tema
+[8335.80s -> 8336.80s]  de la institución.
+[8336.80s -> 8337.80s]  Tiene que darle a usted
+[8337.80s -> 8338.80s]  todo ya,
+[8338.80s -> 8339.80s]  versión anonymizada.
+[8339.80s -> 8340.80s]  Pero pues,
+[8340.80s -> 8341.80s]  ¿por qué ocurre?
+[8341.80s -> 8342.80s]  Pues la pereza,
+[8344.80s -> 8346.80s]  o de que no le creen
+[8346.80s -> 8347.80s]  el cuento a uno.
+[8347.80s -> 8348.80s]  Entonces dicen,
+[8348.80s -> 8349.80s]  no, pues,
+[8349.80s -> 8350.80s]  ahí sí,
+[8350.80s -> 8352.80s]  si usted va a hacer boas con esto.
+[8352.80s -> 8353.80s]  Entonces, como que,
+[8353.80s -> 8354.80s]  ahí sí,
+[8354.80s -> 8355.80s]  si tenga esto,
+[8355.80s -> 8356.80s]  y chao.
+[8358.80s -> 8359.80s]  La linea 27,
+[8359.80s -> 8364.80s]  La línea 27, ahí usted, esa línea 27, borrela.
+[8369.80s -> 8371.80s]  Espera, en el código, ¿no?
+[8371.80s -> 8373.80s]  Eso aquí.
+[8373.80s -> 8388.80s]  ¿Ecuta esa línea otra vez? ¿Ecuta esa celda otra vez?
+[8397.80s -> 8401.80s]  ¿Puede ir otra vez a la celda en la que estamos?
+[8403.80s -> 8412.80s]  No, no, no, no, no, no, no, no, no, no, no.
+[8412.80s -> 8418.80s]  ¿Laura? ¿No pudo ir a la celda en la que estamos?
+[8418.80s -> 8435.24s]  de esto ahí ya quedó ahí ya ejecutaste la celda que el vamos al google dry ahí ya guardamos la
+[8435.24s -> 8446.60s]  imagen ya anonimizada si ahí está imagen anonimizada esa esa imagen ahí ya en los
+[8446.60s -> 8453.56s]  encabezados de esa imagen ahí ya no está ya no está nada de la información personal del
+[8453.56s -> 8461.68s]  paciente porque fíjese que ahí comentamos comentamos no volvimos no Laura por favor eso ahí
+[8461.68s -> 8469.08s]  piense que allí al diccionario que me está que es el que lo que me está representando la
+[8469.08s -> 8475.92s]  imagen en pay di con lo que hace lo que acabamos de hacer es en esos atributos del
+[8475.92s -> 8484.68s]  encabezado los volvimos comidas vacías es decir borramos toda esa información del paciente
+[8484.68s -> 8495.72s]  el nombre la cédula el teléfono todas esas cosas y guardamos la imagen si hay di con para guardar
+[8495.72s -> 8503.12s]  una imagen en pay de pa y di con es simplemente guardar el diccionario y internamente ya hay
+[8503.12s -> 8510.24s]  di con lo que hace por debajo pues es es guardar toda la representación del dos encabezados pero
+[8510.24s -> 8519.08s]  también los valores de los boxen es este es el este es el de los primero el primer paso que
+[8519.08s -> 8530.04s]  tiene que hacer cuando uno recibe imágenes de cientes sean planas sean tridimensionales como
+[8530.04s -> 8538.76s]  tomografía como resonancia magnética como rayos x como lo que sea anonimizar en colombia todo es un
+[8538.76s -> 8544.12s]  chiste en vez de las cosas no toman estas cosas no toman en serio las cosas se toman en serio en
+[8544.12s -> 8552.68s]  colombias cuando yo estoy recibe una demanda cierta si entonces mucho esto es de mucho mucho cuidado
+[8552.68s -> 8557.36s]  que cual porque el paciente puede ver y ver más y que están utilizando mi madre para eso yo cuando
+[8557.36s -> 8568.36s]  di mi consentimiento para eso y puede mandar es no es por meter tarronera pero método hay preguntas
+[8568.36s -> 8575.56s]  si por ejemplo entonces ahí eso guarda la imagen y ya se se le dice trabaja sobre esta última exacto
+[8581.56s -> 8591.64s]  es que hay de tareita buscar cómo convertir dedico anístico para eso necesitamos ahí si todos los
+[8591.64s -> 8600.52s]  scans de fíjense que yo ahí solamente les compartí un solo scan una sola tajada de la imagen
+[8600.52s -> 8608.20s]  tridimensional una sola tajada que tenemos que hacer necesitamos tener todas las tajadas del
+[8608.20s -> 8615.24s]  cerebro del paciente para que para convertir eso en una imagen tridimensional necesitamos todas las
+[8615.24s -> 8617.84s]  tajadas fíjense que si yo les muestro aquí
+[8621.76s -> 8624.92s]  ese que si yo les muestro aquí en mi en mi google drive
+[8624.92s -> 8631.60s]  fíjense todas estas son todas las tajadas de yo solamente les compartí la primera
+[8631.60s -> 8634.84s]  pero en realidad son todas estas tajadas
+[8634.84s -> 8655.76s]  aquí son todas las tajadas de ese paciente es que toca hacer toca tenerlas todas para
+[8655.76s -> 8662.56s]  con base en todas estas tajadas y ese que esto sí que esta capeta pesa dos gicas y pico
+[8662.56s -> 8671.32s]  esto caes tenerlas todas para con base y leerlas todas compadico para con base en ello construir la
+[8671.32s -> 8682.80s]  representación tridimensional de la imagen de la resonancia pues si es clave para eso nos toca
+[8682.80s -> 8690.16s]  instalar porque no está aquí instalado en google colab nos toca instalar estas dos cositas
+[8691.16s -> 8701.08s]  estaré a cómo convertir de ticón anística recordemos ticón es todo un estándar para lidiar con
+[8701.08s -> 8710.32s]  estas imágenes no solo lias no transportarlas el tema de los encabezados que encabe qué información
+[8710.32s -> 8716.48s]  se de guardar en los encabezados es todo un estándar toda la filosofía nifty ya es la
+[8716.48s -> 8723.36s]  reconstrucción tridimensional es decir ya en nifty no tenemos estos scans así estos puros
+[8723.36s -> 8730.48s]  archivos sueltos sino que tenemos es una una representación compacta de la imagen tridimensional
+[8730.48s -> 8742.30s]  del paciente con nifty entonces tenemos que leer todos esos scans todos estos scans leerlos
+[8742.30s -> 8750.16s]  compadico y convertirlos a nifty para tener ahí sí ya la representación tridimensional de
+[8751.16s -> 8761.92s]  la resonancia lo mismo funciona para tomografías si entonces pero ya vemos qué es lo que pasa
+[8761.92s -> 8770.24s]  con los valores en el ticón de personas de magnética y de tomografía
+[8771.24s -> 8783.64s]  preguntas es hay dos tareas una pasar de nifty segunda tarea y tan el histograma
+[8785.40s -> 8790.00s]  el histograma espero que cuando yo entro yo le diga bueno día
+[8791.60s -> 8796.32s]  si cómo les fue con la tarea y tan me respondan así si la hice yo comparto
+[8796.32s -> 8800.72s]  cuando estás diciendo la hicieron la hicieron y que nadie responde
+[8806.00s -> 8811.18s]  pero primero tengo que hablar con la profesora y si ustedes la van a
+[8811.18s -> 8820.52s]  organizar y si las pasan en escala lo que hablaba con ella lo aplicamos a cuál imagen
+[8821.60s -> 8825.88s]  todas las que con las que trabajaron incluso imagen busques una imagen plana
+[8826.48s -> 8832.52s]  una imagen plana la que quiera la de su la cámara de su teléfono y hagan el histograma esa imagen
+[8832.52s -> 8837.32s]  hagan el histograma la imagen de resonancia magnética hagan el histograma una imagen de
+[8837.32s -> 8841.24s]  barrios x hagan el histograma una imagen de tomografía
+[8849.40s -> 8858.44s]  para que vean la diferencia y lo que tenemos que convertir a nifty es lo que usted va a
+[8858.44s -> 8868.04s]  mandar ciertamente si esas preguntas más preguntas
+[8873.60s -> 8879.08s]  bueno muchas veces y recuerden esa y recuerden esto ya no pueden ir haciendo en los grupos
+[8880.08s -> 8883.24s]  y hace parte pues de la práctica del grupo
+[8887.16s -> 8892.16s]  todos ustedes quieren volver a explorar en ese código lean el código porque yo se los copié
+[8892.16s -> 8897.88s]  se los piquen pues mire a la unicita si lo hubiéramos hecho línea por bien pero la idea es que usted
+[8899.16s -> 8905.80s]  más que ese código si y si lo quiere hagan lo de cero o diganle a la guía que le ayude a
+[8905.80s -> 8912.24s]  interpretar el código o lo que sea pero necesito que rumene su código como las vacas que rumene
+[8912.24s -> 8922.64s]  en ese código bien bueno es muchas gracias por haberme atendido un momento del otro miércoles
+[8922.64s -> 8931.84s]  dudas al correo y ya buena tarde para todos salgo profe luego que estén bien

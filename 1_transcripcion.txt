@@ -1,0 +1,1966 @@
+[0.00s -> 11.00s]  Si usted piensa que esto debe de haberse vuelto a ver y tal, quiero volver a ver este contenido,
+[11.00s -> 13.00s]  sin que no te esté reproduciendo la clasicia.
+[13.00s -> 25.00s]  Entonces, para que nosotros queremos unir una imagen, nosotros queremos unir una imagen para intentar descubrir
+[25.00s -> 34.00s]  patrones en una imagen o en un conjunto de imágenes, si tenemos más de una imagen.
+[34.00s -> 37.00s]  Para eso, nosotros queremos unir una imagen.
+[37.00s -> 49.00s]  ¿Qué es unir una imagen? Es pues aplicar algoritmos que nos permitan identificar esos patrones en las imágenes.
+[50.00s -> 53.00s]  Entonces, cualquiera se puede preguntar en esos momentos.
+[53.00s -> 61.00s]  Si, listo, aplico algoritmos sobre imágenes, si, pero sobre qué estoy aplicando, si, sobre una imagen digital,
+[61.00s -> 64.00s]  pero sobre qué estoy aplicando yo algoritmos.
+[64.00s -> 68.00s]  Entonces, nos toca ver primero qué es una imagen.
+[68.00s -> 72.00s]  ¿Alguien tiene una idea de qué es una imagen digital?
+[72.00s -> 74.00s]  ¿Qué es una imagen digital?
+[75.00s -> 79.00s]  ¿Alguna sospecha? Diga lo que piense, por favor.
+[79.00s -> 81.00s]  Yo aquí no califico.
+[81.00s -> 86.00s]  ¿Ah, no es ni ridiculizo, ni nada de eso?
+[86.00s -> 89.00s]  ¿Me ve alguien?
+[89.00s -> 103.00s]  Es como una representación de como 0 y 1 que el computador procesa y lo pone en pisceles.
+[103.00s -> 107.00s]  Como 0 y 1, bajaste demasiado a nivel, ¿no?
+[107.00s -> 112.00s]  Recuerden que los ingenieros electrónicos valen de 0 y 1, ¿no?
+[112.00s -> 117.00s]  Nosotros somos un poquito más arriba, a nivel de opción.
+[117.00s -> 119.00s]  Pisceles, supongo.
+[119.00s -> 122.00s]  Pisceles, por ahí, bueno.
+[122.00s -> 125.00s]  ¿Alguien más?
+[125.00s -> 127.00s]  ¿Alguien más?
+[127.00s -> 129.00s]  ¿Matrices?
+[129.00s -> 131.00s]  ¿Una matriz?
+[131.00s -> 133.00s]  Bueno.
+[133.00s -> 135.00s]  ¿Qué idea?
+[143.00s -> 147.00s]  Sí, como una matriz de pisceles.
+[147.00s -> 149.00s]  Bueno, que un piscel.
+[149.00s -> 151.00s]  ¿Qué es eso?
+[155.00s -> 164.00s]  Pues no sería como un pector que tiene rojo, verde y azul, creo que era.
+[164.00s -> 167.00s]  Y eso se representa con unos úceros.
+[170.00s -> 173.00s]  Ahí, bien.
+[173.00s -> 176.00s]  Por acá, bueno, las mujeres.
+[177.00s -> 192.00s]  Los otros van participando con Teneba, Angie, Oya, Tenebosa, Katie, Tenebu.
+[192.00s -> 194.00s]  Espero que lo pronunciado bien.
+[194.00s -> 196.00s]  Katie Mina.
+[196.00s -> 199.00s]  Y porque había la, aquí estaba Laura, ¿no?
+[199.00s -> 202.00s]  Yo sé la que se fue.
+[203.00s -> 207.00s]  Tenebosa, Laura.
+[210.00s -> 214.00s]  Bueno, al parecer se salió de la clase.
+[214.00s -> 216.00s]  Bueno, las mujeres.
+[216.00s -> 218.00s]  ¿Qué es una imagen digital?
+[218.00s -> 219.00s]  ¿Qué creen?
+[219.00s -> 222.00s]  Lo que sea que se les ocurra.
+[222.00s -> 224.00s]  Sin preguntarle al ahí, o sea.
+[224.00s -> 227.00s]  Para mí, una imagen digital es tal cosa.
+[232.00s -> 234.00s]  Aquí como off topic, ¿no?
+[234.00s -> 237.00s]  Ayer salió el resultado de la prueba pisa, ¿no?
+[237.00s -> 240.00s]  Esa que le hacen a los peladitos en los colegios.
+[240.00s -> 244.00s]  Ustedes se la hicieron cuando estaban en el colegio.
+[244.00s -> 248.00s]  Y se ve la gráfica en la que disminuye.
+[248.00s -> 251.00s]  En la que disminuye la calidad de la.
+[251.00s -> 254.00s]  Esa disminuye la comprensión de lectura.
+[254.00s -> 256.00s]  De ciencias y de matemáticas.
+[256.00s -> 258.00s]  En todo el mundo.
+[258.00s -> 263.00s]  Porque esa prueba pisa se le aplica a todos los países de la Oste.
+[263.00s -> 266.00s]  O sea, Europeos, Estados Unidos,
+[266.00s -> 269.00s]  como que están en la Oste.
+[269.00s -> 273.00s]  Y la culpa principal la tiene la ella, ¿no?
+[273.00s -> 277.00s]  Ya me está dejando que la gente piense.
+[277.00s -> 279.00s]  Si no quedó nada.
+[282.00s -> 286.00s]  Es decir, esa tarea de las convicciones regales
+[286.00s -> 289.00s]  o las están haciendo por ustedes.
+[289.00s -> 291.00s]  Es.
+[291.00s -> 294.00s]  Hay que tener un comienzo.
+[294.00s -> 296.00s]  Es.
+[296.00s -> 298.00s]  Como están volviendo.
+[298.00s -> 300.00s]  Como las piensan.
+[300.00s -> 302.00s]  La excusa es siempre la sida de que, ah,
+[302.00s -> 305.00s]  que las tareas repetitivas se pueden automatizar y tal.
+[305.00s -> 308.00s]  Nos podemos concentrar en otro tipo de tarea.
+[308.00s -> 310.00s]  Pero.
+[310.00s -> 312.00s]  Pero.
+[312.00s -> 315.00s]  No.
+[315.00s -> 318.00s]  Y.
+[318.00s -> 321.00s]  Tengo dos amigos que ya han echado el trabajo.
+[321.00s -> 323.00s]  Ingeniero del sistema.
+[323.00s -> 325.00s]  Muy bueno.
+[325.00s -> 327.00s]  Por el tema de la yana.
+[327.00s -> 330.00s]  Y.
+[330.00s -> 332.00s]  El puesto de cuan hay.
+[332.00s -> 334.00s]  Ya.
+[334.00s -> 336.00s]  De que.
+[336.00s -> 338.00s]  Puesto de cua ya.
+[338.00s -> 340.00s]  No existe prácticamente.
+[341.00s -> 343.00s]  Todos esos roles han sido.
+[343.00s -> 345.00s]  Así que homogenizados.
+[345.00s -> 347.00s]  Simplemente.
+[347.00s -> 349.00s]  Haga prongs a la ida.
+[349.00s -> 351.00s]  Hagen licencias de ida.
+[351.00s -> 353.00s]  Haga puros prongs a la ida.
+[353.00s -> 355.00s]  Y que te genere coilo y ya.
+[355.00s -> 357.00s]  Es.
+[357.00s -> 359.00s]  Habrá que ver qué pasa con nosotros.
+[359.00s -> 361.00s]  Cierra los tópicos.
+[361.00s -> 363.00s]  Pero bueno.
+[363.00s -> 365.00s]  Importante este.
+[365.00s -> 367.00s]  De.
+[367.00s -> 369.00s]  Es una imagen.
+[369.00s -> 371.00s]  Es el núcleo de este.
+[371.00s -> 373.00s]  Hablaban por allí.
+[373.00s -> 375.00s]  De.
+[375.00s -> 377.00s]  Una imagen es una madre de pincel.
+[377.00s -> 379.00s]  Yo pregunté qué es un pincel.
+[379.00s -> 381.00s]  Es un pincel.
+[381.00s -> 383.00s]  Pincel.
+[383.00s -> 385.00s]  Es la unidad.
+[385.00s -> 387.00s]  Básica.
+[387.00s -> 389.00s]  En la cual.
+[389.00s -> 391.00s]  Por dichos.
+[391.00s -> 393.00s]  Ahorita que conoció el terreno.
+[393.00s -> 395.00s]  Todavía no es que cala.
+[395.00s -> 397.00s]  Y yo.
+[397.00s -> 399.00s]  Un pincel.
+[399.00s -> 401.00s]  Es básicamente cada alillo que compre un mudo.
+[401.00s -> 403.00s]  En una.
+[403.00s -> 405.00s]  En lo que seguía.
+[405.00s -> 407.00s]  Haciendo mi mano.
+[407.00s -> 409.00s]  Es decir.
+[409.00s -> 411.00s]  Nosotros.
+[411.00s -> 413.00s]  Tenemos.
+[413.00s -> 415.00s]  Una matriz.
+[415.00s -> 417.00s]  Es decir.
+[417.00s -> 419.00s]  Tenemos una reclopidimensional.
+[419.00s -> 421.00s]  Aquí.
+[421.00s -> 423.00s]  Voy a hablar de mi mano.
+[423.00s -> 425.00s]  En el.
+[425.00s -> 427.00s]  Mundo.
+[427.00s -> 429.00s]  Donde tenemos.
+[429.00s -> 431.00s]  Sí.
+[431.00s -> 433.00s]  Pilar.
+[433.00s -> 435.00s]  Y columnas.
+[435.00s -> 437.00s]  Sí.
+[437.00s -> 439.00s]  Sí.
+[439.00s -> 441.00s]  Supongamos que en la imagen.
+[441.00s -> 443.00s]  Yo le tome la foto.
+[443.00s -> 445.00s]  A.
+[445.00s -> 447.00s]  Una.
+[447.00s -> 449.00s]  Persona.
+[449.00s -> 451.00s]  Más.
+[451.00s -> 453.00s]  Por aquí.
+[453.00s -> 455.00s]  Por aquí.
+[455.00s -> 457.00s]  Y.
+[457.00s -> 459.00s]  Supongamos que tenemos.
+[459.00s -> 461.00s]  Esto.
+[461.00s -> 463.00s]  Por aquí.
+[463.00s -> 465.00s]  Por aquí.
+[465.00s -> 467.00s]  Por aquí.
+[467.00s -> 469.00s]  Por aquí.
+[469.00s -> 471.00s]  Y.
+[471.00s -> 473.00s]  Listo.
+[473.00s -> 475.00s]  Y por acá.
+[475.00s -> 477.00s]  Tenemos.
+[477.00s -> 479.00s]  Un.
+[479.00s -> 481.00s]  Arbolito.
+[481.00s -> 483.00s]  Vamos que a una persona.
+[483.00s -> 485.00s]  Nosotros le tomamos.
+[485.00s -> 487.00s]  Una foto de estas.
+[487.00s -> 489.00s]  Una imagen digital.
+[489.00s -> 491.00s]  Es esto que estamos viendo.
+[491.00s -> 493.00s]  Es un alo ahí.
+[493.00s -> 495.00s]  O.
+[495.00s -> 497.00s]  Una matriz.
+[497.00s -> 499.00s]  De dos dimensiones.
+[499.00s -> 501.00s]  Donde.
+[501.00s -> 503.00s]  Cada celda.
+[503.00s -> 505.00s]  La vamos a llamar.
+[505.00s -> 507.00s]  Pincel.
+[507.00s -> 509.00s]  Y.
+[509.00s -> 511.00s]  Y.
+[511.00s -> 513.00s]  Y.
+[513.00s -> 515.00s]  Eso es una imagen.
+[515.00s -> 517.00s]  Digital.
+[517.00s -> 519.00s]  No podemos decir lo mismo.
+[519.00s -> 521.00s]  De una imagen.
+[521.00s -> 523.00s]  De un rollo.
+[523.00s -> 525.00s]  De una cámara fotográfica.
+[525.00s -> 527.00s]  De estas.
+[527.00s -> 529.00s]  Estas cámaras de rollo.
+[529.00s -> 531.00s]  Ustedes no lo crean.
+[531.00s -> 533.00s]  Se siguen usando.
+[533.00s -> 535.00s]  Tendencias.
+[535.00s -> 537.00s]  Que.
+[537.00s -> 539.00s]  O sea.
+[539.00s -> 541.00s]  Siempre hay tendencias como volver a los retros.
+[541.00s -> 543.00s]  Siempre hay como nostalgia del pasado.
+[543.00s -> 545.00s]  Entonces.
+[545.00s -> 547.00s]  Entonces volver a usar estas cámaras de rollo.
+[547.00s -> 549.00s]  A veces.
+[549.00s -> 551.00s]  Puede hacer tendencia.
+[551.00s -> 553.00s]  De hecho.
+[553.00s -> 555.00s]  Muchas partes se venden de las cámaras de rollo.
+[555.00s -> 557.00s]  Y usted va a un sitio.
+[557.00s -> 559.00s]  Y.
+[559.00s -> 561.00s]  Es en el cuarto oscuro.
+[561.00s -> 563.00s]  Italia.
+[563.00s -> 565.00s]  Pero.
+[565.00s -> 567.00s]  Eso que acaba de mencionar.
+[567.00s -> 569.00s]  Eso que está ahora de.
+[569.00s -> 571.00s]  El tema de.
+[571.00s -> 573.00s]  Del 80.
+[573.00s -> 575.00s]  No sé mucho el tema.
+[575.00s -> 577.00s]  Internamente eso es.
+[577.00s -> 579.00s]  Pura contextualización.
+[579.00s -> 581.00s]  El modelo contextualiza.
+[581.00s -> 583.00s]  Y.
+[583.00s -> 585.00s]  Pero.
+[585.00s -> 587.00s]  Pero para ella nos fuimos.
+[587.00s -> 589.00s]  Años luz.
+[589.00s -> 591.00s]  De lo que hablamos acá.
+[591.00s -> 593.00s]  Y.
+[593.00s -> 595.00s]  Pero.
+[595.00s -> 597.00s]  No.
+[597.00s -> 599.00s]  Nosotras estamos diciendo a la.
+[599.00s -> 601.00s]  Que nos.
+[601.00s -> 603.00s]  Cada uno de los.
+[603.00s -> 605.00s]  Que no.
+[605.00s -> 607.00s]  Este.
+[607.00s -> 609.00s]  Todos.
+[609.00s -> 611.00s]  Los.
+[611.00s -> 613.00s]  Son.
+[613.00s -> 615.00s]  Por la.
+[615.00s -> 617.00s]  Yo le digo a la.
+[617.00s -> 619.00s]  La imagen de los.
+[619.00s -> 621.56s]  Entonces, él te va a generar una imagen.
+[621.56s -> 624.40s]  Es decir, él va a generar cada pixel de la imagen.
+[627.08s -> 630.12s]  Y entonces, la gran pregunta que uno puede hacerse es,
+[630.12s -> 634.88s]  ¿cómo hace la idea para decir que este pixel que yo voy a poner
+[634.88s -> 638.88s]  aquí tiene que ser de ese color?
+[638.88s -> 645.48s]  Porque hace parte de la, no sé, de la cara de la persona.
+[645.52s -> 648.60s]  Y cuando yo miro muchos pizeles,
+[648.60s -> 655.64s]  lo que hago es ver una persona vestida con los años 80.
+[655.64s -> 657.36s]  ¿Cómo hace?
+[657.36s -> 660.32s]  Pues es porque ya ha habido un proceso de entrenamiento muy,
+[660.32s -> 665.48s]  muy, muy fuerte con muchos, muchos, muchos, muchos servidores
+[665.48s -> 671.68s]  de LQD y en TREM y en TREM, todos los días, todo el día.
+[671.68s -> 673.72s]  Consumiendo grandes cantidades de agua,
+[673.72s -> 677.32s]  y todo esta vuelta ambiental que está ahí,
+[677.32s -> 678.44s]  en aunque por ese tema.
+[682.20s -> 684.12s]  Entonces, podrían preguntarse, bueno,
+[684.12s -> 688.88s]  una imagen está generando muchos, perdón,
+[688.88s -> 693.36s]  una idea de esta señalada, muchos, muchos pizeles.
+[693.36s -> 698.24s]  Entonces, ¿qué es un pizelo?
+[698.24s -> 702.12s]  Cada celda de estas, lo acabé de mencionar,
+[702.12s -> 707.28s]  cada celda de estas es un pizel, ¿cierto?
+[707.28s -> 709.80s]  ¿Pero qué entonces hay en un pizel?
+[709.80s -> 712.20s]  En una imagen a color común y corriente,
+[712.20s -> 715.00s]  la de su teléfono, la de su cámara web,
+[715.00s -> 722.04s]  la de la cámara de su tableta, la de la cámara de su alcatel,
+[722.04s -> 725.12s]  tiene puros números.
+[725.12s -> 728.96s]  Es decir, para responder a la pregunta anterior,
+[728.96s -> 733.64s]  nosotros vamos a reunir aquí sobre puros números.
+[733.64s -> 736.88s]  Números y números y números.
+[736.88s -> 742.92s]  Es decir, nosotros aquí vamos a tener, por ejemplo,
+[742.92s -> 751.84s]  120, 130, 140, y así sucesivamente.
+[751.84s -> 756.68s]  En una imagen convencional, aquí tendremos 85,
+[756.68s -> 766.88s]  aquí tendremos 170, aquí tendremos, no sé, 79,
+[766.88s -> 774.24s]  aquí tenemos 188, y así es una imagen digital.
+[774.24s -> 778.28s]  Es una matriz que tiene muchos números.
+[778.28s -> 780.28s]  Cada celda, ¿cierto?
+[780.28s -> 787.24s]  Cada posición I, J de mi matriz, esto es I y esto es J.
+[787.24s -> 792.84s]  Cada posición de mi matriz, esto es a nivel de incrementación
+[792.84s -> 794.44s]  en pie, es muy importante, ¿no?
+[794.44s -> 798.36s]  A nivel de teórico, esto sería X y esto sería Y.
+[798.36s -> 801.96s]  El origen de coordenadas normalmente es aquí arriba a la
+[801.96s -> 805.88s]  izquierda, es decir, esta es la posición,
+[805.96s -> 811.60s]  0, 0, normalmente empezamos desde arriba a la izquierda.
+[811.60s -> 814.04s]  A diferencia del plano cartesiano, donde nosotros,
+[814.04s -> 820.88s]  donde es que empezamos, de abajo a la izquierda, ¿sí?
+[820.88s -> 823.68s]  Nosotros vamos aumentando en el plano cartesiano,
+[823.68s -> 825.20s]  hacia la derecha y hacia arriba.
+[825.20s -> 830.08s]  Aquí vamos aumentando es hacia la derecha y hacia abajo,
+[830.08s -> 832.72s]  porque lo tengan en presente.
+[832.72s -> 837.04s]  Entonces, una imagen es, en últimas,
+[837.04s -> 838.96s]  una matriz de puros números.
+[838.96s -> 841.36s]  Es decir, usted puede poder, perfectamente,
+[841.36s -> 845.48s]  las matrices que usted trabaja en alfebrarineal y
+[845.48s -> 850.24s]  graficarlas como imágenes, y a ver qué le resulta.
+[850.24s -> 854.80s]  Obviamente, no le van a salir cosas muy definidas.
+[854.80s -> 858.64s]  Le van a salir ahí puros parches de colores.
+[858.64s -> 861.12s]  Entonces, ¿por qué cuando yo tomo una imagen,
+[861.12s -> 865.52s]  sí me aparece el rostro de una persona y tal?
+[865.52s -> 868.16s]  El ojo humano es capaz de identificar así.
+[868.16s -> 872.04s]  Aquí, piense, aquí hay la cara de una persona.
+[872.04s -> 875.28s]  Yo aquí simplemente dibujé el muñequito de la persona y
+[875.28s -> 878.56s]  ya usted ya sabe de qué eso está haciendo referencia a un
+[878.56s -> 880.72s]  ser humano.
+[880.72s -> 884.08s]  Su cerebro automáticamente logra.
+[884.08s -> 886.80s]  Lo asignó.
+[886.80s -> 889.80s]  Nosotros queremos justamente hacer eso en un computador.
+[894.04s -> 898.24s]  Cuando yo le digo usted dibuja en una persona,
+[898.24s -> 903.88s]  usted va a ir y va a hacer una cosita de esta, ¿cierto?
+[903.88s -> 905.88s]  Ya una persona queda, que cuando tú digas, ¿no?
+[905.88s -> 908.04s]  Yo tengo más conocimientos en dibujo.
+[908.04s -> 908.84s]  Entonces, ¿qué va a ser?
+[908.84s -> 914.76s]  Pues va a ser la cara de una persona, ¿sí?
+[917.80s -> 919.80s]  ¿Qué va a ser?
+[919.80s -> 927.80s]  Va a ser bien pues más profesional y tal, ¿sí?
+[927.80s -> 932.80s]  Pero si yo le digo usted hasta el cosa, dibuja una persona,
+[932.80s -> 937.80s]  usted ya sabe qué es lo que tiene que hacer.
+[937.80s -> 941.80s]  Con los temas de la IA es el mismo proceso.
+[941.80s -> 945.80s]  Recuerden que todo este procesamiento,
+[945.80s -> 949.80s]  el punto de imagen se marca dentro de un gran concepto que se
+[949.80s -> 953.80s]  llama visión por computador o visión computacional.
+[953.80s -> 954.80s]  ¿Qué quiere decir?
+[954.80s -> 958.80s]  Simular la visión.
+[958.80s -> 963.80s]  Es decir, todos los procesos que ocurren en la visión humana,
+[963.80s -> 967.80s]  intentar simularlos en un computador.
+[967.80s -> 970.80s]  Eso es lo que nosotros que vamos a hacer.
+[970.80s -> 974.80s]  Pero para eso primero tenemos que identificar patrones en las
+[974.80s -> 977.80s]  imágenes.
+[977.80s -> 980.80s]  Vuelvo y le repito, si usted se inventa puro número,
+[980.80s -> 984.80s]  si usted los grafica, si usted no va a encontrar gran cosa,
+[984.80s -> 991.80s]  o sea, usted va a ver, es un puro patch de colores, ¿sí?
+[991.80s -> 1000.80s]  Mientras que si usted lo que hace es colocar los números de tal
+[1000.80s -> 1004.80s]  forma que tengan un patrón, pues que a la hora de pintarlos
+[1004.80s -> 1009.80s]  en imagen va a haber algún objeto allí.
+[1009.80s -> 1011.80s]  Queremos hacer el proceso inverso.
+[1011.80s -> 1015.80s]  Cada una imagen da un conjunto de números dispuestos de cierta
+[1015.80s -> 1018.80s]  forma, una matriz.
+[1018.80s -> 1024.80s]  Identificar dónde está el objeto.
+[1024.80s -> 1028.80s]  Piensen que aquí yo hice estos cambios abruptos.
+[1028.80s -> 1032.80s]  Es decir, donde está la lineecita de la persona,
+[1032.80s -> 1042.80s]  yo tengo números más o menos parecidos entre sí.
+[1042.80s -> 1048.80s]  Piensen 179, 180, 170, 168.
+[1048.80s -> 1053.80s]  Pero al ya dejar de estar en la zona donde que corresponde
+[1053.80s -> 1057.80s]  al rostro de la persona, ya tengo otros números totalmente
+[1057.80s -> 1063.80s]  distintos, 140, 180, 179.
+[1063.80s -> 1065.80s]  Si lo ven.
+[1065.80s -> 1068.80s]  Ahí hay un patrón.
+[1068.80s -> 1073.80s]  Hay unos números en verde que se repiten y unos números en azul
+[1073.80s -> 1076.80s]  que son muy distintos de los que son en verde,
+[1076.80s -> 1079.80s]  pero que también se repiten.
+[1079.80s -> 1082.80s]  Nosotros podemos allá, ahí decir,
+[1082.80s -> 1087.80s]  ah, hay un cambio, hay un cambio brusco entre las magnitudes
+[1087.80s -> 1091.80s]  de esos números, o sea, pasar de 85 a 170.
+[1091.80s -> 1094.80s]  Ahí hay un cambio muy brusco.
+[1094.80s -> 1101.80s]  Es decir, puede que estemos en el borde de un objeto.
+[1101.80s -> 1105.80s]  Aquí le estoy hablando meramente introductorio
+[1105.80s -> 1108.80s]  de los conceptos que vamos a ver.
+[1108.80s -> 1113.80s]  ¿Cómo identificar bordes en imágenes?
+[1113.80s -> 1117.80s]  Porque identificar los bordes en una imagen nos permite a nosotros
+[1117.80s -> 1120.80s]  saber dónde están los objetos.
+[1120.80s -> 1123.80s]  Por ejemplo, si me ven la cámara,
+[1123.80s -> 1126.80s]  usted puede ver que el fondo mío es blanco.
+[1126.80s -> 1129.80s]  Bueno, usted lo puede ver un poquito blanco
+[1129.80s -> 1132.80s]  y esta parte un poquito como gris.
+[1132.80s -> 1135.80s]  En realidad es blanco, la pared blanca,
+[1135.80s -> 1138.80s]  sino que por el tema de la sombra y el sol,
+[1138.80s -> 1141.80s]  pero al final es lo que la cámara está capturando.
+[1141.80s -> 1143.80s]  La cámara está capturando una sombra,
+[1143.80s -> 1146.80s]  es decir, está capturando un color gris.
+[1146.80s -> 1152.80s]  Esta camisa negra es muy distinta al fondo blanco.
+[1152.80s -> 1156.80s]  Es decir, es muy claro para ustedes saber
+[1156.80s -> 1160.80s]  hasta dónde llega mi silueta, de mi cuerpo
+[1160.80s -> 1165.80s]  y cuando empieza a ser en la imagen que ustedes están viendo,
+[1165.80s -> 1167.80s]  cuando empieza a ser la pared
+[1167.80s -> 1171.80s]  y cuando empieza a ser el cuerpo, la silueta mía.
+[1171.80s -> 1174.80s]  Para ustedes es muy claro eso.
+[1174.80s -> 1177.80s]  Nosotros tenemos que enseñarle al computador
+[1177.80s -> 1181.80s]  a qué haga eso por nosotros.
+[1181.80s -> 1185.80s]  Y entonces saber dónde está la identificación
+[1185.80s -> 1189.80s]  de esos bordes en las imágenes.
+[1190.80s -> 1197.80s]  Sí.
+[1197.80s -> 1203.80s]  Por ejemplo, si nosotros partimos de una imagen como esta
+[1203.80s -> 1206.80s]  en dos dimensiones,
+[1206.80s -> 1211.80s]  fíjense que nosotros podemos ver
+[1211.80s -> 1213.80s]  todos los números que hay.
+[1213.80s -> 1218.80s]  Fíjense en el pincel 00,
+[1218.80s -> 1222.80s]  es decir, el pincel que está aquí arriba a la izquierda,
+[1222.80s -> 1227.80s]  arriba, arriba, arriba a la izquierda, el primer pincel
+[1227.80s -> 1230.80s]  tiene estos números que están aquí.
+[1230.80s -> 1236.80s]  226, 137, 125.
+[1236.80s -> 1243.80s]  ¿Sí lo ven?
+[1243.80s -> 1245.80s]  Es decir, una imagen,
+[1245.80s -> 1247.80s]  si usted la ve aquí en color,
+[1247.80s -> 1254.80s]  esta imagen tiene puros números dentro.
+[1254.80s -> 1258.80s]  Es decir, los programas de visualización de imágenes
+[1258.80s -> 1260.80s]  lo que hacen es leer puros números
+[1260.80s -> 1264.80s]  y colocar un color de acuerdo a cada número.
+[1264.80s -> 1269.80s]  Eso es lo que hace un visualizador de imagen digital.
+[1269.80s -> 1272.80s]  Pero en realidad lo que hay dentro son puros números,
+[1272.80s -> 1275.80s]  números y números.
+[1275.80s -> 1277.80s]  Cuando usted envía una imagen por base a usted,
+[1277.80s -> 1279.80s]  es lo que también los son puros números.
+[1279.80s -> 1282.80s]  Cuando usted está viéndome aquí,
+[1282.80s -> 1284.80s]  porque en realidad se está transmitiendo,
+[1284.80s -> 1285.80s]  son puros números.
+[1285.80s -> 1290.80s]  Pero es decir, son pincel en los que se están transmitiendo.
+[1290.80s -> 1293.80s]  Y fíjense aquí cómo rumiamos la vaca
+[1293.80s -> 1300.80s]  para intentar que cambiar de distintos espacios de color.
+[1300.80s -> 1304.80s]  ¿Cómo graficamos un histograma?
+[1304.80s -> 1307.80s]  A partir de una imagen data.
+[1307.80s -> 1309.80s]  ¿Sí? ¿Qué es un histograma?
+[1309.80s -> 1312.80s]  Básicamente es un gráfico de barras, de frecuencias,
+[1312.80s -> 1315.80s]  donde por cada valor de intensidad
+[1315.80s -> 1317.80s]  tenemos la frecuencia.
+[1317.80s -> 1321.80s]  Es decir, cuántos pinceles tiene cada valor de intensidad.
+[1321.80s -> 1325.80s]  Cada uno de estos numeritos que les mostré aquí
+[1325.80s -> 1332.80s]  se llama valor de intensidad de color.
+[1332.80s -> 1339.80s]  Normalmente en las imágenes comunes y corrientes,
+[1339.80s -> 1344.80s]  nosotros manejamos ocho bits.
+[1344.80s -> 1348.80s]  Es decir, hasta cuántos números
+[1348.80s -> 1353.80s]  nosotros podemos representar de intensidad de color.
+[1353.80s -> 1356.80s]  Una imagen de color, de un teléfono,
+[1356.80s -> 1360.80s]  de una cámara web, de la cámara de fotomultas.
+[1360.80s -> 1364.80s]  Cada pincel, cuántos posibles valores puede tener,
+[1364.80s -> 1374.80s]  si les digo, que cada pincel puede almacenar hasta ocho bits.
+[1374.80s -> 1382.80s]  ¿Ustedes vieron la arquitectura de computadores?
+[1382.80s -> 1384.80s]  Podemos manejar dos a la ocho bits,
+[1384.80s -> 1389.80s]  lo que son 256 posibilidades.
+[1389.80s -> 1394.80s]  Con 156 valores de intensidad.
+[1394.80s -> 1399.80s]  Ahora bien, una pregunta. ¿Cuántos pinceles en total tiene esta imagen?
+[1399.80s -> 1410.80s]  ¿Cuántos pinceles de ancho y cuántos pinceles de alto tiene esta imagen?
+[1410.80s -> 1415.80s]  Eso es lo que nosotros llamamos resolución de la imagen.
+[1415.80s -> 1421.80s]  ¿Cuántos pinceles tenemos a lo ancho? ¿Cuántos pinceles tenemos a lo alto?
+[1421.80s -> 1428.80s]  Es decir, ¿cuánto, cuál es el tamaño de esa matriz?
+[1428.80s -> 1431.80s]  Cuando usted habla de dos megapiceles,
+[1431.80s -> 1436.80s]  lo que usted está diciendo es que tiene mil pinceles de ancho
+[1436.80s -> 1441.80s]  por mil pinceles de alto, eso sería un megapicel.
+[1441.80s -> 1447.80s]  Dos megapiceles sería dos mil pinceles de ancho, dos mil pinceles de alto.
+[1447.80s -> 1453.80s]  Es decir, a lo alto tenemos dos mil hileras
+[1453.80s -> 1459.80s]  y a lo ancho tenemos dos mil columnas.
+[1459.80s -> 1465.80s]  Sí, lo que dicen es que mi cámara tiene 128 megapiceles.
+[1465.80s -> 1470.80s]  Entonces lo que está ocurriendo es que está teniendo
+[1470.80s -> 1477.80s]  128 mil pinceles de ancho por 128 mil pinceles de alto.
+[1477.80s -> 1482.80s]  Entonces ¿cuántos pinceles en total hay en la imagen?
+[1482.80s -> 1491.80s]  Recibía la multiplicación de cuántas pilas tenemos por cuántas columnas tenemos.
+[1491.80s -> 1497.80s]  Cuando una imagen tiene poquitos pinceles que ocurran.
+[1497.80s -> 1501.80s]  A ver, piensen en una llamada de WhatsApp que se le está colgando y que usted dice
+[1501.80s -> 1508.80s]  ¡Ay, esa imagen está aquí! ¿No es que no dice?
+[1509.80s -> 1512.80s]  ¿De mala calidad?
+[1512.80s -> 1517.80s]  Mala calidad, pero uno dice que está pique.
+[1517.80s -> 1524.80s]  Es decir, hay muy poquitos pinceles representando la misma área.
+[1524.80s -> 1529.80s]  Y se ve horrible la imagen ¿cierto? ¿Por qué?
+[1529.80s -> 1533.80s]  Porque está perdiendo resolución.
+[1533.80s -> 1537.80s]  ¿Qué quiere decir eso? Que le estamos dedicando menos área
+[1538.80s -> 1542.80s]  Yo aquí, ¿por qué hice? Yo porque después dije
+[1542.80s -> 1545.80s]  ¡Ay, no, pongámosle otra linea, si está aquí!
+[1545.80s -> 1548.80s]  ¡Pongámosle otra!
+[1549.80s -> 1553.80s]  ¡Ay, Dios mío!
+[1564.80s -> 1568.80s]  Porque de que voy a poner otra linea, si está aquí.
+[1568.80s -> 1571.80s]  ¿Para qué?
+[1571.80s -> 1577.80s]  Para que más pinceles me representen la misma, ya sigue siendo la misma persona, sí.
+[1577.80s -> 1582.80s]  Yo no me he alejado de la persona, yo no me he acercado a la persona.
+[1582.80s -> 1587.80s]  Sigue siendo la misma distancia en la cual estoy tomando la imagen.
+[1587.80s -> 1590.80s]  Sigue siendo la misma distancia.
+[1590.80s -> 1595.80s]  La persona no se ha engordado, no siempre ha que sido.
+[1595.80s -> 1600.80s]  Sigo, yo he parado con mi camarita en la mano tomándole la foto a la persona.
+[1600.80s -> 1604.80s]  ¿Pero qué? Le estoy dedicando más pinceles a la misma área.
+[1604.80s -> 1609.80s]  Es decir, un pincel va a representar una área más chiquita.
+[1609.80s -> 1612.80s]  Fíjense en esta parte de aquí.
+[1612.80s -> 1622.80s]  Si yo le agrego más pinceles, ¿qué está ocurriendo aquí?
+[1622.80s -> 1629.80s]  Estoy dedicando un pincel a una área cada vez más chiquita de la imagen.
+[1630.80s -> 1633.80s]  A diferencia de yo decir no.
+[1633.80s -> 1641.80s]  Recuerden que un pincel se pinta por completo de un solo color.
+[1641.80s -> 1646.80s]  Un pincel se pinta por completo de un solo color.
+[1646.80s -> 1649.80s]  Es decir, esto en realidad está pintado así.
+[1649.80s -> 1654.80s]  Este pincel está pintado por completo así.
+[1654.80s -> 1658.80s]  Este pincel está pintado por completo así.
+[1658.80s -> 1663.80s]  Por completo el pincel.
+[1663.80s -> 1666.80s]  Esto es lo que yo en realidad estoy haciendo.
+[1666.80s -> 1672.80s]  Estoy pintando por completo cada pincel.
+[1672.80s -> 1678.80s]  ¿Qué pasa si yo estoy dedicando menos pinceles a la misma área?
+[1678.80s -> 1682.80s]  Cada pincel va a representar una área más grande.
+[1683.80s -> 1687.80s]  Usted en la imagen se va a ver horrible.
+[1687.80s -> 1690.80s]  Cuando usted dice, uy, esa foto tan nítida,
+[1690.80s -> 1693.80s]  que aquello que se está haciendo referencia,
+[1693.80s -> 1698.80s]  que se ve bien detallito y bien lo detallito de la imagen,
+[1698.80s -> 1701.80s]  de la escena.
+[1701.80s -> 1704.80s]  La persona se ve claramente decidida.
+[1704.80s -> 1709.80s]  Es decir, hay más pinceles representando la misma área
+[1709.80s -> 1714.80s]  cada pincel para representar una área cada vez más pequeña.
+[1720.80s -> 1725.80s]  Ese dato, esa información de cuántos pinceles,
+[1725.80s -> 1730.80s]  de cuánta área del mundo real está siendo representada
+[1730.80s -> 1735.80s]  por cada pincel, viene en la información de la cámara.
+[1736.80s -> 1739.80s]  En la letra pequeñita de la cámara.
+[1739.80s -> 1744.80s]  Usted puede buscar cuál es esa área que representa
+[1744.80s -> 1748.80s]  del mundo real cada pincel de la cámara de una iPhone.
+[1748.80s -> 1751.80s]  Usted puede buscar esa información en internet.
+[1751.80s -> 1755.80s]  De la cámara de su celular Samsung.
+[1755.80s -> 1760.80s]  De la cámara web. Usted puede buscar esa información.
+[1761.80s -> 1765.80s]  ¿Cómo se llama ese concepto de cuánta área
+[1765.80s -> 1770.80s]  puede representar cada pincel, cuánta área del mundo real?
+[1770.80s -> 1773.80s]  Se llama resolución espacial.
+[1776.80s -> 1778.80s]  Es decir, la resolución espacial,
+[1778.80s -> 1781.80s]  usted la puede buscar en internet para el iPhone.
+[1781.80s -> 1783.80s]  Entonces, le va a decir,
+[1783.80s -> 1787.80s]  cada pincel está representando del mundo real,
+[1788.80s -> 1791.80s]  0.1 milímetros, algo así.
+[1794.80s -> 1797.80s]  Entre más pequeñas sea esa resolución espacial,
+[1797.80s -> 1800.80s]  mayor definición tenemos en nuestra imagen.
+[1800.80s -> 1804.80s]  ¿Por qué? Porque le estamos dándole a cada pincel
+[1804.80s -> 1807.80s]  la oportunidad de representar una área cada vez más pequeña
+[1807.80s -> 1809.80s]  del mundo real.
+[1809.80s -> 1814.80s]  Es decir, hay más pinceles representando la misma área,
+[1814.80s -> 1818.80s]  lo que significa mayor resolución espacial
+[1818.80s -> 1823.80s]  de la imagen, mayor resolución.
+[1823.80s -> 1826.80s]  Es decir, la imagen se va a ver más útil.
+[1828.80s -> 1831.80s]  Obviamente, si tenemos más pinceles en una imagen,
+[1831.80s -> 1834.80s]  la imagen se va a ver más especial por supuesto.
+[1837.80s -> 1839.80s]  Eso es un concepto muy importante a tener en cuenta
+[1839.80s -> 1842.80s]  la resolución espacial de una imagen
+[1842.80s -> 1845.80s]  que viene en pilotados de fábrica de carga.
+[1845.80s -> 1848.80s]  Usted puede buscar esa documentación.
+[1851.80s -> 1853.80s]  Profesor, eso para que sea importante.
+[1854.80s -> 1856.80s]  Si yo lo voy a tomar la foto a una persona,
+[1856.80s -> 1857.80s]  eso que tiene que ver.
+[1857.80s -> 1860.80s]  Sí, pero es que aquí nosotros vamos a tratar
+[1860.80s -> 1862.80s]  con imágenes médicas,
+[1862.80s -> 1868.80s]  donde una estructura puede ser de medio milímetro de ancho.
+[1869.80s -> 1873.80s]  Y esa microstructura se puede considerar
+[1873.80s -> 1877.80s]  inmensa a escala médica.
+[1877.80s -> 1880.80s]  Es una estructura grandísima y usted va a ver la medida.
+[1880.80s -> 1882.80s]  Es medio milímetro de ancho.
+[1882.80s -> 1885.80s]  ¿Qué pasa si yo uso una cámara común y corriente
+[1885.80s -> 1887.80s]  para representar eso?
+[1887.80s -> 1892.80s]  Es solamente en un pixel se representa
+[1892.80s -> 1894.80s]  toda la estructura, pero yo necesito
+[1894.80s -> 1898.80s]  muchos más pixels para representar esa estructura.
+[1898.80s -> 1902.80s]  Necesito que haya una mayor resolución espacial.
+[1902.80s -> 1907.80s]  Es decir, más pixels representando ese medio milímetro.
+[1907.80s -> 1908.80s]  ¿Para qué?
+[1908.80s -> 1912.80s]  Porque yo necesito saber esa microstructura
+[1912.80s -> 1914.80s]  y identificar información relevante
+[1914.80s -> 1917.80s]  parte de esa microstructura.
+[1917.80s -> 1920.80s]  Entonces me toca ir a la información
+[1920.80s -> 1923.80s]  del fabricante del resonador magnético
+[1923.80s -> 1926.80s]  para ver cuánta resolución espacial
+[1926.80s -> 1933.80s]  está representando cada unidad de esa imagen.
+[1933.80s -> 1935.80s]  Si me acuerdo de eso.
+[1935.80s -> 1937.80s]  Hasta aquí hay preguntas.
+[1947.80s -> 1950.80s]  Volvamos al tema.
+[1950.80s -> 1952.80s]  ¿No hay preguntas?
+[1954.80s -> 1958.80s]  Volvamos al tema de la...
+[1980.80s -> 1982.80s]  Volvamos al tema de...
+[1983.80s -> 1986.80s]  de la...
+[1989.80s -> 1993.80s]  del tema de cuántos valores de intensidad
+[1993.80s -> 1995.80s]  que puedo representar en una imagen.
+[1995.80s -> 1998.80s]  Decíamos dos a la ocho, o sea, 256,
+[1998.80s -> 2001.80s]  en una imagen común y corriente
+[2001.80s -> 2003.80s]  de una cámara común y corriente,
+[2003.80s -> 2004.80s]  sea la del live, o sea,
+[2004.80s -> 2007.80s]  cuando yo le diga común y corriente,
+[2007.80s -> 2010.80s]  no necesariamente es un celular de mala calidad,
+[2010.80s -> 2013.80s]  porque incluso hasta la de los mejores celulares
+[2013.80s -> 2015.80s]  es el mismo principio.
+[2015.80s -> 2017.80s]  Recuerden.
+[2017.80s -> 2021.80s]  Está las imágenes de los celulares,
+[2021.80s -> 2023.80s]  teléfonos,
+[2023.80s -> 2026.80s]  tabletas, por computadores,
+[2026.80s -> 2029.80s]  cámara del web y otro mundo
+[2029.80s -> 2031.80s]  distinto son las imágenes
+[2031.80s -> 2034.80s]  de la resonación magnética.
+[2034.80s -> 2036.80s]  Esta sí,
+[2036.80s -> 2039.80s]  cada pizzer nos puede representar
+[2039.80s -> 2042.80s]  dos a la ocho intensidades de color.
+[2042.80s -> 2045.80s]  Es decir, podemos almacenar hasta ocho bits
+[2045.80s -> 2048.80s]  en cada pizzer.
+[2048.80s -> 2051.80s]  Esto nos da un rango entre qué?
+[2051.80s -> 2055.80s]  Entre cero y doscientos cincuenta y cinco.
+[2058.80s -> 2060.80s]  Por eso es que yo aquí les pinté
+[2060.80s -> 2064.80s]  números que 179, 180, 130.
+[2064.80s -> 2067.80s]  En una imagen a color convencional
+[2067.80s -> 2070.80s]  o en niveles de gris.
+[2073.80s -> 2075.80s]  Lo que sucede es que cuando nosotros
+[2075.80s -> 2079.80s]  en un computador o en cualquier dispositivo digital
+[2079.80s -> 2082.80s]  vemos una imagen a color
+[2082.80s -> 2086.80s]  lo que estamos viendo en realidad son tres matrices.
+[2086.80s -> 2089.80s]  Una matriz no está representando el color rojo,
+[2089.80s -> 2093.80s]  una matriz no está representando el color verde
+[2093.80s -> 2096.80s]  y una matriz no está representando el color azul.
+[2096.80s -> 2099.80s]  Las tres juntas nos dan a nosotros.
+[2099.80s -> 2102.80s]  Obviamente las tres tienen que tener el mismo tamaño, ¿no?
+[2102.80s -> 2105.80s]  Por eso es que aquí vemos
+[2105.80s -> 2108.80s]  en el pizzer cero cero vemos tres valores.
+[2108.80s -> 2111.80s]  Es decir, estamos teniendo
+[2111.80s -> 2114.80s]  226 para el rojo,
+[2114.80s -> 2117.80s]  137 para el verde y 125 para el azul.
+[2117.80s -> 2120.80s]  Y eso acá tiene sentido, ¿no?
+[2120.80s -> 2122.80s]  Es decir,
+[2122.80s -> 2125.80s]  usted tiene más rojo que otra cosa.
+[2125.80s -> 2128.80s]  A pesar de que usted ve eso como
+[2128.80s -> 2131.80s]  color crema, rosado, arriba a la izquierda,
+[2131.80s -> 2134.80s]  muy arriba a la izquierda,
+[2134.80s -> 2137.80s]  recuerden que aquí hay muchos columnas de pizzeros.
+[2137.80s -> 2140.80s]  Muy arriba a la izquierda,
+[2140.80s -> 2143.80s]  usted ve un color como crema.
+[2143.80s -> 2146.80s]  Ese color como crema
+[2146.80s -> 2149.80s]  es el color de pizzeros.
+[2149.80s -> 2152.80s]  Ese color como crema
+[2152.80s -> 2155.80s]  en realidad es 226 de rojo,
+[2155.80s -> 2158.80s]  137 de verde
+[2158.80s -> 2161.80s]  y 125 de azul.
+[2161.80s -> 2164.80s]  Nosotros podemos transformar estos números
+[2164.80s -> 2167.80s]  en otro tipo de escalas.
+[2167.80s -> 2170.80s]  Por ejemplo, la gente de pizzer
+[2170.80s -> 2173.80s]  usa
+[2173.80s -> 2176.80s]  otro tipo de espacio de color,
+[2176.80s -> 2179.80s]  se llama espacio de color,
+[2179.80s -> 2182.80s]  donde
+[2182.80s -> 2185.80s]  no representan con rojo verde y azul,
+[2185.80s -> 2188.80s]  sino que representan con otra información.
+[2188.80s -> 2191.80s]  ¿Sí?
+[2191.80s -> 2194.80s]  ¿Por qué? Porque ellos necesitan tener
+[2194.80s -> 2197.80s]  la información un poquito más segregada.
+[2197.80s -> 2200.80s]  ¿Por qué?
+[2200.80s -> 2203.80s]  Porque ellos necesitan
+[2203.80s -> 2206.80s]  modificaciones a las imágenes.
+[2206.80s -> 2209.80s]  ¿Para qué? Para tener mayor realce,
+[2209.80s -> 2212.80s]  porque son imágenes orientadas aquí
+[2212.80s -> 2215.80s]  a la fantasía,
+[2215.80s -> 2218.80s]  a hacer proyectadas en un cine,
+[2218.80s -> 2221.80s]  a generar emoción, a generar impacto visual
+[2221.80s -> 2224.80s]  en una persona. Es decir,
+[2224.80s -> 2227.80s]  es otro propósito totalmente distinto a,
+[2227.80s -> 2230.80s]  por ejemplo, nosotros aquí en este curso,
+[2230.80s -> 2233.80s]  tenemos la información de las imágenes.
+[2233.80s -> 2236.80s]  ¿Sí me hago entender?
+[2236.80s -> 2239.80s]  Entonces, esta gente de pizzer
+[2239.80s -> 2242.80s]  y estos estudios de animación
+[2242.80s -> 2245.80s]  necesitan es que no sé que el monstruo
+[2245.80s -> 2248.80s]  sea, o que el dragón sea,
+[2248.80s -> 2251.80s]  tenga colores más vivos, más llamativos,
+[2251.80s -> 2254.80s]  es decir, necesitan no,
+[2254.80s -> 2257.80s]  o sea, les parece insuficiente entrar a modificar
+[2257.80s -> 2260.80s]  sino que entonces necesitan otro tipo de espacio de color
+[2260.80s -> 2263.80s]  para representar la misma información,
+[2263.80s -> 2266.80s]  pero poder variar parámetros para qué,
+[2266.80s -> 2269.80s]  para que el dragón se vea más llamativo,
+[2269.80s -> 2272.80s]  para que, no sé,
+[2272.80s -> 2275.80s]  la hada se vea más
+[2275.80s -> 2278.80s]  llamativa que las alitas de la hada
+[2278.80s -> 2281.80s]  se vean más llamativas
+[2281.80s -> 2284.80s]  que usted ven en esas películas
+[2284.80s -> 2286.80s]  y todo tiene como un brillo,
+[2286.80s -> 2289.80s]  como que dispara como una lucecita,
+[2289.80s -> 2292.80s]  cada cosita, cada hada,
+[2292.80s -> 2294.80s]  cada caotita de cada árbol,
+[2294.80s -> 2297.80s]  tiene pareciera que tuviera vida propia.
+[2297.80s -> 2300.80s]  ¿Sí?
+[2300.80s -> 2303.80s]  Es otro propósito totalmente distinto
+[2303.80s -> 2306.80s]  al que nosotros aquí,
+[2306.80s -> 2309.80s]  que es identificar objetos.
+[2309.80s -> 2312.80s]  Pero aún así, nosotros podemos cambiar
+[2312.80s -> 2315.80s]  el espacio de color a partir de esa información.
+[2315.80s -> 2317.80s]  Vamos a ver eso.
+[2317.80s -> 2320.80s]  ¿Cómo se cambian de espacios de color?
+[2320.80s -> 2323.80s]  En una imagen de resonancia magnética,
+[2323.80s -> 2326.80s]  nosotros no tenemos ocho bits solamente.
+[2326.80s -> 2329.80s]  Cuantados que son estos tres cerebrales
+[2329.80s -> 2332.80s]  que requieren mayor representación de la información,
+[2332.80s -> 2335.80s]  nosotros podemos dedicar
+[2335.80s -> 2338.80s]  incluso hasta 16 bits,
+[2339.80s -> 2342.80s]  perdón, 2 a la 16 con 16 bits
+[2342.80s -> 2346.80s]  para representar cada pixel.
+[2346.80s -> 2349.80s]  ¿Sí?
+[2349.80s -> 2352.80s]  Incluso hay resonadores que manejan 32 y más.
+[2352.80s -> 2355.80s]  O sea, son rangos de valores,
+[2355.80s -> 2358.80s]  no entre 0 y 255, sino entre 0 y 15,000,
+[2358.80s -> 2361.80s]  no sé qué, o sea,
+[2361.80s -> 2364.80s]  podemos tener mucha mayor precisión a la hora de representar
+[2364.80s -> 2367.80s]  las estructuras cerebrales o estructuras
+[2367.80s -> 2370.80s]  de otro organo, no necesariamente cerebro.
+[2370.80s -> 2373.80s]  La gente le toma resonancia magnética,
+[2373.80s -> 2375.80s]  no necesariamente el cerebro,
+[2375.80s -> 2378.80s]  podemos tomarte la espalda de alguna pierna
+[2378.80s -> 2381.80s]  que se fracturó o algo así.
+[2381.80s -> 2384.80s]  Por eso esas imágenes de resonancia magnética
+[2384.80s -> 2387.80s]  son repesadas y aquellas personas,
+[2387.80s -> 2390.80s]  porque me pregunté la que se pasaba,
+[2390.80s -> 2393.80s]  que a quién le habían hecho eso, anteriormente,
+[2393.80s -> 2396.80s]  bueno, estamos hablando de que
+[2396.80s -> 2399.80s]  se decía que esas imágenes ya no las están entregando
+[2399.80s -> 2402.80s]  las IPS, anteriormente usted le daba un CD
+[2402.80s -> 2405.80s]  después de hacerle la resonancia magnética
+[2405.80s -> 2408.80s]  y usted se llevaba ese CD y después
+[2408.80s -> 2411.80s]  cuando el médico general le pedía la imagen
+[2411.80s -> 2414.80s]  pues para ver, ¿sí?
+[2414.80s -> 2417.80s]  O el psiquiatra le pedía,
+[2417.80s -> 2420.80s]  pues en el disco yo adentro y veo a ver usted qué lo que tiene,
+[2420.80s -> 2423.80s]  para leerle los resultados.
+[2423.80s -> 2426.80s]  Lo que hace es, en un visor abre esa imagen,
+[2426.80s -> 2431.80s]  las IPS ya no están dando ese disco,
+[2431.80s -> 2434.80s]  ya le dicen, no, acceda a este link.
+[2434.80s -> 2437.80s]  Entonces el médico tiene acceso, obviamente,
+[2437.80s -> 2440.80s]  a ese link, pero entonces ya la información
+[2440.80s -> 2442.80s]  ya no le está quedando el paciente,
+[2442.80s -> 2445.80s]  sino que ya le está quedando la IPS
+[2445.80s -> 2449.80s]  por recla colombiana, lo decía el psiquiatra,
+[2449.80s -> 2452.80s]  se tienen que almacenar 20 años
+[2452.80s -> 2455.80s]  las imágenes y en general cualquier
+[2455.80s -> 2458.80s]  información de un paciente, 20 años,
+[2458.80s -> 2461.80s]  resulta que usted va a los tres meses
+[2461.80s -> 2464.80s]  y ya le dicen, no, ya no tenemos esas imágenes.
+[2464.80s -> 2468.80s]  Entonces ahí hay un problema grandote,
+[2468.80s -> 2470.80s]  primero porque se está encumpliendo la lecola
+[2470.80s -> 2473.80s]  enviana y segundo, pues porque para nosotros
+[2473.80s -> 2476.80s]  es un, para nosotros la resonancia magnética
+[2476.80s -> 2479.80s]  es un input muy importante porque con eso es
+[2479.80s -> 2482.80s]  con lo que trabajamos, para nosotros
+[2482.80s -> 2486.80s]  lograr identificar patrones de pacientes,
+[2486.80s -> 2488.80s]  necesitamos las resonaciones magnéticas
+[2488.80s -> 2491.80s]  de varios pacientes, analizarlas,
+[2491.80s -> 2494.80s]  juntarlas, hacer algoritmos que funcionen
+[2494.80s -> 2496.80s]  para todas esas imágenes, identificar
+[2496.80s -> 2498.80s]  patrones en todas esas imágenes para
+[2498.80s -> 2501.80s]  poder decir, ah bueno, los esquizofrénicos
+[2501.80s -> 2504.80s]  tienen estos y estos y estos problemas
+[2504.80s -> 2506.80s]  en sus estructuras cerebrales.
+[2506.80s -> 2509.80s]  Pero qué pasa si ya no nos están dándole
+[2509.80s -> 2512.80s]  ya no nos están dándole acceso a las imágenes
+[2512.80s -> 2515.80s]  sino por medio de un leak y que no se puede descargar
+[2515.80s -> 2518.80s]  porque argumentan que es un pesado
+[2518.80s -> 2521.80s]  y entonces que no hay que hoy en día ya no hay
+[2521.80s -> 2524.80s]  quemadores, decidí que para esos puro cuentos
+[2524.80s -> 2527.80s]  usted, quemadores decidí, usted los puede comprar
+[2527.80s -> 2530.80s]  y lo más que ya no vienen en un caso
+[2530.80s -> 2533.80s]  es que no se puede descargar,
+[2533.80s -> 2535.80s]  usted los puede comprar.
+[2535.80s -> 2537.80s]  Lo más que ya no vienen en un computador
+[2537.80s -> 2540.80s]  pero se compra ni eso es barato.
+[2540.80s -> 2543.80s]  O le denos de una memoria USB,
+[2543.80s -> 2547.80s]  una memoria ya es una cosa muy barata hoy en día.
+[2547.80s -> 2550.80s]  Pero pues así está la cosa con el tema
+[2550.80s -> 2553.80s]  de las IPS, es ahora
+[2553.80s -> 2556.80s]  ahora tener una imagen de resonancia magnética
+[2556.80s -> 2561.80s]  parece, parece usted tener ya una cadena de oro.
+[2561.80s -> 2564.80s]  Porque ya las IPS no quieren entregarlas
+[2564.80s -> 2567.80s]  se las están quedando
+[2567.80s -> 2570.80s]  y las están borrando por el TEC
+[2570.80s -> 2573.80s]  preludiendo que el tema, el tema de almacenamiento
+[2573.80s -> 2575.80s]  no tenemos donde almacenar todas esas imágenes
+[2575.80s -> 2578.80s]  que es conectamos cada día.
+[2578.80s -> 2580.80s]  Entonces usted se la tiene en tres meses ya
+[2580.80s -> 2582.80s]  cuando debería estar 20 años.
+[2582.80s -> 2585.80s]  Y no solo, no solo resonaciones muchas
+[2585.80s -> 2588.80s]  muchas otras cosas, radiografías simples.
+[2588.80s -> 2591.80s]  Claro, las imágenes de tomografía
+[2591.80s -> 2594.80s]  aquí solamente estamos hablando de
+[2594.80s -> 2596.80s]  imágenes de resonancia magnética
+[2596.80s -> 2599.80s]  pero como usted lo dice, hay otro tipo de imágenes
+[2599.80s -> 2601.80s]  de tomografía, la presa de la maña Patricia
+[2601.80s -> 2604.80s]  decía que las tomografías son bastante especiales
+[2604.80s -> 2607.80s]  en tratar y sí, eso es
+[2607.80s -> 2609.80s]  o sea, un pasellazo un poquito en la cabeza
+[2609.80s -> 2612.80s]  con la pared, ¿no?
+[2612.80s -> 2616.80s]  Pero son, es decir, son imágenes
+[2616.80s -> 2618.80s]  justamente por lo que estamos viendo aquí
+[2618.80s -> 2621.80s]  son imágenes mucho más pesadas.
+[2625.80s -> 2628.80s]  Sí, a ver si por aquí
+[2628.80s -> 2630.80s]  aquí tengo un ejemplo de
+[2630.80s -> 2633.80s]  imagen de resonancia magnética.
+[2635.80s -> 2637.80s]  Todo esto
+[2637.80s -> 2640.80s]  todo esto hace referencia al mismo paciente.
+[2640.80s -> 2644.80s]  Cada slide de estos pesa un 93 megas
+[2644.80s -> 2647.80s]  es decir, para una resonancia
+[2647.80s -> 2650.80s]  de un solo paciente es el cúmulo de todos esos slides.
+[2650.80s -> 2653.80s]  Recordemos lo que yo dije en la clase pasada, ¿no?
+[2653.80s -> 2656.80s]  Tenemos la cabeza de la persona
+[2656.80s -> 2659.80s]  supongamos que ahí está la cabeza de la persona
+[2659.80s -> 2662.80s]  créanme que es una cabeza de la persona
+[2662.80s -> 2665.80s]  que no sé cómo hacerla en 3D una cabeza.
+[2668.80s -> 2670.80s]  Aquí está como de patrán, ¿no?
+[2670.80s -> 2672.80s]  Este es como el cabello de la persona
+[2672.80s -> 2674.80s]  hasta un laboreno, ¿sí?
+[2674.80s -> 2676.80s]  Está como de patrán.
+[2676.80s -> 2678.80s]  Entonces en realidad
+[2678.80s -> 2680.80s]  una imagen de resonancia magnética
+[2680.80s -> 2683.80s]  a diferencia de lo que les mostré ahorita
+[2683.80s -> 2685.80s]  en una imagen en dos dimensiones
+[2685.80s -> 2687.80s]  una imagen de resonancia magnética
+[2687.80s -> 2690.80s]  es entre dimensiones.
+[2696.80s -> 2699.80s]  Es decir, cada pizzer
+[2699.80s -> 2702.80s]  en realidad que está representando
+[2708.80s -> 2711.80s]  cada pizzer que me está representando a mí
+[2716.80s -> 2719.80s]  ya no me está representando solamente alto y ancho
+[2719.80s -> 2722.80s]  sino que me está representando que profundidad.
+[2725.80s -> 2727.80s]  Entonces
+[2727.80s -> 2730.80s]  yo tengo un pizzel
+[2734.80s -> 2736.80s]  que en realidad es una estructura
+[2736.80s -> 2739.80s]  que volumete callando.
+[2740.80s -> 2742.80s]  Esto es
+[2742.80s -> 2744.80s]  el mismo pizzer que nosotros
+[2744.80s -> 2746.80s]  estábamos viendo aquí
+[2746.80s -> 2748.80s]  pero ya no en dos dimensiones
+[2748.80s -> 2751.80s]  sino en tres dimensiones.
+[2751.80s -> 2753.80s]  Es que haría muy de para arriba
+[2753.80s -> 2755.80s]  decir que esto es un pizzel
+[2755.80s -> 2758.80s]  cuando pizzel realmente está haciendo referencia
+[2758.80s -> 2760.80s]  a esto en dos dimensiones
+[2760.80s -> 2762.80s]  es que cambia el nombre.
+[2762.80s -> 2764.80s]  ¿Qué nombre le ponemos?
+[2764.80s -> 2766.80s]  Boxel.
+[2769.80s -> 2772.80s]  Es decir, un boxel me va a almacenar a mí
+[2772.80s -> 2774.80s]  la información
+[2775.80s -> 2778.80s]  es decir, un boxel es la estructura básica
+[2778.80s -> 2781.80s]  de una imagen de resonancia magnética
+[2781.80s -> 2783.80s]  y un boxel ya vemos
+[2783.80s -> 2786.80s]  cuántos posibles valores de intensidad tiene.
+[2790.80s -> 2793.80s]  Entonces, entonces a partir de yo tener un cubo de estos
+[2793.80s -> 2795.80s]  imagínense un cubo de logic
+[2795.80s -> 2798.80s]  pero no de tres por tres sino de mucho por mucho
+[2798.80s -> 2801.80s]  mucho de alto, mucho de ancho y mucho de profundo.
+[2809.80s -> 2812.80s]  Entonces yo puedo decir, ah bueno, yo voy a sacar
+[2814.80s -> 2816.80s]  esta primera tajada
+[2820.80s -> 2822.80s]  voy a sacar esta primera tajada
+[2828.80s -> 2830.80s]  es decir, un boxel de profundo
+[2830.80s -> 2832.80s]  lo alto y lo ancho
+[2835.80s -> 2837.80s]  esta primera tajada
+[2837.80s -> 2839.80s]  y yo la saco
+[2839.80s -> 2841.80s]  al yo sacarla
+[2841.80s -> 2843.80s]  ahora sí, yo voy a tener
+[2843.80s -> 2845.80s]  una
+[2845.80s -> 2847.80s]  cosa de dos dimensiones
+[2847.80s -> 2849.80s]  solamente
+[2849.80s -> 2851.80s]  porque profundo sólo tiene uno
+[2851.80s -> 2853.80s]  aquí sólo hay
+[2853.80s -> 2855.80s]  uno
+[2855.80s -> 2857.80s]  de profundo
+[2857.80s -> 2859.80s]  entonces aquí yo voy a ver
+[2861.80s -> 2863.80s]  una sección del cerebro de la persona
+[2865.80s -> 2867.80s]  saco la siguiente tajada
+[2867.80s -> 2869.80s]  y la otra tajada
+[2869.80s -> 2871.80s]  saco la siguiente tajada
+[2871.80s -> 2873.80s]  que también es de profundidad
+[2873.80s -> 2875.80s]  uno
+[2875.80s -> 2877.80s]  saco la siguiente tajada
+[2883.80s -> 2885.80s]  y así sucesivamente
+[2885.80s -> 2887.80s]  recordemos que
+[2887.80s -> 2889.80s]  entonces yo puedo sacar
+[2889.80s -> 2891.80s]  tajadas a lo profundo
+[2891.80s -> 2893.80s]  a lo ancho
+[2893.80s -> 2895.80s]  y a lo alto
+[2895.80s -> 2897.80s]  así que puedo sacar
+[2897.80s -> 2899.80s]  una tajada de estas
+[2901.80s -> 2903.80s]  de alto uno
+[2909.80s -> 2911.80s]  y también yo puedo sacar
+[2911.80s -> 2913.80s]  una tajada
+[2915.80s -> 2917.80s]  de estas
+[2919.80s -> 2921.80s]  es decir, de ancho uno
+[2925.80s -> 2927.80s]  si les queda más claro
+[2927.80s -> 2929.80s]  esta representación
+[2929.80s -> 2931.80s]  cómo funcionaría una imagen
+[2931.80s -> 2933.80s]  de resumen sematético
+[2933.80s -> 2935.80s]  es una de estas
+[2935.80s -> 2937.80s]  la vista de atrás para adelante
+[2937.80s -> 2939.80s]  se llama
+[2939.80s -> 2941.80s]  sacar una tajada de atrás para adelante
+[2941.80s -> 2943.80s]  se llama
+[2943.80s -> 2945.80s]  hacia
+[2945.80s -> 2947.80s]  hacia
+[2947.80s -> 2949.80s]  la de lado
+[2949.80s -> 2951.80s]  lateral
+[2951.80s -> 2953.80s]  y la de arriba hacia abajo
+[2953.80s -> 2955.80s]  o sea la que pinté de rojo
+[2955.80s -> 2957.80s]  se llama coronal
+[2961.80s -> 2963.80s]  la de lado
+[2963.80s -> 2965.80s]  también se llama
+[2965.80s -> 2967.80s]  sagital
+[2967.80s -> 2969.80s]  tenemos vista hacia el sagital y coronal
+[2973.80s -> 2975.80s]  ustedes van a ir pensando
+[2975.80s -> 2977.80s]  cómo
+[2977.80s -> 2979.80s]  yo lo voy a dejar una imagen de resumen sematético
+[2979.80s -> 2981.80s]  en el campus
+[2981.80s -> 2983.80s]  y ustedes van a ir pensando cómo
+[2983.80s -> 2985.80s]  podemos abrir
+[2985.80s -> 2987.80s]  una imagen de esas
+[2987.80s -> 2989.80s]  esa va a ser la primera tarea
+[2989.80s -> 2991.80s]  abrir una imagen de esas
+[2991.80s -> 2993.80s]  y sacar
+[2993.80s -> 2995.80s]  estas tajadas
+[2997.80s -> 2999.80s]  tanto a lo ancho
+[2999.80s -> 3001.80s]  como a lo alto como a lo profundo
+[3001.80s -> 3003.80s]  si yo saco una tajada de estas
+[3003.80s -> 3005.80s]  entonces
+[3005.80s -> 3007.80s]  lo que yo tengo
+[3007.80s -> 3009.80s]  una sola tajada
+[3009.80s -> 3011.80s]  es este
+[3013.80s -> 3015.80s]  esa que está
+[3015.80s -> 3017.80s]  claramente una tajada
+[3017.80s -> 3019.80s]  hacia
+[3019.80s -> 3021.80s]  hacia la de arriba hacia abajo
+[3021.80s -> 3023.80s]  que escuche
+[3023.80s -> 3025.80s]  coronales de atrás
+[3025.80s -> 3027.80s]  para adelante
+[3027.80s -> 3029.80s]  y sagital
+[3029.80s -> 3031.80s]  de vista lateral
+[3031.80s -> 3033.80s]  esto es lo que nos sorprende
+[3037.80s -> 3039.80s]  no es difícil pensar
+[3039.80s -> 3041.80s]  que las tajadas
+[3041.80s -> 3043.80s]  o sea que
+[3043.80s -> 3045.80s]  una tajada
+[3045.80s -> 3047.80s]  del centro
+[3047.80s -> 3049.80s]  del cerebro
+[3049.80s -> 3051.80s]  va a ser igual
+[3051.80s -> 3053.80s]  a una tajada
+[3053.80s -> 3055.80s]  donde ya está cerca la oreja de la persona
+[3057.80s -> 3059.80s]  es lo mismo esta tajada
+[3059.80s -> 3061.80s]  está a una tajada
+[3061.80s -> 3063.80s]  en esta posición cerca
+[3063.80s -> 3065.80s]  no es lo mismo
+[3065.80s -> 3067.80s]  es decir hay unas tajadas
+[3067.80s -> 3069.80s]  por ejemplo aquí yo puedo sacar tajadas
+[3069.80s -> 3071.80s]  del hemisferio izquierdo del hemisferio derecho
+[3073.80s -> 3075.80s]  la tarea va a ser
+[3075.80s -> 3077.80s]  yo le puedo subir una imagen de estas al campo virtual
+[3077.80s -> 3079.80s]  y usted va a intentar
+[3079.80s -> 3081.80s]  abrir estas
+[3081.80s -> 3083.80s]  estas imágenes
+[3085.80s -> 3087.80s]  las imágenes
+[3089.80s -> 3091.80s]  sean de dos dimensiones
+[3091.80s -> 3093.80s]  como esta cualquiera
+[3093.80s -> 3095.80s]  de cámaras comunes y corrientes
+[3095.80s -> 3097.80s]  o sea
+[3097.80s -> 3099.80s]  o también
+[3099.80s -> 3101.80s]  una imagen de resonancia magnética
+[3103.80s -> 3105.80s]  más allá también de los pizzele
+[3105.80s -> 3107.80s]  de los valores de los pizzele
+[3107.80s -> 3109.80s]  hacen parte
+[3109.80s -> 3111.80s]  de protocolos
+[3111.80s -> 3113.80s]  de adquisición de imágenes
+[3115.80s -> 3117.80s]  ¿cuál creen que es el protocolo
+[3117.80s -> 3119.80s]  que rige actualmente para capturar
+[3119.80s -> 3121.80s]  de imágenes de color comunes
+[3121.80s -> 3123.80s]  y corrientes como es
+[3125.80s -> 3127.80s]  que protocolo
+[3127.80s -> 3129.80s]  o estándar
+[3129.80s -> 3131.80s]  es el estándar
+[3131.80s -> 3133.80s]  devolvamos las imágenes
+[3133.80s -> 3135.80s]  comunes y corrientes
+[3135.80s -> 3137.80s]  es el estándar
+[3139.80s -> 3141.80s]  es el estándar que me definía
+[3141.80s -> 3143.80s]  mi cómo
+[3143.80s -> 3145.80s]  se almacena una imagen
+[3147.80s -> 3149.80s]  resulta que un archivo
+[3149.80s -> 3151.80s]  de una imagen
+[3151.80s -> 3153.80s]  .jpg
+[3153.80s -> 3155.80s]  .png
+[3157.80s -> 3159.80s]  además de los valores
+[3159.80s -> 3161.80s]  de intensidad
+[3161.80s -> 3163.80s]  de la matriz comunal
+[3163.80s -> 3165.80s]  tiene
+[3165.80s -> 3167.80s]  una información
+[3167.80s -> 3169.80s]  que se llaman encabezados
+[3171.80s -> 3173.80s]  si
+[3173.80s -> 3175.80s]  donde yo puedo tener información
+[3175.80s -> 3177.80s]  espacial del dispositivo
+[3177.80s -> 3179.80s]  que la capturó
+[3179.80s -> 3181.80s]  fecha
+[3181.80s -> 3183.80s]  y otros datos allí
+[3185.80s -> 3187.80s]  cuando usted le da clic derecho
+[3187.80s -> 3189.80s]  a una imagen como un corriente
+[3189.80s -> 3191.80s]  a ver si tengo alguna
+[3197.80s -> 3199.80s]  si esto es una imagen
+[3199.80s -> 3201.80s]  entonces
+[3205.80s -> 3207.80s]  hay muchas propiedades
+[3207.80s -> 3209.80s]  detalles
+[3209.80s -> 3211.80s]  es para la información
+[3211.80s -> 3213.80s]  del encabezado
+[3213.80s -> 3215.80s]  que está en la imagen
+[3215.80s -> 3217.80s]  donde yo puedo almacenar
+[3217.80s -> 3219.80s]  toda esta información
+[3219.80s -> 3221.80s]  aquí son campos grasivos
+[3221.80s -> 3223.80s]  porque ya hoy en día la gente
+[3223.80s -> 3225.80s]  no le presta tanta atención a esto
+[3225.80s -> 3227.80s]  en imágenes
+[3227.80s -> 3229.80s]  tomadas comunes y corrientes
+[3229.80s -> 3231.80s]  pero aquí le puedo colocar un título
+[3231.80s -> 3233.80s]  le puedo colocar un comentario
+[3233.80s -> 3235.80s]  y el título
+[3235.80s -> 3237.80s]  de la imagen
+[3237.80s -> 3239.80s]  y el nombre del programa
+[3239.80s -> 3241.80s]  la fecha en la que se adquirió
+[3241.80s -> 3243.80s]  el copyright
+[3243.80s -> 3245.80s]  la idea de la imagen
+[3245.80s -> 3247.80s]  si que tiene obligatoriamente
+[3247.80s -> 3249.80s]  las dimensiones
+[3249.80s -> 3251.80s]  esta dice que es de 512 por 512
+[3251.80s -> 3253.80s]  y
+[3253.80s -> 3255.80s]  la resolución espacial
+[3255.80s -> 3257.80s]  es decir
+[3257.80s -> 3259.80s]  cuantaria
+[3259.80s -> 3261.80s]  del mundo real
+[3261.80s -> 3263.80s]  presentando
+[3265.80s -> 3267.80s]  y la profundidad en bits
+[3267.80s -> 3269.80s]  con presión
+[3269.80s -> 3271.80s]  bueno, datos de
+[3271.80s -> 3273.80s]  quien creó la cámara
+[3273.80s -> 3275.80s]  si
+[3275.80s -> 3277.80s]  en este momento todo eso estaba
+[3277.80s -> 3279.80s]  así pues por hoy en día la gente
+[3279.80s -> 3281.80s]  no le presta atención a esto
+[3281.80s -> 3283.80s]  pero
+[3285.80s -> 3287.80s]  enciense todos los atributos
+[3287.80s -> 3289.80s]  que tiene el estándar de codificación
+[3289.80s -> 3291.80s]  en PEC
+[3291.80s -> 3293.80s]  que en este momento vamos en la versión 7
+[3293.80s -> 3295.80s]  en PEC 7
+[3295.80s -> 3297.80s]  que obligatoriamente tiene que
+[3297.80s -> 3299.80s]  tener una imagen
+[3299.80s -> 3301.80s]  así está en campos vacíos
+[3301.80s -> 3303.80s]  obligatoriamente el encabezado de la imagen
+[3303.80s -> 3305.80s]  tiene que tener toda esta información
+[3311.80s -> 3313.80s]  así está en campos vacíos
+[3313.80s -> 3315.80s]  pero tienen que estar esos campos
+[3315.80s -> 3317.80s]  allí
+[3317.80s -> 3319.80s]  que puede rellenarlos con información
+[3319.80s -> 3321.80s]  pues verás
+[3321.80s -> 3323.80s]  esa la idea
+[3325.80s -> 3327.80s]  el estándar
+[3327.80s -> 3329.80s]  para las imágenes
+[3329.80s -> 3331.80s]  de resonancia magnética
+[3333.80s -> 3335.80s]  en realidad tenemos dos
+[3335.80s -> 3337.80s]  pero el más
+[3337.80s -> 3339.80s]  hay uno muy grande y hay otro que es como
+[3339.80s -> 3341.80s]  una versión reducida
+[3341.80s -> 3343.80s]  para que me lo entiendan de algún modo
+[3343.80s -> 3345.80s]  el más grande de todos es el
+[3345.80s -> 3347.80s]  estándar de com
+[3349.80s -> 3351.80s]  de hecho
+[3351.80s -> 3353.80s]  estas imágenes vienen en formato
+[3353.80s -> 3355.80s]  punto dcm
+[3355.80s -> 3357.80s]  que me representa
+[3357.80s -> 3359.80s]  de com
+[3359.80s -> 3361.80s]  como son tajadas
+[3361.80s -> 3363.80s]  en realidad
+[3363.80s -> 3365.80s]  viene un archivo punto zip
+[3367.80s -> 3369.80s]  que tiene un montón de archivos
+[3369.80s -> 3371.80s]  punto dcm
+[3371.80s -> 3373.80s]  usted puede abrir un archivo
+[3373.80s -> 3375.80s]  de esos dcm
+[3375.80s -> 3377.80s]  obviamente aquí
+[3377.80s -> 3379.80s]  aparece
+[3381.80s -> 3383.80s]  obviamente aquí aparece todo esto en blanco
+[3383.80s -> 3385.80s]  es porque no tengo ningún visualización
+[3385.80s -> 3387.80s]  para ese tipo de imágenes en este computador
+[3387.80s -> 3389.80s]  en el otro sí
+[3389.80s -> 3391.80s]  pero usted lo puede hacer en python
+[3393.80s -> 3395.80s]  con la librería pyd.com
+[3399.80s -> 3401.80s]  usen esta librería
+[3403.80s -> 3405.80s]  y
+[3405.80s -> 3407.80s]  y entonces
+[3407.80s -> 3409.80s]  usted abre un archivo de estos dcm
+[3409.80s -> 3411.80s]  y también se va a encontrar
+[3411.80s -> 3413.80s]  con información del encabezado
+[3423.80s -> 3425.80s]  ahí vamos a tener
+[3425.80s -> 3427.80s]  no solamente lo que les mostré ahorita
+[3427.80s -> 3429.80s]  para una imagen en dos dimensiones
+[3429.80s -> 3431.80s]  sino que también vamos a tener información
+[3431.80s -> 3433.80s]  del paciente
+[3433.80s -> 3435.80s]  uno de los aspectos más
+[3435.80s -> 3437.80s]  importantes
+[3437.80s -> 3439.80s]  para trabajar y que los médicos
+[3439.80s -> 3441.80s]  joden
+[3441.80s -> 3443.80s]  pero no joder
+[3443.80s -> 3445.80s]  en el sentido de cansar la vida sino
+[3445.80s -> 3447.80s]  que insisten hasta el cansancio
+[3447.80s -> 3449.80s]  es en el tema de la protección
+[3449.80s -> 3451.80s]  de datos
+[3451.80s -> 3453.80s]  usted no puede trabajar
+[3453.80s -> 3455.80s]  con una imagen de estas
+[3455.80s -> 3457.80s]  si no está anonimizada
+[3457.80s -> 3459.80s]  usted primero
+[3459.80s -> 3461.80s]  para trabajar con imágenes de estas
+[3461.80s -> 3463.80s]  en un proyecto serio
+[3463.80s -> 3465.80s]  porque estamos en un curso académico
+[3465.80s -> 3467.80s]  y estamos entre nosotros
+[3467.80s -> 3469.80s]  pero en un proyecto serio
+[3469.80s -> 3471.80s]  usted primero tiene que pasar
+[3471.80s -> 3473.80s]  por comité de ética
+[3473.80s -> 3475.80s]  de los hospitales o de las IPS
+[3475.80s -> 3477.80s]  para que le autoricen
+[3477.80s -> 3479.80s]  usted trabajar con imágenes
+[3479.80s -> 3481.80s]  de resonación magnética
+[3481.80s -> 3483.80s]  o de tomografía
+[3483.80s -> 3485.80s]  o de lo que sea porque
+[3485.80s -> 3487.80s]  son datos de pacientes
+[3487.80s -> 3489.80s]  metiendo con la ley colombiana
+[3489.80s -> 3491.80s]  la ley de protección
+[3491.80s -> 3493.80s]  de datos de pacientes
+[3493.80s -> 3495.80s]  ¿por qué?
+[3495.80s -> 3497.80s]  porque la gente tiene derecho a su privacidad
+[3497.80s -> 3499.80s]  o sea, hay esta persona
+[3499.80s -> 3501.80s]  yo la conozco
+[3501.80s -> 3503.80s]  y esta persona tienes que soprender
+[3503.80s -> 3505.80s]  o sea, no se puede hacer
+[3507.80s -> 3509.80s]  hay técnicas para anonimizar
+[3509.80s -> 3511.80s]  no es solamente entrar y poner
+[3511.80s -> 3513.80s]  ahí
+[3515.80s -> 3517.80s]  donde están nombre del paciente
+[3517.80s -> 3519.80s]  en el encabezado
+[3519.80s -> 3521.80s]  ¿por qué?
+[3521.80s -> 3523.80s]  porque yo puedo hacer
+[3523.80s -> 3525.80s]  ingeniería inversa
+[3525.80s -> 3527.80s]  y a partir de eso que usted puso
+[3527.80s -> 3529.80s]  yo puedo regresar al nombre del paciente original
+[3529.80s -> 3531.80s]  o a saber qué paciente fue
+[3533.80s -> 3535.80s]  hay técnicas para verdaderamente anonimizar
+[3535.80s -> 3537.80s]  datos
+[3537.80s -> 3539.80s]  ¿está para buscarlas?
+[3539.80s -> 3541.80s]  entonces
+[3541.80s -> 3543.80s]  la primera tarea va a ser
+[3543.80s -> 3545.80s]  abrir una imagen de estas
+[3545.80s -> 3547.80s]  verlas tajaditas
+[3547.80s -> 3549.80s]  de la imagen de resonación magnética
+[3549.80s -> 3551.80s]  y
+[3553.80s -> 3555.80s]  y qué más
+[3555.80s -> 3557.80s]  y verlos encabezados
+[3557.80s -> 3559.80s]  ¿qué información se aloja en el encabezado?
+[3561.80s -> 3563.80s]  tenemos información del fabricante
+[3563.80s -> 3565.80s]  del resonador magnético
+[3565.80s -> 3567.80s]  tenemos información de cuándo fue capturada la imagen
+[3567.80s -> 3569.80s]  cuánto
+[3569.80s -> 3571.80s]  cuál era el paciente, su edad
+[3571.80s -> 3573.80s]  sexo
+[3573.80s -> 3575.80s]  fecha de adquisición de la imagen
+[3575.80s -> 3577.80s]  y más información
+[3577.80s -> 3579.80s]  ¿por qué?
+[3579.80s -> 3581.80s]  ¿por qué nos permite saber eso?
+[3581.80s -> 3583.80s]  porque nosotros después podemos decir
+[3583.80s -> 3585.80s]  ah, ese paciente tenía
+[3585.80s -> 3587.80s]  en ese entonces tenía
+[3587.80s -> 3589.80s]  28 años
+[3589.80s -> 3591.80s]  nació tal día
+[3591.80s -> 3593.80s]  hoy tiene 28 años
+[3593.80s -> 3595.80s]  entonces podemos asociar
+[3595.80s -> 3597.80s]  cuando tenía 28 años
+[3597.80s -> 3599.80s]  su imagen, su estructura
+[3599.80s -> 3601.80s]  era nació tal
+[3605.80s -> 3607.80s]  ojo con eso
+[3607.80s -> 3609.80s]  de el tema de la anonimización
+[3613.80s -> 3615.80s]  con esto ya les di un
+[3615.80s -> 3617.80s]  una súper introducción
+[3617.80s -> 3619.80s]  de cómo funcionan los dos mundos
+[3619.80s -> 3621.80s]  de las imágenes
+[3621.80s -> 3623.80s]  en general
+[3623.80s -> 3625.80s]  imágenes digitales
+[3625.80s -> 3627.80s]  recuerden un vídeo
+[3627.80s -> 3629.80s]  no es más que
+[3629.80s -> 3631.80s]  un vídeo no es más que un
+[3631.80s -> 3633.80s]  pantajado
+[3633.80s -> 3635.80s]  donde tenemos muchas
+[3635.80s -> 3637.80s]  imágenes
+[3637.80s -> 3639.80s]  pero todas estas imágenes
+[3639.80s -> 3641.80s]  son en realidad de la dimensión
+[3641.80s -> 3643.80s]  ¿por qué nosotros vemos
+[3643.80s -> 3645.80s]  las imágenes de resonancia magnética siempre en blanco y negro?
+[3645.80s -> 3647.80s]  a pesar de
+[3647.80s -> 3649.80s]  que por eso, pero sé por qué
+[3649.80s -> 3651.80s]  dice que tienen
+[3651.80s -> 3653.80s]  22 a la 16
+[3653.80s -> 3655.80s]  a la 32 posibilidades
+[3655.80s -> 3657.80s]  cada boxel
+[3657.80s -> 3659.80s]  entonces porque en internet las vemos
+[3659.80s -> 3661.80s]  en blanco y negro
+[3661.80s -> 3663.80s]  porque en las imágenes de resonancia magnética
+[3663.80s -> 3665.80s]  no nos importa si tiene colorcito
+[3665.80s -> 3667.80s]  azulito, si tiene colorcito verdecito
+[3667.80s -> 3669.80s]  claro, no importa eso
+[3669.80s -> 3671.80s]  estos colores aquí
+[3671.80s -> 3673.80s]  son dados artificialmente
+[3673.80s -> 3675.80s]  pero en realidad una imagen es así
+[3675.80s -> 3677.80s]  que nos importa aquí
+[3677.80s -> 3679.80s]  las intensidades de luz
+[3681.80s -> 3683.80s]  si
+[3683.80s -> 3685.80s]  no nos interesa el color
+[3685.80s -> 3687.80s]  en el que esté pintado
+[3687.80s -> 3689.80s]  nos interesa la intensidad
+[3689.80s -> 3691.80s]  de cada boxel
+[3691.80s -> 3693.80s]  si
+[3695.80s -> 3697.80s]  piense todas las
+[3697.80s -> 3699.80s]  partes del cerebro aquí
+[3699.80s -> 3701.80s]  bueno, algunas de todas porque
+[3701.80s -> 3703.80s]  aquí el cerebro tiene eso
+[3703.80s -> 3705.80s]  un montón de partecitas
+[3705.80s -> 3707.80s]  chiquiticas
+[3707.80s -> 3709.80s]  si, pero ustedes pueden ver
+[3709.80s -> 3711.80s]  las imágenes son en blanco y negro
+[3713.80s -> 3715.80s]  bueno, blanco y negro no
+[3715.80s -> 3717.80s]  en escala de grises
+[3717.80s -> 3719.80s]  por el visualizador
+[3719.80s -> 3721.80s]  pero en realidad nos importan son los números
+[3721.80s -> 3723.80s]  que están aquí
+[3723.80s -> 3725.80s]  cuando yo tengo esos números
+[3725.80s -> 3727.80s]  yo puedo entonces
+[3729.80s -> 3731.80s]  graficar entonces
+[3731.80s -> 3733.80s]  para todos los valores
+[3733.80s -> 3735.80s]  de intensidad en el eje horizontal
+[3735.80s -> 3737.80s]  yo puedo graficar las frecuencias
+[3737.80s -> 3739.80s]  y decir cuántas imágenes
+[3739.80s -> 3741.80s]  perdón cuántos boxeles
+[3741.80s -> 3743.80s]  o en este caso
+[3743.80s -> 3745.80s]  pizeles para esta imagen
+[3745.80s -> 3747.80s]  cuántos pizeles
+[3747.80s -> 3749.80s]  tiene
+[3749.80s -> 3751.80s]  cada valor de intensidad
+[3751.80s -> 3753.80s]  a eso le llamamos histograma
+[3753.80s -> 3755.80s]  también lo vamos a ver
+[3755.80s -> 3757.80s]  este histograma aquí tal cual
+[3757.80s -> 3759.80s]  estamos viendo esta gráfica
+[3759.80s -> 3761.80s]  nos da nosotros información
+[3761.80s -> 3763.80s]  de dónde están los objetos
+[3767.80s -> 3769.80s]  en qué valores de intensidad
+[3769.80s -> 3771.80s]  residen los objetos
+[3773.80s -> 3775.80s]  si
+[3775.80s -> 3777.80s]  dónde creen que residen los objetos
+[3777.80s -> 3779.80s]  en este histograma
+[3783.80s -> 3785.80s]  en qué valores de intensidad
+[3785.80s -> 3787.80s]  están recibiendo los objetos
+[3787.80s -> 3789.80s]  de esta imagen recordemos
+[3789.80s -> 3791.80s]  ese es el histograma de esta imagen
+[3793.80s -> 3795.80s]  donde están los objetos
+[3795.80s -> 3797.80s]  es decir aquí el objeto
+[3797.80s -> 3799.80s]  de la cara de la muchacha
+[3799.80s -> 3801.80s]  el sobrero de la muchacha
+[3801.80s -> 3803.80s]  donde
+[3803.80s -> 3805.80s]  en qué valores de intensidad
+[3805.80s -> 3807.80s]  reciben esos objetos
+[3809.80s -> 3811.80s]  eso lo vamos a ver
+[3811.80s -> 3813.80s]  no se preocupen
+[3813.80s -> 3815.80s]  y seguimos rumiando en la imagen
+[3815.80s -> 3817.80s]  para
+[3817.80s -> 3819.80s]  ir transformando esa imagen
+[3819.80s -> 3821.80s]  fíjense todas las transformaciones
+[3821.80s -> 3823.80s]  que empezamos a hacer
+[3825.80s -> 3827.80s]  más transformaciones
+[3827.80s -> 3829.80s]  a histograma
+[3829.80s -> 3831.80s]  para ver otras cosas
+[3833.80s -> 3835.80s]  esto eso lo vamos a ver
+[3835.80s -> 3837.80s]  es decir esta gráfica no es solamente
+[3837.80s -> 3839.80s]  para tenerla y esta gráfica nos está
+[3839.80s -> 3841.80s]  dando información a nosotros
+[3841.80s -> 3843.80s]  de
+[3843.80s -> 3845.80s]  los valores
+[3845.80s -> 3847.80s]  de los objetos y de las intensidades
+[3847.80s -> 3849.80s]  de los objetos
+[3849.80s -> 3851.80s]  para poder homogenizar
+[3851.80s -> 3853.80s]  un poquito la imagen
+[3853.80s -> 3855.80s]  fíjense
+[3855.80s -> 3857.80s]  voy a cualizar
+[3861.80s -> 3863.80s]  volver la macoscura
+[3863.80s -> 3865.80s]  volverla más clara
+[3865.80s -> 3867.80s]  para qué
+[3869.80s -> 3871.80s]  para que se vea mejor
+[3871.80s -> 3873.80s]  y también para que los algoritmos
+[3873.80s -> 3875.80s]  puedan trabajar mejor
+[3875.80s -> 3877.80s]  a la hora de que por ejemplo de hacer
+[3877.80s -> 3879.80s]  un suavizado en la imagen
+[3879.80s -> 3881.80s]  como hacemos suavizado en la imagen
+[3881.80s -> 3883.80s]  como hacemos
+[3883.80s -> 3885.80s]  para que la imagen tenga
+[3885.80s -> 3887.80s]  menos ruido vamos a ver ese concepto
+[3887.80s -> 3889.80s]  del ruido en las imágenes
+[3889.80s -> 3891.80s]  que es el ruido en las imágenes
+[3891.80s -> 3893.80s]  cualquier dispositivo
+[3893.80s -> 3895.80s]  de captura
+[3895.80s -> 3897.80s]  de imágenes sea un resonador
+[3897.80s -> 3899.80s]  sea una cámara
+[3899.80s -> 3901.80s]  convencional
+[3901.80s -> 3903.80s]  está sujeto el ruido
+[3903.80s -> 3905.80s]  ¿por qué? porque eso es inherente a cualquier
+[3905.80s -> 3907.80s]  dispositivo electrónico
+[3907.80s -> 3909.80s]  cualquier dispositivo electrónico
+[3909.80s -> 3911.80s]  tiene variaciones
+[3911.80s -> 3913.80s]  en el flujo
+[3913.80s -> 3915.80s]  de electrones
+[3915.80s -> 3917.80s]  esas variaciones
+[3917.80s -> 3919.80s]  se trans
+[3919.80s -> 3921.80s]  como son dispositivos
+[3921.80s -> 3923.80s]  de captura de información
+[3923.80s -> 3925.80s]  también capturan esas variaciones
+[3925.80s -> 3927.80s]  que son inherentes al hardware
+[3927.80s -> 3929.80s]  eso es nada que hacer
+[3929.80s -> 3931.80s]  no es tocar lidiar con eso
+[3931.80s -> 3933.80s]  entonces esas variaciones
+[3933.80s -> 3935.80s]  son transformadas
+[3935.80s -> 3937.80s]  en variaciones en esos numeritos
+[3937.80s -> 3939.80s]  intenta usted tomar una foto
+[3939.80s -> 3941.80s]  de noche a la luna
+[3941.80s -> 3943.80s]  con su celular
+[3943.80s -> 3945.80s]  entonces le hace son que lo que
+[3945.80s -> 3947.80s]  empieza a pasar
+[3947.80s -> 3949.80s]  a ver
+[3949.80s -> 3951.80s]  pensemos
+[3951.80s -> 3953.80s]  cuando yo le tomo la foto
+[3953.80s -> 3955.80s]  a la luna y entonces le hago su
+[3955.80s -> 3957.80s]  una la cámara
+[3957.80s -> 3959.80s]  llega un momento en el que pasa
+[3959.80s -> 3961.80s]  con la cámara
+[3961.80s -> 3963.80s]  no
+[3963.80s -> 3965.80s]  no
+[3965.80s -> 3967.80s] eledar
+[3967.80s -> 3969.80s]  de solución
+[3969.80s -> 3971.80s]  empieza a ver
+[3971.80s -> 3973.80s]  empieza a ver
+[3977.80s -> 3979.80s]  empieza a ver qué
+[3981.80s -> 3983.80s]  es torce
+[3983.80s -> 3985.80s]  comienza a ver como un ormillito
+[3985.80s -> 3987.80s]  no
+[3987.80s -> 3989.80s]  se como si eran ormillitas
+[4019.80s -> 4029.46s]  es, esas hormiguitas se llama ruido. ¿Sí? Esas hormiguitas se llama ruido. Hágalen
+[4029.46s -> 4034.76s]  salga esta noche. Dame el de foto a la luna y hágale harto sumo o si quiere hágalo
+[4034.76s -> 4041.72s]  ya. Hágale harto sumo a la cámara y usted empieza a ver puras hormiguitas allí en
+[4041.72s -> 4049.04s]  la cámara. Estas hormiguitas se llama ruido y eso es inherente a cualquier dispositivo
+[4049.04s -> 4058.08s]  de captura. Obviamente las cámaras más caras tienen un mejor hardware que hace que haya
+[4058.08s -> 4065.56s]  menos ruido cuando haya mayor sumo. Por ejemplo, las cámaras de estas para los periodistas,
+[4065.56s -> 4073.28s]  ¿no? Ellos hacen unos sumo de casi que una, una, dos, tres, cuatro, cinco cuadras y se
+[4073.28s -> 4079.04s]  ve lo que y se ve la persona cinco cuadras perfectamente o si están grabando desde un
+[4079.04s -> 4085.16s]  helicóptero o un incendio para en la montaña. Ellos hacen sumo y se ve claritico. O sea,
+[4085.16s -> 4091.76s]  son cámaras con un hardware obviamente mucho mejor desarrollado. Ahí es donde usted empieza a ver
+[4091.76s -> 4100.08s]  las diferencias entre una cámara y otra. En el principio de adquisición de imagen es el mismo
+[4100.08s -> 4113.20s]  para todas las cámaras convencionales. Escoger la luz y volverla. Ya vamos a ver que es el ruido
+[4113.20s -> 4121.56s]  en las imágenes y cómo podemos intentar suavizar esas hormiguitas que aparecen inerentemente en
+[4121.56s -> 4128.24s]  las imágenes. Obviamente, mejores cámaras van a tener menos ruido, pero el ruido no es una cosa
+[4128.24s -> 4135.84s]  que vaya a desaparecer por completo de una imagen. Si se puede reducir el máximo. Sí,
+[4135.84s -> 4142.36s]  porque qué pasa con el ruido? Fíjense cómo el ruido a la hora de intentar identificar dónde
+[4142.36s -> 4150.36s]  están los bordes de las imágenes. Fíjense el ruido, cómo se me va colando, cómo se me va colando
+[4150.36s -> 4155.84s]  esas hormiguitas. Se me va colando como si fueran bordes de objetos. Estos no son bordes de objetos,
+[4155.84s -> 4162.12s]  esto es ruido en la imagen. Estas cositas blancas, no sé si las alcanzan a ver. Me imagino que espero
+[4162.12s -> 4170.40s]  que sí. Aquí claramente nosotros vemos el borde de la muchacha. Claro, vemos el borde de los ojos,
+[4170.40s -> 4177.04s]  el borde del sombrero, a la hora de identificar los bordes. ¿Para qué nos sirve identificar bordes
+[4177.04s -> 4184.32s]  en las imágenes? Para saber dónde están los objetos. Aquí empieza el objeto y aquí termina
+[4184.32s -> 4195.52s]  el objeto. Para poder extraer a partir de esa imagen, extraer, bueno, el objeto está aquí y ya
+[4195.52s -> 4203.04s]  puedo hacer cosas con el objeto de la imagen. Pero el primer paso es segmentar, es decir,
+[4203.04s -> 4210.08s]  extraer verdón en la imagen dónde está el objeto. Porque aquí hay un solo objeto, la muchacha.
+[4210.88s -> 4219.04s]  Pero, ¿qué pasa si yo estoy trabajando en un proyecto de imágenes para estos carros autónomos?
+[4220.56s -> 4228.60s]  Entonces, me toca segmentar. O sea, el carro va andando y el carro no hace mentar un solo objeto,
+[4228.60s -> 4236.16s]  que tiene que segmentar qué, dónde hay peatón, dónde hay un perro por ahí caminando solito,
+[4236.32s -> 4241.56s]  dónde hay un hidrante, para yo no estrellarme con ese hidrante, dónde hay otro carro para
+[4241.56s -> 4247.52s]  yo no estrellarme con ese otro carro, dónde está el semáforo y ver qué luz tiene. Si
+[4247.52s -> 4256.32s]  están rojo, pues detengo el carro. Si están amarillo o en verde, arranco. Si hay un carro de
+[4256.32s -> 4264.88s]  basura y obstaculizando la villa, me toca detenerlo. Es decir, son varios objetos los que tengo que
+[4264.88s -> 4271.40s]  segmentar al mismo tiempo. Aquí, en esta imagen, solo estamos viendo uno solo, un solo objeto,
+[4271.40s -> 4283.00s]  la muchacha, con sombrero y todo. Más técnicas de bordes. Fíjense cómo queda aquí ya,
+[4283.00s -> 4290.64s]  ya viendo pulido bastante el tema del ruido. El ruido aquí desapareció. Sí, el ruido aquí
+[4290.64s -> 4296.56s]  desapareció. Esas hormiguitas desaparecieron y ya me quedo solo con el borde del objeto.
+[4297.56s -> 4306.20s]  Otras técnicas. Y aquí me quedo con el borde tal cual es el borde del objeto.
+[4314.20s -> 4318.60s]  Y aquí ya queda como dibujado con pincel de ancho uno.
+[4321.48s -> 4324.04s]  Y lo repinto más.
+[4326.56s -> 4333.48s]  Esto sucede con imágenes en dos dimensiones, imágenes de cámaras convencionales. Esto lo
+[4333.48s -> 4341.12s]  vamos a aplicar nosotros para las imágenes de Resonance Magnética. Y ya y de eso se trata
+[4341.12s -> 4347.72s]  el curso. El programa del curso es todo eso. Todo eso que les mencioné. Estudiar todo lo que les
+[4347.72s -> 4355.16s]  mencioné. Qué es el ruido, las técnicas de su alzado. Para intentar eliminar el ruido.
+[4356.48s -> 4361.84s]  Técnicas para realzar objetos en las imágenes, ecualización del listo,
+[4361.84s -> 4368.40s]  brama, transformaciones geométricas de la imagen. O sea que yo quiero rotar la imagen,
+[4368.40s -> 4375.76s]  que yo quiero rotarla en el eje X, en el eje Y, en el eje Z. Todas esas cosas las vamos a ver.
+[4376.12s -> 4382.60s]  Cómo cambiar de espacio de color. Porque no que en el rojo verde y azul no no no me es
+[4382.60s -> 4387.84s]  conveniente para mi tipo de imagen. Entonces qué otros estados de color hay. Por ejemplo,
+[4387.84s -> 4392.32s]  vuelvo y les digo que en las imágenes de Resonance Magnética aquí es muy rojo verde y azul.
+[4392.32s -> 4398.32s]  Entonces no tiene sentido trabajar en rojo verde y azul en estas imágenes de Resonance Magnética.
+[4399.32s -> 4407.32s]  Si lo ven, si usted está trabajando con imágenes de infrarrojo en algún proyecto,
+[4407.32s -> 4416.16s]  pues no tiene sentido trabajar en rojo verde y azul. Si usted está trabajando con imágenes de
+[4416.16s -> 4425.08s]  tomografía, no tiene sentido trabajar con en con rojo verde y azul. Si usted está trabajando con
+[4425.08s -> 4435.88s]  una aclaración en rojo verde y azul, cada una de esas tres matrices se llama canal. Entonces
+[4435.88s -> 4443.76s]  canal rojo, el canal verde, el canal azul. Si yo estoy trabajando con imágenes de aéreas,
+[4443.76s -> 4452.68s]  perdón satelitales, de cultivos, pues más muy probablemente me sirva a mí trabajar con el canal
+[4452.68s -> 4462.92s]  verde porque son cultivos, ¿cierto? Estoy trabajando con imágenes de, no sé, de ríos,
+[4462.92s -> 4469.28s]  imágenes aéreas de ríos para ver dónde hay minería ilegal. Probablemente en el canal,
+[4469.28s -> 4479.80s]  en el canal azul no, no vaya a encontrar la información. Hay otros espacios de color que
+[4479.80s -> 4488.48s]  no están basados solamente en color, sino que también están basados en intensidad de luz como
+[4488.48s -> 4499.64s]  tal. Todo eso lo vamos a ver. Ya, ese es el curso. Ya les acabé de mencionar en PEC aquí, este
+[4499.64s -> 4509.40s]  programa el curso está un poquito desacualizado. En realidad vamos en PEC 7, no en PEC 4. H265 es
+[4509.40s -> 4519.80s]  el actual, el actual estándar de codificación de vídeo de com, es el actual estándar de codificación
+[4519.80s -> 4527.36s]  de imágenes de resonancia magnética. Algunos dicen no, no es solo un estándar, sino que es toda una
+[4527.36s -> 4535.68s]  filosofía que incluye cómo se manipula las imágenes, pues eso es toda una discusión allí. Todo eso lo vamos a ver.
+[4539.40s -> 4544.84s]  Cuando yo a ustedes les hablé en la parte de la anonymización y todo esto, eso se parte de un macro,
+[4544.84s -> 4555.76s]  como decir, un macro concepto que es las buenas prácticas clínicas. Sí, cuando uno va a trabajar con
+[4555.76s -> 4560.12s]  esas imágenes necesariamente tiene que pasar por un curso de buenas prácticas clínicas,
+[4560.12s -> 4566.72s]  aunque ustedes sepan y se contan en ese mundo. Espero que ninguno de ustedes esté diciendo,
+[4566.72s -> 4573.68s]  ay pues miras, yo estoy estudiando en el sistema, yo no estoy estudiando en el cine. Recuerden que
+[4573.68s -> 4581.40s]  nosotros como ingenieros de sistemas muy rara vez trabajamos para cosas de nosotros, no,
+[4581.40s -> 4587.36s]  generalmente nosotros estamos en proyectos interdisciplinarios, es decir, aplicaciones en
+[4588.32s -> 4599.40s]  el campo menos en el nuestro. De hecho, cuando intentamos hacer una aplicación en el campo nuestro,
+[4599.40s -> 4606.80s]  pues no estamos estudiando, como es el caso de los GLNs, ¿no? Así hace esta GPT de esta huelda que
+[4606.80s -> 4614.28s]  está estudiando nuestros propios puestos de trabajo. Pero generalmente nosotros trabajamos en proyectos de
+[4614.28s -> 4620.52s]  otras aplicaciones, hacer un software para contabilidad, hacer un software para segmentación de imágenes
+[4620.52s -> 4629.44s]  para cámaras de fotomulta, eso es de tránsito. Sí, una de esas aplicaciones es para trabajar en
+[4629.44s -> 4638.76s]  campo de medicina. Entonces usted tiene que conocer el medio en el cual va a trabajar. Si usted va a
+[4638.76s -> 4645.20s]  hacer una aplicación de para contabilidad, no le están pidiendo que se vuelva contador, pero al
+[4645.20s -> 4651.60s]  menos un librito de contabilidad básica tiene que saber qué es el debe, qué es el haber, qué es el
+[4651.60s -> 4657.72s]  patrimonio, qué es el activo, qué es el pasivo, toda esa huelda, ¿cierto? Si usted está trabajando
+[4657.72s -> 4663.24s]  con una cámara de fotomulta, pues hay que leer el Código Nacional del Tránsito, ¿no? Ley 769-2002,
+[4664.20s -> 4672.64s]  si usted está trabajando, no sé, a mí no hay un libro que se llama Ingeniería de Semáforo,
+[4672.64s -> 4677.64s]  un libro gordote para saber los semáforos, cuánto tiempo tiene que tener que hacer más por
+[4677.64s -> 4683.84s]  en función del tráfico, en función de la distancia de interés, eso es el libro, es estupenda.
+[4683.84s -> 4695.08s]  Lo mismo sucedía aquí en Medico, no es, no es, ay, démela la imagen y yo empiezo a ver que no,
+[4695.08s -> 4702.92s]  toca ver qué necesitan los médicos, qué buenas prácticas hay, o sea, empaparse de ese mundo,
+[4702.92s -> 4711.52s]  no es estudiar medicina, pero es empaparse de ese mundo de la medicina, no es estudiar neuroanatomía,
+[4711.80s -> 4718.92s]  pero sí, pues toca leer un poquito de bueno en cerebro de que está compuesto principalmente,
+[4718.92s -> 4723.80s]  ¿cuáles son las partes del cerebro? Espero que busquen todo eso porque lo van a necesitar,
+[4723.80s -> 4730.84s]  no les estoy pidiendo neuroanatomía, pero sí, ¿cuáles son las partes del cerebro?
+[4730.84s -> 4734.44s]  ¿Qué cuáles es el hipocampo? ¿Qué cuáles es el talamo? ¿Qué cuáles es la amigdala? ¿Qué cuáles
+[4734.44s -> 4740.12s]  son los tractos en el cerebro? ¿Los tractos son como las autopistas por donde pasa la información?
+[4741.00s -> 4750.24s]  Sí, como decir, la autopista sur, eso sea un tracto cerebral, donde va a comunicar,
+[4750.24s -> 4758.20s]  donde se van las, donde fluye la información. Resulta que si tenemos una vía como, no sé,
+[4758.20s -> 4765.84s]  como las calles, o algunas calles de Cali, pues esa información se pierde o no llega en el momento
+[4765.84s -> 4772.24s]  que debe ser, es decir, si tenemos problemas en los tractos, hay desarrollos de deterioro
+[4772.24s -> 4780.96s]  cognitivo y algunos tipos de demensas. Decidimos, toca buscar un poquito más de eso. Si usted pensaba
+[4780.96s -> 4785.68s]  que este curso se va a hacer de solamente procesar imágenes y ya, pues aquí nos va a tocar en papá
+[4785.68s -> 4794.72s]  un poquito de cosas de negronatomía, un poquito, un poquito, no estudiar negronatomía, no.
+[4796.40s -> 4801.44s]  Si me hago entender, pero sí una de las cosas que les voy a pedir es que hagan por favor este curso de
+[4801.44s -> 4810.28s]  buenas prácticas clínicas, sí, que es más que todo con eso, cómo se deben tratar imágenes,
+[4810.28s -> 4815.96s]  cómo se deben tratar datos de este tipo, que son sensibles, como lo son los datos de los pacientes.
+[4820.52s -> 4828.96s]  Este curso, el link está en el campus, este curso dice que se despedirá un certificado que
+[4828.96s -> 4834.28s]  estará disponible en su caída de perfil, una vez haya completado el mínimo de 80% en las 600
+[4834.28s -> 4841.48s]  preguntas finales. Entonces, yo voy a colocar el asignación en el campus para que usted suba
+[4841.48s -> 4848.20s]  el certificado, porque necesito que ustedes tengan esto claro. Lo hace esas prácticas que deben
+[4848.20s -> 4860.52s]  tener, a la verdad. Bien. Como en la metodología de evaluación, yo ya lo dije, hay dos controles,
+[4860.52s -> 4867.24s]  uno a mitad de semestre y uno al final de semestre, ¿sí? Cuándo específicamente,
+[4867.24s -> 4875.32s]  dentro de 8 días, pues definimos eso de la fecha, ¿no? Pero sí, uno a mitad de semestre y uno a
+[4875.32s -> 4882.32s]  final de semestre. Esos son los dos, esas son las dos únicas botas que hay. ¿De qué se compone ese
+[4882.32s -> 4889.64s]  control? Simplemente, usted con cada grupo, comparte pantalla, muestra lo que hizo y se acabó.
+[4890.08s -> 4896.52s]  Bueno, obviamente yo le hago preguntas, pero yo que califico, yo tengo unas róbricas,
+[4896.52s -> 4902.52s]  la claridad en su presentación, no quiere decir que usted va a presentar aquí slides, ¿no? Simplemente
+[4902.52s -> 4909.68s]  usted comparte pantalla, comparte su código, usted no me va a enseñar a mí cómo es que se hace un
+[4909.68s -> 4917.48s]  ford. Para eso ahorita aquí estamos haciendo un ford que me va recorriendo de I, J, J igual a un
+[4917.48s -> 4928.88s]  compre, ¿sí? Yo sé cómo se llama un ford. Pero tampoco de decir, vea, eso es lo que hice y lo que
+[4928.88s -> 4938.28s]  presenté a alto nivel, lo que usted hizo. Simplemente compartiendo pantalla, ¿no? Tiene que preparar
+[4939.04s -> 4944.84s]  preciapositiva ni nada de eso. O si usted quiere preparar alguna información importante que
+[4944.84s -> 4951.16s]  quiera mostrar así bien detallada, pues lo puede hacer. Pero principalmente es eso, que usted
+[4951.16s -> 4956.88s]  comparta lo que hizo y ya, y yo le pongo una nota por eso. Tengo unas róbricas, primero,
+[4956.88s -> 4962.04s]  la calidad en esa presentación de que usted comparta pantalla y muestra lo que hizo. La claridad,
+[4962.88s -> 4970.04s]  ¿sí? Porque incluso así, usted puede dir, ah, no, eso es tan fácil, no. Compartir pantalla,
+[4970.04s -> 4976.28s]  mostrar usted qué ha hecho porque usted puede caber en el error de, de explicarme qué es un ford,
+[4976.28s -> 4985.08s]  pero también en el otro extremo, que es decir, miren lo que hice y ya hay esto y si yo le hago
+[4985.08s -> 4989.36s]  pregunta, usted no sepa responder nada, porque usted le iba a la ida, quisiera todo.
+[4992.36s -> 4998.28s]  Otra róbrica, ¿qué es la claridad en las, en las respuestas? Entonces le hago preguntas, por ejemplo,
+[5000.20s -> 5006.60s]  ¿qué edades tenemos de los pacientes? No, profe, tenemos tales, tales edad, no sé qué,
+[5006.60s -> 5014.56s]  qué espacio de color usted está trabajando, no, trabajamos este por esto, aquello y lo otro,
+[5014.56s -> 5019.08s]  qué problemas encontró para tal cosa, no, encontramos estos problemas por esto,
+[5019.08s -> 5023.88s]  esto, aquello y lo otro, ¿viste? Yo le hago, yo les hago preguntas así.
+[5026.44s -> 5030.80s]  De pronto, si me sacan la radio, entonces yo les digo, ah, bueno, modifique este
+[5030.80s -> 5036.72s]  pedacito del código y a ver qué resulte, pero no, yo no, yo no, yo no hago eso en esta clase.
+[5043.24s -> 5051.88s]  Y una, también doy una róbrica que es, lo llamas y evaluación subjetiva,
+[5051.88s -> 5059.20s]  es decir, porque es subjetiva, o sea, no te puedes seguir objetivamente porque, sino del feeling de
+[5059.20s -> 5068.12s]  la sensación que se encuentra en la presentación, yo doy una nota sobre eso, es decir, no es de
+[5068.12s -> 5074.00s]  cómo me siento hoy, cómo me he sido hoy, sino de cómo usted transmite la información en esa
+[5074.00s -> 5084.12s]  presentación. Sí, eso también se tiene en cuenta. Bien, para que no tengamos esa información,
+[5084.12s -> 5088.52s]  si te lo tengamos en cuenta. Igualmente, usted va hablando de eso, yo voy preguntando,
+[5088.68s -> 5094.64s]  yo voy poniendo la nota. Generalmente, este curso se pasa con buena nota, o sea,
+[5094.64s -> 5099.56s]  nota de cuatro, cinco para arriba, generalmente, pero como dijo la profesora María Patriz,
+[5099.56s -> 5106.40s]  quienes pasan, quienes quedan al final, tienen generalmente esas notas. Quiero ser claro,
+[5106.40s -> 5111.88s]  quienes quedan al final, tienen generalmente esas notas de cuatro, cinco para arriba,
+[5111.88s -> 5118.92s]  generalmente, no quiero decir que es que siempre va a ser así, pero generalmente en el 98% de los
+[5118.92s -> 5129.92s]  casos. Pero es quienes queden en el curso, ¿por qué? Porque mucha gente cancela, porque no le da la
+[5129.92s -> 5137.04s]  importancia que se merece al curso y como vamos viendo, por ejemplo, este código es, fíjense que
+[5137.04s -> 5143.76s]  este código fue netamente secuencial. Yo arriba, arriba, fue que les expliqué.
+[5147.24s -> 5156.36s]  ¿Cómo está el scroll aquí? Fíjense, arriba, arriba, fue que yo les expliqué dónde estaban
+[5156.36s -> 5161.52s]  los valores de intensidad de los píxeles en esta imagen y a medida que fuimos bajando la cosa se
+[5161.52s -> 5172.20s]  puso más fea, así como el meme, de que está así sonriendo y es que se vuelve como más horrible
+[5172.20s -> 5179.08s]  la cara y al final es con ese sonido todo horrible, es que no me acuerdo cómo se llama eso, es un meme
+[5179.08s -> 5186.68s]  que hay por ahí y la cosa se va poniendo cada vez más turbia a medida de que va pasando el curso,
+[5187.28s -> 5193.64s]  al principio lo más sencillo, pero ya luego qué quiero decirles con esto, que el contenido aquí es
+[5193.64s -> 5199.32s]  meramente incremental. Pero yo les voy a decir, ah, muchos, entonces como vimos la clase pasada,
+[5199.32s -> 5203.84s]  como ustedes ya lo pudieron haber implementado, entonces vamos a seguir con tal y tal cosa.
+[5205.00s -> 5210.72s]  Es decir, es bastante incremental el curso, es decir, si usted no entendió algo, no es que
+[5210.88s -> 5216.64s]  entendió, si no lo entendió, si no lo buscó, si no me escribió, si no me pregunta, que en la
+[5216.64s -> 5222.28s]  clase veas no entiendo tal cosa y yo vuelvo y le explico sin problema, con mucho gusto lo hago.
+[5222.28s -> 5229.64s]  Si sigues sin entender, miramos cómo transformo mi speech para que usted pueda entender mejor,
+[5229.64s -> 5235.12s]  pero me interesa es que usted quede claro las cosas, porque si usted no entiende, por ejemplo,
+[5235.12s -> 5240.44s]  cómo se hace la bendita operación de convolución, después no van a entender nadie para allá,
+[5240.44s -> 5246.72s]  porque esa operación de convolución, después de decir, ah, usted ya tiene implementado
+[5246.72s -> 5253.36s]  la operación de convolución, así eso requiere un kernel listo, entonces para el filtro de paso
+[5253.36s -> 5258.16s]  bajo son estos y estos kernels, entonces apliquenlo con la operación de convolución que hicieron.
+[5259.16s -> 5265.24s]  Ya que para filtro de real, entonces son estos kernels, entonces apliquenlos tal,
+[5265.24s -> 5272.40s]  para filtros de detección de bordes, entonces son estos kernels, apliquenlos con la con la
+[5272.40s -> 5278.08s]  convolución, la operación de convolución que usted ya recibe, pues usted no entiende eso,
+[5278.08s -> 5287.36s]  no entender de para allá lo demás, bien, es obo con eso, dice créditos 13, es decir,
+[5287.36s -> 5296.36s]  usted tiene que dedicarle al menos nueve horas de estudio semanal, solo usted individual al curso,
+[5298.04s -> 5304.16s]  pues hay semanas en las que usted puede sentirse, no, no dejaron tarea, no hay nada por hacer en el
+[5304.16s -> 5311.24s]  curso de mágico, entonces no le dicen las horas de estudio de esa semana, pero puede que la siguiente
+[5311.24s -> 5319.92s]  semana yo dejo algo y entonces he hecho 12 horas, o se echó no 18 horas en esa semana,
+[5321.28s -> 5325.84s]  las horas del siguiente semana, más las horas que usted usó la semana anterior,
+[5325.84s -> 5334.12s]  es decir, ahí vamos bien, nueve horas distribuidas por semana, pero como usted en una semana no
+[5334.12s -> 5340.04s]  sintió carga y en la siguiente semana sí sintió carga de más, entonces va a decir, ah, en este
+[5340.04s -> 5350.88s]  curso el contenido es muy pesado, y no, más que si usted va siguiendo el ritmo al curso, semana tras semana,
+[5354.00s -> 5361.28s]  sí, usted va a tener bastante fresco los conceptos, ojalá que eso pudiera ser así, yo sé que hay
+[5361.28s -> 5367.76s]  curso donde demanda mucha cosa en una semana, entonces hace que usted no le pueda parar bolas a
+[5367.76s -> 5374.80s]  este, yo sé que eso hay, yo también estoy estudiante, pero pues al menos hacer el esfuerzo por
+[5374.80s -> 5382.84s]  recordar qué fue lo que se vio en cada clase antes de la siguiente clase, porque de nuevo el día
+[5382.84s -> 5393.56s]  si usted no entiende un concepto, ya le va a quedar muy complicado, bien, y ya eso es el programa del
+[5393.56s -> 5399.48s]  curso, esta evaluación pues no, eso no es así, pues porque no hay examen al final del curso,
+[5399.48s -> 5406.28s]  entonces son solo dos controles cada unos 50%, y ya hay pared de contar, o sea, bastante fácil,
+[5406.28s -> 5417.00s]  yo no puedo por asistencia, nada de eso, ni hay tareas así, no, no, solo los dos controles al
+[5417.08s -> 5428.80s]  final, pero, pero, pero, pero, si es un requisito obligatorio, este, este curso de buenas prácticas
+[5428.80s -> 5440.52s]  clínicas, porque cuando usted va a entrar a un proyecto, se necesita una maldénica del hospital,
+[5441.00s -> 5449.48s]  si es que va a trabajar con hospitales, eso no lo dejan, no lo dejan trabajar con imágenes antes de
+[5449.48s -> 5459.00s]  tener estos cursos ya hechos, y de tener avales, no puedo, no puedo, porque hoy tenemos un estudiante
+[5459.00s -> 5465.60s]  y demás que está y penando, ya estaría procesando imágenes, y no lo ha hecho por qué, porque no
+[5465.60s -> 5472.80s]  mando los avales en los tiempos que debían, y apenas los va a mandar, y ya era para que estuviera
+[5472.80s -> 5483.32s]  procesando imágenes, es decir, ustedes aquí van a ver cosas que un estudiante de maestría todavía no
+[5483.32s -> 5495.28s]  podían, así que, pues, es no la importancia al, al curso, ¿viste? Bien, hay preguntas hasta aquí,
+[5495.28s -> 5497.56s]  preguntas, ¿pregúntenme?
+[5500.56s -> 5506.04s]  Eh, nada, profe el tema ahí de la conformación de los grupos, es libre y cuántas personas.
+[5506.20s -> 5514.68s]  Grupo hasta de cuatro personas, en el campus virtual hay un link que se llama escogencia de grupo,
+[5517.48s -> 5523.72s]  escoger grupo, entonces, por favor, entremos ya, y entonces registres en algún grupo,
+[5523.72s -> 5528.12s]  entonces, esto tiene sus amigos, entonces, díganle, ah, restruman en el grupo, no sé, diez,
+[5528.12s -> 5536.56s]  sí, pero intentemos que sea como incremental, o sea, si ya hay alguien realizado en el grupo uno y
+[5536.56s -> 5542.20s]  usted quiere armar el grupo aparte, entonces, díganle tres en el dos, para que no tengamos grupos
+[5542.20s -> 5549.32s]  intermedios vacíos, pues, por favor, hagamos eso ya, entremos en el campus virtual, yo voy a ir
+[5549.32s -> 5555.60s]  colizando aquí y se van registrando máximo cuatro personas por grupo.
+[5561.36s -> 5568.16s]  Se necesita que haya buena disciplina entre ustedes, disciplina quiere decir es, eh, la,
+[5568.16s -> 5575.64s]  es esa capacidad de decir, no, vamos a, la pena de trabajar cada semana, al menos una ahorita,
+[5575.64s -> 5583.00s]  al día, con esta imagen, este curso tiene una cosa muy bonita y es que usted cuando se encarrega,
+[5584.60s -> 5588.92s]  usted se empieza encarregada y después usted voltea a mirar, y pues, mucha vez, ya anocheció,
+[5588.92s -> 5597.52s]  eso pasa con cosas de este curso, usted se enfrasca con una imagen de esas y eso sí,
+[5597.52s -> 5603.88s]  hay días en los que usted se va a sentir, como decirlo, se va a sentir, eh, pero ¿por qué no me
+[5603.88s -> 5609.00s]  da?, ¿por qué no lo voy a hacer tal cosa?, ¿por qué no me da tal? Se empieza a buscar,
+[5609.00s -> 5615.88s]  me puede escribir al correo, se puede programar alguna sesión, pero generalmente,
+[5615.88s -> 5621.96s]  vía correo y vía mensajes de correo, se solucionan el 99% de las, de las estas,
+[5621.96s -> 5628.68s]  obviamente, usted requiere de un estudio individual, de que usted busque por su cuenta,
+[5629.40s -> 5636.84s]  a mí me gusta que usted busque, de que usted me va a escribir en un correo, miren, yo trabajo,
+[5639.16s -> 5645.48s]  yo, yo estoy entre Alemán y Colombia, ¿no?, desde allá también me toca supervisar a estudiantes y
+[5649.08s -> 5653.56s]  cuando, y entonces, a uno le toca a esa gente, la India, por ahí todo eso,
+[5653.88s -> 5660.44s]  de uno le escriben correos, sir, I don't understand, punto, señor, no entiendo,
+[5661.56s -> 5668.64s]  yo me quedo ¿qué?, literal, yo digo ¿en serio?, o sea,
+[5671.96s -> 5677.48s]  y son así olímpicos, ¿sí me entiendo? Entonces, allá se les,
+[5678.20s -> 5684.28s]  tengo un documento de cómo debe realtar un correo, diga, donde usted no es de la forma de
+[5684.28s -> 5691.64s]  cordial saludo ni nada de eso, sino de que, de que usted muestre, ¿qué fue lo que usted buscó?
+[5694.52s -> 5700.52s]  Y que antes de usted preguntarme a mí, es porque usted ya ha buscado y no ha logrado solucionar el
+[5700.52s -> 5706.32s]  problema y que me muestre todo eso, vea, estoy buscando en tal parte, provee tal cosa y no me
+[5706.32s -> 5712.72s]  funcionó, buscé en tal otra parte y tampoco funcionó, entonces por eso le voy a, le necesito
+[5712.72s -> 5717.64s]  preguntarle a este profesor ¿qué, qué pasa con esto?, ¿qué puedo hacer aquí?, necesito ayuda,
+[5719.00s -> 5724.32s]  eso es un buen correo de muestra de interés, de que usted haga bueno, buscó primero, además de
+[5724.32s -> 5729.84s]  que que tal que yo le respondo usted, algo que usted ya intentó previamente y que no me funcionó,
+[5730.32s -> 5737.24s]  usted que va a decir, el profesor no sabe nada, pero es porque yo le propuse lo que normalmente
+[5737.24s -> 5745.48s]  se respondería ante, ante algún problema en particular, pero si usted ya lo provee y no
+[5745.48s -> 5750.44s]  le funcionó, pues entonces tenemos que buscar otra alternativa y si usted ya le interesa, estas
+[5750.44s -> 5759.20s]  imágenes son, no son complicadas, pero sí son, o sea, requieren trabajo, porque no son de las imágenes
+[5759.20s -> 5768.08s]  convencionales de una cámara, lo explica bastante, pues ya, se espera entonces que cuando usted
+[5768.08s -> 5773.96s]  escriba un correo sea esa forma, o sea que muestre lo que usted buscó, lo que usted probó, que no
+[5773.96s -> 5785.04s]  le funcionó, antes de pedir ayuda a mí, pues sí, el correo, cuando eso ocurre generalmente
+[5785.04s -> 5792.96s]  la actúa se resumen muy, muy rápido, además hay estudiantes que, que ni siquiera preguntan,
+[5792.96s -> 5796.92s]  sino que el día el control dice no, estuvimos probando tal cosa, no nos funcionó, probamos
+[5796.92s -> 5804.76s]  tal otra, no nos funcionó y, y, y ya es que es por allá fue que encontramos una solución por
+[5804.76s -> 5816.68s]  allá, tal parte y así, sí, entonces, no necesariamente, no necesariamente usted le tiene que
+[5816.68s -> 5822.32s]  escribir a mí siempre, generalmente lo estudia, que ya está en altura de la carrera, ya va, ya buscan
+[5822.32s -> 5827.20s]  las cosas por su propiedad cuenta, pero igualmente está el correo, se puede escribir perfectamente,
+[5827.20s -> 5840.36s]  pero mostrando qué fue lo que hizo previamente. Si usted quiere manejar repositorios, pues manejalo.
+[5844.36s -> 5849.88s]  Yo, de nuevo, usted está a una altura de la carrera en la que ya, por eso se me este pasado,
+[5849.88s -> 5854.24s]  nosotros preguntamos, ¿ustedes en qué se me estres están? Muchos ya están haciendo trabajo
+[5854.24s -> 5859.48s]  en el grado y tal. Yo sí quiero pedirles algo, si usted se mete en un grupo, por favor,
+[5859.48s -> 5864.80s]  que usted no vaya a hacer el palo en la red del del grupo, que a mí no me, o sea,
+[5864.80s -> 5871.04s]  a usted me puede escribir, pero yo espero Dios quiera que no, no recibir correos del estilo de
+[5871.04s -> 5878.24s]  que vea que esté fulano y que no está trabajando. Ustedes ya están lo bastante, ya están casi que
+[5878.24s -> 5883.24s]  desde el otro lado, ya el día al grado, como para ponerse en esas cosas.
+[5887.92s -> 5893.64s]  Espero, espero no, no tener que, me han pasado en otros cursos que si me han escrito que vea que
+[5893.64s -> 5901.04s]  que fulano está trabajando, que se le escribe, no responde, ni siquiera no aparece cancelado,
+[5901.04s -> 5908.12s]  o sea, no parece que canceló, sigue registrado en la materia, pero no parece, le hemos escrito,
+[5909.12s -> 5916.52s]  yo sé que uno tiene problemas en la casa, en la familia, ahorita con esto del terremoto,
+[5916.52s -> 5922.56s]  pues también los problemas asociados, pero para mí no necesitan comunicación constante
+[5922.56s -> 5927.08s]  con su grupo, porque el grupo está esperando de usted.
+[5927.08s -> 5938.60s]  Bien, ¿cómo vamos con la definición de los grupos? Bueno, ya tenemos dos grupos,
+[5938.60s -> 5951.56s]  dos grupos, no, teletos, uno por acá, otro por acá, vemos un grupo de solo uno,
+[5951.56s -> 5960.40s]  tenemos un grupo de dos personas, dos grupos de dos personas, tres de dos personas,
+[5960.40s -> 5969.00s]  tenemos tres grupos de dos personas, tenemos un grupo de una persona, dos grupos de una sola
+[5969.00s -> 5978.72s]  persona, tres grupos de dos personas, dos grupos de completos, y dos grupos de tres personas.
+[5978.72s -> 5986.48s]  por favor las personas que están registradas solitas en esos grupos por favor consideren
+[5986.48s -> 5993.84s]  unirse a otros grupos y ahí en el chat si no se conocen no sé si se se conozcan o no
+[5993.84s -> 6000.32s]  pues por favor ahí en el chat se puede compartir ahí ve a mi wasabi está
+[6000.32s -> 6004.92s]  en el campus
+[6019.28s -> 6020.56s]  no es que son todo esto
+[6022.24s -> 6025.72s]  23 43 105
+[6030.32s -> 6044.72s]  es de la tecnología de la ingeniería ya actualice y ya le aparecen
+[6050.32s -> 6053.52s]  ya le apareció
+[6054.52s -> 6062.52s]  es el puto que el puto
+[6062.52s -> 6069.52s]  entonces Felipe vaya a hacer con Haiti ya
+[6069.52s -> 6071.52s]  si hagas con Haiti
+[6071.52s -> 6074.52s]  no ya ya estamos completos creo
+[6074.52s -> 6078.52s]  porque si no es que pues Revisen en el el
+[6078.52s -> 6081.52s]  campus y ya el grupo tiene cuatro integrantes
+[6081.52s -> 6085.52s]  bueno si no se conocen ponganse ahí en el chat el whatsapp
+[6085.52s -> 6087.52s]  ustedes
+[6087.52s -> 6090.52s]  nosotros en el grupo 8 nos faltan integrantes el que
+[6090.52s -> 6093.52s]  quiero unirse y me confirma
+[6093.52s -> 6097.52s]  ahí tenemos a Brayan del grupo 10 por favor
+[6097.52s -> 6101.52s]  consideren hacer este con
+[6101.52s -> 6105.52s]  por acá tenemos a Brayan, Steven en el grupo 2 y
+[6105.52s -> 6109.52s]  Alejandro Zamolano
+[6109.52s -> 6113.52s]  y Carolina joya le pido consideren por favor hacerse
+[6113.52s -> 6116.52s]  en otro grupo donde
+[6116.52s -> 6118.52s]  ahí completando
+[6118.52s -> 6121.52s]  lo mismo a Esteban Andrés
+[6121.52s -> 6124.52s]  Espinosa
+[6127.52s -> 6130.52s]  ¿Cuál es el título otra vez?
+[6131.52s -> 6135.52s]  Ustedes se tienen el contacto entre ustedes
+[6135.52s -> 6138.52s]  y después no hay a estar diciendo que es que yo no tengo el
+[6138.52s -> 6141.52s]  contacto de Bulan o de Sultan
+[6141.52s -> 6144.52s]  espero que siguen
+[6160.52s -> 6163.52s]  vamos aquí
+[6181.52s -> 6185.52s]  esta Esteban Andrés Espinosa
+[6185.52s -> 6188.52s]  esta
+[6189.52s -> 6191.52s]  si
+[6191.52s -> 6194.52s]  por favor consideren unirse a otro grupo
+[6194.52s -> 6198.52s]  está el grupo de Haiti el PUD y el de José Manuel Fuertes
+[6198.52s -> 6202.52s]  sino que no deja eliminar la
+[6202.52s -> 6205.52s]  la respuesta no se puede no se puede eliminar
+[6205.52s -> 6208.52s]  ah esperate
+[6208.52s -> 6211.52s]  vamos a cambiarla
+[6211.52s -> 6214.52s]  en este momentico
+[6214.52s -> 6218.52s]  y si está ahí ya se puede cambiarte de le actualiza
+[6218.52s -> 6221.52s]  a la página
+[6227.52s -> 6229.52s]  ya se puede modificar
+[6229.52s -> 6232.52s]  entonces por favor los demás consideren
+[6232.52s -> 6235.52s]  por ejemplo aquí tenemos
+[6235.52s -> 6238.52s]  el grupo de Angie Carolina y el de Miguel Ángel Salcedo
+[6238.52s -> 6241.52s]  se podría unir con el de
+[6241.52s -> 6244.52s]  Steven Acune y el de Alejandro Zamorano
+[6246.52s -> 6249.52s]  es una sugerencia o con el de José Miguel Fuertes
+[6249.52s -> 6252.52s]  y Haiti el PUD
+[6254.52s -> 6257.52s]  Esteban Andrés se puede unir al grupo de
+[6257.52s -> 6260.52s]  Hitler, al de Johnny Herson, al de Juan Carlos David
+[6260.52s -> 6263.52s]  y Steven Andrés
+[6263.52s -> 6266.52s]  lo mismo el mismo mensaje por favor
+[6266.52s -> 6269.52s]  para Jean Pierre
+[6269.52s -> 6272.52s]  no quiero grupos de una sola persona por favor
+[6275.52s -> 6278.52s]  ni de dos tampoco necesito
+[6278.52s -> 6281.52s]  los grupos de acuacho
+[6281.52s -> 6284.52s]  en este curso
+[6284.52s -> 6287.52s]  hay bastantes
+[6287.52s -> 6290.52s]  personas
+[6290.52s -> 6293.52s]  hay algún grupo de tres
+[6299.52s -> 6302.52s]  39 participantes
+[6302.52s -> 6305.52s]  menos
+[6305.52s -> 6308.52s]  37 estudiantes
+[6308.52s -> 6311.52s]  aquí cuatro ocho
+[6311.52s -> 6314.52s]  aquí tenemos 33 respuestas
+[6314.52s -> 6317.52s]  faltarían 4 personas
+[6317.52s -> 6320.52s]  faltarían
+[6323.52s -> 6326.52s]  faltan cuantas, faltan 6 personas
+[6326.52s -> 6329.52s]  por escoger el grupo
+[6329.52s -> 6332.52s]  30 de respuestas, faltan 5 personas
+[6332.52s -> 6335.52s]  por escoger el grupo
+[6335.52s -> 6338.52s]  esta llamada 31 personas
+[6338.52s -> 6341.52s]  al parecer como que algunos no vinieron
+[6341.52s -> 6344.52s]  entonces por favor si ustedes los conocen
+[6344.52s -> 6347.52s]  a los que no vinieron en Térigade B
+[6347.52s -> 6350.52s]  en Tratacus y inscribiten en algún grupo
+[6353.52s -> 6356.52s]  Alejandro Zamorano por favor
+[6356.52s -> 6359.52s]  consideren pasarse a otro grupo
+[6359.52s -> 6362.52s]  no quiero grupos de una sola persona
+[6362.52s -> 6365.52s]  porque es bastante trabajo
+[6365.52s -> 6368.52s]  y después no quiero que estén cancelando
+[6368.52s -> 6371.52s]  o sacando un bajita nota
+[6371.52s -> 6374.52s]  no, no complete esto, no complete aquello
+[6374.52s -> 6377.52s]  no tuve tiempo
+[6377.52s -> 6380.52s]  generalmente la gente que dice no yo trabajo solo
+[6380.52s -> 6383.52s]  y me gusta hacer todo solo, generalmente
+[6383.52s -> 6386.52s]  después tiene esos problemas
+[6386.52s -> 6389.52s]  además una cosa, usted entra en una empresa
+[6389.52s -> 6392.52s]  y ustedes le dicen que escoja su equipo de trabajo
+[6392.52s -> 6395.52s]  la única persona que le dicen que escoja su equipo de trabajo
+[6395.52s -> 6398.52s]  son a los técnicos
+[6398.52s -> 6401.52s]  que traen a los mandales, eso pasa con Colombia
+[6401.52s -> 6404.52s]  ¿Cierto?
+[6404.52s -> 6407.52s]  pero aquí no
+[6407.52s -> 6410.52s]  pero aquí le doy la libertad de registrarse en algún equipo
+[6420.52s -> 6423.52s]  a ver como queda la cosa
+[6428.52s -> 6430.52s]  no
+[6430.52s -> 6432.52s]  no
+[6432.52s -> 6435.52s]  no
+[6435.52s -> 6438.52s]  no
+[6438.52s -> 6441.52s]  no
+[6441.52s -> 6444.52s]  no
+[6444.52s -> 6447.52s]  no
+[6447.52s -> 6450.52s]  no
+[6450.52s -> 6453.52s]  no
+[6453.52s -> 6456.52s]  no
+[6456.52s -> 6460.52s]  no
+[6460.52s -> 6464.52s]  no
+[6464.52s -> 6468.52s]  no
+[6468.52s -> 6472.52s]  no
+[6472.52s -> 6476.52s]  no
+[6476.52s -> 6480.52s]  no
+[6480.52s -> 6484.52s]  no
+[6484.52s -> 6488.52s]  no
+[6488.52s -> 6492.52s]  no
+[6492.52s -> 6496.52s]  no
+[6496.52s -> 6500.52s]  no
+[6500.52s -> 6504.52s]  no
+[6504.52s -> 6508.52s]  no
+[6508.52s -> 6512.52s]  no
+[6512.52s -> 6516.52s]  no
+[6516.52s -> 6520.52s]  no
+[6520.52s -> 6524.52s]  no
+[6524.52s -> 6528.52s]  no
+[6528.52s -> 6532.52s]  no
+[6532.52s -> 6536.52s]  no
+[6536.52s -> 6540.52s]  no
+[6540.52s -> 6544.52s]  no
+[6544.52s -> 6548.52s]  no
+[6548.52s -> 6552.52s]  no
+[6552.52s -> 6556.52s]  no
+[6556.52s -> 6560.52s]  no
+[6560.52s -> 6564.52s]  no
+[6564.52s -> 6568.52s]  no
+[6568.52s -> 6572.52s]  no
+[6572.52s -> 6576.52s]  no
+[6576.52s -> 6580.52s]  no
+[6580.52s -> 6584.52s]  no
+[6584.52s -> 6588.52s]  no
+[6588.52s -> 6592.52s]  no
+[6592.52s -> 6596.52s]  no
+[6596.52s -> 6600.52s]  no
+[6600.52s -> 6604.52s]  no
+[6604.52s -> 6608.52s]  no
+[6608.52s -> 6612.52s]  no
+[6612.52s -> 6616.52s]  no
+[6616.52s -> 6620.52s]  no
+[6620.52s -> 6624.52s]  no
+[6624.52s -> 6628.52s]  no
+[6628.52s -> 6632.52s]  no
+[6632.52s -> 6636.52s]  no
+[6636.52s -> 6640.52s]  no
+[6640.52s -> 6644.52s]  no
+[6644.52s -> 6648.52s]  no
+[6648.52s -> 6652.52s]  no
+[6652.52s -> 6656.52s]  no
+[6656.52s -> 6660.52s]  no
+[6660.52s -> 6664.52s]  no
+[6664.52s -> 6668.52s]  no
+[6668.52s -> 6672.52s]  no
+[6672.52s -> 6676.52s]  no
+[6676.52s -> 6680.52s]  no
+[6680.52s -> 6684.52s]  no
+[6684.52s -> 6688.52s]  no
+[6688.52s -> 6692.52s]  no
+[6692.52s -> 6696.52s]  no
+[6696.52s -> 6700.52s]  no
+[6700.52s -> 6704.52s]  no
+[6704.52s -> 6708.52s]  no
+[6708.52s -> 6712.52s]  no
+[6712.52s -> 6716.52s]  no
+[6716.52s -> 6720.52s]  no
+[6720.52s -> 6724.52s]  no
+[6724.52s -> 6728.52s]  no
+[6728.52s -> 6732.52s]  no
+[6732.52s -> 6736.52s]  no
+[6736.52s -> 6740.52s]  no
+[6740.52s -> 6744.52s]  no
+[6744.52s -> 6748.52s]  no
+[6748.52s -> 6752.52s]  no
+[6752.52s -> 6756.52s]  no
+[6756.52s -> 6760.52s]  no
+[6760.52s -> 6764.52s]  no
+[6764.52s -> 6768.52s]  no
+[6768.52s -> 6772.52s]  no
+[6772.52s -> 6776.52s]  no
+[6776.52s -> 6780.52s]  no
+[6780.52s -> 6784.52s]  no
+[6784.52s -> 6788.52s]  no
+[6788.52s -> 6792.52s]  no
+[6792.52s -> 6796.52s]  no
+[6796.52s -> 6800.52s]  no
+[6800.52s -> 6804.52s]  no
+[6804.52s -> 6808.52s]  no
+[6808.52s -> 6812.52s]  no
+[6812.52s -> 6816.52s]  no
+[6816.52s -> 6820.52s]  no
+[6820.52s -> 6824.52s]  no
+[6824.52s -> 6828.52s]  no
+[6828.52s -> 6832.52s]  no
+[6832.52s -> 6836.52s]  no
+[6836.52s -> 6840.52s]  no
+[6840.52s -> 6844.52s]  no
+[6844.52s -> 6848.52s]  no
+[6848.52s -> 6852.52s]  no
+[6852.52s -> 6856.52s]  no
+[6856.52s -> 6860.52s]  no
+[6860.52s -> 6864.52s]  no
+[6864.52s -> 6868.52s]  no
+[6868.52s -> 6872.52s]  no
+[6872.52s -> 6876.52s]  no
+[6876.52s -> 6880.52s]  no
+[6880.52s -> 6884.52s]  no
+[6884.52s -> 6888.52s]  no
+[6888.52s -> 6892.52s]  no
+[6892.52s -> 6896.52s]  no
+[6896.52s -> 6900.52s]  no
+[6900.52s -> 6904.52s]  no
+[6904.52s -> 6908.52s]  no
+[6908.52s -> 6912.52s]  no
+[6912.52s -> 6916.52s]  no
+[6916.52s -> 6920.52s]  no
+[6920.52s -> 6924.52s]  no
+[6924.52s -> 6928.52s]  no
+[6928.52s -> 6932.52s]  no
+[6932.52s -> 6936.52s]  no
+[6936.52s -> 6940.52s]  no
+[6940.52s -> 6944.52s]  no
+[6944.52s -> 6948.52s]  no
+[6948.52s -> 6952.52s]  no
+[6952.52s -> 6956.52s]  no
+[6956.52s -> 6960.52s]  no
+[6960.52s -> 6964.52s]  no
+[6964.52s -> 6968.52s]  no
+[6968.52s -> 6972.52s]  no
+[6972.52s -> 6976.52s]  no
+[6976.52s -> 6980.52s]  no
+[6980.52s -> 6984.52s]  no
+[6984.52s -> 6988.52s]  no
+[6988.52s -> 6992.52s]  no
+[6992.52s -> 6996.52s]  no
+[6996.52s -> 7000.52s]  no
+[7000.52s -> 7004.52s]  no
+[7004.52s -> 7008.52s]  no
+[7008.52s -> 7012.52s]  no
+[7012.52s -> 7016.52s]  no
+[7016.52s -> 7020.52s]  no
+[7020.52s -> 7024.52s]  no
+[7024.52s -> 7028.52s]  no
+[7028.52s -> 7032.52s]  no
+[7032.52s -> 7036.52s]  no
+[7036.52s -> 7040.52s]  no
+[7040.52s -> 7044.52s]  no
+[7044.52s -> 7048.52s]  no
+[7048.52s -> 7052.52s]  no
+[7052.52s -> 7056.52s]  no
+[7056.52s -> 7060.52s]  no
+[7060.52s -> 7064.52s]  no
+[7064.52s -> 7068.52s]  no
+[7068.52s -> 7072.52s]  no
+[7072.52s -> 7076.52s]  no
+[7076.52s -> 7080.52s]  no
+[7080.52s -> 7084.52s]  no
+[7084.52s -> 7088.52s]  no
+[7088.52s -> 7092.52s]  no
+[7092.52s -> 7096.52s]  no
+[7096.52s -> 7100.52s]  no
+[7100.52s -> 7104.52s]  no
+[7104.52s -> 7108.52s]  no
+[7108.52s -> 7112.52s]  no
+[7112.52s -> 7116.52s]  no
+[7116.52s -> 7120.52s]  no
+[7120.52s -> 7124.52s]  no
+[7124.52s -> 7128.52s]  no
+[7128.52s -> 7132.52s]  no
+[7132.52s -> 7136.52s]  no
+[7136.52s -> 7140.52s]  no
+[7140.52s -> 7144.52s]  no
+[7144.52s -> 7148.52s]  no
+[7148.52s -> 7152.52s]  no
+[7152.52s -> 7156.52s]  no
+[7156.52s -> 7160.52s]  no
+[7160.52s -> 7164.52s]  no
+[7164.52s -> 7168.52s]  no
+[7168.52s -> 7172.52s]  no
+[7172.52s -> 7176.52s]  no
+[7176.52s -> 7180.52s]  no
+[7180.52s -> 7184.52s]  no
+[7184.52s -> 7188.52s]  no
+[7188.52s -> 7192.52s]  no
+[7192.52s -> 7196.52s]  no
+[7196.52s -> 7200.52s]  no
+[7200.52s -> 7204.52s]  no
+[7204.52s -> 7208.52s]  no
+[7208.52s -> 7212.52s]  no
+[7212.52s -> 7216.52s]  no
+[7216.52s -> 7220.52s]  no
+[7220.52s -> 7224.52s]  no
+[7224.52s -> 7228.52s]  no
+[7228.52s -> 7232.52s]  no
+[7232.52s -> 7236.52s]  no
+[7236.52s -> 7240.52s]  no
+[7240.52s -> 7244.52s]  no
+[7244.52s -> 7248.52s]  no
+[7248.52s -> 7252.52s]  no
+[7252.52s -> 7256.52s]  no
+[7256.52s -> 7260.52s]  no
+[7260.52s -> 7264.52s]  no
+[7264.52s -> 7268.52s]  no
+[7268.52s -> 7272.52s]  no
+[7272.52s -> 7276.52s]  no
+[7276.52s -> 7280.52s]  no
+[7280.52s -> 7284.52s]  no
+[7284.52s -> 7288.52s]  no
+[7288.52s -> 7292.52s]  no
+[7292.52s -> 7296.52s]  no
+[7296.52s -> 7300.52s]  no
+[7300.52s -> 7304.52s]  no
+[7304.52s -> 7308.52s]  no
+[7308.52s -> 7312.52s]  no
+[7312.52s -> 7316.52s]  no
+[7316.52s -> 7320.52s]  no
+[7320.52s -> 7324.52s]  no
+[7324.52s -> 7328.52s]  no
+[7328.52s -> 7332.52s]  no
+[7332.52s -> 7336.52s]  no
+[7336.52s -> 7340.52s]  no
+[7340.52s -> 7344.52s]  no
+[7344.52s -> 7348.52s]  no
+[7348.52s -> 7352.52s]  no
+[7352.52s -> 7356.52s]  no
+[7356.52s -> 7360.52s]  no
+[7360.52s -> 7364.52s]  no
+[7364.52s -> 7368.52s]  no
+[7368.52s -> 7372.52s]  no
+[7372.52s -> 7376.52s]  no
+[7376.52s -> 7380.52s]  no
+[7380.52s -> 7384.52s]  no
+[7384.52s -> 7388.52s]  no
+[7388.52s -> 7392.52s]  no
+[7392.52s -> 7396.52s]  no
+[7396.52s -> 7400.52s]  no
+[7400.52s -> 7404.52s]  no
+[7404.52s -> 7408.52s]  no
+[7408.52s -> 7412.52s]  no
+[7412.52s -> 7416.52s]  no
+[7416.52s -> 7420.52s]  no
+[7420.52s -> 7424.52s]  no
+[7424.52s -> 7428.52s]  no
+[7428.52s -> 7432.52s]  no
+[7432.52s -> 7436.52s]  no
+[7436.52s -> 7440.52s]  no
+[7440.52s -> 7444.52s]  no
+[7444.52s -> 7448.52s]  no
+[7448.52s -> 7452.52s]  no
+[7452.52s -> 7456.52s]  no
+[7456.52s -> 7460.52s]  no
+[7460.52s -> 7464.52s]  no
+[7464.52s -> 7468.52s]  no
+[7468.52s -> 7472.52s]  no
+[7472.52s -> 7476.52s]  no
+[7476.52s -> 7480.52s]  no
+[7480.52s -> 7484.52s]  no
+[7484.52s -> 7488.52s]  no
+[7488.52s -> 7492.52s]  no
+[7492.52s -> 7496.52s]  no
+[7496.52s -> 7500.52s]  no
+[7500.52s -> 7504.52s]  no
+[7504.52s -> 7508.52s]  no
+[7508.52s -> 7512.52s]  no
+[7512.52s -> 7516.52s]  no
+[7516.52s -> 7520.52s]  no
+[7520.52s -> 7524.52s]  no
+[7524.52s -> 7528.52s]  no
+[7528.52s -> 7532.52s]  no
+[7532.52s -> 7536.52s]  no
+[7536.52s -> 7540.52s]  no
+[7540.52s -> 7544.52s]  no
+[7544.52s -> 7548.52s]  no
+[7548.52s -> 7552.52s]  no
+[7552.52s -> 7556.52s]  no
+[7556.52s -> 7560.52s]  no
+[7560.52s -> 7564.52s]  no
+[7564.52s -> 7568.52s]  no
+[7568.52s -> 7572.52s]  no
+[7572.52s -> 7576.52s]  no
+[7576.52s -> 7580.52s]  no
+[7580.52s -> 7584.52s]  no
+[7584.52s -> 7588.52s]  no
+[7588.52s -> 7592.52s]  no
+[7592.52s -> 7596.52s]  no
+[7596.52s -> 7600.52s]  no
+[7600.52s -> 7604.52s]  no
+[7604.52s -> 7608.52s]  no
+[7608.52s -> 7612.52s]  no
+[7612.52s -> 7616.52s]  no
+[7616.52s -> 7620.52s]  no
+[7620.52s -> 7624.52s]  no
+[7624.52s -> 7628.52s]  no
+[7628.52s -> 7632.52s]  no
+[7632.52s -> 7636.52s]  no

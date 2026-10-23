@@ -1,0 +1,1300 @@
+[0.00s -> 29.00s]  Podemos tener valores negativos, les mostré valores de píxeles negativos, que menos 2,000, que menos 1,000, que menos 1,500, que le decía a ustedes que esos valores no son propiamente de intensidad, sino que en las imágenes de tomografía, esos valores no me indican intensidad, sino que me indican es atenuado.
+[31.00s -> 38.00s]  ¿Qué tanto el AS de rayo X impactó en el tejido?
+[39.00s -> 47.00s]  Si él no impacta, si él no impacta, por ejemplo, está pasando sobre una zona que es aire,
+[47.00s -> 63.00s]  no hay impacto, entonces el dispositivo de captura de esa imagen registra un valor negativo muy bajo, menos 2,000, menos 1,500.
+[64.00s -> 80.00s]  El agua, o sea, si se topa con agua pura, o sea, si en un píxelo la zona está relacionada con agua, entonces él va a marcar cero, porque depende del nivel de atenuación que haya.
+[81.00s -> 106.00s]  Yo les mostré a ustedes unas ventanas, que si está entre cero y no sé cuánto es grasa, que si está entre cien y otro tanto, que ya era tejido, como se llama tejido musculoesquelético, y que ya vacía y ya era más relacionado con el hueso.
+[107.00s -> 128.00s]  ¿Por qué? Pues porque obviamente la atenuación del rayo X en el hueso es mucho más madura, o sea, atenúa mucho más el hueso, el rayo X, que el agua o que el aire simplemente pasa el rayo y ya.
+[129.00s -> 137.00s]  Entonces, por eso en las imágenes de tomografía podemos ver valores negativos allí en los valores de píxelo.
+[137.00s -> 147.00s]  Voxel en tres dimensiones, pero al escoger un slice, tenemos que es una imagen bidimensional, podemos tener valores allí negativos.
+[147.00s -> 153.00s]  Entonces, si usted grafica el histograma, tendría usted en el eje horizontal valores negativos.
+[154.00s -> 161.00s]  Pero en las imágenes de resonancia magnética, estamos capturando intensidad, ¿sí?
+[161.00s -> 165.00s]  Intensidad de un campo electromagnético.
+[165.00s -> 171.00s]  No es intensidad de luz tal cual una cámara común y corriente.
+[172.00s -> 176.00s]  ¿Sí? Entonces allí las escalas son positivas solamente.
+[176.00s -> 184.00s]  Pero como tenemos 16 bits de profundidad, podemos tener 65.500 valores posibles.
+[184.00s -> 194.00s]  Entonces su histograma para una imagen de resonancia, el eje horizontal tendrá valores entre 0 y 65.500.
+[195.00s -> 205.00s]  Entonces, ¿sí me entienden toda la diferencia entre los posibles valores de píxelo en una imagen de resonancia y en una imagen de tomografía?
+[205.00s -> 209.00s]  Sí, profe, sí, ya me queda claro.
+[209.00s -> 215.00s]  Listo, allí usted lo que está haciendo en esa gráfica es haciendo una versión normalizada.
+[215.00s -> 220.00s]  O sea, no le está pintando entre 0 y 65.000, sino que le está pintando entre 0 y 1.
+[220.00s -> 231.00s]  ¿Sí? Pero allí usted debería tener 65.000 posibles valores entre 0 y 1, supongo.
+[233.00s -> 235.00s]  Listo, profe, de acuerdo.
+[239.00s -> 243.00s]  Entonces, bajo otra vez, acá, al otro histograma.
+[244.00s -> 248.00s]  Desde ahorita el tema del otro histograma.
+[248.00s -> 258.00s]  Ahí usted está graficando unas posibles, o sea, comparando la distribución de sus píxeles versus hipotéticas distribuciones.
+[258.00s -> 260.00s]  Vaya un poquito.
+[260.00s -> 262.00s]  Eso allí.
+[262.00s -> 268.00s]  Ahí usted está comparando su histograma, que son las barras.
+[268.00s -> 270.00s]  Sí.
+[270.00s -> 273.00s]  Versus la distribución.
+[273.00s -> 276.00s]  Versus hipotéticas distribuciones.
+[276.00s -> 279.00s]  De la pregunta es a cuál se parece más.
+[284.00s -> 286.00s]  A gama, ¿no?
+[286.00s -> 289.00s]  Pero es que todas tienen lo mismo, ¿no?
+[289.00s -> 293.00s]  Bueno, pues no lo mismo, pero tienden a ver.
+[293.00s -> 295.00s]  Pueden ampliarles un poquito más.
+[295.00s -> 297.00s]  Pueden ampliarles un poquito más.
+[298.00s -> 300.00s]  Ahí.
+[300.00s -> 302.00s]  No, no, ampliarle el control.
+[302.00s -> 304.00s]  Es otro poquito.
+[306.00s -> 308.00s]  Otro poquito.
+[308.00s -> 310.00s]  Eso ahí.
+[310.00s -> 312.00s]  Sua.
+[312.00s -> 314.00s]  No, no.
+[314.00s -> 316.00s]  Eso.
+[316.00s -> 318.00s]  Te tenemos.
+[318.00s -> 327.00s]  Estamos en pregama y Riley.
+[327.00s -> 329.00s]  Correcto.
+[329.00s -> 334.00s]  Por eso yo le hice una pregunta a ver cómo se había dicho en la clase pasada que seguro era Riley.
+[334.00s -> 336.00s]  Ajá.
+[339.00s -> 342.00s]  Sí, al parecer aquí maneja gama.
+[342.00s -> 345.00s]  Sí, puede ser maneja gama, pero.
+[345.00s -> 348.00s]  Es que son distribuciones demasiado parecidas.
+[348.00s -> 354.00s]  Sí, eso es lo que te entendían al mismo comportamiento, ¿no?
+[354.00s -> 358.00s]  Pero simplemente como una más fuerte es que otras.
+[358.00s -> 360.00s]  Sí.
+[360.00s -> 362.00s]  Pero sí está bien.
+[362.00s -> 364.00s]  A ver, los demás entienden.
+[364.00s -> 369.00s]  Entienden por qué a partir de esos numeritos que se ven allí en esa tabla.
+[369.00s -> 371.00s]  Podemos decir cuáles.
+[372.00s -> 374.00s]  De.
+[374.00s -> 376.00s]  De la idea, la inquieta.
+[376.00s -> 379.00s]  Los demás entienden por qué.
+[379.00s -> 381.00s]  Que la es quieta.
+[381.00s -> 383.00s]  Entienden los demás.
+[383.00s -> 385.00s]  Por qué.
+[385.00s -> 387.00s]  A leer esa tabla y se gama.
+[387.00s -> 389.00s]  Un número ahí dos mil no sé cuánto.
+[389.00s -> 392.00s]  Y esperes de cero punto cero cuatro cero tanto.
+[392.00s -> 394.00s]  Eche.
+[394.00s -> 396.00s]  Que es chi cuadrado.
+[396.00s -> 399.00s]  E dos mil novecientos veinte tanto.
+[399.00s -> 402.00s]  Y después vemos cero punto cero seis tanto.
+[402.00s -> 406.00s]  Entienden los demás por qué estamos escogiendo gama.
+[415.00s -> 419.00s]  Esto es el curso de estadística que ustedes debieron haber visto.
+[419.00s -> 421.00s]  Uno puede decirle a la idea.
+[421.00s -> 424.00s]  Háganme zoom y la ya lo hace.
+[424.00s -> 427.00s]  Pero si usted no sabe interpretar los números.
+[427.00s -> 429.00s]  Usted se jode.
+[429.00s -> 431.00s]  Sí.
+[431.00s -> 433.00s]  La ya está ayudando mucho a.
+[433.00s -> 435.00s]  A tirar código y toda la vuelta.
+[435.00s -> 437.00s]  Pero.
+[437.00s -> 439.00s]  Si usted no sabe interpretar los resultados.
+[439.00s -> 441.00s]  La ya usted le puede decir.
+[441.00s -> 443.00s]  Usted le puede decir a la idea.
+[443.00s -> 445.00s]  Ayude a interpretar los resultados.
+[445.00s -> 447.00s]  Y la idea tiende mucho a dudar.
+[447.00s -> 449.00s]  O tiende a decir.
+[449.00s -> 451.00s]  Sí, pero con matices.
+[451.00s -> 453.00s]  O no pero con matices.
+[453.00s -> 455.00s]  Y cosas de ese estilo.
+[455.00s -> 457.00s]  Hay un género que se llama para diástole.
+[457.00s -> 459.00s]  Un género literario.
+[459.00s -> 461.00s]  Un recurso literario.
+[461.00s -> 463.00s]  Así como existen las comparaciones.
+[463.00s -> 465.00s]  El simil.
+[465.00s -> 467.00s]  Bueno, esas clases de español por allá de cuarto de primario.
+[467.00s -> 469.00s]  Hay un gen.
+[469.00s -> 471.00s]  Hay un recurso literario que se llama para diástole.
+[471.00s -> 473.00s]  Y la idea tiende mucho.
+[473.00s -> 475.00s]  A.
+[475.00s -> 477.00s]  Hablar en para diástole.
+[477.00s -> 479.00s]  Que la para diástole.
+[479.00s -> 481.00s]  Usted va a una publicación.
+[481.00s -> 483.00s]  Ahorita al Facebook.
+[483.00s -> 485.00s]  Y ya usted por ejemplo dice.
+[485.00s -> 487.00s]  Cristiano Ronaldo.
+[487.00s -> 489.00s]  No es un jugador.
+[489.00s -> 491.00s]  No es solamente un jugador.
+[491.00s -> 493.00s]  Es una marca comercial.
+[493.00s -> 495.00s]  Sí.
+[495.00s -> 497.00s]  O por ejemplo.
+[497.00s -> 499.00s]  Por ejemplo.
+[499.00s -> 501.00s]  En esas publicaciones del Facebook.
+[501.00s -> 503.00s]  No sé.
+[503.00s -> 505.00s]  De historia de vida o algo así no.
+[505.00s -> 507.00s]  Es fulano de tal.
+[507.00s -> 509.00s]  Más que un hombre.
+[509.00s -> 511.00s]  Era una leyenda.
+[511.00s -> 513.00s]  Sí.
+[513.00s -> 515.00s]  Eso se llama para diástole.
+[515.00s -> 517.00s]  Que es.
+[517.00s -> 519.00s]  Que te digan.
+[519.00s -> 521.00s]  No es esto.
+[521.00s -> 523.00s]  Sino aquello.
+[523.00s -> 525.00s]  Y ese aquello es algo mucho más.
+[525.00s -> 527.00s]  Como.
+[527.00s -> 529.00s]  Magnificado.
+[529.00s -> 531.00s]  Sí.
+[531.00s -> 533.00s]  La tiende mucho.
+[533.00s -> 535.00s]  A decirle usted cosas de ese estilo.
+[535.00s -> 537.00s]  Por ejemplo.
+[537.00s -> 539.00s]  En nuestro caso.
+[539.00s -> 541.00s]  No podríamos decir.
+[541.00s -> 543.00s]  Que es.
+[543.00s -> 545.00s]  Ricia.
+[545.00s -> 547.00s]  Pero tampoco lo podemos negar.
+[547.00s -> 549.00s]  Sí.
+[549.00s -> 551.00s]  Cosas así.
+[551.00s -> 553.00s]  No podemos decir.
+[553.00s -> 555.00s]  Que sea distribución gama.
+[555.00s -> 557.00s]  Sin embargo.
+[557.00s -> 559.00s]  Tiene razón al afirmar.
+[559.00s -> 561.00s]  Que sí lo es.
+[561.00s -> 563.00s]  Eso se llama para diástole.
+[563.00s -> 565.00s]  Y la ya tiende mucho.
+[565.00s -> 567.00s]  Es decir.
+[567.00s -> 569.00s]  Es decir.
+[569.00s -> 571.00s]  No me hables en para diástole.
+[571.00s -> 573.00s]  Sí.
+[573.00s -> 575.00s]  Que hecho ya.
+[575.00s -> 577.00s]  Ya cuando ya uno ve muchas publicaciones.
+[577.00s -> 579.00s]  Que tienen textos escritos de esa forma.
+[579.00s -> 581.00s]  Yo no ya hice esto.
+[581.00s -> 583.00s]  Viene ahí ya.
+[583.00s -> 585.00s]  Y ya como gartera leerlos.
+[585.00s -> 587.00s]  Bien.
+[587.00s -> 589.00s]  Entonces.
+[589.00s -> 591.00s]  Volviendo al tema de la.
+[591.00s -> 593.00s]  De esa tablita.
+[593.00s -> 595.00s]  Eso es el curso de estadística.
+[595.00s -> 597.00s]  Yo.
+[597.00s -> 599.00s]  Puedo hacer pruebas estadísticas.
+[599.00s -> 601.00s]  Para mirar si mi conjunto.
+[601.00s -> 603.00s]  De datos.
+[603.00s -> 605.00s]  Sin mirar si un con un conjunto de números.
+[605.00s -> 607.00s]  En este caso.
+[607.00s -> 609.00s]  Cuáles son mis números.
+[609.00s -> 611.00s]  Son mis tablas de frecuencias.
+[611.00s -> 613.00s]  Un.
+[613.00s -> 615.00s]  Histograma.
+[615.00s -> 617.00s]  Recuerden que es una tabla de frecuencias.
+[617.00s -> 619.00s]  Cuántos.
+[619.00s -> 621.00s]  Pizzeles tiene el valor de intensidad cero.
+[621.00s -> 623.00s]  Cuántos.
+[623.00s -> 625.00s]  Pizzeles tiene el valor de intensidad uno.
+[625.00s -> 627.00s]  Cuántos.
+[627.00s -> 629.00s]  Pizzeles tiene el valor de intensidad.
+[629.00s -> 631.00s]  65.500.
+[631.00s -> 633.00s]  A lo usted gráfica.
+[633.00s -> 635.00s]  Son de resultan esas barras que están allí.
+[635.00s -> 637.00s]  Es decir.
+[637.00s -> 639.00s]  Un histograma es un gráfico de frecuencias.
+[639.00s -> 641.00s]  De los.
+[641.00s -> 643.00s]  Que aprendimos nosotros en el colegio.
+[643.00s -> 645.00s]  Lo que pasa.
+[645.00s -> 647.00s]  Histograma.
+[647.00s -> 649.00s]  Que suena mucho más bonita esa palabra.
+[649.00s -> 651.00s]  Que yo puedo coger esas.
+[651.00s -> 653.00s]  Esas.
+[653.00s -> 655.00s]  Esa.
+[655.00s -> 657.00s]  Esa lista de frecuencias.
+[657.00s -> 659.00s]  Y compararlas con.
+[659.00s -> 661.00s]  Distribuciones hipotéticas.
+[661.00s -> 663.00s]  De las conocidas canónicas.
+[663.00s -> 665.00s]  Que le llamarían.
+[665.00s -> 667.00s]  Distribuciones conocidas.
+[667.00s -> 669.00s]  Como por ejemplo.
+[669.00s -> 671.00s]  La gama.
+[671.00s -> 673.00s]  La chi.
+[673.00s -> 675.00s]  La raide.
+[675.00s -> 677.00s]  Distribuciones.
+[677.00s -> 679.00s]  Como lo podemos hacer.
+[679.00s -> 681.00s]  Por ejemplo.
+[681.00s -> 683.00s]  Que lo estamos haciendo visualmente.
+[683.00s -> 685.00s]  Ahí usted.
+[685.00s -> 687.00s]  Ahí yo les podría usted.
+[687.00s -> 689.00s]  A ustedes preguntar.
+[689.00s -> 691.00s]  Si usted mira las barras.
+[691.00s -> 693.00s]  A cuál línea se parece más.
+[693.00s -> 695.00s]  A la azul.
+[695.00s -> 697.00s]  A la naranja.
+[697.00s -> 699.00s]  A la verde.
+[699.00s -> 701.00s]  A cuál se parece más.
+[701.00s -> 703.00s]  Usted podría decir no.
+[703.00s -> 705.00s]  A mí me parece que más a la azul.
+[705.00s -> 707.00s]  No que a mí me parece que más a la tal.
+[707.00s -> 709.00s]  No que a mí me parece que más a la tal.
+[709.00s -> 711.00s]  No que a mí me parece que más a la tal.
+[711.00s -> 713.00s]  Sí.
+[713.00s -> 715.00s]  Usted puede hacer.
+[715.00s -> 717.00s]  Ahora bien.
+[717.00s -> 719.00s]  Pues visualmente.
+[719.00s -> 721.00s]  Pues.
+[721.00s -> 723.00s]  Ahí ahí lo podemos hacer.
+[723.00s -> 725.00s]  Podemos responder.
+[725.00s -> 727.00s]  No que parece más a la azul.
+[727.00s -> 729.00s]  Lo que se parece más a eso.
+[729.00s -> 731.00s]  Que parece más a la tal.
+[731.00s -> 733.00s]  Ahí lo estamos haciendo visualmente.
+[733.00s -> 735.00s]  Pero queremos hacerlo.
+[735.00s -> 737.00s]  Como ingenieros que somos.
+[737.00s -> 739.00s]  Que nos encanta calcular.
+[739.00s -> 741.00s]  Crear problemas y solucionarlos.
+[741.00s -> 743.00s]  Porque eso es para lo que nos pagan.
+[743.00s -> 745.00s]  O para lo que a ustedes van a pagar.
+[745.00s -> 747.00s]  Es.
+[747.00s -> 749.00s]  Intentar calcular.
+[749.00s -> 751.00s]  O sea.
+[751.00s -> 753.00s]  Vi a calculitos.
+[753.00s -> 755.00s]  Es decir.
+[755.00s -> 757.00s]  No solamente a ojo limpio.
+[757.00s -> 759.00s]  Si no vi a calculitos.
+[759.00s -> 761.00s]  Comparar esas distribuciones.
+[761.00s -> 763.00s]  Entonces.
+[763.00s -> 765.00s]  Existen unas pruebas estadísticas.
+[765.00s -> 767.00s]  Sí.
+[767.00s -> 769.00s]  Existen unas pruebas estadísticas.
+[769.00s -> 771.00s]  Que nos permiten hacer eso.
+[771.00s -> 773.00s]  Eso usted lo debieron haber visto en su curso de estadística.
+[773.00s -> 775.00s]  Yo.
+[775.00s -> 777.00s]  Puedo aplicar una prueba estadística.
+[777.00s -> 779.00s]  Para saber.
+[779.00s -> 781.00s]  Sí.
+[781.00s -> 783.00s]  Esas barras.
+[783.00s -> 785.00s]  Que al final causa números.
+[785.00s -> 787.00s]  Que me representan frecuencias.
+[787.00s -> 789.00s]  Se parecen más.
+[789.00s -> 791.00s]  A la distribución azul.
+[791.00s -> 793.00s]  Que la gama.
+[793.00s -> 795.00s]  Yo puedo mirar.
+[795.00s -> 797.00s]  Si mi lista de números.
+[797.00s -> 799.00s]  Se parecen más a la distribución.
+[799.00s -> 801.00s]  Que la chi.
+[801.00s -> 803.00s]  Yo puedo mirar si.
+[803.00s -> 805.00s]  Ese conjunto de números.
+[805.00s -> 807.00s]  Siguieron una distribución.
+[807.00s -> 809.00s]  Rayley.
+[809.00s -> 811.00s]  Yo puedo mirar si ese conjunto de números.
+[811.00s -> 813.00s]  Siguieron una distribución.
+[813.00s -> 815.00s]  Gaussiana.
+[815.00s -> 817.00s]  Yo puedo mirar.
+[817.00s -> 819.00s]  Si.
+[819.00s -> 821.00s]  Ya.
+[821.00s -> 823.00s]  Hay muchos tipos de distribuciones de las generales.
+[823.00s -> 825.00s]  De las canónicas.
+[825.00s -> 827.00s]  Hay muchas tipos.
+[827.00s -> 829.00s]  Hay muchos tipos de manera para mirar.
+[829.00s -> 831.00s]  A cual de esos pertenece.
+[831.00s -> 833.00s]  Por ejemplo.
+[833.00s -> 835.00s]  Si yo quiero mirar.
+[835.00s -> 837.00s]  Si.
+[877.00s -> 889.00s]  ¿Me escuchan?
+[889.00s -> 892.00s]  Sí.
+[892.00s -> 896.00s]  Sí, que apenas que no estoy, no estoy en mi casa, estoy en un hotel,
+[896.00s -> 900.00s]  entonces, en lo internal, en lo hotel, es horrible.
+[900.00s -> 904.00s]  Entonces, ¿Hay una distribución?
+[904.00s -> 907.00s]  Sí.
+[907.00s -> 911.00s]  Hay una prueba estadística para cada tipo de distribución.
+[911.00s -> 914.00s]  Entonces, quiero mirarse mi conjunto de números.
+[914.00s -> 916.00s]  ¿Sigue la distribución azul, la gama?
+[916.00s -> 918.00s]  ¿Sigue la distribución que está en verde?
+[918.00s -> 920.00s]  ¿Qué es la raille? ¿O sigue la distribución?
+[920.00s -> 924.00s]  Nada. ¿Qué es la chi? ¿O sigue la distribución gaussiana?
+[924.00s -> 926.00s]  ¿O sigue la distribución?
+[926.00s -> 927.00s]  Hay muchos tipos.
+[927.00s -> 929.00s]  Una de ellas es la gaussiana.
+[929.00s -> 932.00s]  Entonces, por ejemplo, para mirarse, ¿sigue la distribución gaussiana?
+[932.00s -> 934.00s]  Tenemos que la distribución normal,
+[934.00s -> 937.00s]  se llama distribución normal.
+[937.00s -> 941.00s]  ¿Por qué normal? Porque tiene media cero y varianza 1.
+[941.00s -> 943.00s]  Sí.
+[943.00s -> 947.00s]  O sea, si yo a todos esos números siguiendo una distribución normal,
+[947.00s -> 955.00s]  les saco media cero y varianza me da 1 en la distribución gaussiana.
+[955.00s -> 957.00s]  Entonces, yo puedo tener una lista de números.
+[957.00s -> 959.00s]  Pero, por ejemplo, yo le tomo la edad,
+[959.00s -> 965.00s]  supongan que ustedes le toman la edad a todos los de su grupo.
+[965.00s -> 967.00s]  ¿Sí?
+[967.00s -> 970.00s]  Y alguien de ustedes tiene algún ex novio que sea,
+[970.00s -> 973.00s]  o ex pareja que sea de ingeniería electrónica,
+[973.00s -> 975.00s]  y entonces se va para ingeniería electrónica.
+[975.00s -> 979.00s]  Y ustedes toman las edades a hechos.
+[979.00s -> 984.00s]  Muy probablemente las edades sigan una distribución normal.
+[984.00s -> 991.00s]  Si usted las grafica, va a tener forma de campanita de una campana.
+[991.00s -> 993.00s]  ¿Sí?
+[993.00s -> 996.00s]  Se le dice distribución normal, la distribución gaussiana,
+[996.00s -> 998.00s]  porque tiene forma de una campana.
+[998.00s -> 1000.00s]  ¿Por qué normal?
+[1000.00s -> 1002.00s]  Porque yo puedo normalizar esos números,
+[1002.00s -> 1007.00s]  y van a tener media cero y varianza 1.
+[1007.00s -> 1010.00s]  Pero entonces, ¿qué pasa si yo les tomo la edad?
+[1010.00s -> 1012.00s]  Yo no tengo media cero y varianza 1,
+[1012.00s -> 1016.00s]  sino que yo tengo es 17,
+[1016.00s -> 1018.00s]  puede haber algún menor de edad todavía.
+[1018.00s -> 1028.00s]  Entonces, 25, 23, 24, 22, 22, 23, 23, 28,
+[1028.00s -> 1032.00s]  por ahí alguno que tenga 47, nunca falta,
+[1032.00s -> 1036.00s]  pues que tenga 65, nunca falta.
+[1036.00s -> 1038.00s]  ¿Sí?
+[1038.00s -> 1042.00s]  Pero siempre es por ahí unitodocito, ¿cierto?
+[1042.00s -> 1044.00s]  Sin mucho 2.
+[1044.00s -> 1047.00s]  Por ejemplo, en mi corte había un señor.
+[1047.00s -> 1051.00s]  Él no siguió, pero había un ser, pero cuando iniciamos había un señor.
+[1051.00s -> 1054.00s]  Eso era en el 2014.
+[1054.00s -> 1056.00s]  ¿Sí?
+[1056.00s -> 1061.00s]  Pero siempre hay muchos que tienen más o menos la misma edad, ¿cierto?
+[1061.00s -> 1066.00s]  O sea, si usted grafica eso, le da una forma de campanita.
+[1066.00s -> 1071.00s]  Pero entonces queremos saber matemáticamente cuál distribución sigue.
+[1071.00s -> 1075.00s]  Entonces, por ejemplo, para comprobar si sigue la distribución gaussiana,
+[1075.00s -> 1077.00s]  hay una prueba estadística por aquí.
+[1077.00s -> 1081.00s]  Hay una prueba estadística que se llama Kolmogorov-Smirnov.
+[1081.00s -> 1084.00s]  Es un ruso matemático ruso.
+[1084.00s -> 1085.00s]  ¿Qué hubo?
+[1085.00s -> 1089.00s]  Kolmogorov-Smirnov.
+[1089.00s -> 1090.00s]  ¿Sí?
+[1090.00s -> 1092.00s]  Ahí la escribí.
+[1092.00s -> 1097.00s]  Cuando yo tengo poquitos datos, menos de 5,
+[1097.00s -> 1102.00s]  entonces yo aplico una prueba que se llama Shapiro-Wick.
+[1102.00s -> 1103.00s]  ¿Sí?
+[1103.00s -> 1104.00s]  Así se llama.
+[1104.00s -> 1109.00s]  Ahí le escribí el nombre.
+[1109.00s -> 1113.00s]  Cuando tengo poquitos datos.
+[1113.00s -> 1117.00s]  Esa prueba me sirve para ver si sigue una distribución normal,
+[1117.00s -> 1121.00s]  o sea, la distribución gaussiana.
+[1121.00s -> 1125.00s]  Entonces, están las pruebas para ver si sigue la distribución Riley.
+[1125.00s -> 1128.00s]  ¿Está la prueba para ver si sigue la distribución?
+[1128.00s -> 1129.00s]  Sí, cuadra.
+[1129.00s -> 1131.00s]  ¿Está la prueba para ver si sigue la distribución?
+[1131.00s -> 1133.00s]  Rizian.
+[1133.00s -> 1137.00s]  ¿Sí?
+[1137.00s -> 1140.00s]  Todas esas pruebas tienen algo en común.
+[1140.00s -> 1142.00s]  O sea, obviamente el algoritmo es distinto,
+[1142.00s -> 1144.00s]  pero tienen un resultado en común.
+[1144.00s -> 1148.00s]  Esas pruebas normalmente me van a arrojar a mí dos números.
+[1148.00s -> 1151.00s]  ¿Qué son los números que se ven en la tabla?
+[1151.00s -> 1156.00s]  Independientemente de que haya dentro de la operación de cada prueba,
+[1156.00s -> 1162.00s]  siempre me van a arrojar por los dos números.
+[1162.00s -> 1165.00s]  Un número se le llama el estadístico.
+[1165.00s -> 1168.00s]  Así se llama estadístico.
+[1168.00s -> 1171.00s]  ¿Qué me está diciendo ese número?
+[1171.00s -> 1172.00s]  ¿Sí?
+[1173.00s -> 1179.00s]  Eso tiene que ver con distribución y todo el cuento.
+[1179.00s -> 1182.00s]  El más importante es el segundo número,
+[1182.00s -> 1184.00s]  que se llama valor P.
+[1184.00s -> 1187.00s]  Así se llama P.
+[1187.00s -> 1188.00s]  ¿Sí?
+[1188.00s -> 1192.00s]  Valor P.
+[1192.00s -> 1194.00s]  ¿Qué me está diciendo ese número?
+[1194.00s -> 1196.00s]  ¿Qué me dice el valor?
+[1196.00s -> 1198.00s]  Ahí, si ya usted tiene que ir a ver,
+[1198.00s -> 1201.00s]  específicamente la prueba.
+[1202.00s -> 1205.00s]  ¿Sí?
+[1205.00s -> 1214.00s]  Normalmente es que si ese valor P es menor que 0.05,
+[1214.00s -> 1221.00s]  entonces yo puedo decir que sí corresponde a esa distribución.
+[1221.00s -> 1223.00s]  ¿Sí?
+[1224.00s -> 1229.00s]  ¿Sí me hago entender?
+[1237.00s -> 1241.00s]  En el caso de la prueba de Cormogorov-Smirnov,
+[1241.00s -> 1249.00s]  si el valor P es menor que 0.05,
+[1250.00s -> 1258.00s]  significa que los datos que usted tomó en las edades,
+[1258.00s -> 1261.00s]  que usted tomó, o en este caso son valores de intensidad,
+[1261.00s -> 1264.00s]  no están siguiendo la distribución normal,
+[1264.00s -> 1269.00s]  no la siguen, no corresponden con la distribución normal.
+[1269.00s -> 1274.00s]  Si el valor P es mayor que 0.05,
+[1274.00s -> 1277.00s]  usted puede decir, por ejemplo, en el caso de esa prueba,
+[1277.00s -> 1284.00s]  que sí hay evidencia de que no hay diferencia,
+[1284.00s -> 1287.00s]  no hay pruebas suficientes para yo decir
+[1287.00s -> 1294.00s]  que ese conjunto de números que usted tiene
+[1294.00s -> 1298.00s]  sigue la distribución gaussiana.
+[1298.00s -> 1301.00s]  ¿Sí?
+[1301.00s -> 1307.00s]  Vuelvo y repito, si el valor P es menor que 0.05,
+[1307.00s -> 1310.00s]  no siguen distribución gaussiana, punto.
+[1310.00s -> 1313.00s]  Si tiene valor P mayor que 0.05,
+[1313.00s -> 1318.00s]  sí, esos valores sí siguen distribución gaussiana.
+[1318.00s -> 1321.00s]  Así de simple.
+[1321.00s -> 1324.00s]  ¿Presor que por qué 0.05?
+[1324.00s -> 1328.00s]  Porque normalmente es aceptado
+[1328.00s -> 1334.00s]  de que yo pueda decir que en el 95% de los casos,
+[1334.00s -> 1337.00s]  o sea que si yo hago esa prueba mil veces,
+[1337.00s -> 1341.00s]  por ejemplo, escogiendo aleatoriamente
+[1341.00s -> 1344.00s]  un subconjunto de esos números,
+[1344.00s -> 1349.00s]  si yo, por ejemplo, yo le tomo la edad a 50 personas,
+[1349.00s -> 1353.00s]  yo le tomo la edad a 50 personas.
+[1353.00s -> 1356.00s]  Yo quiero saber si esa lista de entidades
+[1356.00s -> 1358.00s]  me sigue en una distribución gaussiana.
+[1358.00s -> 1361.00s]  Entonces, yo corro esa prueba.
+[1361.00s -> 1367.00s]  Resulta que esa prueba me arroja un valor menor a 0.05.
+[1367.00s -> 1370.00s]  ¿Qué me está diciendo?
+[1370.00s -> 1375.00s]  O sea, sabemos de que ya no sigue distribución gaussiana,
+[1375.00s -> 1379.00s]  porque me dio un valor P menor que 0.05,
+[1379.00s -> 1385.00s]  por ejemplo, 0.045, 0.049, 0.03, 0.050,
+[1385.00s -> 1388.00s]  0.03, 0.02.
+[1388.00s -> 1391.00s]  ¿Sí?
+[1391.00s -> 1394.00s]  ¿Qué me está diciendo?
+[1394.00s -> 1397.00s]  Que al menos en el 95% de los casos,
+[1397.00s -> 1400.00s]  bueno, por ejemplo, si yo a esas 50 personas
+[1400.00s -> 1404.00s]  tomo subconjuntos, hago mil simulaciones, por ejemplo,
+[1404.00s -> 1408.00s]  de tomar subconjuntos de a 20, 20 personas.
+[1408.00s -> 1412.00s]  O sea, de esas 50 tomo 20 y corro la prueba.
+[1412.00s -> 1417.00s]  De esas 50 tomo otra vez 20 aleatoriamente.
+[1417.00s -> 1420.00s]  Entonces, no me van a resultar lo mismo, 20 de esos 50.
+[1420.00s -> 1425.00s]  Entonces, tomo subconjuntos de 20 personas aleatoriamente
+[1425.00s -> 1428.00s]  de esos 50 mil veces.
+[1428.00s -> 1429.00s]  ¿Qué me está diciendo?
+[1429.00s -> 1432.00s]  Que en el 95% de los casos
+[1432.00s -> 1437.00s]  siempre me va a dar
+[1437.00s -> 1440.00s]  que no se sigue distribución gaussiana.
+[1440.00s -> 1445.00s]  Eso es lo que quiere decir ese valor P menor a 0.05.
+[1445.00s -> 1447.00s]  ¿Sí?
+[1447.00s -> 1450.00s]  Que si me da un valor P mayor a 0.05,
+[1450.00s -> 1453.00s]  quiere decir de qué.
+[1453.00s -> 1455.00s]  Sigue distribución gaussiana,
+[1455.00s -> 1457.00s]  pero la interpretación de ese valor que es
+[1457.00s -> 1461.00s]  de que si yo de esas 50 personas
+[1461.00s -> 1464.00s]  siguen distribución gaussiana,
+[1464.00s -> 1468.00s]  tomo subconjuntos de 20 o 30 personas
+[1468.00s -> 1472.00s]  mil veces hago ese mismo procedimiento subconjunto
+[1472.00s -> 1474.00s]  aleatoriamente de las 50,
+[1474.00s -> 1477.00s]  escojo 20 o 30 aleatoriamente
+[1477.00s -> 1480.00s]  y hago ese proceso mil veces
+[1480.00s -> 1484.00s]  en el 95% de los casos van a seguir
+[1484.00s -> 1487.00s]  distribución gaussiana.
+[1487.00s -> 1490.00s]  Eso es lo que quiere decir ese valor P.
+[1490.00s -> 1493.00s]  Pero usted tiene que mirar mucho cuidado,
+[1493.00s -> 1496.00s]  usted tiene que ir a mirar la interpretación
+[1496.00s -> 1499.00s]  del valor P, o sea, tiene que mirar si ese valor P,
+[1499.00s -> 1505.00s]  si es menor a 0.05, sigue o no sigue esa distribución.
+[1505.00s -> 1507.00s]  Sí.
+[1507.00s -> 1510.00s]  Por ejemplo, ya vimos que en esta prueba
+[1510.00s -> 1514.00s]  de Kolmogorov-Smirnov, un valor P menor a 0.05
+[1514.00s -> 1520.00s]  significa que no sigue distribución gaussiana.
+[1520.00s -> 1522.00s]  Sí.
+[1522.00s -> 1525.00s]  Les hay que ver la prueba para chi cuadrado,
+[1525.00s -> 1527.00s]  la prueba para Rayleigh, la prueba para Rayleigh,
+[1527.00s -> 1534.00s]  si siguen o no siguen distribución gaussiana.
+[1534.00s -> 1540.00s]  Visualmente podemos ver que si tiene un gran parecido,
+[1540.00s -> 1543.00s]  está entre Rayleigh y Gamma,
+[1543.00s -> 1545.00s]  hay que ir a la matemática a ver
+[1545.00s -> 1548.00s]  con cuál de las dos es.
+[1548.00s -> 1550.00s]  Sí.
+[1550.00s -> 1554.00s]  Lo que pasa es que hay unos valores allí,
+[1554.00s -> 1556.00s]  por ejemplo, ese valor de intensidad
+[1556.00s -> 1559.00s]  que tiene esa barra muy alta,
+[1559.00s -> 1564.00s]  me está generando algo ahí de perturbación en los datos.
+[1564.00s -> 1568.00s]  Sí.
+[1568.00s -> 1572.00s]  Yo les pido el favor de que
+[1572.00s -> 1577.00s]  vuelvan a revisar ese curso de estadística,
+[1577.00s -> 1578.00s]  los apuntes de estadística,
+[1578.00s -> 1582.00s]  y en especial esto de pruebas estadísticas.
+[1582.00s -> 1583.00s]  Sí.
+[1583.00s -> 1586.00s]  Esto es bastante importante para ustedes.
+[1586.00s -> 1589.00s]  Por ejemplo, si ustedes van a hacer trabajos de grado,
+[1589.00s -> 1591.00s]  estudian comparando personas,
+[1591.00s -> 1594.00s]  comparando grupos de personas.
+[1594.00s -> 1595.00s]  Sí.
+[1595.00s -> 1598.00s]  Por ejemplo, usted no necesariamente con edades,
+[1598.00s -> 1600.00s]  usted le toma las edades,
+[1600.00s -> 1603.00s]  o sea, no necesariamente edades.
+[1603.00s -> 1607.00s]  Por ejemplo, va a ser mediciones
+[1607.00s -> 1610.00s]  de estas estructuras cerebrales.
+[1610.00s -> 1612.00s]  Entonces, usted les va a medir,
+[1612.00s -> 1615.00s]  usted tiene 100 resonaciones magnéticas.
+[1615.00s -> 1616.00s]  Sí.
+[1616.00s -> 1619.00s]  Resulta que 40 son de pacientes sanos,
+[1619.00s -> 1622.00s]  30 son de pacientes esquizofrénicos,
+[1622.00s -> 1624.00s]  y 30 son de pacientes de mentes,
+[1624.00s -> 1626.00s]  o sea, con el simer,
+[1626.00s -> 1628.00s]  o demencia fronto temporal,
+[1628.00s -> 1630.00s]  o alguna de estas demencias.
+[1630.00s -> 1631.00s]  Entonces,
+[1631.00s -> 1633.00s]  va a aplicar lo que aprendió en este curso
+[1633.00s -> 1637.00s]  para segmentar y medir
+[1637.00s -> 1641.00s]  las estructuras cerebrales de esas personas,
+[1641.00s -> 1643.00s]  de cada una de esas 100 resonaciones.
+[1643.00s -> 1644.00s]  Entonces,
+[1644.00s -> 1646.00s]  saca una lista de la persona 1,
+[1646.00s -> 1647.00s]  como están onimizando,
+[1647.00s -> 1649.00s]  usted dice la persona 1,
+[1649.00s -> 1652.00s]  entonces la amigdala le midió tanto,
+[1652.00s -> 1654.00s]  el hipocampo le midió tanto,
+[1654.00s -> 1656.00s]  el cálamo le midió tanto,
+[1656.00s -> 1657.00s]  la persona 2,
+[1657.00s -> 1661.00s]  y así con las 40 personas sanas,
+[1661.00s -> 1663.00s]  con las 30 esquizofrénicas,
+[1663.00s -> 1666.00s]  y con las otras 30 de mentes.
+[1666.00s -> 1668.00s]  Entonces,
+[1668.00s -> 1670.00s]  usted quiere mirar si esos 3 grupos
+[1670.00s -> 1672.00s]  difieren entre sí,
+[1672.00s -> 1674.00s]  o sea,
+[1674.00s -> 1676.00s]  usted obligatoriamente tiene que aplicar
+[1676.00s -> 1680.00s]  estas pruebas estadísticas obligatoriamente,
+[1680.00s -> 1685.00s]  y analizar ese valor P,
+[1685.00s -> 1687.00s]  que si ese valor P
+[1687.00s -> 1690.00s]  en menor a 0.05,
+[1690.00s -> 1692.00s]  usted puede decir
+[1692.00s -> 1694.00s]  los grupos difieren,
+[1694.00s -> 1695.00s]  o sea,
+[1695.00s -> 1698.00s]  resulta que en el para esquizofrenia,
+[1698.00s -> 1700.00s]  el cálamo,
+[1700.00s -> 1702.00s]  el cálamo midió tanto,
+[1702.00s -> 1704.00s]  la amigdala midió tanto,
+[1704.00s -> 1705.00s]  y pero,
+[1705.00s -> 1708.00s]  cuya indemencia es totalmente distinto.
+[1708.00s -> 1709.00s]  Usted ya puede decir
+[1709.00s -> 1711.00s]  es significativamente distinto.
+[1713.00s -> 1714.00s]  ¿Sí?
+[1715.00s -> 1716.00s]  Entonces,
+[1716.00s -> 1718.00s]  usted hace unas pruebas de esas,
+[1718.00s -> 1720.00s]  hace su trabajo de grave,
+[1720.00s -> 1722.00s]  y le da mención la oridad.
+[1724.00s -> 1726.00s]  Les mucho ojo, muchachos,
+[1726.00s -> 1728.00s]  les pido el favor,
+[1728.00s -> 1730.00s]  tengan mucho cuidado
+[1730.00s -> 1732.00s]  con estas pruebas estadísticas,
+[1732.00s -> 1734.00s]  y les sugiero que vuelvan
+[1734.00s -> 1736.00s]  y revisen su curso de estadísticas
+[1736.00s -> 1738.00s]  sobre estas pruebas.
+[1739.00s -> 1740.00s]  ¿Sí?
+[1741.00s -> 1743.00s]  Volviendo acá,
+[1743.00s -> 1746.00s]  podemos ver claramente
+[1746.00s -> 1748.00s]  que esta distribución
+[1748.00s -> 1750.00s]  no es gausiana.
+[1751.00s -> 1752.00s]  ¿Sí?
+[1752.00s -> 1754.00s]  Esta distribución es más
+[1754.00s -> 1756.00s]  otra cosa que gausiana.
+[1759.00s -> 1760.00s]  ¿Sí?
+[1760.00s -> 1762.00s]  Entonces,
+[1762.00s -> 1764.00s]  tenemos que aplicar
+[1764.00s -> 1766.00s]  alguna corrección
+[1766.00s -> 1768.00s]  de ese ruido. Recuerden que es tu ruido.
+[1771.00s -> 1773.00s]  ¿Por qué? Porque esto es el fondo.
+[1773.00s -> 1775.00s]  Esto es el fondo de la imagen.
+[1775.00s -> 1776.00s]  Si puede mostrar
+[1776.00s -> 1778.00s]  la partecita de la resonancia
+[1778.00s -> 1780.00s]  de donde usted sacó
+[1780.00s -> 1782.00s]  estos valores.
+[1782.00s -> 1784.00s]  Creo que está arriba en su
+[1784.00s -> 1786.00s]  arriba.
+[1790.00s -> 1792.00s]  Steven.
+[1792.00s -> 1794.00s]  Me repite el correo.
+[1794.00s -> 1796.00s]  Que si puede,
+[1796.00s -> 1798.00s]  que si puede, por favor,
+[1800.00s -> 1802.00s]  subir.
+[1804.00s -> 1806.00s]  Sí, exactamente.
+[1807.00s -> 1809.00s]  Suba, suba.
+[1809.00s -> 1811.00s]  Eso ahí.
+[1811.00s -> 1813.00s]  Fíjense que
+[1813.00s -> 1815.00s]  eso corresponde a fondo.
+[1818.00s -> 1819.00s]  Sí.
+[1819.00s -> 1821.00s]  Y fíjense cómo se ve.
+[1822.00s -> 1824.00s]  O sea, eso hipotéticamente
+[1824.00s -> 1826.00s]  debería estar completamente negro.
+[1826.00s -> 1828.00s]  Es decir, debería haber
+[1828.00s -> 1830.00s]  0, 0, 0, 0, 0, 0, 0, 0.
+[1830.00s -> 1832.00s]  Recuerden que cero es nada,
+[1832.00s -> 1834.00s]  es negro.
+[1834.00s -> 1836.00s]  Cero es nada, es negro.
+[1836.00s -> 1838.00s]  Negro absoluto, pues en
+[1838.00s -> 1840.00s]  el término de asignarle
+[1840.00s -> 1842.00s]  un color a una
+[1842.00s -> 1844.00s]  intensidad.
+[1844.00s -> 1846.00s]  En este caso el 65,000
+[1846.00s -> 1848.00s]  lípico es el blanco total.
+[1848.00s -> 1850.00s]  Entonces debería estar
+[1850.00s -> 1852.00s]  en negro, negro, negro.
+[1852.00s -> 1854.00s]  Pero fíjense, tenemos todos
+[1854.00s -> 1856.00s]  esos valores allí.
+[1856.00s -> 1858.00s]  Es decir, eso es ruido.
+[1858.00s -> 1860.00s]  Porque debería estar en negro
+[1860.00s -> 1862.00s]  total, pero está
+[1862.00s -> 1864.00s]  con unos valores que ya los
+[1864.00s -> 1866.00s]  graficamos.
+[1866.00s -> 1868.00s]  Eso es, eso es
+[1868.00s -> 1870.00s]  ruido sobre el ruido?
+[1870.00s -> 1872.00s]  No, es ruido.
+[1872.00s -> 1874.00s]  No, ruido sobre el ruido, no, es ruido.
+[1874.00s -> 1876.00s]  Por ejemplo, los puntos blancos
+[1876.00s -> 1878.00s]  de la derecha.
+[1878.00s -> 1880.00s]  O sea, aquí estamos confiando
+[1880.00s -> 1882.00s]  en que usted haya cogido, aquí
+[1882.00s -> 1884.00s]  estamos confiando en que usted haya cogido
+[1884.00s -> 1886.00s]  una región.
+[1886.00s -> 1888.00s]  Sí, sí, sí, sí.
+[1888.00s -> 1890.00s]  Es bueno que esa región, que está
+[1890.00s -> 1892.00s]  re señalando las coordenadas.
+[1892.00s -> 1894.00s]  O sea, es una región
+[1894.00s -> 1896.00s]  que no correspondía
+[1896.00s -> 1898.00s]  a ninguna
+[1898.00s -> 1900.00s]  estructura.
+[1904.00s -> 1906.00s]  Es decir, eso debería estar en
+[1906.00s -> 1908.00s]  negro.
+[1908.00s -> 1910.00s]  Pero mire los colores que tiene.
+[1910.00s -> 1912.00s]  Esa, ese, ese
+[1912.00s -> 1914.00s]  montón de hormigas que tiene allí.
+[1914.00s -> 1916.00s]  Unos blancos, unos grises.
+[1916.00s -> 1918.00s]  O sea, es un ruido.
+[1920.00s -> 1922.00s]  O sea, son, son números
+[1922.00s -> 1924.00s]  que me están a mí
+[1924.00s -> 1926.00s]  afectando
+[1928.00s -> 1930.00s]  toda la señal.
+[1930.00s -> 1932.00s]  O sea, como cuando,
+[1932.00s -> 1934.00s]  cuando usted va en carretera y entonces
+[1934.00s -> 1936.00s]  se llama alguien y suena
+[1936.00s -> 1938.00s]  así, suena
+[1938.00s -> 1940.00s]  casi todo, todo.
+[1940.00s -> 1942.00s]  Y se escucha como todo ruidoso.
+[1944.00s -> 1946.00s]  Es decir, me están perturbando mi
+[1946.00s -> 1948.00s]  señal.
+[1948.00s -> 1950.00s]  La gente, la persona está hablando
+[1950.00s -> 1952.00s]  que
+[1952.00s -> 1954.00s]  es la señal
+[1954.00s -> 1956.00s]  lo que queremos
+[1956.00s -> 1958.00s]  escuchar, pero que es
+[1958.00s -> 1960.00s]  escuchar de fondo.
+[1960.00s -> 1962.00s]  Nunca caer
+[1962.00s -> 1964.00s]  una cosa
+[1966.00s -> 1968.00s]  que me está
+[1968.00s -> 1970.00s]  perturbando la señal.
+[1970.00s -> 1972.00s]  Eso es ruido.
+[1972.00s -> 1974.00s]  En las imágenes
+[1974.00s -> 1976.00s]  pasa justamente eso.
+[1976.00s -> 1978.00s]  Vemos aquí
+[1978.00s -> 1980.00s]  el ruido
+[1980.00s -> 1982.00s]  en una, en una,
+[1982.00s -> 1984.00s]  en una zona
+[1984.00s -> 1986.00s]  en la que deberías estar todo negro.
+[2006.00s -> 2008.00s]  .
+[2008.00s -> 2010.00s]  .
+[2010.00s -> 2012.00s]  .
+[2012.00s -> 2014.00s]  .
+[2014.00s -> 2016.00s]  .
+[2016.00s -> 2018.00s]  .
+[2018.00s -> 2020.00s]  .
+[2020.00s -> 2022.00s]  .
+[2022.00s -> 2024.00s]  .
+[2024.00s -> 2026.00s]  .
+[2026.00s -> 2028.00s]  .
+[2028.00s -> 2030.00s]  .
+[2030.00s -> 2032.00s]  .
+[2032.00s -> 2034.00s]  .
+[2034.00s -> 2049.52s]  Listo, entonces por eso es por eso es que hacemos este procedimiento en una zona homogénea
+[2049.52s -> 2057.64s]  de la imagen, en este caso en la zona negra, la que se presume no debería haber nada.
+[2057.64s -> 2063.32s]  Yo lo puedo hacer por ejemplo si le tomo la foto a alguien con el fondo de una pared
+[2063.32s -> 2070.32s]  blanca, lo que yo lo puedo hacer es cogiendo una zona de la pared blanca. ¿Por qué? Porque es una zona
+[2070.32s -> 2080.24s]  homogénea, no hay bordes, no hay nada en la pared blanca. Entonces todas las hormiguitas que yo logré
+[2080.24s -> 2086.04s]  encontrar en esa pared blanca pues corresponden a ruido porque hipotéticamente no debería
+[2086.04s -> 2092.08s]  haber nada allí en la pared blanca. Si es que en verdad en la realidad la pared está blanca,
+[2092.08s -> 2096.68s]  ¿no? Porque puede ser que usted le tome foto a la pared blanca pero en realidad lo que hay es un
+[2096.68s -> 2105.20s]  mugrero y la cámara capturó ese mugrero. Pero hipotéticamente una pared recién pitadita,
+[2105.20s -> 2114.04s]  bien bonita, blanca, lo que usted encuentra de allí de fluctuaciones de intensidad de píxeles,
+[2114.04s -> 2121.00s]  eso corresponde a esa ruido porque en el mundo real la pared estaba recién pitadita blanca. Entonces
+[2121.00s -> 2128.80s]  yo por qué encuentro unas pelucitas negras en la imagen resultante en esa zona de la pared blanca,
+[2128.80s -> 2133.36s]  no tiene sentido, ¿cierto que no? Entonces corresponde a esa ruido.
+[2138.68s -> 2143.60s]  Entonces por eso es que hacemos este procedimiento en zonas homogéneas del
+[2143.60s -> 2151.20s]  mar, en este caso en la zona negra. Bien, bueno, ¿qué más hizo?
+[2151.20s -> 2173.68s]  Cuénteme, ¿qué más hizo? Que el micrófono ha pagado.
+[2174.52s -> 2184.44s]  Qué pena, provee. Para acá miramos el tema lo que usted explicó mencionó de la actualización.
+[2184.44s -> 2204.32s]  ¿Dónde pensar? ¿Cómo relacionado? Con diferentes localizaciones, según entendimos.
+[2204.32s -> 2220.04s]  Ok, bueno, desde allí tenemos diferentes ecualizaciones de la, de la imagen.
+[2220.04s -> 2226.00s]  ¿Te escuéntenos un poquito qué son esas ecualizaciones?
+[2226.00s -> 2232.64s]  Lo que nos entendimos un poquito que era como una suavización que se le decía como la imagen o
+[2232.64s -> 2246.12s]  el ruido como tal. Y pues sí, claro, que era como suavizar para tratar de mejorar la imagen.
+[2250.00s -> 2259.52s]  Y pues entonces ya lo decidimos ver como en una comparación desde el original a las ecualizaciones
+[2259.52s -> 2266.60s]  y poder ver cómo en qué variaba el histograma o cómo la relación que encontramos. Ok, decidimos ver.
+[2269.60s -> 2279.92s]  Ok, te escuéntenos un poquito esa ecualización global, ese clá, clá, clá y ecualización con máscara.
+[2284.44s -> 2285.40s]  Cuente a eso.
+[2289.52s -> 2312.04s]  Este.
+[2319.52s -> 2332.68s]  Estiven, ¿por qué yo he compartido? Está diciendo que nos contara que era cada una
+[2332.68s -> 2335.00s]  de esas tres tipos de cualizaciones.
+[2335.00s -> 2362.96s]  Estiven está ahí, que se quedó sin conexión me acabó de escribir.
+[2363.96s -> 2369.88s]  Ah bueno, entonces el resto de compañeros del grupo, que son esas
+[2369.88s -> 2383.00s]  cualizaciones, no es cualizaciones, en qué consiste los otros tres del
+[2383.00s -> 2386.96s]  grupo. ¿Quiénes son los otros tres del grupo?
+[2392.96s -> 2394.96s]  ¿Quiénes son los otros tres del grupo?
+[2423.96s -> 2428.92s]  Aquí está y profejo soy uno de los de lo que está en el grupo.
+[2428.92s -> 2432.68s]  Entonces cuéntenos qué qué fue lo que hicieron de esas tres
+[2432.68s -> 2436.96s]  cualizaciones. O sea, ¿en qué consiste en esas tres cualizaciones?
+[2436.96s -> 2446.96s]  O sea, si ustedes la aplicaron es porque buscaron ve y esto ¿qué es y tal? Supongo no.
+[2447.96s -> 2451.96s]  Sí señor, pues conforme a lo que nosotros estuvimos pues indagando un poco.
+[2451.96s -> 2459.96s]  Esta cualización es lo que nos quiere decir o lo que es, prácticamente es como una especie de técnicas
+[2459.96s -> 2468.96s]  que pues son útiles para lo que es el contraste pues como tal de la imagen de la imágenes.
+[2468.96s -> 2475.96s]  Eso es lo que nosotros pues averiguamos un poco como tal de lo que estuvimos indagando
+[2475.96s -> 2478.96s]  de lo de la cual ecualizaciones.
+[2481.96s -> 2482.96s]  ¿Qué?
+[2485.96s -> 2490.96s]  Dice, pero ¿qué? Entonces ¿en qué varía cada uno?
+[2501.96s -> 2504.96s]  ¿Quiénes son del grupo de Steven?
+[2505.96s -> 2508.96s]  O solamente Steven y Chiapá, verdad.
+[2511.96s -> 2519.96s]  Somos con el compañero John Frey también porque si no que creo que no me pudo conectar el día de hoy.
+[2524.96s -> 2525.96s]  Ok.
+[2535.96s -> 2544.96s]  Bueno, yo sí les voy a pedir una cosa y es que,
+[2547.96s -> 2549.96s]  les voy a pedir una cosa y es que,
+[2550.96s -> 2554.96s]  yo necesito que todos los del grupo sepan qué es lo que está pasando.
+[2561.96s -> 2562.96s]  Sí.
+[2565.96s -> 2570.96s]  Necesito que sepan qué es lo que está pasando con lo que están implementando.
+[2571.96s -> 2572.96s]  Sí.
+[2572.96s -> 2574.96s]  Se pueden repartir el trabajo.
+[2574.96s -> 2578.96s]  No sé qué forma de trabajo tengan ustedes, pero sí les pido.
+[2578.96s -> 2579.96s]  ¿Qué?
+[2580.96s -> 2584.96s]  Sí, sí, si uno del grupo dice yo voy a hacer esto, pues lo demás digan bien.
+[2584.96s -> 2585.96s]  ¿Qué consiste?
+[2585.96s -> 2586.96s]  O yo voy a buscar.
+[2587.96s -> 2588.96s]  ¿Tienen la idea?
+[2588.96s -> 2589.96s]  Porque les pregunte.
+[2590.96s -> 2591.96s]  ¿Sí?
+[2591.96s -> 2594.96s]  O si no pues buscan referencias y tal.
+[2595.96s -> 2598.96s]  Sí, porque, por ejemplo, yo les puedo preguntar a los del grupo.
+[2600.96s -> 2605.96s]  Y el día de los controles, yo le asigno nota esa cada uno.
+[2606.96s -> 2608.96s]  Recuerden que yo manejo rúbricas, no?
+[2608.96s -> 2611.96s]  Entonces, primero la calidad de la presentación.
+[2612.96s -> 2613.96s]  No les pido que hagan slides.
+[2614.96s -> 2615.96s]  Diapositivas.
+[2616.96s -> 2619.96s]  No espero que ese día no tengan diapositivas,
+[2619.96s -> 2624.96s]  pero que muestren con propiedad que fue lo que hicieron.
+[2625.96s -> 2628.96s]  Otra rúbrica, rúbrica de la calidad de las respuestas.
+[2628.96s -> 2629.96s]  Entonces yo le voy preguntando.
+[2629.96s -> 2631.96s]  Ven, res, contame, tal cosa.
+[2631.96s -> 2635.96s]  Y si usted no me responde, pues en esa rúbrica no va a haber nota allí.
+[2636.96s -> 2640.96s]  Y lo mismo con la calidad del informe y tal.
+[2641.96s -> 2648.96s]  Entonces, porque yo necesito es que todos conozcan qué es lo que está pasando con sus imágenes.
+[2648.96s -> 2653.96s]  A pesar de que pueden trabajar en el mismo archivo de Google Colac.
+[2654.96s -> 2655.96s]  Sí.
+[2656.96s -> 2663.96s]  Pero no debería ser que una persona sea la única que trabaja y que tenga todo
+[2663.96s -> 2667.96s]  y que le llegue con un archivo súper largo al resto de compañeros
+[2667.96s -> 2670.96s]  y los demás del grupo no supieron qué fue lo que pasó.
+[2670.96s -> 2675.96s]  O que si eso llega a ocurrir, pues los demás del grupo digan,
+[2675.96s -> 2681.96s]  ve que es esto y entonces empiecen a buscar qué es lo que está pasando en ese código que les trajeron.
+[2684.96s -> 2685.96s]  Sí.
+[2689.96s -> 2694.96s]  ¿Algún otro grupo hizo algo que quiera mostrar?
+[2694.96s -> 2696.96s]  Así ha sido lo mismo.
+[2696.96s -> 2698.96s]  ¿Algún otro grupo hizo algo?
+[2700.96s -> 2701.96s]  Sí.
+[2717.96s -> 2718.96s]  ¿No?
+[2730.96s -> 2731.96s]  Bien.
+[2742.96s -> 2744.96s]  ¿Qué pasa si yo tengo...
+[2744.96s -> 2746.96s]  Ahí ven mi pantalla, ¿cierto?
+[2747.96s -> 2752.96s]  Por favor, si se empiezan a quedar sin nada vital,
+[2752.96s -> 2756.96s]  entonces les pido que por favor me avisen.
+[2756.96s -> 2758.96s]  Allí están viendo mi pantalla.
+[2761.96s -> 2763.96s]  Ahí ven mi pantalla.
+[2763.96s -> 2764.96s]  ¿Bien?
+[2764.96s -> 2765.96s]  ¿Listo?
+[2765.96s -> 2772.96s]  Pues supongamos que yo tengo mi imagen y yo tengo los siguientes valores de intensidad.
+[2772.96s -> 2775.96s]  Supongamos que esta es una imagen de no más.
+[2778.96s -> 2779.96s]  6.
+[2783.96s -> 2784.96s]  8 por...
+[2786.96s -> 2788.96s]  1, 2, 3, 4, 5.
+[2788.96s -> 2790.96s]  6.
+[2799.96s -> 2800.96s]  7.
+[2801.96s -> 2802.96s]  8.
+[2804.96s -> 2806.96s]  8 por...
+[2806.96s -> 2807.96s]  8.
+[2807.96s -> 2808.96s]  8 por 8.
+[2809.96s -> 2812.96s]  Entonces yo tengo diferentes valores de intensidad.
+[2812.96s -> 2817.96s]  Por ejemplo, no me quedan, no lo hagamos tan grande.
+[2818.96s -> 2819.96s]  6 por 6.
+[2828.96s -> 2830.96s]  16 por 6.
+[2834.96s -> 2836.96s]  Listo, hagámosla de 6 por 6.
+[2878.96s -> 2879.96s]  16 por 6.
+[2879.96s -> 2880.96s]  16 por 6.
+[2903.96s -> 2906.96s]  Allí, entonces les voy a mostrar otra vez.
+[2909.96s -> 2910.96s]  16 por 6.
+[2923.96s -> 2924.96s]  16 por 6.
+[2969.96s -> 2971.96s]  y
+[2971.96s -> 2973.96s]  y
+[2973.96s -> 2975.96s]  y
+[2975.96s -> 2977.96s]  y
+[2977.96s -> 2979.96s]  y
+[2979.96s -> 2981.96s]  y
+[2981.96s -> 2983.96s]  y
+[2983.96s -> 2985.96s]  y
+[2985.96s -> 2987.96s]  y
+[2987.96s -> 2989.96s]  y
+[2989.96s -> 2991.96s]  y
+[2991.96s -> 2993.96s]  y
+[2993.96s -> 2995.96s]  y
+[2995.96s -> 2997.96s]  y
+[3027.96s -> 3029.96s]  y
+[3029.96s -> 3031.96s]  y
+[3031.96s -> 3033.96s]  y
+[3033.96s -> 3035.96s]  y
+[3035.96s -> 3037.96s]  y
+[3037.96s -> 3039.96s]  y
+[3039.96s -> 3041.96s]  y
+[3041.96s -> 3043.96s]  y
+[3043.96s -> 3045.96s]  y
+[3045.96s -> 3047.96s]  y
+[3047.96s -> 3049.96s]  y
+[3049.96s -> 3051.96s]  y
+[3051.96s -> 3053.96s]  y
+[3113.96s -> 3117.96s]  y
+[3117.96s -> 3119.96s]  y
+[3119.96s -> 3121.96s]  y
+[3121.96s -> 3123.96s]  y
+[3123.96s -> 3125.96s]  y
+[3125.96s -> 3127.96s]  y
+[3127.96s -> 3129.96s]  y
+[3129.96s -> 3131.96s]  y
+[3131.96s -> 3133.96s]  y
+[3133.96s -> 3135.96s]  y
+[3135.96s -> 3137.96s]  y
+[3137.96s -> 3139.96s]  y
+[3139.96s -> 3141.96s]  y
+[6051.96s -> 6053.96s]  y
+[6053.96s -> 6055.96s]  y
+[6055.96s -> 6057.96s]  y
+[6057.96s -> 6059.96s]  y
+[6059.96s -> 6063.96s]  y
+[6063.96s -> 6065.96s]  y
+[6065.96s -> 6067.96s]  y
+[6067.96s -> 6069.96s]  y
+[6069.96s -> 6071.96s]  y
+[6071.96s -> 6073.96s]  y
+[6073.96s -> 6075.96s]  y
+[6075.96s -> 6077.96s]  y
+[6077.96s -> 6079.96s]  y
+[6079.96s -> 6081.96s]  y
+[6081.96s -> 6083.96s]  y
+[6083.96s -> 6085.96s]  y
+[6085.96s -> 6087.96s]  y
+[6087.96s -> 6089.96s]  y
+[6089.96s -> 6091.96s]  y
+[6091.96s -> 6093.96s]  y
+[6093.96s -> 6095.96s]  y
+[6095.96s -> 6097.96s]  y
+[6097.96s -> 6099.96s]  y
+[6099.96s -> 6101.96s]  y
+[6101.96s -> 6103.96s]  y
+[6103.96s -> 6105.96s]  y
+[6105.96s -> 6107.96s]  y
+[6107.96s -> 6109.96s]  y
+[6109.96s -> 6111.96s]  y
+[6111.96s -> 6113.96s]  y
+[6113.96s -> 6115.96s]  y
+[6115.96s -> 6117.96s]  y
+[6117.96s -> 6119.96s]  y
+[6119.96s -> 6121.96s]  y
+[6121.96s -> 6123.96s]  y
+[6123.96s -> 6125.96s]  y
+[6125.96s -> 6127.96s]  y
+[6127.96s -> 6129.96s]  y
+[6129.96s -> 6131.96s]  y
+[6131.96s -> 6133.96s]  y
+[6133.96s -> 6135.96s]  y
+[6135.96s -> 6137.96s]  y
+[6137.96s -> 6139.96s]  y
+[6139.96s -> 6141.96s]  y
+[6141.96s -> 6143.96s]  y
+[6143.96s -> 6145.96s]  y
+[6145.96s -> 6147.96s]  y
+[6147.96s -> 6149.96s]  y
+[6149.96s -> 6151.96s]  y
+[6151.96s -> 6153.96s]  y
+[6153.96s -> 6155.96s]  y
+[6155.96s -> 6157.96s]  y
+[6157.96s -> 6159.96s]  y
+[6159.96s -> 6161.96s]  y
+[6161.96s -> 6163.96s]  y
+[6163.96s -> 6165.96s]  y
+[6165.96s -> 6167.96s]  y
+[6167.96s -> 6169.96s]  y
+[6169.96s -> 6171.96s]  y
+[6171.96s -> 6173.96s]  y
+[6173.96s -> 6175.96s]  y
+[6175.96s -> 6177.96s]  y
+[6177.96s -> 6179.96s]  y
+[6179.96s -> 6181.96s]  y
+[6181.96s -> 6183.96s]  y
+[6183.96s -> 6185.96s]  y
+[6185.96s -> 6187.96s]  y
+[6187.96s -> 6189.96s]  y
+[6189.96s -> 6191.96s]  y
+[6191.96s -> 6193.96s]  y
+[6195.96s -> 6197.96s]  y
+[6197.96s -> 6199.96s]  y
+[6199.96s -> 6201.96s]  y
+[6201.96s -> 6203.96s]  y
+[6203.96s -> 6205.96s]  y
+[6205.96s -> 6207.96s]  y
+[6207.96s -> 6209.96s]  y
+[6209.96s -> 6211.96s]  y
+[6211.96s -> 6213.96s]  y
+[6213.96s -> 6215.96s]  y
+[6215.96s -> 6217.96s]  y
+[6217.96s -> 6219.96s]  y
+[6219.96s -> 6221.96s]  y
+[6221.96s -> 6223.96s]  y
+[6223.96s -> 6225.96s]  y
+[6225.96s -> 6227.96s]  y
+[6227.96s -> 6229.96s]  y
+[6229.96s -> 6231.96s]  y
+[6231.96s -> 6233.96s]  y
+[6233.96s -> 6235.96s]  y
+[6235.96s -> 6237.96s]  y
+[6237.96s -> 6239.96s]  y
+[6239.96s -> 6241.96s]  y
+[6241.96s -> 6243.96s]  y
+[6243.96s -> 6245.96s]  y
+[6245.96s -> 6247.96s]  y
+[6247.96s -> 6249.96s]  y
+[6249.96s -> 6251.96s]  y
+[6251.96s -> 6253.96s]  y
+[6253.96s -> 6255.96s]  y
+[6255.96s -> 6257.96s]  y
+[6257.96s -> 6259.96s]  y
+[6259.96s -> 6261.96s]  y
+[6261.96s -> 6263.96s]  y
+[6265.96s -> 6267.96s]  y
+[6267.96s -> 6269.96s]  y
+[6269.96s -> 6271.96s]  y
+[6271.96s -> 6273.96s]  y
+[6273.96s -> 6275.96s]  y
+[6275.96s -> 6277.96s]  y
+[6277.96s -> 6279.96s]  y
+[6279.96s -> 6281.96s]  y
+[6281.96s -> 6283.96s]  y
+[6283.96s -> 6285.96s]  y
+[6285.96s -> 6287.96s]  y
+[6287.96s -> 6289.96s]  y
+[6289.96s -> 6291.96s]  y
+[6291.96s -> 6293.96s]  y
+[6293.96s -> 6295.96s]  y
+[6295.96s -> 6297.96s]  y
+[6297.96s -> 6299.96s]  y
+[6299.96s -> 6301.96s]  y
+[6301.96s -> 6303.96s]  y
+[6303.96s -> 6305.96s]  y
+[6305.96s -> 6307.96s]  y
+[6307.96s -> 6309.96s]  y
+[6309.96s -> 6311.96s]  y
+[6311.96s -> 6313.96s]  y
+[6313.96s -> 6315.96s]  y
+[6315.96s -> 6317.96s]  y
+[6317.96s -> 6319.96s]  y
+[6319.96s -> 6321.96s]  y
+[6321.96s -> 6323.96s]  y
+[6323.96s -> 6325.96s]  y
+[6325.96s -> 6327.96s]  y
+[6327.96s -> 6329.96s]  y
+[6329.96s -> 6331.96s]  y
+[6331.96s -> 6333.96s]  y
+[6333.96s -> 6335.96s]  y
+[6335.96s -> 6337.96s]  y
+[6337.96s -> 6339.96s]  y
+[6339.96s -> 6341.96s]  y
+[6341.96s -> 6343.96s]  y
+[6345.96s -> 6347.96s]  y
+[6347.96s -> 6349.96s]  y
+[6349.96s -> 6351.96s]  y
+[6351.96s -> 6353.96s]  y
+[6353.96s -> 6355.96s]  y
+[6355.96s -> 6357.96s]  y
+[6357.96s -> 6359.96s]  y
+[6359.96s -> 6361.96s]  y
+[6361.96s -> 6363.96s]  y
+[6363.96s -> 6365.96s]  y
+[6365.96s -> 6367.96s]  y
+[6367.96s -> 6369.96s]  y
+[6369.96s -> 6371.96s]  y
+[6371.96s -> 6373.96s]  y
+[6373.96s -> 6375.96s]  y
+[6375.96s -> 6377.96s]  y
+[6377.96s -> 6379.96s]  y
+[6379.96s -> 6381.96s]  y
+[6381.96s -> 6383.96s]  y
+[6385.96s -> 6387.96s]  y
+[6387.96s -> 6389.96s]  y
+[6389.96s -> 6391.96s]  y
+[6391.96s -> 6393.96s]  y
+[6393.96s -> 6395.96s]  y
+[6395.96s -> 6397.96s]  y
+[6397.96s -> 6399.96s]  y
+[6399.96s -> 6401.96s]  y
+[6401.96s -> 6403.96s]  y
+[6403.96s -> 6405.96s]  y
+[6405.96s -> 6407.96s]  y
+[6407.96s -> 6409.96s]  y
+[6409.96s -> 6411.96s]  y
+[6411.96s -> 6413.96s]  y
+[6413.96s -> 6415.96s]  y
+[6415.96s -> 6417.96s]  y
+[6417.96s -> 6419.96s]  y
+[6419.96s -> 6421.96s]  y
+[6421.96s -> 6423.96s]  y
+[6423.96s -> 6425.96s]  y
+[6425.96s -> 6427.96s]  y
+[6427.96s -> 6429.96s]  y
+[6429.96s -> 6431.96s]  y
+[6431.96s -> 6433.96s]  y
+[6433.96s -> 6435.96s]  y
+[6435.96s -> 6437.96s]  y
+[6437.96s -> 6439.96s]  y
+[6439.96s -> 6441.96s]  y
+[6441.96s -> 6443.96s]  y
+[6443.96s -> 6445.96s]  y
+[6445.96s -> 6447.96s]  y
+[6447.96s -> 6449.96s]  y
+[6449.96s -> 6451.96s]  y
+[6451.96s -> 6453.96s]  y
+[6453.96s -> 6455.96s]  y
+[6455.96s -> 6457.96s]  y
+[6457.96s -> 6459.96s]  y
+[6459.96s -> 6461.96s]  y
+[6461.96s -> 6463.96s]  y
+[6463.96s -> 6465.96s]  y
+[6465.96s -> 6467.96s]  y
+[6467.96s -> 6469.96s]  y
+[6469.96s -> 6471.96s]  y
+[6471.96s -> 6473.96s]  y
+[6473.96s -> 6475.96s]  y
+[6475.96s -> 6477.96s]  y
+[6477.96s -> 6479.96s]  y
+[6479.96s -> 6481.96s]  y
+[6481.96s -> 6483.96s]  y
+[6483.96s -> 6485.96s]  y
+[6485.96s -> 6487.96s]  y
+[6487.96s -> 6489.96s]  y
+[6489.96s -> 6491.96s]  y
+[6491.96s -> 6493.96s]  y
+[6493.96s -> 6495.96s]  y
+[6495.96s -> 6497.96s]  y
+[6497.96s -> 6499.96s]  y
+[6499.96s -> 6501.96s]  y
+[6501.96s -> 6503.96s]  y
+[6503.96s -> 6505.96s]  y
+[6505.96s -> 6507.96s]  y
+[6509.96s -> 6511.96s]  y
+[6511.96s -> 6513.96s]  y
+[6513.96s -> 6515.96s]  y
+[6515.96s -> 6517.96s]  y
+[6517.96s -> 6519.96s]  y
+[6519.96s -> 6521.96s]  y
+[6521.96s -> 6523.96s]  y
+[6523.96s -> 6525.96s]  y
+[6525.96s -> 6527.96s]  y
+[6527.96s -> 6529.96s]  y
+[6529.96s -> 6531.96s]  y
+[6531.96s -> 6533.96s]  y
+[6533.96s -> 6535.96s]  y
+[6535.96s -> 6537.96s]  y
+[6537.96s -> 6539.96s]  y
+[6539.96s -> 6541.96s]  y
+[6541.96s -> 6543.96s]  y
+[6543.96s -> 6545.96s]  y
+[6545.96s -> 6547.96s]  y
+[6547.96s -> 6549.96s]  y
+[6549.96s -> 6551.96s]  y
+[6551.96s -> 6553.96s]  y
+[6553.96s -> 6555.96s]  y
+[6555.96s -> 6557.96s]  y
+[6557.96s -> 6559.96s]  y
+[6559.96s -> 6561.96s]  y
+[6561.96s -> 6563.96s]  y
+[6563.96s -> 6565.96s]  y
+[6565.96s -> 6567.96s]  y
+[6567.96s -> 6569.96s]  y
+[6569.96s -> 6571.96s]  y
+[6571.96s -> 6573.96s]  y
+[6573.96s -> 6575.96s]  y
+[6575.96s -> 6577.96s]  y
+[6577.96s -> 6579.96s]  y
+[6579.96s -> 6581.96s]  y
+[6581.96s -> 6583.96s]  y
+[6583.96s -> 6585.96s]  y
+[6585.96s -> 6587.96s]  y
+[6587.96s -> 6589.96s]  y
+[6589.96s -> 6591.96s]  y
+[6591.96s -> 6593.96s]  y
+[6593.96s -> 6595.96s]  y
+[6595.96s -> 6597.96s]  y
+[6597.96s -> 6599.96s]  y
+[6599.96s -> 6601.96s]  y
+[6601.96s -> 6603.96s]  y
+[6603.96s -> 6605.96s]  y
+[6605.96s -> 6607.96s]  y
+[6607.96s -> 6609.96s]  y
+[6609.96s -> 6611.96s]  y
+[6611.96s -> 6613.96s]  y
+[6613.96s -> 6615.96s]  y
+[6615.96s -> 6617.96s]  y
+[6617.96s -> 6619.96s]  y
+[6619.96s -> 6621.96s]  y
+[6621.96s -> 6623.96s]  y
+[6623.96s -> 6625.96s]  y
+[6625.96s -> 6627.96s]  y
+[6627.96s -> 6629.96s]  y
+[6629.96s -> 6631.96s]  y
+[6631.96s -> 6633.96s]  y
+[6633.96s -> 6635.96s]  y
+[6635.96s -> 6637.96s]  y
+[6637.96s -> 6639.96s]  y
+[6639.96s -> 6641.96s]  y
+[6641.96s -> 6643.96s]  y
+[6643.96s -> 6645.96s]  y
+[6645.96s -> 6647.96s]  y
+[6647.96s -> 6649.96s]  y
+[6649.96s -> 6651.96s]  y
+[6651.96s -> 6653.96s]  y
+[6653.96s -> 6655.96s]  y
+[6655.96s -> 6657.96s]  y
+[6657.96s -> 6659.96s]  y
+[6659.96s -> 6661.96s]  y
+[6661.96s -> 6663.96s]  y
+[6663.96s -> 6665.96s]  y
+[6665.96s -> 6667.96s]  y
+[6667.96s -> 6669.96s]  y
+[6669.96s -> 6671.96s]  y
+[6671.96s -> 6673.96s]  y
+[6673.96s -> 6675.96s]  y
+[6675.96s -> 6677.96s]  y
+[6677.96s -> 6679.96s]  y
+[6679.96s -> 6681.96s]  y
+[6681.96s -> 6683.96s]  y
+[6683.96s -> 6685.96s]  y
+[6685.96s -> 6687.96s]  y
+[6687.96s -> 6689.96s]  y
+[6689.96s -> 6691.96s]  y
+[6691.96s -> 6693.96s]  y
+[6693.96s -> 6695.96s]  y
+[6695.96s -> 6697.96s]  y
+[6697.96s -> 6699.96s]  y
+[6699.96s -> 6701.96s]  y
+[6701.96s -> 6703.96s]  y
+[6703.96s -> 6705.96s]  y
+[6705.96s -> 6707.96s]  y
+[6707.96s -> 6709.96s]  y
+[6709.96s -> 6711.96s]  y
+[6711.96s -> 6713.96s]  y
+[6713.96s -> 6715.96s]  y
+[6715.96s -> 6717.96s]  y
+[6717.96s -> 6719.96s]  y
+[6719.96s -> 6721.96s]  y
+[6721.96s -> 6723.96s]  y
+[6723.96s -> 6725.96s]  y
+[6725.96s -> 6727.96s]  y
+[6727.96s -> 6729.96s]  y
+[6729.96s -> 6731.96s]  y
+[6731.96s -> 6733.96s]  y
+[6733.96s -> 6735.96s]  y
+[6735.96s -> 6737.96s]  y
+[6737.96s -> 6739.96s]  y
+[6739.96s -> 6741.96s]  y
+[6741.96s -> 6743.96s]  y
+[6743.96s -> 6745.96s]  y
+[6745.96s -> 6747.96s]  y
+[6747.96s -> 6749.96s]  y
+[6749.96s -> 6751.96s]  y
+[6751.96s -> 6753.96s]  y
+[6753.96s -> 6755.96s]  y
+[6755.96s -> 6757.96s]  y
+[6757.96s -> 6759.96s]  y
+[6759.96s -> 6761.96s]  y
+[6761.96s -> 6763.96s]  y
+[6763.96s -> 6765.96s]  y
+[6765.96s -> 6767.96s]  y
+[6767.96s -> 6769.96s]  y
+[6769.96s -> 6771.96s]  y
+[6771.96s -> 6773.96s]  y
+[6773.96s -> 6775.96s]  y
+[6775.96s -> 6777.96s]  y
+[6777.96s -> 6779.96s]  y
+[6779.96s -> 6781.96s]  y
+[6781.96s -> 6783.96s]  y
+[6783.96s -> 6785.96s]  y
+[6785.96s -> 6787.96s]  y
+[6787.96s -> 6789.96s]  y
+[6789.96s -> 6791.96s]  y
+[6791.96s -> 6793.96s]  y
+[6793.96s -> 6795.96s]  y
+[6795.96s -> 6797.96s]  y
+[6797.96s -> 6799.96s]  y
+[6799.96s -> 6801.96s]  y
+[6801.96s -> 6803.96s]  y
+[6803.96s -> 6805.96s]  y
+[6805.96s -> 6807.96s]  y
+[6807.96s -> 6809.96s]  y
+[6809.96s -> 6811.96s]  y
+[6811.96s -> 6813.96s]  y
+[6813.96s -> 6815.96s]  y
+[6815.96s -> 6817.96s]  y
+[6817.96s -> 6819.96s]  y
+[6819.96s -> 6821.96s]  y
+[6821.96s -> 6823.96s]  y
+[6823.96s -> 6825.96s]  y
+[6825.96s -> 6827.96s]  y
+[6827.96s -> 6829.96s]  y
+[6829.96s -> 6831.96s]  y
+[6831.96s -> 6833.96s]  y
+[6833.96s -> 6835.96s]  y
+[6835.96s -> 6837.96s]  y
+[6837.96s -> 6839.96s]  y
+[6839.96s -> 6841.96s]  y
+[6841.96s -> 6843.96s]  y
+[6843.96s -> 6845.96s]  y
+[6845.96s -> 6847.96s]  y
+[6847.96s -> 6849.96s]  y
+[6849.96s -> 6851.96s]  y
+[6851.96s -> 6853.96s]  y
+[6853.96s -> 6855.96s]  y
+[6855.96s -> 6857.96s]  y
+[6857.96s -> 6859.96s]  y
+[6859.96s -> 6861.96s]  y
+[6861.96s -> 6863.96s]  y
+[6863.96s -> 6865.96s]  y
+[6865.96s -> 6867.96s]  y
+[6867.96s -> 6869.96s]  y
+[6869.96s -> 6871.96s]  y
+[6871.96s -> 6873.96s]  y
+[6873.96s -> 6875.96s]  y
+[6875.96s -> 6877.96s]  y
+[6877.96s -> 6879.96s]  y
+[6879.96s -> 6881.96s]  y
+[6881.96s -> 6883.96s]  y
+[6883.96s -> 6885.96s]  y
+[6885.96s -> 6887.96s]  y
+[6887.96s -> 6889.96s]  y
+[6889.96s -> 6891.96s]  y
+[6891.96s -> 6893.96s]  y
+[6893.96s -> 6895.96s]  y
+[6895.96s -> 6897.96s]  y
+[6897.96s -> 6899.96s]  y
+[6899.96s -> 6901.96s]  y
+[6901.96s -> 6903.96s]  y
+[6903.96s -> 6905.96s]  y
+[6905.96s -> 6907.96s]  y
+[6907.96s -> 6909.96s]  y
+[6909.96s -> 6911.96s]  y
+[6911.96s -> 6913.96s]  y
+[6913.96s -> 6915.96s]  y
+[6915.96s -> 6917.96s]  y
+[6917.96s -> 6919.96s]  y
+[6919.96s -> 6921.96s]  y
+[6921.96s -> 6923.96s]  y
+[6923.96s -> 6925.96s]  y
+[6925.96s -> 6927.96s]  y
+[6927.96s -> 6929.96s]  y
+[6929.96s -> 6931.96s]  y
+[6931.96s -> 6933.96s]  y
+[6933.96s -> 6935.96s]  y
+[6935.96s -> 6937.96s]  y
+[6937.96s -> 6939.96s]  y
+[6939.96s -> 6941.96s]  y
+[6941.96s -> 6943.96s]  y
+[6943.96s -> 6945.96s]  y
+[6945.96s -> 6947.96s]  y
+[6947.96s -> 6949.96s]  y
+[6949.96s -> 6951.96s]  y
+[6951.96s -> 6953.96s]  y
+[6953.96s -> 6955.96s]  y
+[6955.96s -> 6957.96s]  y
+[6957.96s -> 6959.96s]  y
+[6959.96s -> 6961.96s]  y
+[6961.96s -> 6963.96s]  y
+[6963.96s -> 6965.96s]  y
+[6965.96s -> 6967.96s]  y
+[6967.96s -> 6969.96s]  y
+[6969.96s -> 6971.96s]  y
+[6971.96s -> 6973.96s]  y
+[6973.96s -> 6975.96s]  y
+[6975.96s -> 6977.96s]  y
+[6977.96s -> 6979.96s]  y
+[6979.96s -> 6981.96s]  y
+[6983.96s -> 6985.96s]  y
+[6985.96s -> 6987.96s]  y
+[6987.96s -> 6989.96s]  y
+[6989.96s -> 6991.96s]  y
+[6991.96s -> 6993.96s]  y
+[6993.96s -> 6995.96s]  y
+[6995.96s -> 6997.96s]  y
+[6997.96s -> 6999.96s]  y
+[6999.96s -> 7001.96s]  y
+[7001.96s -> 7003.96s]  y

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceptos: Anonimización, Hounsfield y NIfTI</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; }
+        h1, h2, h3 { color: #2c3e50; }
+        h1 { border-bottom: 3px solid #e67e22; padding-bottom: 10px; text-align: center; }
+        .card { background: white; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .highlight { background-color: #fdf2e9; padding: 15px; border-left: 4px solid #e67e22; margin: 15px 0; }
+        code { background: #eee; padding: 2px 6px; border-radius: 4px; font-family: monospace; }
+    </style>
+</head>
+<body>
+
+    <h1>Resumen de Clase: Ética, Formatos y Unidades Médicas</h1>
+
+    <div class="card">
+        <h2>1. Anonimización (Buenas Prácticas Clínicas)</h2>
+        <p>Las imágenes médicas contienen datos personales (Nombre, ID, Fecha de nacimiento) en sus encabezados. Por ley y ética, antes de investigar, es obligatorio anonimizarlas.</p>
+        <div class="highlight">
+            <p>No basta con borrar el nombre. Se deben vaciar todos los campos personales y usar la función <code>remove_private_tags()</code> de la librería <code>pydicom</code> para borrar metadatos ocultos del fabricante.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>2. Imágenes Planas vs. Imágenes Médicas (DICOM)</h2>
+        <ul>
+            <li><strong>Imágenes planas (JPG, PNG):</strong> Usan 8 bits. Los valores van de 0 a 255. Un valor 224 siempre será el mismo color sin importar la cámara.</li>
+            <li><strong>Imágenes DICOM:</strong> Usan 16 bits o más. Los valores van de 0 a 65,000+. Cada fabricante (Siemens, GE, etc.) puede asignar valores distintos al mismo tejido.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>3. Resonancia Magnética vs. Tomografía (CT)</h2>
+        <ul>
+            <li><strong>Resonancia (MRI):</strong> Usa campos electromagnéticos. Los valores son intensidades arbitrarias (se miden tiempos de relajación T1 y T2).</li>
+            <li><strong>Tomografía (CT):</strong> Usa Rayos X. Usa las <strong>Unidades Hounsfield (HU)</strong>. Aquí los valores son negativos y positivos según la densidad del tejido:
+                <ul>
+                    <li><strong>-1000 HU:</strong> Aire.</li>
+                    <li><strong>0 HU:</strong> Agua.</li>
+                    <li><strong>+1000 HU o más:</strong> Hueso.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>4. El concepto de "Ventana" (Windowing)</h2>
+        <p>Nuestros monitores solo pueden mostrar 256 niveles de gris (8 bits), pero una tomografía tiene miles de valores. Para poder verla, se usa una "Ventana" (Window Center y Window Width).</p>
+        <p>La ventana toma un rango específico de valores (ej. de -100 a 100 HU) y lo estira para que ocupe los 256 grises del monitor. Todo lo que esté por encima se vuelve blanco, y lo que esté por debajo se vuelve negro.</p>
+    </div>
+
+    <div class="card">
+        <h2>5. Histogramas y Formato NIfTI</h2>
+        <ul>
+            <li><strong>Histograma:</strong> Es un gráfico de barras que cuenta cuántos píxeles hay en cada valor de intensidad. Sirve para analizar los datos numéricamente, ya que el ojo humano no puede ver las diferencias en imágenes de 16 bits.</li>
+            <li><strong>NIfTI:</strong> Es un formato de archivo (termina en .nii o .nii.gz) que empaqueta TODAS las tajadas (cortes) de una resonancia o tomografía en un solo archivo tridimensional. DICOM guarda un archivo por cada corte; NIfTI guarda todo el cerebro en un solo archivo.</li>
+        </ul>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 7: El Algoritmo de Canny</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.8; color: #2c3e50; max-width: 950px; margin: 0 auto; padding: 20px; background-color: #ecf0f1; }
+        h1, h2, h3 { color: #16a085; }
+        h1 { border-bottom: 4px solid #16a085; padding-bottom: 10px; text-align: center; }
+        .card { background: white; border-radius: 10px; padding: 25px; margin-bottom: 25px; box-shadow: 0 6px 12px rgba(0,0,0,0.1); }
+        .highlight { background-color: #e8f8f5; padding: 15px; border-left: 5px solid #16a085; margin: 20px 0; border-radius: 0 8px 8px 0; }
+        .warning { background-color: #fdedec; padding: 15px; border-left: 5px solid #e74c3c; margin: 20px 0; border-radius: 0 8px 8px 0; }
+        code { background: #f4f4f4; padding: 3px 6px; border-radius: 4px; font-family: 'Courier New', monospace; color: #c0392b; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #bdc3c7; padding: 12px; text-align: left; }
+        th { background-color: #16a085; color: white; }
+        .math { font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 1.1em; }
+    </style>
+</head>
+<body>
+
+    <h1>Guía de Estudio: El Algoritmo de Canny</h1>
+
+    <div class="card">
+        <h2>1. El Flujo de Trabajo (Pipeline) obligatorio</h2>
+        <p>El profesor hizo mucho énfasis en el orden secuencial. No puedes detectar bordes en una imagen ruidosa sin antes suavizarla. El flujo correcto es:</p>
+        <ol>
+            <li><strong>Abrir la imagen</strong> y seleccionar el espacio de color adecuado (ej. escala de grises, canal H, etc.).</li>
+            <li><strong>Reducción de ruido (Filtro Pasa-Bajos):</strong> Aplicar un filtro Gaussiano o de Mediana. Si no haces esto, Canny detectará el ruido como si fueran bordes.</li>
+            <li><strong>Detección de bordes (Filtro Pasa-Altos):</strong> Aplicar Sobel X, Sobel Y, y calcular la Magnitud y Dirección del Gradiente.</li>
+            <li><strong>Algoritmo de Canny:</strong> Que consta de dos pasos finales de refinamiento (Supresión de no máximos e Hysteresis).</li>
+        </ol>
+    </div>
+
+    <div class="card">
+        <h2>2. Paso 1 de Canny: Supresión de No Máximos (NMS)</h2>
+        <p>Cuando aplicas Sobel, los bordes quedan "gruesos" (como si hubieras dibujado con un marcador de supermercado). El objetivo de este paso es dejar el borde delgado, de un solo píxel de ancho (como si usaras un micropunta).</p>
+        
+        <h3>¿Cómo funciona?</h3>
+        <p>Se recorre la matriz de magnitud del gradiente píxel por píxel. Para saber qué vecinos mirar, se usa la matriz de <strong>Dirección del Gradiente</strong> (el ángulo).</p>
+        <ul>
+            <li>Si el ángulo es <strong>0° o 180°</strong> (horizontal), se compara el píxel con sus vecinos de <strong>izquierda y derecha</strong>.</li>
+            <li>Si el ángulo es <strong>90° o 270°</strong> (vertical), se compara con los vecinos de <strong>arriba y abajo</strong>.</li>
+            <li>Si el ángulo es <strong>45° o 225°</strong> (diagonal), se compara con los vecinos de <strong>arriba-derecha y abajo-izquierda</strong>.</li>
+            <li>Si el ángulo es <strong>135° o 315°</strong> (diagonal opuesta), se compara con los vecinos de <strong>arriba-izquierda y abajo-derecha</strong>.</li>
+        </ul>
+        <p><strong>La regla:</strong> Si el píxel central es MÁS GRANDE que sus dos vecinos en esa dirección, se conserva (es un borde fuerte). Si alguno de los vecinos es más grande, el píxel central se elimina (se vuelve 0).</p>
+        <div class="highlight">
+            <p><strong>Nota del profesor:</strong> Los ángulos calculados con el arcotangente son continuos (de 0 a 360). Para que el código funcione, hay que "discretizarlos" o normalizarlos, forzándolos a ser solo 0, 45, 90 o 135 grados.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>3. Paso 2 de Canny: Hysteresis (Doble Umbral)</h2>
+        <p>Después de NMS, quedan algunos bordes definidos, pero también quedan "pelusitas" o puntos sueltos (ruido). Aquí es donde entra la Hysteresis, que se define con dos umbrales: uno Alto y uno Bajo.</p>
+        
+        <div class="warning">
+            <h3>La analogía del Ventilador (Explicación del profe)</h3>
+            <p>Imagina un ventilador con un termostato. Si lo enciendes a 25°C y lo apagas a 25°C, el ventilador estará prendiendo y apagando todo el tiempo (lo que puede dañarlo). Para evitarlo, se usan dos temperaturas: se enciende a 25°C y se apaga a 20°C. Si la temperatura está entre 20 y 25, el ventilador mantiene su estado anterior.</p>
+        </div>
+
+        <p><strong>¿Cómo se aplica a los píxeles?</strong></p>
+        <ul>
+            <li>Si la Magnitud del Gradiente de un píxel es <strong>mayor que el Umbral Alto</strong>: Es un <strong>Borde Fuerte</strong>. Se marca como blanco (255).</li>
+            <li>Si la Magnitud es <strong>menor que el Umbral Bajo</strong>: Es ruido. Se marca como negro (0).</li>
+            <li>Si la Magnitud está <strong>entre el Umbral Bajo y el Alto</strong>: Es un <strong>Borde Débil</strong>. Aquí aplica la Hysteresis: se revisan los 8 vecinos del píxel.
+                <ul>
+                    <li>Si al menos UN vecino es un Borde Fuerte (255), entonces este píxel también se convierte en Borde Fuerte (255) para conectar la línea.</li>
+                    <li>Si ningún vecino es Borde Fuerte, el píxel se descarta (0).</li>
+                </ul>
+            </li>
+        </ul>
+        <p>El resultado final de este paso es una imagen binaria (solo tiene 0 y 255), con líneas de 1 píxel de ancho totalmente conectadas.</p>
+    </div>
+
+    <div class="card">
+        <h2>4. La importancia del paralelismo</h2>
+        <p>El profesor mencionó que, como cada píxel se calcula de forma independiente (en NMS e Hysteresis), esta operación es fácilmente paralelizable. Se puede dividir la imagen en 8 partes y enviar cada parte a un núcleo del procesador (multithreading), acelerando enormemente el proceso.</p>
+    </div>
+
+</body>
+</html>

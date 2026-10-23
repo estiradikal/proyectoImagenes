@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 5: Convolución, Filtros y Espacios de Color</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.8; color: #2c3e50; max-width: 950px; margin: 0 auto; padding: 20px; background-color: #ecf0f1; }
+        h1, h2, h3 { color: #8e44ad; }
+        h1 { border-bottom: 4px solid #8e44ad; padding-bottom: 10px; text-align: center; }
+        .card { background: white; border-radius: 10px; padding: 25px; margin-bottom: 25px; box-shadow: 0 6px 12px rgba(0,0,0,0.1); }
+        .highlight { background-color: #f4ecf7; padding: 15px; border-left: 5px solid #8e44ad; margin: 20px 0; border-radius: 0 8px 8px 0; }
+        .warning { background-color: #fdedec; padding: 15px; border-left: 5px solid #e74c3c; margin: 20px 0; border-radius: 0 8px 8px 0; }
+        code { background: #f4f4f4; padding: 3px 6px; border-radius: 4px; font-family: 'Courier New', monospace; color: #c0392b; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #bdc3c7; padding: 12px; text-align: left; }
+        th { background-color: #8e44ad; color: white; }
+        .math { font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 1.1em; }
+    </style>
+</head>
+<body>
+
+    <h1>Guía de Estudio: Convolución y Filtros</h1>
+
+    <div class="card">
+        <h2>1. La Operación de Convolución</h2>
+        <p>El profesor explicó que la convolución es la base de casi todo el procesamiento de imágenes. Consiste en hacer "navegar" un <strong>Kernel</strong> (una matriz pequeña, usualmente de 3x3, 5x5, etc.) sobre toda la imagen.</p>
+        <ul>
+            <li><strong>Kernel, Filtro o Máscara:</strong> Son sinónimos en este contexto. Es la matriz pequeña con los valores que vamos a aplicar.</li>
+            <li><strong>Padding (Bordes):</strong> Como el kernel necesita píxeles "vecinos" para operar, cuando está en el borde de la imagen no tiene suficientes. Para evitar que la imagen resultante se haga más pequeña, se añade un borde (copia de los píxeles) a la imagen original.</li>
+            <li><strong>El giro de 180 grados:</strong> Matemáticamente, la convolución implica voltear el kernel 180 grados. Sin embargo, para filtros de suavizado (simétricos), esto no altera el resultado. Para detección de bordes, el orden sí importa.</li>
+        </ul>
+        <div class="highlight">
+            <p><strong>La analogía del vecindario:</strong> El profesor dijo: "Imagínate que te dicen que, basándote en el sueldo de tus 2 vecinos de la izquierda y 2 de la derecha, adivines tu sueldo". Eso es la convolución: el valor del píxel central se reemplaza usando la información de sus vecinos, ponderada por los valores del kernel.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>2. Filtro Promedio (Suavizado)</h2>
+        <p>Es el filtro más básico. Su kernel está lleno de fracciones iguales, por ejemplo, para un kernel de 3x3, todos los valores son <code>1/9</code>. Al hacer la convolución, el píxel central se convierte en el promedio de sus 9 vecinos.</p>
+        <ul>
+            <li><strong>Efecto en la imagen:</strong> Elimina el ruido (los valores atípicos o "extremos" se acercan a la media). La imagen se ve más homogénea.</li>
+            <li><strong>Efecto en los bordes:</strong> Al igualar los valores, los bordes de los objetos pierden nitidez (se vuelven borrosos).</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>3. Filtro Gaussiano (El más usado para ruido Gaussiano)</h2>
+        <p>El profesor hizo énfasis en la fórmula matemática. En lugar de darle el mismo peso a todos los vecinos, el filtro gaussiano le da <strong>más peso al píxel central</strong> y menos a los que están más lejos, formando una "campana" en 3D.</p>
+        
+        <p>La función es: <span class="math">G(x,y) = (1 / (2 * π * σ²)) * e^(-(x² + y²) / (2 * σ²))</span></p>
+        
+        <div class="warning">
+            <h3>¡El error más común que corrigió el profesor!: La Normalización</h3>
+            <p>Si calculas los valores del kernel con la fórmula y los sumas (con σ=1), el resultado da <strong>0.77</strong> (77%). Si aplicas ese kernel, la imagen perderá brillo (se volverá más oscura).</p>
+            <p><strong>Regla de Oro:</strong> La suma de todos los valores del kernel <strong>DEBE SER IGUAL A 1</strong>. Para lograrlo, divides cada valor entre la suma total.</p>
+        </div>
+
+        <h3>El valor de Sigma (σ)</h3>
+        <table>
+            <tr>
+                <th>Valor de Sigma</th>
+                <th>Peso del Píxel Central</th>
+                <th>Efecto en la Imagen</th>
+            </tr>
+            <tr>
+                <td><strong>σ = 0.5</strong></td>
+                <td>61%</td>
+                <td>Filtro muy débil. Parece casi la imagen original. Poco suavizado.</td>
+            </tr>
+            <tr>
+                <td><strong>σ = 1.0</strong></td>
+                <td>20.4%</td>
+                <td>Filtro equilibrado. Suaviza el ruido sin destruir la imagen.</td>
+            </tr>
+            <tr>
+                <td><strong>σ = 2.0</strong></td>
+                <td>13%</td>
+                <td>Filtro muy agresivo. Se acerca al filtro promedio. Destruye detalles. (Ideal para censurar caras en TV).</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <h2>4. Filtros de Frecuencia (Paso Bajo vs Paso Alto)</h2>
+        <p>El profesor usó la analogía de despertarse a las 4 AM a ir al baño y chocarse con la cama: el dolor agudo es un "cambio abrupto".</p>
+        <ul>
+            <li><strong>Altas Frecuencias:</strong> Son los cambios abruptos de intensidad. Representan los <strong>bordes de los objetos</strong> y el <strong>ruido</strong>.</li>
+            <li><strong>Bajas Frecuencias:</strong> Son las zonas planas, de un solo color (como el fondo de la imagen).</li>
+            <li><strong>Filtros Pasa-Bajos:</strong> Dejan pasar las bajas frecuencias (suavizan la imagen, eliminan ruido y bordes). Ejemplo: Filtro Promedio y Gaussiano.</li>
+            <li><strong>Filtros Pasa-Altos:</strong> Dejan pasar las altas frecuencias (resaltan bordes, eliminan el fondo). Ejemplo: Filtro Sobel o Laplaciano.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>5. Espacios de Color</h2>
+        <p>El ojo humano no ve los colores por igual. Hay dos conversiones vitales que mencionó el profesor:</p>
+        
+        <h3>A. Conversión a Escala de Grises</h3>
+        <p><strong>Error común:</strong> Sumar R+G+B y dividir entre 3. <strong>Correcto:</strong> Usar la fórmula de luminancia humana (Luma):</p>
+        <p><span class="math">Y = 0.299*R + 0.587*G + 0.114*B</span></p>
+        <p>El profesor explicó que se le da más peso al Verde (58.7%) porque nuestros ojos son más sensibles a ese color que al Rojo o Azul.</p>
+
+        <h3>B. Espacio YUV (o YCbCr)</h3>
+        <p>Se separa la imagen en un canal de Luminancia (Y - el brillo) y dos de Crominancia (U y V - el color).</p>
+        <p><strong>¿Para qué sirve?</strong> Para compresión. Como el ojo humano no distingue bien los detalles finos en el color, puedes comprimir mucho los canales U y V (bajarles resolución) para que el video pese menos (como en el estándar JPEG o MPEG), sin que el espectador note la diferencia.</p>
+
+        <h3>C. Espacio HSV (Hue, Saturation, Value)</h3>
+        <p>Se representa como un cono. Es ideal para segmentar objetos por color.</p>
+        <ul>
+            <li><strong>Hue (Matiz):</strong> El color puro (ángulo de 0 a 360 grados).</li>
+            <li><strong>Saturation:</strong> Qué tan puro es el color (0 es blanco/gris, 1 es color puro).</li>
+            <li><strong>Value:</strong> El brillo (0 es negro).</li>
+        </ul>
+    </div>
+
+</body>
+</html>

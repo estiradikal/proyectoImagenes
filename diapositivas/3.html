@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceptos: NIfTI, Ruido y Ecualización</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; }
+        h1, h2, h3 { color: #2c3e50; }
+        h1 { border-bottom: 3px solid #8e44ad; padding-bottom: 10px; text-align: center; }
+        .card { background: white; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .highlight { background-color: #f4ecf7; padding: 15px; border-left: 4px solid #8e44ad; margin: 15px 0; }
+        code { background: #eee; padding: 2px 6px; border-radius: 4px; font-family: monospace; }
+        table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+
+    <h1>Resumen de Clase 3: Análisis de Datos, Ruido y Ecualización</h1>
+
+    <div class="card">
+        <h2>1. Entendiendo el Encabezado NIfTI</h2>
+        <p>El profesor mostró el encabezado del archivo <code>.nii.gz</code> que creamos en la clase pasada. A diferencia de DICOM, aquí hay menos texto y más números técnicos:</p>
+        <ul>
+            <li><strong>pixdim:</strong> Son las dimensiones físicas de un "voxel" en milímetros. Por ejemplo, si dice <code>[0.89, 0.89, 1.0]</code>, significa que el voxel es casi un cubo, pero es un poco más alto (1 mm en el eje Z) que ancho.</li>
+            <li><strong>dim:</strong> Indica cuántos píxeles hay en X, Y y cuántos cortes (slices) hay en Z.</li>
+            <li><strong>scl_slope y scl_inter:</strong> Son factores matemáticos que se aplican a los píxeles para obtener el valor real de intensidad.</li>
+            <li><strong>qoffset / srow:</strong> Indican la posición exacta del paciente en el espacio tridimensional (el origen de coordenadas).</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>2. Registro y Atlas Cerebrales</h2>
+        <p>El proceso de <strong>registro</strong> consiste en alinear (mover a la izquierda, derecha, etc.) las imágenes de varios pacientes para "comprimirlas" en una sola imagen promedio.</p>
+        <div class="highlight">
+            <p>Esto se llama <strong>Atlas</strong>. Existen atlas mundiales (como el de Montreal). El profesor mencionó que están creando un "Atlas del Valle del Cauca" porque los cerebros colombianos tienen diferencias morfológicas (ej. el ventrículo lateral es más pequeño que el de los chinos), por lo que compararlos con europeos o asiáticos es metodológicamente incorrecto.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>3. Unidades Hounsfield (Tomografía - CT)</h2>
+        <p>Las tomografías miden la atenuación de los Rayos X. Esto se estandarizó en la "Escala Hounsfield":</p>
+        <ul>
+            <li><strong>Aire:</strong> -1000 HU</li>
+            <li><strong>Grasa:</strong> -100 a -50 HU</li>
+            <li><strong>Agua:</strong> 0 HU</li>
+            <li><strong>Tejido blando (músculo/sangre):</strong> +30 a +100 HU</li>
+            <li><strong>Hueso:</strong> +1000 HU o más</li>
+        </ul>
+        <p><strong>Ventanas:</strong> Como los monitores son de 8 bits (256 grises), se usan "ventanas" (Window Center / Window Width) para decirle al computador qué rango de unidades Hounsfield estirar en la pantalla. Por ejemplo, una "ventana de hueso" se configura para resaltar valores entre 300 y 1500 HU.</p>
+    </div>
+
+    <div class="card">
+        <h2>4. Tipos de Ruido (Distribuciones Probabilísticas)</h2>
+        <p>El ruido son esas "hormiguitas" o puntos aleatorios en la imagen. Dependiendo del dispositivo, el ruido sigue una distribución estadística distinta:</p>
+        <table>
+            <tr>
+                <th>Tipo de Imagen</th>
+                <th>Distribución del Ruido</th>
+                <th>¿Por qué?</th>
+            </tr>
+            <tr>
+                <td>Cámaras planas (Celulares)</td>
+                <td><strong>Gaussiana</strong></td>
+                <td>El sensor captura luz y electrones con variaciones normales (campana de Gauss).</td>
+            </tr>
+            <tr>
+                <td>Resonancia Magnética (MRI)</td>
+                <td><strong>Rayleigh</strong></td>
+                <td>La señal de radiofrecuencia tiene un componente real y uno imaginario (números complejos). Al calcular la magnitud de ambos, el ruido se vuelve Rayleigh.</td>
+            </tr>
+            <tr>
+                <td>Tomografía Computarizada (CT)</td>
+                <td><strong>Poisson</strong></td>
+                <td>Se basa en el conteo de fotones de rayos X que impactan el detector. El conteo de eventos discretos sigue una distribución de Poisson.</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <h2>5. Ecualización del Histograma</h2>
+        <p>Es una técnica para mejorar el contraste de una imagen modificando sus valores de intensidad. Si una imagen está muy oscura (histograma amontonado a la izquierda), la ecualización "estira" esos valores hacia la derecha, haciendo que las sombras desaparezcan y el ruido se suavice.</p>
+    </div>
+
+</body>
+</html>

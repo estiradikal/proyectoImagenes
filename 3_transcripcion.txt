@@ -1,0 +1,1434 @@
+[0.00s -> 8.00s]  Vamos a ver el histograma usando la librería Seaborn que tiene como muchas utilidades de
+[8.00s -> 10.00s]  estadística.
+[10.00s -> 14.00s]  Ahorita nos cuenta un poquito esa librería.
+[14.00s -> 22.00s]  Y la saqué con 10 clases el histograma para esas dos imágenes.
+[22.00s -> 28.00s]  Esta imagen es de las que se dio en la clase pasada.
+[28.00s -> 33.00s]  Ajá, sí.
+[33.00s -> 44.00s]  Y para esta otra.
+[44.00s -> 48.00s]  Y aquí trate de hacer la conversión con la herramienta que usted dio.
+[48.00s -> 51.00s]  Estas son como todas las opciones que tiene.
+[51.00s -> 56.00s]  Y aquí hice la conversión y me creó el archivo, me creó el archivo Snifty.
+[56.00s -> 69.00s]  Y con la librería Aníbal trate de importarlo y mostrarnos uno de los cortes.
+[69.00s -> 74.00s]  Bueno, ustedes cuenten un poquito más de la librería.
+[74.00s -> 79.00s]  ¿Qué me dice?
+[79.00s -> 82.00s]  ¿Exploró los encabezados?
+[82.00s -> 89.00s]  No, los encabezados y no los revisen.
+[89.00s -> 95.00s]  La librería Seaborn es una que he utilizado anteriormente y tiene como muchas funcionalidades para
+[95.00s -> 99.00s]  graficar gráficos estadísticos.
+[99.00s -> 104.00s]  Se tiene histogramas y gráficos de barras, otro tipo de gráficos como para mostrar la
+[104.00s -> 107.00s]  distribución de los datos.
+[107.00s -> 114.00s]  Y Aníbal es como la librería más usada para manejar este tipo de archivos.
+[114.00s -> 122.00s]  Entonces se puede importar directamente el archivo.ni.gz y se puede como obtener los
+[122.00s -> 131.00s]  pizeles del archivo y mostrarlos directamente en código.
+[132.00s -> 140.00s]  ¿Alguien más hizo algo parecido a esto?
+[140.00s -> 143.00s]  ¿Quién más?
+[143.00s -> 146.00s]  Solo Aníbal.
+[146.00s -> 154.00s]  Dios mío, esta clase vea que hay 29 personas más y nadie más para hayan curado.
+[154.00s -> 158.00s]  Bueno, Aníbal, ¿Algo más para contar?
+[158.00s -> 163.00s]  No, creo que por ahora eso es todo. Gracias.
+[163.00s -> 168.00s]  Y Brian, comparta pantalla y muestra qué es lo que hizo.
+[188.00s -> 198.00s]  Hola, profe.
+[198.00s -> 201.00s]  Sí, yo le oigo.
+[201.00s -> 203.00s]  Listo.
+[203.00s -> 205.00s]  Ahí se ve la pantalla, ¿cierto?
+[205.00s -> 207.00s]  Sí.
+[207.00s -> 211.00s]  Listo, pues aquí es una de las conversiones, igual que la compañera utilice la librería
+[211.00s -> 222.00s]  Nibabel, que me permitió sacar los tres cortes de las imágenes.
+[222.00s -> 232.00s]  También pude sacar el encabezado.
+[232.00s -> 242.00s]  Entonces, pues por el encabezado, tenemos que medir esa matriz abarcando esa cantidad de cortes individuales.
+[242.00s -> 253.00s]  Por esos pizeles, los datos de tipo flotantes en 64 bits, las dimensiones de las imágenes
+[253.00s -> 257.00s]  y los valores diagonales.
+[257.00s -> 265.00s]  Supongo que estos negativos son porque se refleja la orientación del escáner para mapear de izquierda
+[265.00s -> 269.00s]  a derecha en las imágenes del paciente.
+[269.00s -> 273.00s]  ¿Qué es eso de mapear a derecha?
+[273.00s -> 277.00s]  De mapear, pues me refiero, es cuando se realiza la toma.
+[277.00s -> 281.00s]  Sí, explicame un poco más detallado.
+[281.00s -> 285.00s]  Acuérdela a los demás más detallados.
+[285.00s -> 292.00s]  Hay cuentas que usted está dando las clases.
+[292.00s -> 298.00s]  O sea, aplicar el escalamiento milimétrico a los índices numéricos de la matriz,
+[298.00s -> 305.00s]  ese sino negativo, pues refleja como tal la orientación del escáner.
+[305.00s -> 312.00s]  O sea, ¿dónde está, o sea, hay que decirle al escáner dónde está flotando el cerebro del paciente?
+[312.00s -> 315.00s]  O sea, ¿dónde está la cabeza del paciente?
+[315.00s -> 323.00s]  Porque recuerden que, recuerden con cuando les mostré el resonador.
+[323.00s -> 331.00s]  O sea, como son objetos tridimensionales,
+[331.00s -> 336.00s]  yo le tengo que decir al escáner,
+[336.00s -> 343.00s]  yo le tengo que decir ¿dónde empezar a escanear?
+[343.00s -> 350.00s]  Sí, mejor dicho, yo le tengo que decir
+[350.00s -> 356.00s]  cómo interpretar la realidad
+[356.00s -> 362.00s]  y cómo se mapea esa realidad en el plano cartesiano.
+[362.00s -> 368.00s]  Bueno, el plano cartesiano aquí sería, pues, una predimensional.
+[368.00s -> 372.00s]  Entonces, me toca decirle cuál es el 00,
+[372.00s -> 379.00s]  o sea, cuál es el origen de las coordenadas de ese plano tridimensional.
+[379.00s -> 384.00s]  En el mundo real, en el resonador,
+[384.00s -> 387.00s]  ¿cuántos centímetros o sí?
+[387.00s -> 389.00s]  ¿A cuántos centímetros?
+[389.00s -> 393.00s]  Está el origen de las coordenadas de la imagen resultante.
+[393.00s -> 396.00s]  No se signo a comprender.
+[396.00s -> 399.00s]  Eso para qué me sirve.
+[399.00s -> 403.00s]  Por ejemplo, si yo quiero agrupar imágenes,
+[403.00s -> 407.00s]  varias imágenes de varios pacientes en una sola.
+[407.00s -> 412.00s]  No todas las cabezas de los pacientes son iguales, ¿cierto?
+[412.00s -> 415.00s]  Hay una de cabezas más chiquita,
+[415.00s -> 417.00s]  otro de cabezas más grande,
+[417.00s -> 419.00s]  hay otros pectones,
+[419.00s -> 422.00s]  hay otros pectones.
+[422.00s -> 425.00s]  O sea, disculpenme si, o sea,
+[425.00s -> 428.00s]  no lo estoy diciendo aquí de forma expectiva,
+[428.00s -> 433.00s]  lo estoy diciendo aquí de forma descriptiva, ¿cierto?
+[433.00s -> 442.00s]  El ser humano es muy distinto uno del otro.
+[442.00s -> 452.00s]  ¿Para qué queremos nosotros juntar imágenes de varios pacientes en la sola?
+[452.00s -> 456.00s]  Ese proceso se llama registro.
+[456.00s -> 460.00s]  Registro.
+[460.00s -> 465.00s]  Por ejemplo, estamos preparando una pelucación con eso.
+[465.00s -> 470.00s]  Popimos varios pacientes sanos,
+[470.00s -> 473.00s]  o sea que sabemos que no tienen enfermedades vitales,
+[473.00s -> 475.00s]  que son sanos,
+[475.00s -> 477.00s]  e hicimos un registro,
+[477.00s -> 478.00s]  es decir,
+[478.00s -> 483.00s]  colocamos todas sus imágenes de resonación eléctrica en una sola.
+[483.00s -> 485.00s]  Eso para que sea así,
+[485.00s -> 489.00s]  para obtener una sola imagen de resonación eléctrica
+[489.00s -> 491.00s]  en la que podamos decir,
+[491.00s -> 500.00s]  esto es el cráneo del Valle del Cauca.
+[500.00s -> 505.00s]  Y lo podemos comparar con el registro que han hecho,
+[505.00s -> 509.00s]  por ejemplo, uno de los más utilizados es el demontreal,
+[509.00s -> 512.00s]  es de los más utilizados en el mundo.
+[512.00s -> 513.00s]  Hay otros registros,
+[513.00s -> 515.00s]  hay uno de la India,
+[515.00s -> 518.00s]  como ciento y pico de pacientes de la India,
+[518.00s -> 521.00s]  es decir, es una sola imagen de resonación eléctrica,
+[521.00s -> 524.00s]  que ha sido el producto de haber conjuntado,
+[524.00s -> 526.00s]  como aplastado en una sola imagen,
+[526.00s -> 531.00s]  ciento y cincuenta pacientes.
+[531.00s -> 532.00s]  Alguien puede decir,
+[532.00s -> 535.00s]  ¿y para qué sirve eso del registro?
+[535.00s -> 537.00s]  Para comparar, por ejemplo,
+[537.00s -> 540.00s]  yo comparo el registro del Valle del Cauca
+[540.00s -> 542.00s]  versus el registro,
+[542.00s -> 544.00s]  nos también se llama Atlas,
+[544.00s -> 548.00s]  versus el registro del montreal.
+[548.00s -> 549.00s]  Entonces, ¿qué pasa?
+[549.00s -> 551.00s]  Comparo esas dos imágenes,
+[551.00s -> 553.00s]  recuerden, es un solo archivo resultante,
+[553.00s -> 555.00s]  un solo archivo del Valle del Cauca,
+[555.00s -> 558.00s]  un solo archivo del montreal.
+[558.00s -> 559.00s]  Entonces comparo.
+[559.00s -> 561.00s]  Ah, bueno, resulta que nosotros
+[561.00s -> 566.00s]  tenemos la cabeza un poquito más pequeña
+[566.00s -> 569.00s]  que los europeos.
+[569.00s -> 571.00s]  Eso no se traduce en que yo sea más capaz
+[571.00s -> 573.00s]  que nosotros.
+[573.00s -> 575.00s]  Si hay unas zonas del cerebro,
+[575.00s -> 579.00s]  y eso estamos discutiendo con el neurocirucrano,
+[579.00s -> 581.00s]  el dinvernaco,
+[581.00s -> 584.00s]  si hay unas zonas que nosotros tenemos
+[584.00s -> 586.00s]  una de las estructuras cerebrales
+[586.00s -> 588.00s]  que nosotros tenemos más grandes
+[588.00s -> 590.00s]  que las de los europeos.
+[590.00s -> 592.00s]  Es el decía, como oposamente,
+[592.00s -> 595.00s]  que justamente esas regiones
+[595.00s -> 599.00s]  están más relacionadas con el sentido del humor,
+[599.00s -> 601.00s]  con la capacidad,
+[601.00s -> 603.00s]  ¿cómo se llama?
+[603.00s -> 605.00s]  Con la capacidad de imaginación,
+[605.00s -> 607.00s]  con la capacidad de,
+[607.00s -> 609.00s]  ¿cómo se llama?
+[609.00s -> 612.00s]  Esto de literatura.
+[612.00s -> 614.00s]  Y gente ahí deseamos nosotros,
+[614.00s -> 615.00s]  ah bueno,
+[615.00s -> 617.00s]  entonces tal vez por eso es que nosotros
+[617.00s -> 618.00s]  bailamos más,
+[618.00s -> 619.00s]  por eso es que nosotros
+[619.00s -> 621.00s]  no se nos imaginamos.
+[621.00s -> 623.00s]  Somos más románticos,
+[623.00s -> 624.00s]  hacemos más novelas,
+[624.00s -> 625.00s]  en San Neurocán,
+[625.00s -> 626.00s]  las novelas no se ven,
+[626.00s -> 627.00s]  por eso es que nosotros
+[627.00s -> 629.00s]  somos un poquito más...
+[631.00s -> 632.00s]  O sea,
+[632.00s -> 634.00s]  nos inventamos películas para todo
+[634.00s -> 636.00s]  y toda la cuestión,
+[636.00s -> 638.00s]  somos más alegres.
+[641.00s -> 642.00s]  Entonces,
+[642.00s -> 643.00s]  eso también permite,
+[643.00s -> 644.00s]  por ejemplo,
+[644.00s -> 647.00s]  comparar si un paciente está enfermo o no.
+[647.00s -> 650.00s]  Nos sabemos que este aclar resultante,
+[650.00s -> 653.00s]  este archivo resultante corresponde a,
+[653.00s -> 655.00s]  no sé, 120 pacientes sanos
+[655.00s -> 657.00s]  que fueron todos comprimidos
+[657.00s -> 659.00s]  en una sola imagen.
+[659.00s -> 660.00s]  Entonces,
+[662.00s -> 663.00s]  entonces yo puedo comparar
+[663.00s -> 664.00s]  un paciente enfermo
+[664.00s -> 667.00s]  versus el atlas,
+[667.00s -> 668.00s]  que es la representación
+[668.00s -> 670.00s]  de 101 pacientes.
+[672.00s -> 673.00s]  Puedes decir, ah,
+[673.00s -> 674.00s]  tiene estas subtronas pequeñas,
+[674.00s -> 675.00s]  ah bueno,
+[675.00s -> 678.00s]  es esa persona versus 120,
+[678.00s -> 680.00s]  entonces lo que es,
+[680.00s -> 682.00s]  es lo que es el nuevo paciente,
+[682.00s -> 683.00s]  tenga más grande,
+[683.00s -> 684.00s]  tenga más pequeño,
+[684.00s -> 685.00s]  puede ser el vete biomarcador
+[685.00s -> 687.00s]  ante alguna enfermedad que tenga.
+[689.00s -> 690.00s]  Entonces,
+[690.00s -> 692.00s]  para el proceso de
+[692.00s -> 694.00s]  juntar esas imágenes,
+[695.00s -> 696.00s]  no todos los pacientes
+[696.00s -> 698.00s]  fueron capturados de la misma forma
+[698.00s -> 700.00s]  ni fueron capturados el mismo día,
+[700.00s -> 701.00s]  ¿cierto?
+[701.00s -> 702.00s]  Igualmente,
+[702.00s -> 705.00s]  así hubieran sido capturados el mismo día,
+[705.00s -> 706.00s]  la resonancia magnética
+[706.00s -> 708.00s]  o la tomografía,
+[708.00s -> 711.00s]  así hubieran sido hechas el mismo día.
+[711.00s -> 712.00s]  No es lo mismo,
+[712.00s -> 713.00s]  el radiólogo,
+[713.00s -> 715.00s]  que es el que se encarga de eso,
+[717.00s -> 718.00s]  puede ser que en la mañana
+[718.00s -> 719.00s]  tenía muchas ganas de trabajar,
+[719.00s -> 720.00s]  pero ya en la tarde
+[720.00s -> 722.00s]  ya estaba mamada de trabajar y entonces,
+[725.00s -> 727.00s]  si hay un protocolo, ¿no?
+[727.00s -> 729.00s]  Hágase en esta posición,
+[729.00s -> 730.00s]  no se mueva
+[730.00s -> 732.00s]  y lo meten al resonador,
+[732.00s -> 734.00s]  pero no necesariamente
+[735.00s -> 736.00s]  hacer así
+[736.00s -> 738.00s]  con todos los otros pacientes.
+[738.00s -> 739.00s]  ¿Sí?
+[741.00s -> 744.00s]  Entonces van a haber ciertas diferencias
+[745.00s -> 747.00s]  en la adquisición de las imágenes,
+[747.00s -> 749.00s]  a pesar de que
+[749.00s -> 751.00s]  la persona de buena fe,
+[752.00s -> 754.00s]  el paciente de buena fe,
+[754.00s -> 756.00s]  todos los pacientes de buena fe
+[756.00s -> 758.00s]  se portaron bien,
+[758.00s -> 759.00s]  no se movieron,
+[759.00s -> 761.00s]  porque se dicen que
+[761.00s -> 762.00s]  aquí por favor no se muevan,
+[762.00s -> 764.00s]  en lo posible no se muevan.
+[765.00s -> 766.00s]  Sí, o sea,
+[766.00s -> 767.00s]  hicieron las cosas bien.
+[769.00s -> 771.00s]  Y también hay otros factores
+[771.00s -> 773.00s]  aleatorios inerentes al equipo
+[773.00s -> 774.00s]  de captura,
+[774.00s -> 776.00s]  el ruido y todas estas cosas.
+[776.00s -> 777.00s]  Entonces,
+[777.00s -> 779.00s]  por eso es que nos toca
+[779.00s -> 781.00s]  incluir en el archivo en el encabezado
+[781.00s -> 783.00s]  algo que nos diga
+[783.00s -> 785.00s]  para este paciente,
+[785.00s -> 787.00s]  el origen de las coordenadas fue este.
+[787.00s -> 789.00s]  Para este otro paciente,
+[789.00s -> 790.00s]  en el otro archivo,
+[790.00s -> 792.00s]  el origen de las coordenadas fue este.
+[792.00s -> 793.00s]  Y así sucesivamente,
+[793.00s -> 794.00s]  entonces,
+[794.00s -> 795.00s]  cuando yo voy a comprimir
+[795.00s -> 797.00s]  todas estas imágenes en una sola,
+[798.00s -> 799.00s]  entonces,
+[799.00s -> 801.00s]  ahí sí me toca usar esa información,
+[803.00s -> 805.00s]  porque yo no puedo juntar por juntar,
+[805.00s -> 806.00s]  mejor dicho,
+[806.00s -> 808.00s]  es como cuando usted va a juntar,
+[811.00s -> 812.00s]  como le dijeran,
+[812.00s -> 814.00s]  como cuando usted va a juntar,
+[818.00s -> 820.00s]  varios dibujitos hechos
+[820.00s -> 822.00s]  en el mismo modo,
+[822.00s -> 824.00s]  o sea, son el mismo dibujo,
+[824.00s -> 826.00s]  pero puede ser que alguien lo dibujó
+[826.00s -> 828.00s]  un poquitico más arriba a la izquierda,
+[828.00s -> 830.00s]  otra persona lo dibujó
+[830.00s -> 832.00s]  un poquitico más arriba a la derecha,
+[832.00s -> 834.00s]  otra persona lo dibujó
+[834.00s -> 836.00s]  más hacia el centro, el mismo dibujo.
+[836.00s -> 838.00s]  Entonces,
+[838.00s -> 839.00s]  le toca, pues,
+[839.00s -> 841.00s]  mover un poquito la hoja,
+[843.00s -> 845.00s]  el que dibujó primero,
+[845.00s -> 847.00s]  mover la hoja del que dibujó segundo
+[847.00s -> 849.00s]  para que todos queden alineados.
+[849.00s -> 851.00s]  Ese proceso de alineación,
+[852.00s -> 854.00s]  ahí ese proceso es que se usa
+[854.00s -> 856.00s]  esa información que dice allí.
+[859.00s -> 862.00s]  Eso hay que tenerle mucho, mucho,
+[862.00s -> 864.00s]  mucho cuidado, porque es que
+[864.00s -> 866.00s]  si yo voy a juntar imágenes en una sola,
+[868.00s -> 871.00s]  para crear una clase de pacientes,
+[873.00s -> 875.00s]  y no tengo en cuenta que esta información
+[875.00s -> 878.00s]  puede ser que queden al revés unas imágenes
+[878.00s -> 879.00s]  de otras.
+[884.00s -> 886.00s]  Que nos sigan nos contando
+[886.00s -> 888.00s]  qué más hizo usted.
+[891.00s -> 892.00s]  Para allá.
+[892.00s -> 893.00s]  Y listo.
+[893.00s -> 895.00s]  Prove ya para complementar, pues,
+[895.00s -> 897.00s]  el análisis y generar el gráfico,
+[897.00s -> 898.00s]  histogramas,
+[898.00s -> 900.00s]  de intensidades.
+[900.00s -> 902.00s]  Ya está el histograma y a ver
+[902.00s -> 904.00s]  cuy te apretamos, ¿viste?
+[914.00s -> 916.00s]  Alguien, alguien consultó sobre
+[916.00s -> 918.00s]  la ventana de intensidad.
+[918.00s -> 920.00s]  Decide que consultaron.
+[920.00s -> 921.00s]  No.
+[921.00s -> 922.00s]  No.
+[922.00s -> 923.00s]  No.
+[923.00s -> 924.00s]  No.
+[924.00s -> 925.00s]  No.
+[925.00s -> 926.00s]  No.
+[926.00s -> 927.00s]  No.
+[927.00s -> 928.00s]  No.
+[928.00s -> 929.00s]  No.
+[929.00s -> 930.00s]  No.
+[930.00s -> 931.00s]  No.
+[931.00s -> 932.00s]  No.
+[932.00s -> 933.00s]  No.
+[933.00s -> 934.00s]  No.
+[934.00s -> 935.00s]  No.
+[935.00s -> 936.00s]  No.
+[936.00s -> 937.00s]  No.
+[937.00s -> 938.00s]  No.
+[938.00s -> 939.00s]  No.
+[939.00s -> 940.00s]  No.
+[940.00s -> 941.00s]  No.
+[941.00s -> 942.00s]  No.
+[942.00s -> 943.00s]  No.
+[943.00s -> 944.00s]  No.
+[944.00s -> 945.00s]  No.
+[945.00s -> 946.00s]  No.
+[946.00s -> 947.00s]  No.
+[947.00s -> 948.00s]  No.
+[948.00s -> 949.00s]  No.
+[949.00s -> 950.00s]  No.
+[950.00s -> 951.00s]  No.
+[951.00s -> 952.00s]  No.
+[952.00s -> 953.00s]  No.
+[953.00s -> 954.00s]  No.
+[954.00s -> 955.00s]  사람ando con altri.
+[955.00s -> 956.00s]  No.
+[956.00s -> 957.00s]  No.
+[957.00s -> 958.00s]  No.
+[958.00s -> 959.00s]  No.
+[959.00s -> 960.00s]  No.
+[960.00s -> 961.00s]  No.
+[961.00s -> 962.00s]  No.
+[962.00s -> 963.00s]  No.
+[963.00s -> 964.00s]  No.
+[964.00s -> 965.00s]  No.
+[965.00s -> 966.00s]  No.
+[966.00s -> 967.00s]  ¿Quién hacemos?
+[967.00s -> 968.00s]  Justa.
+[968.00s -> 969.00s]  ¿P concealer?
+[969.00s -> 970.00s]  No.
+[970.00s -> 977.60s]  decir, ya hay para allá qué es tejido, qué no es tejido. Si, les tenemos que el agua es cero,
+[977.60s -> 985.84s]  unidad es homespeed, el aire es menos mil, si, es decir, obviamente es que entre más negativo
+[985.84s -> 996.28s]  sea, significa, significa es menos que menos, menos incidencia de, de los rayos X, menos incidencia,
+[996.28s -> 1004.32s]  menos penetración en el tejido, si, decir, o decirlo de algún modo, por lo que siguen derecho, si,
+[1005.32s -> 1012.92s]  mientras que el hueso, el hueso tiene una magnitud muy alta, es decir, que el rayo, el rayo X
+[1012.92s -> 1020.04s]  sí pegó en ese tejido mucho más de lo que pega, por ejemplo, en un tejido blando, si,
+[1020.04s -> 1025.56s]  entonces por eso es que estas no sirven, estas imágenes no sirven bastante, cuando queremos
+[1025.56s -> 1033.28s]  mirar hueso, por ejemplo, el rayo X para que sirve para mirar hueso, usted se fractura, pero también
+[1033.28s -> 1040.36s]  nos sirve para mirar, por ejemplo, depósito de calcio, si, depósito de calcio en el cerebro está
+[1041.12s -> 1053.16s]  relacionado con el alzheimer, si, y otras otras otras otras otras otras otras otras otras otras
+[1053.16s -> 1059.88s]  sustancias que se llaman beta amiloide está relacionado con la presencia de alzheimer
+[1059.88s -> 1066.76s]  en la persona, se usa mucho estas, muchas estas imágenes, por ejemplo, el beta amiloide no se puede
+[1066.76s -> 1074.00s]  detectar con una imágenes de resonación inédica, es muy difícil, digamos así, es muy difícil,
+[1074.00s -> 1081.36s]  si hay, si puede que haya alguna investigación por allí, todo el cuento, pero siempre, pues,
+[1081.36s -> 1086.76s]  ah, quiero mirar el nivel de beta amiloide para saber si esa persona tiene bien alzheimer, entonces,
+[1086.76s -> 1094.04s]  o si tiene pre alzheimer en etapas tempranas, de una fotografía, si,
+[1096.20s -> 1106.20s]  o estas imágenes PET, bien, entonces, aquí, pues, para, o sea, depende mucho del propósito,
+[1106.20s -> 1112.84s]  es mucho, que se quiera, para ver que se quiera.
+[1128.28s -> 1131.20s]  Ya listo, profesor, sería todo. Listo.
+[1136.20s -> 1144.40s]  Alguien más quiere mostrar lo que hizo?
+[1166.20s -> 1175.80s]  Miren que aquí pasa algo, piense, esto es el, cómo, cómo se hace una vez,
+[1175.80s -> 1180.96s]  es cómo yo empiezo a contar la imágenes de pacientes, fíjese que aquí,
+[1180.96s -> 1190.36s]  piense que en esta imagen, el origen de las, de las organazas es muy distinto al de la
+[1190.36s -> 1198.32s]  imagen que yo estoy creando, lo decía yo, 60 pacientes y esta sombrita corresponde al paciente
+[1198.32s -> 1209.72s]  número 61. Entonces, el paciente hizo lo que tenía que hacer, pero, pues, puede ser que el paciente
+[1209.72s -> 1214.92s]  no estaba, estaba un poquitito más hacia adentro, un poquitito más hacia afuera, o tenía la cabeza
+[1214.92s -> 1222.44s]  un poquitito girada. Entonces, toca, toca ver es dónde fue el origen de las coordenadas de ese
+[1222.44s -> 1231.72s]  paciente número 61 e intentar alinearlo con lo que ya tengo de los pacientes previos. Para qué,
+[1231.72s -> 1242.20s]  para lograr tener justamente esto, este proceso se llama registro. Si, es decir, juntar una imagen de
+[1242.20s -> 1250.00s]  resonancia magnética, este es el ejemplo de resonancia magnética, juntarla en otra, otra
+[1250.00s -> 1257.44s]  imagen, eso se llama registro. Entonces, la pregunta es, cuánto me tengo que mover a la
+[1257.44s -> 1263.16s]  izquierda, cuánto me tengo que mover hacia abajo para que ya quede perfectamente alineada o
+[1263.16s -> 1270.20s]  ha alineado un paciente versus otro, o un paciente versus otros pacientes ya que se han ido
+[1270.20s -> 1276.56s]  afruinando. ¿Cuánto me muevo a la izquierda? ¿Cuánto me muevo hacia abajo? Es información
+[1276.56s -> 1286.08s]  la de eso que está cayendo en las hojas a la izquierda. Sí. Hay otros procesos, por ejemplo,
+[1286.08s -> 1297.36s]  se remueve el cráneo, fíjense, el cráneo se remueve. Es, no me puedo, o sea, solamente quiero
+[1297.36s -> 1304.36s]  eliminar el cráneo, obviamente no puedo eliminar otra cosa que no sea cráneo, que sí, pues estoy
+[1304.36s -> 1310.68s]  perdiendo, no lo dije en esta imagen, son supremamente delicadas porque yo no puedo perder información de
+[1310.68s -> 1319.84s]  nada de la estructura cerebral. Entonces, allí pues para que tengamos en cuenta, para que no sirve
+[1319.84s -> 1329.64s]  específicamente esa información. Angie nos había mostrado ahorita una cosa muy interesante y es
+[1329.64s -> 1337.60s]  como parte de la imagen nifty podemos ya ir navegando por los distintos slices del paciente, ¿no?
+[1340.68s -> 1348.32s]  Entonces, yo cogí una de las imágenes que les compartí a ustedes y entonces aquí la estoy mostrando.
+[1349.84s -> 1363.52s]  Si lo ven. Este es el slice número ochenta de izquierda pues a la derecha, ¿sí? Es, perdón, ¿de qué de
+[1363.52s -> 1369.84s]  arriba hacia abajo? El slice número ochenta, fíjense que aquí están los ojos, ¿sí?
+[1372.32s -> 1378.80s]  Y fíjense que aquí ya podemos ver parte del sistema límbico, en estas partes de acá podemos ya
+[1378.80s -> 1383.80s]  empezar a ver el parte del sistema límbico, que es lo que esperaría que ustedes pudieran
+[1383.80s -> 1390.80s]  segmentar los que trabajen, los que trabajen con estas imágenes. ¿Qué es el sistema límbico,
+[1390.80s -> 1395.60s]  donde está la amígdala responsable del estrés? Respuesta emocional es a las cosas,
+[1395.60s -> 1403.52s]  fallas en la amígdala quiere decir personas asocialmente, pero no es que hay que mirar,
+[1403.52s -> 1411.60s]  me gusta hablar con los demás, ¿no? O sea, es de problemas reales de disociación, ¿sí? O sea,
+[1411.60s -> 1420.72s]  es de que hay que le da un serio, que no, no, esas cosas, y por ejemplo, y también problemas de
+[1420.72s -> 1434.16s]  ida, toda esta, pues, con estas cosas, y también que no se llama escuchar voces, ilusión,
+[1434.16s -> 1442.44s]  el verano de cosas, la amígdala responsable de eso, no la amígdala que tenemos en la
+[1442.44s -> 1448.80s]  carneta, no, que esto hace parte, de hecho, eso está casi que en el centro, fíjense, casi
+[1448.80s -> 1456.48s]  que en el centro del cerebro. Otra estructura, el hipocampo, el hipocampo, el hipocampo relacionado
+[1456.48s -> 1465.12s]  con la memoria, ¿sí? Por ejemplo, que haya mucho, pues, además del Alzheimer o de ya, pues,
+[1465.12s -> 1472.32s]  que se le olvidan las cosas a la persona y demás, cositas así, ¿sí? Y el tálamo,
+[1473.52s -> 1479.28s]  relacionado con la toma de decisiones, también tiene cositas de memoria,
+[1480.24s -> 1486.76s]  tiene en su caso, o sea, esa memoria. Y entonces, cuando empiezan a fallar estas estructuras,
+[1486.76s -> 1493.92s]  es que se va a presentar esto que les estoy diciendo. Entonces, para ellos es muy importante
+[1493.92s -> 1503.52s]  medir, ¿sí? Medir cuánto está midiendo cada estructura de estas. Para ti, con base en eso,
+[1503.52s -> 1510.16s]  yo puedo ir y comprar con atlas. El demontral es el que se usa mucho. Pero, por ejemplo, aquí
+[1510.16s -> 1517.96s]  estamos utilizando, estamos construyendo un atlas de pacientes propios, un atla local de pacientes
+[1517.96s -> 1525.84s]  de nuestra región. Porque ya nos dimos cuenta que son muy distintos, muy distintos. Por ejemplo,
+[1525.84s -> 1539.04s]  aquí hicimos unas mediciones, aquí sí hicieron mediciones. Toda la estructura tínese, ventrículo
+[1539.04s -> 1549.84s]  lateral izquierdo. Es cuánto mide, tal, tal, tal. Ah, ese atla lo llamamos, sea V171,
+[1549.84s -> 1556.80s]  que es por los 170 pacientes tovens, que se comprimieron todos, todos, todos y resultó una
+[1556.80s -> 1564.40s]  sola resonancia climática. Entonces, a esa resonancia, resultante de que está representando a 170 personas,
+[1566.96s -> 1575.44s]  la estamos, le estamos midiendo, todo mide cada, cada una de las estructuras. Y fuimos y comparamos,
+[1575.44s -> 1586.24s]  y fuimos y comparamos con las mismas mediciones del otros atlas reportados en el mundo. Sí,
+[1586.24s -> 1594.92s]  toda esa estructura. Entonces, total de materia gris, ah, por acá, en hipocampo, lado derecho,
+[1594.92s -> 1603.32s]  cuánto mide, tal, tal, tal, tal. Sí, y cuánto se diferencia entre hombres y mujeres y cuánto
+[1603.32s -> 1611.12s]  se diferencia versus otros atlas. Ah, bueno, este es por, por sexo, hombres y mujeres.
+[1613.40s -> 1620.28s]  Esta es la tablita, ah, esta es la tablita que yo he visto. Sí, esta es la tablita, aquí.
+[1624.36s -> 1625.88s]  Y por aquí.
+[1633.32s -> 1635.60s]  Eso, aquí estás. Mira.
+[1638.60s -> 1649.84s]  Es, es por cada estructura, yo vengo y comparo, por ejemplo, el ventrículo lateral derecho de los
+[1649.84s -> 1661.12s]  Valle Caucanes es, es significativamente distinto al de los chinos. Bien, el del, el del, el de
+[1661.12s -> 1672.36s]  nosotros los Valle Caucanes mide 6446 y el de los chinos mide 9302, el ventrículo lateral derecho.
+[1672.36s -> 1677.20s]  Hicimos pruebas estadísticas y significativamente distinto.
+[1679.60s -> 1685.72s]  No es, es decir, no es solo mirar si es mayor o menor, sino que si es estadísticamente significativamente
+[1685.72s -> 1695.48s]  distinto. Sí, ventric, eh, es también es significativamente distinto con este atlas que se llama
+[1695.48s -> 1701.08s]  Collin, es decir, es una sola resumencia que representa a muchos pacientes aquí. Esta es
+[1701.08s -> 1706.40s]  representada a 27 pacientes, esta representada a 56, obviamente son sanos.
+[1707.40s -> 1719.80s]  Y ese, la de esto, el ventrículo lateral derecho de, de, de, de este Collin mide 11993 y nosotros los
+[1719.80s -> 1727.96s]  de nosotros los Valle Caucanes miden promedio 6446, de los chinos es más grande, este es mucho más
+[1727.96s -> 1732.00s]  grande. Ese Collin no me acuerdo de dónde es que viene.
+[1748.16s -> 1752.84s]  Creo que también suelo. Ah, este es el de Norteal, este es el de Norteal.
+[1753.84s -> 1760.28s]  Sí, o sea, de los canadiense mide un poquito, traño a los canadiense mide un poquito más,
+[1760.28s -> 1771.12s]  ¿no? Este IVA sí son cien personas mide 8800, este es este casi va a ser, casi va a ser no
+[1771.12s -> 1784.56s]  significativamente, pero al final sí lo puede, 8873, sí. Por ejemplo, este, el MNI 305,
+[1784.56s -> 1792.84s]  7400 en un taller, una clave estadística, no es significativamente distinto a nosotros.
+[1793.84s -> 1799.36s]  Este MNI 305 personas, de dónde viene? Este es.
+[1799.36s -> 1800.36s]  Este es.
+[1815.36s -> 1820.32s]  Norteal, pero es 305 subjetos jóvenes y sanos, bueno.
+[1821.32s -> 1831.48s]  Y este SRI 24, fíjese, es muy, muy pequeño, a comparación de nosotros. En otro medio,
+[1831.48s -> 1838.08s]  6000 y pico, este MNI 400 en cuenta. Y así con todas las estructuras cerebrales.
+[1840.60s -> 1847.68s]  ¿Esto para qué nos sirve? Para decir, mire, realmente nuestro cerebro colombiano es muy
+[1847.68s -> 1852.72s]  particular, no necesariamente más grande, más pequeño. Puede ser más grande comparado con
+[1852.72s -> 1858.16s]  unos, más pequeño comparado con otros, pero es muy particular en lo que queremos mostrar,
+[1858.16s -> 1863.60s]  que es diferente. Entonces, que merece especial atención. No deberíamos compararnos con el
+[1863.60s -> 1870.88s]  cerebro de los europeos porque la comparación queda mal hecha. Sí, está mal hecha la comparación,
+[1870.88s -> 1877.12s]  porque yo no puedo mezclar pedas con manzanas. Entonces, eso es lo que se pretende de romper
+[1877.12s -> 1882.44s]  aquí. Entonces, ¿para qué? Entonces, ¿qué pasa por esto? El proceso de haber contado todas
+[1882.44s -> 1887.36s]  esas técnicas. Para contarlas, pues yo les digo que se necesitan el formación de la
+[1887.36s -> 1893.36s]  lista, se necesitan que. ¿Dónde fue el origen de las coordenadas? No hay los pacientes,
+[1893.36s -> 1903.68s]  es la alineación y el posterior registro. ¿Me puedo entender? Todas esas cosas hay que
+[1903.68s -> 1913.56s]  tenerlas en cuenta. Eso no sirve cada detalle tú tenés calzado. Bien, es ya mucho de eso por hoy.
+[1914.56s -> 1921.16s]  Entonces, con nuestra imagen, Nifty, es ya.
+[1923.96s -> 1931.20s]  Quiero saber qué grupos ya tienen su perspectivo slice. Ya creado.
+[1933.68s -> 1940.72s]  O mejor dicho, ¿quiénes no hacen la mano? O sea, ¿qué grupos no han abierto ninguna imagen?
+[1943.56s -> 1953.08s]  Quiero saber eso. ¿Qué grupos no han abierto ninguna imagen? Necesito saber que soy hombre.
+[1959.44s -> 1967.72s]  Todos ya tienen ya abierta su perspectiva imagen. Por favor, necesito saberlo.
+[1967.72s -> 1975.04s]  Porque no es posible que alguien, no, que yo voy muy rápido de esto, porque yo.
+[1981.84s -> 1985.60s]  Todos los grupos ya tienen abierta su perspectiva imagen.
+[1989.20s -> 1995.76s]  Piensen que aquí con esta, con esta imagen, con este slice de esta resonancia,
+[1996.48s -> 2003.72s]  piensen que yo aquí puedo ir navitando entre los distintos slice. Yo quiero ver el vaso,
+[2003.72s -> 2006.04s]  el 7 y 9, ¿sí?
+[2008.08s -> 2014.92s]  Es, mire lo que resulta. A ver, quiero mirar él, no sé, el slice número 10, ¿sí? Piensen.
+[2015.92s -> 2026.72s]  Es decir, ya estoy calma cerca de donde, de la parte de abajo, de la parte de abajo del cerebro.
+[2026.72s -> 2030.20s]  Y un otro paciente puede ser al revés.
+[2032.60s -> 2039.88s]  Es decir, que el slice número 10 en el eje 7 sea cercano a la parte de arriba,
+[2040.88s -> 2046.44s]  donde yo encuentro esa información en el encaruzado. ¿Para qué me sirve?
+[2046.44s -> 2050.00s]  Ya le expliqué todo el chorrero relacionado con la licción.
+[2052.24s -> 2057.16s]  ¿Y qué pasa si yo junto, junto, junto? Y puede ser que un asistencial revés,
+[2057.16s -> 2066.20s]  pues me va a quedar una cosa horrible en el atlas resultante, ¿sí?
+[2067.16s -> 2072.48s]  Les vamos a mirar dónde está justo exactamente la mitad, vengo al comité de nuestra limitita,
+[2072.48s -> 2081.12s]  y miremos justamente la mitad del eje Z. Esta es exactamente la mitad, pues no la mitad es la
+[2081.12s -> 2090.04s]  mitad, pues no la mitad del cerebro, sino la mitad de los slices que fueron capturados para ese
+[2090.04s -> 2101.88s]  paciente específico. Les fijen, en estas zonas sí son buenas para mirar el sistema líndico del
+[2101.88s -> 2108.32s]  paciente, es decir, dónde está la mitad, dónde está el talamo, dónde está el hipocampo del
+[2108.32s -> 2114.64s]  paciente. Yo les menciono mucho a estas tres porque son todas las que yo he trabajado, que son muy
+[2114.64s -> 2121.76s]  de especial relevancia, por ejemplo, para la esquizofrenia y algunos tipos de defensa, ¿sí?
+[2124.44s -> 2137.24s]  Eso es la licción. Usted puede navegar en el eje X y en el eje Y, es decir, obtener las otras
+[2137.24s -> 2152.80s]  vistas, como son la coronal y la racial, ¿sí? Entonces, ¿qué grupos, por favor, no han abierto las
+[2152.80s -> 2160.40s]  imágenes estas, las nífiles que les mande al paciente? ¿Qué grupos no han abierto estas?
+[2161.40s -> 2166.12s]  Nosotros, profe, esas últimas que les he compartido no la hemos abierto aún.
+[2166.12s -> 2170.08s]  No, listo. Pestenga el código, ahí se los puse en el chat.
+[2171.88s -> 2180.60s]  Si no, dígale ahí a la filletude, ¿sí? Y, entonces, vamos a ouvir esa jamás.
+[2181.88s -> 2188.40s]  ¿Te va usted al campo? Por favor, al campus. Van y abren una, una de esas imágenes de algunos
+[2188.40s -> 2199.68s]  de sus pacientes. ¿Por qué? Porque ya, ya otra vez temblor. Vamos a intentar capturar, ya, ya
+[2199.68s -> 2204.16s]  empezará a trabajar con los valores de los pisceles en las imágenes.
+[2205.96s -> 2212.72s]  Pues, por favor, necesitamos ya tener abierto en las imágenes. Ya lo he encabezado, vuelvo
+[2212.72s -> 2219.72s]  y les extiendo mi invitación. Por favor, revisen la información de los encabezados.
+[2219.72s -> 2225.72s]  Necesitamos esa información de los encabezados. Lo hace pasar a hablarnos sobre organizar, sobre
+[2225.72s -> 2232.48s]  eliminar el nombre del paciente, tantos personas del paciente en el encabezado, pero ahora necesitamos,
+[2232.48s -> 2240.16s]  por favor, es que ya empezará a trabajar con esto, con los valores de intensidad de pisceles en las imágenes.
+[2243.72s -> 2252.64s]  Bien, los que van a trabajar con las imágenes de tomografía, por favor, necesito que se pongan
+[2252.64s -> 2259.44s]  duchos con el tema de las penzanas, de las penzanas house, por favor, de los grupos,
+[2259.44s -> 2266.80s]  quiero un hermano de esas imágenes abierto, esas imágenes, menos una, de la terresonación,
+[2266.80s -> 2269.40s]  se mande tú con los pibes, por favor, de quién lo hagan.
+[2269.40s -> 2296.24s]  ¿Algún otro grupo no ha abierto estas imágenes?
+[2299.40s -> 2307.56s]  Recuerden, por favor, le dan a agregar a mi dry, si, pues le las agregan a su propio dry,
+[2307.56s -> 2314.04s]  o sea, desde que van a trabajar sobre los archivos míos, por favor, igual creo que
+[2314.04s -> 2319.44s]  ustedes solo tienen permisos de lectura, les las agregan a su propio dry y ahí si ya les queda en
+[2319.44s -> 2324.28s]  su propio almacenamiento, o sea, que si yo las borro, es que usted no me haya estado diciendo que hay que
+[2324.68s -> 2325.48s]  borrar, porque las borro.
+[2330.88s -> 2333.28s]  Estas imágenes ya están anoninizadas.
+[2337.96s -> 2345.16s]  Quiero mostrarles el encabezado de las imágenes nifty, si, entonces fíjense que aquí ya hay
+[2345.16s -> 2352.76s]  menos información, menos información en el encabezado de esas imágenes.
+[2357.76s -> 2368.32s]  Importante es saber este pix dim, ¿qué significa este pix dim? Fíjense, esto es lo que está midiendo.
+[2368.32s -> 2379.60s]  Este uno significa, este uno no le paramos bolas, le paramos bolacesa, estos tres números
+[2379.60s -> 2389.40s]  están aquí. ¿Qué nos quiere decir eso? Que en el eje x, cada boxen de la imagen de resonancia
+[2389.40s -> 2398.92s]  magnética, mide punto ochenta y nueve ochenta y cuatro tres setenta y cinco milímetros en el eje x,
+[2398.92s -> 2407.52s]  en el eje y mide punto ochenta y nueve, es decir, hasta ahí estamos cuadrados, si, es un cuadrado.
+[2407.52s -> 2421.16s]  Si, cero punto ochenta y nueve milímetros en el eje y, es decir, cada pix, cada boxen me está
+[2421.16s -> 2433.44s]  representando cero punto ochenta y nueve milímetros del mundo real. Si, cero punto ochenta y nueve
+[2433.44s -> 2441.44s]  milímetros del mundo real en el eje y, y un milímetro en el eje z, o sea, un milímetro,
+[2441.44s -> 2451.00s]  digamos así de altura. Es decir, cuando ya incluimos las tres dimensiones, podemos decir que el boxen no es
+[2451.00s -> 2458.56s]  un cuadrado totalmente. Fíjense que tengo aquí punto ochenta y nueve, punto ochenta y nueve y tengo uno,
+[2458.56s -> 2466.84s]  o sea, no es un cubo, disculpe, no es un cubo, el mejor sentido de la palabra. O sea, es casi un cubo
+[2466.84s -> 2474.40s]  rectangular, o sea, es más alto que ancho y que profundo. Es igual de ancho, es igual de profundo,
+[2474.40s -> 2485.28s]  pero tiene distinto alto. Entonces, supongamos, por ejemplo, que yo les digo que ustedes logran
+[2485.28s -> 2492.12s]  obtener la medición. Recuerden que la segmentación quiere decir, estos, estos boxeles corresponden
+[2492.12s -> 2497.64s]  a la migdal. Estos boxeles corresponden al hipocampo. Estos boxeles corresponden al talano.
+[2499.24s -> 2508.08s]  Supongamos que yo tengo diez boxeles. Vamos a mirar, diez boxeles de ancho.
+[2508.08s -> 2518.40s]  Que mide, por ejemplo, no sé, el cuerpo calloso por los tractos. Los tractos, recuerden, son como
+[2518.40s -> 2525.40s]  las autopistas que van comunicando la reacciones cerebrales. Si los tractos son como las calles de
+[2525.40s -> 2535.12s]  Cali, entonces la información no llega a donde tiene que llegar, se pierde en el camino,
+[2535.12s -> 2543.76s]  y entonces, siempre empieza a tener unos fallas en memoria, que no se puede mover y bueno,
+[2543.76s -> 2556.48s]  en otras cosas. Pero supongamos, entonces, los tractos número tal, bueno, mide diez, diez boxeles de
+[2556.48s -> 2568.32s]  ancho. De ancho. Es decir, le hago la pregunta. ¿Cuánto entonces es, cuánto entonces mide en el mundo
+[2568.32s -> 2576.52s]  real? Teniendo en cuenta lo que estamos viendo en la partida. ¿Cuánto mide en el mundo real?
+[2576.52s -> 2585.56s]  Y tú tienes diez, respeto hasta aplicar todo el procesamiento. Resultó que
+[2587.40s -> 2594.80s]  hizo la segmentación con un súper algoritmo y se dio cuenta de que ese tracto mide diez
+[2594.80s -> 2604.88s]  boxeles de ancho. Entonces, usted no le va a decir al psiquiatra, no le va a decir el neurologo.
+[2605.32s -> 2612.68s]  Si tiene diez boxeles de ancho, usted le tiene que hablar ese milímetros. Entonces, si mide diez
+[2612.68s -> 2621.60s]  boxeles de ancho, entonces, ¿cuánto mide en el mundo real? ¿Era alguna idea?
+[2621.60s -> 2634.16s]  ¿Tiene milímetros?
+[2634.16s -> 2656.80s]  Voy a volver a repetir la pregunta. No, me dolió, la pongo aquí. ¿Resulta?
+[2664.16s -> 2686.92s]  Muy bien, sé que no se conocen los influencers, donde ellos tienen todo súper... Bueno, ellos
+[2686.92s -> 2693.04s]  por donde van a ganar a gente que le ayuda en el proceso de edición. Resulta que tengo entonces
+[2693.04s -> 2706.52s]  diez boxeles de ancho, son diez boxeles. Es uno, dos, tres, cuatro, cinco, seis, siete, ocho, diez.
+[2708.20s -> 2716.76s]  Me la preguntáis, ¿cuánto mide en el mundo real? Resultó que usted aplicó un súper algoritmo de
+[2716.76s -> 2725.64s]  segmentación y llegó a esto, mide diez boxeles de ancho. ¿Ese trato? ¿Cuánto mide en el mundo real?
+[2730.56s -> 2732.24s]  ¿Cuánto mide en el mundo real?
+[2732.24s -> 2747.68s]  ¿Cuánto mide en el mundo real?
+[2762.88s -> 2763.76s]  ¿Alguna idea?
+[2773.44s -> 2774.44s]  Angie, Paola.
+[2775.48s -> 2779.60s]  Pues sí, son diez boxeles, no serían ocho punto nueve milímetros.
+[2780.56s -> 2782.72s]  Bueno, ya eso es la respuesta.
+[2784.36s -> 2794.68s]  Ya eso es todo. Yo tengo que convertir de boxeles y venir a mirar al encabezado. Bueno, ¿cuánto
+[2794.68s -> 2801.92s]  está viviendo en términos? ¿Cuánto mide cada boxel en el mundo real? Es decir, ¿cuánta
+[2801.92s -> 2809.20s]  área del mundo, o bueno, en este caso es cuento volumen del mundo real me está representando?
+[2811.72s -> 2822.88s]  Sí. Bien, gracias. Ahora bien. Aquí tenemos otro tipo de información. Por ejemplo, ¿es esto,
+[2823.16s -> 2827.32s]  esta información que nos mostró ahorita que fue en braya?
+[2829.08s -> 2837.60s]  Esta información, el srx, srj, srz, fue lo que nos mostró ahorita correspondiente a qué
+[2838.76s -> 2848.80s]  esa, esa alineación y estos offset también, o sea, todo esto sirve para saber cómo fue
+[2848.80s -> 2859.80s]  adquirida la imagen. Ese paciente, estos valores pueden cambiar entre pacientes, pueden cambiar
+[2859.80s -> 2867.12s]  entre resonadores, pueden cambiar entre IPSs. Por ejemplo, la clínica Dime puede manejar
+[2867.60s -> 2874.92s]  unos valores específicos y no sé, Valle Lili puede manejar otros otros valores.
+[2880.32s -> 2888.44s]  Aquí tenemos la profundidad. Excel es 16, o sea, digamos, tenemos 65.500 valores de intensidad,
+[2888.44s -> 2900.64s]  o sea, 2 a la de 6. Ya principalmente es eso. Ah, bueno, este, este, este n más uno que significa,
+[2900.64s -> 2912.28s]  significa es que general, o sea, hay dos tipos de nifty, ¿no? Un nifty donde vienen las imágenes y los
+[2912.28s -> 2922.68s]  encabezados vienen aparte. Este nos quiere decir es que es el tipo de nifty donde el encabezado viene
+[2922.68s -> 2930.84s]  en el mismo archivo de los datos de pincel de la imagen. Nosotros podemos encontrarnos con la imagen
+[2930.84s -> 2939.04s]  de nifty donde el encabezado viene aparte, que siempre viene en otro archivito aparte. Eso para
+[2939.04s -> 2943.44s]  que lo tengan en cuenta. Yo ya le digo otras cosas porque yo no sé en el futuro ustedes con qué
+[2943.44s -> 2955.08s]  vayan aquí. Sí, que se manejan en otras partes y hay que estar preparados. Bien. Aquí no está
+[2955.08s -> 2961.96s]  diciendo en las dimensiones cuántos pinceles tenemos de ancho cuántos pinceles de alto cuántos
+[2961.96s -> 2973.00s]  slices tenemos. Sí. Entonces fíjense aquí tenemos 176 slices en el eje zeta. 176. Por eso es que la mitad,
+[2974.92s -> 2984.72s]  la mitad es más ese, ese es el 88. Es el 88. Es decir, este es el slice correspondiente a la
+[2985.20s -> 2993.80s]  en el eje zeta. Bien. Preguntas hasta aquí por favor. Necesito que pregunten lo que las dudas que
+[2993.80s -> 2999.08s]  tengan antes de avanzar. Ya los otros grupos ya lograron al vídeo.
+[3004.08s -> 3010.44s]  Necesito que tracen la mano o que por gano no sea una mano.
+[3014.72s -> 3042.76s]  Por favor. Necesito que alcen la mano. Los grupos que ya tienen es pa abierto o simplemente
+[3042.76s -> 3057.96s]  tempica alzar la mano. Los grupos, dos personas, tres, cuatro, cinco, seis. Bien. Confío en ustedes.
+[3062.56s -> 3070.16s]  Entonces ahora sí vamos a centrarnos en la información de los valores de intensidad de PC.
+[3070.16s -> 3079.12s]  Fíjense en estas, en estos, en estas, como hormiguitas que se, que se llaman aquí,
+[3079.12s -> 3088.48s]  ¿no? Fíjense en estas hormiguitas. Si alcanzan a ver ustedes que es obviamente hay una diferencia de
+[3088.48s -> 3094.00s]  calidad respecto de lo que ustedes están viendo, de lo que yo estoy viendo en mi propio monitor.
+[3095.00s -> 3102.00s]  Pero espero que estén viendo como estas hormiguitas en, especialmente en las
+[3102.00s -> 3108.44s]  partes blancas. Pero fíjense interesante ver que también esas, de esas hormiguitas aparecen en
+[3108.44s -> 3119.76s]  ciertas partes negras de las zonas negras. Fíjense aquí. No sé si lo alcanzan.
+[3124.00s -> 3144.88s]  Hola, buenos días. Buenos días. Una cosa que tenemos que tener en cuenta es que los médicos o
+[3144.88s -> 3152.88s]  los radiólogos trabajan con algo que se llama monitor de grado médico y nosotros tenemos un
+[3152.88s -> 3161.28s]  monitor normalito, corriente, que vemos a 8 bits. O sea que la resolución que tiene esta imagen
+[3161.28s -> 3169.12s]  nosotros no somos capaces de captarla porque el monitor de 16 baja a 8 para poder mostrarnos.
+[3170.32s -> 3179.76s]  En una, en una, ¿cómo se llama eso? En una sala de radiología ellos tienen
+[3179.76s -> 3186.16s]  monitores de grado médico que les permite ver a los 16 bits y entonces la calidad de la imagen es
+[3186.16s -> 3193.52s]  mucho mejor. O sea, ven esto sin tanto. Yo estoy viendo aquí en la pantalla lo que proyecta Alejandro
+[3193.52s -> 3202.68s]  y eso se ve como con mucho ruido, pero es precisamente por el, la regradación de la imagen
+[3202.68s -> 3209.72s]  producida porque estamos usando un monitor que no es de grado médico. Justamente mencionado.
+[3209.76s -> 3217.32s]  Eso es una clase pasada y es que por muy queime que sea el monitor suyo, por mil retinas,
+[3217.32s -> 3229.76s]  display, sea el monitor, sigue siendo un monitor de 8 bits. Por lo tanto, los 65,536 niveles de
+[3229.76s -> 3241.92s]  intensidad no los no los podemos ver aquí. Un proceso de normalización, los 256 valores de
+[3241.92s -> 3253.12s]  intensidad que solamente se pueden ver en un solo canal de gris. Y eso es lo que estamos viendo en
+[3253.12s -> 3259.88s]  nuestro canal. Bueno, se pueden entonces asustar diciendo, venga, pero es que ¿cómo es que a partir
+[3259.88s -> 3266.32s]  de esta, de esta mancha? ¿Cómo a partir de esta mancha? Entonces que yo voy a segmentar dónde es
+[3266.32s -> 3274.84s]  que están las, las distintas estructuras. Porque es que esto visualmente no, o sea visualmente no
+[3274.84s -> 3281.12s]  se puede, porque estamos trabajando en monitores de 8 bits. Entonces, por eso es que nos toca
+[3281.12s -> 3286.56s]  trabajar ya directamente con los números, con los valores de intensidad que allí sí están,
+[3286.56s -> 3301.12s]  como decirlo, cruditos, cruditos. Entre 0 y 65 mil tanto. Bien. Es justamente con esos valores
+[3301.12s -> 3308.48s]  es con los que trabajamos. No visualmente, visualmente podemos ver si algunas cosas cambios,
+[3309.36s -> 3316.24s]  algunos cambios que le aplicamos a la imagen, al final la segmentación,
+[3316.24s -> 3327.40s]  decir dónde está cada estructural cerebro y tal, pero, pero es en los valores de intensidad donde,
+[3327.40s -> 3335.04s]  donde recibe todo el procesamiento. Para que pues no se vayan a asustar. Pues, o sea, con esto si vamos a,
+[3335.76s -> 3339.96s]  de pronto llegará un momento en el que se estrellan la cabeza contra la pared, pues del estrés,
+[3339.96s -> 3346.72s]  pero no es, no es de asustarse diciendo pues, ay, bueno, aquí yo veo todo esto blanco. Entonces,
+[3346.72s -> 3352.28s]  ¿cómo puedo decir que, que esta zona es relacionada con tal poza y esta otra zona es relacionada?
+[3352.28s -> 3360.60s]  Cuerten que aquí no están viendo todos los valores de intensidad. Esto y también aún así con los,
+[3361.00s -> 3367.16s]  con los monitores estos médicos, nuestro ojo humano tampoco es capaz de ver todos esos
+[3367.16s -> 3375.84s]  posibles valores. Nosotros solamente podemos ver unos cuantos niveles de intensidad de nuestro ojo
+[3375.84s -> 3383.68s]  humano. No podemos ver todos esos 65 mil posibles valores, pero el computador sí puede descubrir
+[3383.68s -> 3393.40s]  patrones a raíz de los números que vea, que vea pues. Pero entonces también ahí podemos ver estas
+[3393.40s -> 3401.60s]  hormiguitas que están ocurriendo en estas zonas negras. Esas hormiguitas corresponden al ruido.
+[3402.60s -> 3414.16s]  El ruido es una poza aleatoria, pero que puede seguir distribuciones específicas,
+[3415.88s -> 3424.92s]  dependiendo de qué imagen estamos capturando. Es decir, podemos tener ruido asociado a las
+[3424.92s -> 3435.76s]  imágenes planas, que normalmente es de tipo gausiano. Podemos tener ruido en estas imágenes de
+[3435.76s -> 3444.68s]  resonación magnética, que de lo que siempre se ve podemos decir que normalmente es de tipo
+[3444.68s -> 3453.92s]  ral ral, pero también pues ahorita hablamos un poquito más de eso. Y en las imágenes de
+[3453.92s -> 3460.68s]  tomografía también hay otro tipo de ruido, que de lo que normalmente se ve es que es de tipo poison,
+[3460.68s -> 3476.68s]  poison, pues no se diga eso, es en obesos francés. Entonces, ¿quién necesitamos nosotros saber qué
+[3476.68s -> 3483.80s]  tipo de ruido está presente en la imagen? ¿A ver alguna idea a los muchachos? ¿A ver alguna idea?
+[3484.80s -> 3493.88s]  Alguien puede decir, ah, listo, sí, es del tipo gausiano. Ah, sí, pero eso para que me sigan. Preguntos,
+[3493.88s -> 3501.84s]  ¿sí, ya vieron el curso de estadística? Antes de eso, ¿ya vieron usted el curso de estadística?
+[3503.68s -> 3507.96s]  Digan sí o digan no. Todos han visto el curso de estadística ya.
+[3507.96s -> 3523.08s]  Si se acuerdan de las distribuciones de probabilidad, si se acuerdan de eso,
+[3523.08s -> 3533.12s]  el curso de estadística, hay, hay diversas, hay diversas, hay diversas distribuciones de
+[3533.12s -> 3538.08s]  probabilidad. A ver, recordemos aquí, rapidito, bien rapidito, ¿no? Entonces tenemos,
+[3541.84s -> 3546.24s]  tenemos, a ver, yo puedo, yo puedo tener varios números y grafico los números.
+[3547.84s -> 3553.48s]  Tengo varios números y los pongo a graficar, ¿sí? En este caso serían, pues, valores de
+[3553.48s -> 3561.00s]  intensidad. A partir de qué, pues, del histograma que ustedes ya debieron haber calculado. Entonces,
+[3561.00s -> 3569.88s]  yo en una zona negra, o en una zona de color fijo de la imagen, ¿sí? O en una zona, por ejemplo,
+[3569.88s -> 3574.40s]  si estoy en una imagen plana, entonces le tomo la foto al cielo, o estoy de noche y le tomo
+[3574.40s -> 3580.68s]  la foto a la luna. Entonces, tomo la región negra de la imagen, o si le tomo foto a un paisaje,
+[3580.68s -> 3588.16s]  pues, donde está el cielo, ¿sí? O sea, donde haya, donde sea casi que plano, donde no haya
+[3588.16s -> 3594.80s]  en borde, donde no haya texturas extrañas, ni nada de esto. Entonces, yo grafico esos valores
+[3594.80s -> 3601.00s]  de intensidad en el canal gris, por ejemplo. Entonces, yo me puedo encontrar con diversas
+[3601.00s -> 3606.96s]  disfrucciones de probabilidad. Solamente, con ver el histograma, es decir, el histograma puede
+[3606.96s -> 3619.08s]  tener este comportamiento, ¿sí? Esta es una, esta es una distribución de tipo Rayleigh, ¿sí?
+[3619.08s -> 3625.88s]  Esto ocurre, esto ocurre con las imágenes de resonancia magnética. ¿Ya les dijiste cómo
+[3625.88s -> 3637.12s]  calcular el histograma? Sí, les dejé esa tarea. Ah, bueno. En las imágenes planas, comunes y
+[3637.12s -> 3644.36s]  corrientes con su iPhone o con el teléfono que sea, yo me puedo encontrar con, o sea,
+[3644.36s -> 3653.28s]  tomo el pedacito del cielo, lo paso a escala de grises y lo grafico, es decir, el grafico de
+[3653.28s -> 3662.60s]  histograma de esa zona en particular, y me puedo encontrar con, con una campanita así.
+[3665.76s -> 3674.24s]  Es decir, esas hormiguitas, siguen esta distribución y el tipo gaussiano, ¿sí?
+[3674.24s -> 3688.92s]  Yo puedo juntar estas dos distribuciones, ¿sí? Y me queda una cosa más o menos así, ¿sí? Y este
+[3688.92s -> 3699.92s]  de tipo se llama Rizian. Les repito, me gaussiándose, o sea, hay muchas imágenes planas, la de la
+[3699.92s -> 3708.44s]  cámara web, la del iPhone, la del Samsung, es de el 50 que usted tenga, o la del celular,
+[3708.44s -> 3716.88s]  más el poquito que usted tenga, ¿sí? Obviamente, usted le vende una super cámara, ¿por qué? Porque ya
+[3716.88s -> 3725.20s]  pues el hardware como tal es mucho más, mucho más avanzado, pues de mejor calidad, entonces tiene,
+[3726.20s -> 3733.36s]  tiene menos captura de ruido y entonces usted le vende una super cosa, o puede ser que vía
+[3733.36s -> 3739.68s]  software, como los amigos de Apple vía software corrigen todo esto, eso se representa en una
+[3739.68s -> 3748.72s]  super imagen, pero es porque antes, antes de mostrarnos el archivo resultante, ya el software
+[3748.72s -> 3755.52s]  automáticamente hizo mejoras en la captura de la imagen, redujo el ruido y todo esto, entonces
+[3755.52s -> 3761.44s]  le presentó como la super cámara cuando es en realidad un software que hay allí debajo trabajando.
+[3761.44s -> 3769.08s]  Aquí vamos esa, esa, esa mirar que ocurre allí debajo en ese software. Podemos encontrar otro
+[3769.08s -> 3777.84s]  tipo de distribuciones, como por ejemplo, una distribución exponencial, al graficar el histograma,
+[3777.84s -> 3783.44s]  te podemos tener en los valores de intensidad de pinceles, algo así. Nos podemos, ah, eso sigue
+[3783.44s -> 3791.84s]  una distribución exponencial, podemos tener distribución uniforme, ¿sí? Y tenemos, podemos
+[3791.84s -> 3799.84s]  tener distribución impulsiva, que es básicamente tener unos picos, unos picos en ciertos valores
+[3799.84s -> 3810.52s]  de intensidad, ¿sí? Esto le llama impulsiva. Y podemos tener una distribución de tipo gama también.
+[3810.52s -> 3822.96s]  Es decir, estas son distribuciones de las, como de las más famosas, entonces podemos intentar ver si
+[3822.96s -> 3830.32s]  las imágenes siguen nuestra, algún tipo de distribución particular de estas conocidas.
+[3831.76s -> 3837.60s]  Miremos a ver un poquito en una imagen plana común y corriente, volvemos a nuestro caso de Elena,
+[3837.60s -> 3845.60s]  ¿sí? Vamos a acudar esto, leemos nuestra imagen de Elena, ¿sí? Entonces vamos a
+[3845.60s -> 3855.04s]  tomar los primeros 20, 20 x 20, o sea, esta zona de aquí arriba a la izquierda, ¿sí? Una zona más
+[3855.04s -> 3861.72s]  o menos plana donde no hayan borde, donde hay texturas, o sea, por texturas recuerden que es,
+[3861.72s -> 3867.12s]  por ejemplo, la piel de cocodrilo, es un pico de textura, la textura de la madera, que son
+[3867.12s -> 3876.24s]  como unas lineecitas que tienen la madera, ¿sí? A eso le llamamos textura en la imagen. Piensa
+[3876.24s -> 3884.64s]  que la muchacha, la piel de ella tiene una textura, ¿sí? Una textura que es diferente a la textura que
+[3884.64s -> 3892.84s]  tiene la tela del sombrero, el sombrero este. Sí, automáticamente usted puede, su cerebro piensa
+[3892.84s -> 3900.68s]  que al tocar ese sombrero va a sentir de forma muy distinta a tocar, por ejemplo, el brazo de la
+[3900.68s -> 3906.96s]  muchacha. Se sienta, sus cerebros, automáticamente sabe que se siente distinto, eso es la textura en
+[3906.96s -> 3918.68s]  la imagen, eso también se puede cuantificar, ¿sí? Esta es nuestra imagen y queremos ver el
+[3918.68s -> 3926.48s]  histograma, perdón, de los primeros 50 por 50 de la primera zona, 50 por 50. Entonces, fíjense
+[3928.68s -> 3935.56s]  el histograma que resulta. Recuerden que aquí los valores de intensidad es entre el cerebro y 255.
+[3937.88s -> 3944.20s]  Fíjense la forma que adopta esos valores de intensidad.
+[3948.68s -> 3956.68s]  La campanita resultante nos puede, puede ser más echada, o puede ser más alargada, como en este caso,
+[3957.68s -> 3964.80s]  ¿sí? Esta es una imagen de una cámara con un corriente, ¿sí? Una cámara de imágenes planas,
+[3966.08s -> 3973.92s]  ¿sí? Entonces, podemos aplicar prueba estadística para ver qué distribución es.
+[3974.92s -> 3982.92s]  Entonces, fíjense, los números nos están diciendo que la prueba, perdón, los números nos están diciendo
+[3982.92s -> 3987.92s]  que la, que esos valores de intensidad están siguiendo una distribución, la osión.
+[3993.92s -> 4000.92s]  Y comparamos con la distribución uniforme. Sí se hace, se hace meja también, pero ¿qué está ocurriendo?
+[4000.92s -> 4007.92s]  Le gana la distribución de osión. Pues podemos decir que sigue esa distribución.
+[4013.92s -> 4018.92s]  Podemos hacer esta prueba también para otro tipo de distribuciones también.
+[4019.92s -> 4024.92s]  Para distribución de Poisson, para distribución de Rayday, para distribución de lo que sea.
+[4025.92s -> 4026.92s]  ¿Sí?
+[4031.92s -> 4042.92s]  Es una de las tareas es que usted haga el ensayo de ver qué distribución sigue al graficar esta zona,
+[4043.92s -> 4047.92s]  esta zona negra de la imagen, este cuadrito negro.
+[4048.92s -> 4054.92s]  Y grafique el histograma y miré a ver qué distribución sigue.
+[4058.92s -> 4064.92s]  Spoiler es distribución Rayday, pero quiero que lo hagan ustedes mismos.
+[4065.92s -> 4069.92s]  Y grafiquen el histograma de una zona plana de la imagen.
+[4069.92s -> 4080.92s]  Tiene usted que seleccionar vía código y no tomando una captura de pantalla ni recortando la imagen.
+[4080.92s -> 4088.92s]  ¿Por qué? Porque recuerden que esta imagen que estamos viendo es una versión degradada de la imagen original.
+[4089.92s -> 4093.92s]  Es decir, tenemos que ustedes saben programar en Python.
+[4093.92s -> 4104.92s]  Entonces seleccionen esta zona de la imagen apunta de código para obtener los valores reales e intensidad de pixel de este slice.
+[4104.92s -> 4109.92s]  Entonces ahí sí pueden ver graficar el histograma y ver qué distribución sigue.
+[4110.92s -> 4113.92s]  Y se va a semejar a esa distribución Rayday.
+[4113.92s -> 4115.92s]  ¿Pregunta hasta aquí?
+[4120.92s -> 4122.92s]  ¿Pregunta hasta aquí?
+[4122.92s -> 4124.92s]  ¿Pregunta hasta aquí?
+[4124.92s -> 4126.92s]  ¿Pregunta hasta aquí?
+[4139.92s -> 4141.92s]  ¿Hay preguntas aquí?
+[4141.92s -> 4154.92s]  No tiene que necesariamente ser, justo ese slice que usted está mostrando cierto, puede ser otro.
+[4154.92s -> 4158.92s]  Claro, claro, claro que sí, puede ser otro.
+[4158.92s -> 4166.92s]  Lo que quiero es que analicemos ya el ruido asociado a la adquisición de la imagen.
+[4166.92s -> 4168.92s]  Eso es lo que quiero que hagamos.
+[4171.92s -> 4195.92s]  Alguien puede decir, bueno, y cómo es que se sabe que siempre este tipo Raylay, este ruido adquirido con una imagen, por ejemplo, de resonancia magnética.
+[4195.92s -> 4203.92s]  Le decía que con la imagen de tomografía es de tipo son, son, hoy son.
+[4203.92s -> 4210.92s]  Porque es tipo de francés, no es inglés, hoy son el veneno.
+[4215.92s -> 4219.92s]  Entonces, ¿por qué ocurre? ¿Por qué? ¿Por qué decimos que es Raylay?
+[4220.92s -> 4222.92s]  Eso tiene que ver.
+[4222.92s -> 4231.92s]  Recuerden que todo dispositivo electrónico siempre, siempre tiene asociado ruido.
+[4231.92s -> 4239.92s]  ¿Por qué? Porque es que son señales electromagnéticas que estamos capturando.
+[4240.92s -> 4246.92s]  ¿Sí? Manipulando bien sea electrones o bien sea los fotones de la luz.
+[4247.92s -> 4253.92s]  Cuando, cuando estamos trabajando con imágenes que manipulan la luz.
+[4254.92s -> 4262.92s]  O con electrones cuando son otro tipo de dispositivos electrónicos, por ejemplo, en la señal de televisión.
+[4264.92s -> 4265.92s]  ¿Sí?
+[4266.92s -> 4271.92s]  De un dispositivo a otro puede variar distintas cosas.
+[4271.92s -> 4274.92s]  Sí, pero una de esas cosas que varía es.
+[4275.92s -> 4282.92s]  Lo que hace que sea más caro que otras cosas es el tema de la reducción de ruido.
+[4282.92s -> 4285.92s]  Viajar, o bien sea que viazó fuera.
+[4285.92s -> 4290.92s]  Ahorita usted va al costo a cualquier parte y le dice no es que tiene la IA.
+[4290.92s -> 4294.92s]  Entonces ya todo, como una palabra ahorita está vendiendo tanto.
+[4294.92s -> 4298.92s]  Él dice no es que es que tiene una inteligencia artificial.
+[4298.92s -> 4300.92s]  Y sí puede que sí.
+[4300.92s -> 4303.92s]  Tiene algún modelito por ahí debajito que está identificando.
+[4303.92s -> 4309.92s]  Si el celular es de la imagen del cielo, si es de un plato de comida,
+[4309.92s -> 4314.92s]  por ejemplo, si es de un paisaje, qué colores tiene que resaltar?
+[4314.92s -> 4331.92s]  Los verdes, el caso de los árboles, del pasto, puede ser si es de un plato de comida.
+[4331.92s -> 4341.92s]  Entonces el color rojo si es de carne, el color café, el color blanco si es arroz.
+[4343.92s -> 4347.92s]  Y si es un ser humano, pues qué colores tiene que resaltar?
+[4347.92s -> 4354.92s]  Pues las distintas tonalidades de piel que hay y ya y no más.
+[4355.92s -> 4359.92s]  No tenemos que resaltar azules en el ser humano,
+[4359.92s -> 4364.92s]  ni tenemos que resaltar verdes porque nosotros no somos ni verdes ni azules.
+[4369.92s -> 4377.92s]  Pero siempre va a haber asociado un tema de nivel de ruido capturado.
+[4377.92s -> 4380.92s]  Siempre va a haber, siempre va a haber.
+[4381.92s -> 4388.92s]  Entonces, en el caso de un resonador de resonancia magnética,
+[4388.92s -> 4394.92s]  recuerden que son ondas electromagnéticas que viajan al paciente y se devuelven,
+[4394.92s -> 4400.92s]  o sea, viajan al tejido y se devuelven y lo que se captura es el tiempo de respuesta.
+[4401.92s -> 4410.92s]  Esas ondas que regresan al sensor tienen componentes reales y componentes imaginarios.
+[4410.92s -> 4416.92s]  Esa onda tiene un componente real y tiene un componente imaginario.
+[4419.92s -> 4425.92s]  Cuando el equipo procesa la señal, o sea, el resonador envía la señal,
+[4425.92s -> 4433.92s]  tiene un procesador que interpreta esos retornos y con base en ellos que construyen la imagen.
+[4433.92s -> 4440.92s]  Es cuando el equipo procesa la señal, captura la magnitud de ambos componentes.
+[4440.92s -> 4443.92s]  Entonces aquí les tengo que mencionar una teoría un poquito,
+[4443.92s -> 4447.92s]  yo sé que esto es un poquito enredado,
+[4447.92s -> 4451.92s]  pero yo recuerdo que esto no tiene examen, yo no les voy a preguntar por esto.
+[4452.92s -> 4456.92s]  Cuando yo tengo dos señales aleatorias,
+[4456.92s -> 4462.92s]  cuando yo tengo dos señales aleatorias que son independientes entre sí
+[4462.92s -> 4472.92s]  y que siguen una distribución con media cero, media cero y varianza uno,
+[4472.92s -> 4479.92s]  es decir, siguen una distribución normal y donde ambas tienen media cero,
+[4479.92s -> 4486.92s]  ambas tienen media cero y tienen la misma varianza.
+[4493.92s -> 4496.92s]  Yo a esta primera señal la puedo llamar señal X
+[4496.92s -> 4500.92s]  y a esta segunda señal la puedo llamar señal Y.
+[4500.92s -> 4504.92s]  Ambas siguen la misma distribución.
+[4509.92s -> 4512.92s]  Por ejemplo, hacemos una distribución normal,
+[4512.92s -> 4518.92s]  es decir, que todos los numeritos yo les saco la media y la media me da cero
+[4518.92s -> 4528.92s]  y les saco la varianza y me da varianza 1 a todos los numeritos.
+[4528.92s -> 4536.92s]  Si yo estas dos señales las junto, las puedo contar cómo haciendo una señal R
+[4536.92s -> 4539.92s]  que es igual a que contar esta señal.
+[4541.92s -> 4544.92s]  Más esta otra señal y yo las junto.
+[4546.92s -> 4549.92s]  Cuando yo punta este valor resultante,
+[4549.92s -> 4554.92s]  va a seguir obligatoriamente una distribución Ralei.
+[4558.92s -> 4563.92s]  El resonador tiene estas dos señales
+[4564.92s -> 4569.92s]  y el dispositivo que las, o sea, el equipo que está internamente en el resonador,
+[4569.92s -> 4575.92s]  que es el encargado de capturar esos retornos desde la señal
+[4575.92s -> 4578.92s]  que fue enviada al tejido del paciente y se devolvió.
+[4581.92s -> 4589.92s]  El dispositivo que captura esa señal va a combinar esas dos señales
+[4590.92s -> 4595.92s]  y al combinar esas dos señales necesariamente va a seguir esa distribución.
+[4598.92s -> 4602.92s]  El ruido resultante sigue esa distribución,
+[4602.92s -> 4610.92s]  por eso es que nosotros decimos que esas imágenes normalmente siguen distribución Ralei.
+[4610.92s -> 4613.92s]  El ruido es un ruido tipo Ralei.
+[4613.92s -> 4620.92s]  En las imágenes de tomografía, la cosa es un poquito distinta.
+[4620.92s -> 4623.92s]  Esto es resonancia magnética.
+[4625.92s -> 4629.92s]  Ahora bien, en las imágenes de tomografía computabilizada,
+[4629.92s -> 4632.92s]  recuerden que son rayos equilos que se manejan,
+[4632.92s -> 4637.92s]  es decir, el tubo de rayos equis se manda aquí, se mandan.
+[4637.92s -> 4648.92s]  Entonces, el número de fotones que inciden en el detector,
+[4648.92s -> 4651.92s]  porque recuerden que al final el tejido se devuelve,
+[4651.92s -> 4657.92s]  el número de fotones que inciden en el detector,
+[4657.92s -> 4660.92s]  una vez hayan chocado con el tejido y se hayan devuelto,
+[4660.92s -> 4663.92s]  sigue una distribución de poison.
+[4663.92s -> 4665.92s]  Necesariamente.
+[4668.92s -> 4673.92s]  Por eso es que decimos que el ruido asociado
+[4673.92s -> 4677.92s]  en las imágenes de tomografía es de tipo poison
+[4677.92s -> 4680.92s]  y en las imágenes de resonancia magnética,
+[4680.92s -> 4683.92s]  aquí ya hicimos matemáticamente por qué,
+[4683.92s -> 4685.92s]  de modo muy, muy, muy general,
+[4685.92s -> 4689.92s]  de por qué es de tipo Ralei.
+[4691.92s -> 4694.92s]  Y ya les demostré con código
+[4694.92s -> 4698.92s]  por qué en una imagen plana,
+[4698.92s -> 4701.92s]  sigue distribución gaussiana.
+[4701.92s -> 4704.92s]  Aquí el numerito no lo está diciendo.
+[4704.92s -> 4707.92s]  Si ustedes vieron el curso de estadística,
+[4707.92s -> 4710.92s]  y pueden dar cuenta de que yo puedo aplicar la prueba
+[4710.92s -> 4712.92s]  de Kolmogorov-Kesmirnov,
+[4712.92s -> 4717.92s]  que nos dice a nosotros que si dos,
+[4717.92s -> 4722.92s]  perdón, si un conjunto de números
+[4722.92s -> 4726.92s]  siguen una distribución gaussiana o no.
+[4726.92s -> 4730.92s]  Por eso puedo aplicar la prueba de Kolmogorov-Kesmirnov
+[4730.92s -> 4734.92s]  o la de Shapiro-Wilk para versiones.
+[4734.92s -> 4736.92s]  Tengo muy poquitos números.
+[4736.92s -> 4738.92s]  Puedo aplicar la prueba de Shapiro-Wilk
+[4738.92s -> 4744.92s]  para qué, para saber si siguen distribución gaussiana o no.
+[4744.92s -> 4747.92s]  Aquí efectivamente nos está diciendo
+[4748.92s -> 4752.92s]  que el valor P es menor a 0.05,
+[4752.92s -> 4755.92s]  que es normalmente el punto de corte para decir
+[4755.92s -> 4759.92s]  si algo sigue o no una distribución específica.
+[4759.92s -> 4764.92s]  El valor es menor, muchísimo menor a 0.05,
+[4764.92s -> 4768.92s]  entonces podemos decir si sigue una distribución gaussiana.
+[4768.92s -> 4771.92s]  En ambos distribución uniforme
+[4771.92s -> 4776.92s]  sigue el valor P es menor a 0.05,
+[4776.92s -> 4781.92s]  pero aquí el estadístico es mucho más alto.
+[4781.92s -> 4786.92s]  Podemos decir que esta imagen,
+[4786.92s -> 4788.92s]  el ruido asociado a esta imagen
+[4788.92s -> 4792.92s]  sigue una distribución gaussiana,
+[4792.92s -> 4794.92s]  una imagen plana.
+[4794.92s -> 4796.92s]  Eso porque tiene que ver
+[4796.92s -> 4799.92s]  por la forma como los dispositivos
+[4799.92s -> 4801.92s]  de captura de imágenes planas
+[4801.92s -> 4804.92s]  de las cámaras convencionales
+[4804.92s -> 4809.92s]  siguen interpretan, perdón,
+[4809.92s -> 4812.92s]  la señal que proviene de la luz
+[4812.92s -> 4815.92s]  en el mundo real.
+[4820.92s -> 4822.92s]  ¿Hay preguntas hasta aquí?
+[4828.92s -> 4830.92s]  ¿Hay preguntas hasta aquí?
+[4834.92s -> 4836.92s]  Pregunte, por favor.
+[4836.92s -> 4838.92s]  Pregunte, muchachos.
+[4838.92s -> 4842.92s]  Pregunte, si usted quedó gringo, pregunte.
+[4842.92s -> 4845.92s]  Igual a la que se está haciendo para hablar.
+[4856.92s -> 4858.92s]  ¿Alguien puede decir, ah, y eso para que me sirves
+[4858.92s -> 4860.92s]  a ver qué tipo de distribución es?
+[4860.92s -> 4862.92s]  El ruido en la imagen.
+[4862.92s -> 4864.92s]  Por favor, que me sirve.
+[4864.92s -> 4866.92s]  Ningún de ustedes se ha preguntado
+[4866.92s -> 4869.92s]  eso a verarse en la mano de los que se han preguntado.
+[4869.92s -> 4872.92s]  Igual, porque está explicando todo esto
+[4872.92s -> 4874.92s]  y para que me sirve.
+[4877.92s -> 4880.92s]  Ahí todo, gracias por la sinceridad.
+[4880.92s -> 4883.92s]  Claro, eso para que no sirve.
+[4885.92s -> 4887.92s]  Si usted sabe cuál es el problema,
+[4887.92s -> 4890.92s]  pues usted va a diseñar una solución específica
+[4890.92s -> 4892.92s]  para ese problema.
+[4894.92s -> 4896.92s]  Si usted tiene...
+[4896.92s -> 4899.92s]  A ver, ¿qué agua sirve para todo?
+[4902.92s -> 4905.92s]  Algún agua, algún brevaje que sirve para todo.
+[4910.92s -> 4912.92s]  Y se dice, ah, y eso sirve para todo.
+[4912.92s -> 4914.92s]  Por ejemplo, el agua de cebolla.
+[4914.92s -> 4916.92s]  Eso sirve para todo.
+[4916.92s -> 4919.92s]  Una vez me tocó ir en Alemania al médico
+[4919.92s -> 4921.92s]  y yo dije, ah, aquí fue, aquí me van a marcar
+[4921.92s -> 4923.92s]  todas las pastas y por ahí.
+[4923.92s -> 4925.92s]  La primera vez que me enferme por acá.
+[4927.92s -> 4928.92s]  Y ¿sabes qué me mandaron?
+[4928.92s -> 4930.92s]  Agua de cebolla.
+[4930.92s -> 4932.92s]  Y ya, médico.
+[4932.92s -> 4934.92s]  Y yo, ah, sí, tome agua de cebolla.
+[4934.92s -> 4936.92s]  Si sigue mal, entonces no es bien.
+[4936.92s -> 4938.92s]  Ay, yo me quedé.
+[4939.92s -> 4941.92s]  Y entonces yo le comenté eso a unas colegas
+[4941.92s -> 4943.92s]  y las colegas, pues,
+[4943.92s -> 4946.92s]  lo que hago es decirlo normal aquí.
+[4947.92s -> 4949.92s]  Así que, porque allá los médicos
+[4949.92s -> 4952.92s]  la mucha relevancia es
+[4952.92s -> 4954.92s]  la medicina tradicional.
+[4954.92s -> 4956.92s]  Y es un país donde está la Bayer,
+[4956.92s -> 4958.92s]  donde está...
+[4958.92s -> 4960.92s]  Sí, la Bayer, pues,
+[4960.92s -> 4962.92s]  que exporta medicamentos
+[4962.92s -> 4964.92s]  y químicos a todo el mundo.
+[4964.92s -> 4966.92s]  Todos los medicamentos que hacen esto
+[4966.92s -> 4968.92s]  es para exportar, porque la gente le mandan
+[4968.92s -> 4970.92s]  esas agüitas ahí y puros test.
+[4970.92s -> 4972.92s]  Testé para gripa,
+[4972.92s -> 4974.92s]  testé para, no sé qué, testé para el estrés.
+[4974.92s -> 4976.92s]  Puros test.
+[4976.92s -> 4978.92s]  En el supermercado usted nunca va a encontrar
+[4982.92s -> 4984.92s]  pastas de medicamentos.
+[4984.92s -> 4986.92s]  Medicamentos no usted siempre va a encontrar,
+[4986.92s -> 4988.92s]  son cosas naturales.
+[4988.92s -> 4990.92s]  Puros test.
+[4990.92s -> 4992.92s]  Y entonces,
+[4992.92s -> 4994.92s]  ¿para qué le digo yo esto?
+[4994.92s -> 4996.92s]  Usted puede, sí,
+[4996.92s -> 4998.92s]  tomar agua de cebolla
+[4998.92s -> 5000.92s]  para cualquier malestar que tenga.
+[5000.92s -> 5002.92s]  Pero,
+[5002.92s -> 5004.92s]  si estamos hablando
+[5004.92s -> 5006.92s]  desde el punto de vista de medicina natural,
+[5006.92s -> 5008.92s]  puede ser
+[5008.92s -> 5010.92s]  que para una infección urinaria
+[5010.92s -> 5012.92s]  usted le sirva más
+[5012.92s -> 5014.92s]  es el tubo de arándales.
+[5014.92s -> 5016.92s]  El que es rojo, rojo, rojo,
+[5016.92s -> 5018.92s]  no el que es morado,
+[5018.92s -> 5020.92s]  sino el que es rojo, rojo, rojo.
+[5020.92s -> 5022.92s]  Sí.
+[5022.92s -> 5024.92s]  Si usted tiene
+[5024.92s -> 5026.92s]  un dolor de espalda, pues
+[5026.92s -> 5028.92s]  el agua de cebolla probablemente
+[5028.92s -> 5030.92s]  no va a ser nada,
+[5030.92s -> 5032.92s]  sino que le va a servir
+[5032.92s -> 5034.92s]  qué más, pues, no sé,
+[5034.92s -> 5036.92s]  compresas,
+[5036.92s -> 5038.92s]  le va a servir
+[5038.92s -> 5040.92s]  o sea,
+[5040.92s -> 5042.92s]  alguna agua de venta
+[5042.92s -> 5044.92s]  que se la utilicen con un trampo
+[5044.92s -> 5046.92s]  en la espalda para que le desinflame.
+[5046.92s -> 5048.92s]  Sí.
+[5050.92s -> 5052.92s]  Si hay brevajes
+[5052.92s -> 5054.92s]  que sirven para todo,
+[5054.92s -> 5056.92s]  eso sirve para todo,
+[5056.92s -> 5058.92s]  para que se desinflen.
+[5058.92s -> 5060.92s]  Entonces,
+[5060.92s -> 5062.92s]  aquí hago esa analogía
+[5062.92s -> 5064.92s]  de que si usted conoce
+[5064.92s -> 5066.92s]  la distribución
+[5066.92s -> 5068.92s]  del ruido en la imagen
+[5068.92s -> 5070.92s]  y recuerden que el objetivo
+[5070.92s -> 5072.92s]  de saber el ruido que tenemos
+[5072.92s -> 5074.92s]  en la imagen es eliminarlo
+[5074.92s -> 5076.92s]  porque el ruido,
+[5076.92s -> 5078.92s]  o sea, son valores de intensidad
+[5078.92s -> 5080.92s]  que no corresponden
+[5080.92s -> 5082.92s]  con la realidad,
+[5082.92s -> 5084.92s]  sino que fue el ruido capturado
+[5084.92s -> 5086.92s]  por el ruido.
+[5086.92s -> 5088.92s]  Por ejemplo, en un mundo ideal
+[5088.92s -> 5090.92s]  yo quisiera
+[5090.92s -> 5092.92s]  que todas estas formiguitas
+[5092.92s -> 5094.92s]  que vemos en esta imagen
+[5094.92s -> 5096.92s]  que ya sabemos que siguen
+[5096.92s -> 5098.92s]  una distribución gaussiana
+[5098.92s -> 5100.92s]  quisiéramos que
+[5100.92s -> 5102.92s]  todas estas formiguitas desaparecieran,
+[5102.92s -> 5104.92s]  porque sí,
+[5104.92s -> 5106.92s]  todos quisiéramos que
+[5106.92s -> 5108.92s]  cuando hay un eclipse le vamos a tomar
+[5108.92s -> 5110.92s]  la foto a la luna,
+[5110.92s -> 5112.92s]  porque cuando la luna está así llena,
+[5112.92s -> 5114.92s]  todos quisiéramos que
+[5114.92s -> 5116.92s]  aparecieran esos cuadritos blancos
+[5116.92s -> 5118.92s]  que aparecen como una foto de noche,
+[5120.92s -> 5122.92s]  para que apareciera negro, negro, negro a la noche,
+[5122.92s -> 5124.92s]  y la luna
+[5124.92s -> 5126.92s]  se enblanca, blanca, blanca,
+[5126.92s -> 5128.92s]  o amarilla.
+[5130.92s -> 5132.92s]  Nadie de nosotros quiere
+[5132.92s -> 5134.92s]  estas manchitas
+[5134.92s -> 5136.92s]  que eso es el ruido, fíjense
+[5136.92s -> 5138.92s]  porque la pared, seguramente
+[5138.92s -> 5140.92s]  la pared donde en el mundo real
+[5140.92s -> 5142.92s]  la pared
+[5142.92s -> 5144.92s]  era de un solo color.
+[5144.92s -> 5146.92s]  O sea, no es
+[5146.92s -> 5148.92s]  no tiene estas manchitas.
+[5148.92s -> 5150.92s]  Es decir, queremos
+[5150.92s -> 5152.92s]  eliminar el ruido.
+[5152.92s -> 5154.92s]  Entonces, si ya sabemos
+[5154.92s -> 5156.92s]  la distribución estadística
+[5156.92s -> 5158.92s]  que sigue ese ruido
+[5158.92s -> 5160.92s]  en particular,
+[5160.92s -> 5162.92s]  entonces podemos diseñar
+[5162.92s -> 5164.92s]  un filtro
+[5164.92s -> 5166.92s]  o algún método, lo llamamos filtro,
+[5166.92s -> 5168.92s]  capaz de
+[5168.92s -> 5170.92s]  reducir ese ruido
+[5170.92s -> 5172.92s]  casi que con precisión
+[5172.92s -> 5174.92s]  quirógica.
+[5174.92s -> 5176.92s]  Porque si yo
+[5176.92s -> 5178.92s]  vuelvo al tema del agua de cebolla
+[5178.92s -> 5180.92s]  si hay aguas que sirven para todo
+[5180.92s -> 5182.92s]  pero puede ser
+[5182.92s -> 5184.92s]  que no haga ningún efecto
+[5184.92s -> 5186.92s]  para el problema que yo tengo,
+[5186.92s -> 5188.92s]  por ejemplo, si es un dolor de espalda
+[5188.92s -> 5190.92s]  tomar agua de cebolla no me va a servir
+[5190.92s -> 5192.92s]  para el dolor de espalda
+[5192.92s -> 5194.92s]  o puede ser
+[5194.92s -> 5196.92s]  que sea contraproducente
+[5198.92s -> 5200.92s]  por ejemplo, si yo tengo un problema
+[5200.92s -> 5202.92s]  de
+[5202.92s -> 5204.92s]  estomacal, pues jugo de papaya
+[5204.92s -> 5206.92s]  no puedo tomar, o sea
+[5206.92s -> 5208.92s]  porque la papaya suelta, ¿cierto?
+[5208.92s -> 5210.92s]  Entonces, si ustedes le dan papaya
+[5210.92s -> 5212.92s]  cuando usted tiene diarrea pues
+[5212.92s -> 5214.92s]  por el más diarreico
+[5214.92s -> 5216.92s]  va a gastar, ¿cierto que sí?
+[5216.92s -> 5218.92s]  O si te dan
+[5218.92s -> 5220.92s]  jugo de manzana o te van a comer
+[5220.92s -> 5222.92s]  una manzana, que la fibra de manzana
+[5222.92s -> 5224.92s]  ayuda a la digestión.
+[5224.92s -> 5226.92s]  Entonces, si estás
+[5226.92s -> 5228.92s]  con una birosis y tenés diarrea
+[5228.92s -> 5230.92s]  pues lo menos que vas a comer es
+[5230.92s -> 5232.92s]  que es
+[5232.92s -> 5234.92s]  papaya, ¿cierto que sí?
+[5234.92s -> 5236.92s]  ¿Qué come es cuando tenés diarrea?
+[5236.92s -> 5238.92s]  Algo que amarre.
+[5241.92s -> 5243.92s]  ¿Qué se come cuando no tiene diarrea?
+[5243.92s -> 5245.92s]  Que amarro.
+[5248.92s -> 5250.92s]  Por ejemplo, el salvado de trigo.
+[5250.92s -> 5252.92s]  El salvado
+[5252.92s -> 5254.92s]  es de ese que es
+[5254.92s -> 5256.92s]  como de color negro.
+[5256.92s -> 5258.92s]  Ese pueblo de color negro.
+[5258.92s -> 5260.92s]  Ese sirve para eso.
+[5260.92s -> 5262.92s]  O, por ejemplo,
+[5262.92s -> 5264.92s]  ¿cómo se llama ésta?
+[5264.92s -> 5266.92s]  Abena.
+[5266.92s -> 5268.92s]  Pero avena de la
+[5268.92s -> 5270.92s]  tradicional.
+[5270.92s -> 5272.92s]  De la que no sabía nada.
+[5272.92s -> 5274.92s]  Eso amarra.
+[5278.92s -> 5280.92s]  Hay distintos males
+[5280.92s -> 5282.92s]  que tienen sus propios remedios.
+[5282.92s -> 5284.92s]  Lo mismo sucede
+[5284.92s -> 5286.92s]  aquí con el tema del ruido. Yo puedo tener unos filtros
+[5286.92s -> 5288.92s]  que sí, yo los aplico
+[5288.92s -> 5290.92s]  para diversas imágenes
+[5290.92s -> 5292.92s]  pero puede ser que sean contraproducentes.
+[5292.92s -> 5294.92s]  Es decir, puede ser que me borren información
+[5294.92s -> 5296.92s]  mejor
+[5296.92s -> 5298.92s]  en información relevante
+[5298.92s -> 5300.92s]  del objeto.
+[5302.92s -> 5304.92s]  Entonces, si yo conozco
+[5304.92s -> 5306.92s]  por ejemplo, si yo sé
+[5306.92s -> 5308.92s]  si yo sé que
+[5308.92s -> 5310.92s]  esta imagen
+[5310.92s -> 5312.92s]  sigue un ruido tipo rally
+[5312.92s -> 5314.92s]  ¿por qué voy a aplicar
+[5314.92s -> 5316.92s]  un filtro que está diseñado
+[5316.92s -> 5318.92s]  para el ruido tipo
+[5318.92s -> 5320.92s]  de océano, por ejemplo?
+[5320.92s -> 5322.92s]  O para el ruido tipo
+[5322.92s -> 5324.92s]  Pasón.
+[5324.92s -> 5326.92s]  O un ruido que siga
+[5326.92s -> 5328.92s]  otro tipo de distribución.
+[5328.92s -> 5330.92s]  Bien, bien.
+[5330.92s -> 5332.92s]  No, yo quiero es
+[5332.92s -> 5334.92s]  aplicar un filtro
+[5334.92s -> 5336.92s]  o aplicar un método
+[5336.92s -> 5338.92s]  que me permite eliminar el ruido tipo rally
+[5338.92s -> 5340.92s]  sin comprometer
+[5340.92s -> 5342.92s]  sin eliminar
+[5342.92s -> 5344.92s]  valores de intensidad de piscel
+[5344.92s -> 5346.92s]  de zonas
+[5346.92s -> 5348.92s]  de zonas de interés
+[5348.92s -> 5350.92s]  y en este caso es del cerebro
+[5350.92s -> 5352.92s]  ¿Cierto que sí?
+[5354.92s -> 5356.92s]  Entonces, ¿a qué me ayuda eso?
+[5356.92s -> 5358.92s]  A ir limpiando un poco más,
+[5358.92s -> 5360.92s]  a ir limpiando
+[5360.92s -> 5362.92s]  esta zona, fíjense, fíjense
+[5362.92s -> 5364.92s]  todas estas homenitas que aparecen aquí
+[5364.92s -> 5366.92s]  y la persona me la parió
+[5366.92s -> 5368.92s]  y puede ser
+[5368.92s -> 5370.92s]  fíjense por el proceso de degradación
+[5370.92s -> 5372.92s]  pero también aquí sí, claramente
+[5372.92s -> 5374.92s]  es que hay que el ruido presente
+[5376.92s -> 5378.92s]  y recuerden que estas imágenes son bien delicadas
+[5378.92s -> 5380.92s]  ¿no? porque depende
+[5380.92s -> 5382.92s]  Recuerden que nuestro interés es medir
+[5384.92s -> 5386.92s]  ¿cuánto mide cada estructura?
+[5386.92s -> 5388.92s]  O si hay un tumor presente,
+[5388.92s -> 5390.92s]  ¿cuánto mide el tumor?
+[5390.92s -> 5392.92s]  Para decirle al médico
+[5392.92s -> 5394.92s]  o al neurocirujano
+[5394.92s -> 5396.92s]  que usted tiene que meter
+[5396.92s -> 5398.92s]  la aguja es por aquí
+[5398.92s -> 5400.92s]  y no más por aquí
+[5400.92s -> 5402.92s]  porque si la mete un, si mete la aguja
+[5402.92s -> 5404.92s]  un milímetro
+[5404.92s -> 5406.92s]  más hacia, no sé, la derecha
+[5406.92s -> 5408.92s]  puede matar el paciente
+[5410.92s -> 5412.92s]  Pues no podemos eliminar
+[5412.92s -> 5414.92s]  información relevante
+[5414.92s -> 5416.92s]  de los pisceles
+[5416.92s -> 5418.92s]  sino solamente eliminar
+[5418.92s -> 5420.92s]  el ruido asociado
+[5420.92s -> 5422.92s]  esa valor de intensidad
+[5422.92s -> 5424.92s]  relacionados con el ruido
+[5424.92s -> 5426.92s]  no los valores de intensidad
+[5426.92s -> 5428.92s]  que no están relacionados
+[5428.92s -> 5430.92s]  con el tipo específico de ruido
+[5434.92s -> 5436.92s]  ¿Hay preguntas aquí?
+[5442.92s -> 5444.92s]  En primer paso
+[5444.92s -> 5446.92s]  ya metiéndonos con el valor
+[5446.92s -> 5448.92s]  de intensidad de piscel
+[5448.92s -> 5450.92s]  es necesariamente
+[5450.92s -> 5452.92s]  eliminar el ruido
+[5454.92s -> 5456.92s]  es decir, suavizar la imagen
+[5456.92s -> 5458.92s]  si yo enemino este ruido aquí
+[5458.92s -> 5460.92s]  yo puedo
+[5460.92s -> 5462.92s]  suavizar la imagen
+[5462.92s -> 5464.92s]  hay otro tipo de ruido que se llama
+[5464.92s -> 5466.92s]  ruido sal y pimienta
+[5466.92s -> 5468.92s]  que son punticos blancos
+[5468.92s -> 5470.92s]  y puntetes negros
+[5470.92s -> 5472.92s]  ¿sí? en inglés es sal
+[5472.92s -> 5474.92s]  un feplo
+[5474.92s -> 5476.92s]  ¿sí?
+[5476.92s -> 5478.92s]  algunas imágenes planas
+[5478.92s -> 5480.92s]  pueden tener ese ruido
+[5480.92s -> 5482.92s]  que es como el ruido
+[5482.92s -> 5484.92s]  de los televisores viejitos
+[5484.92s -> 5486.92s]  cuando se iba a la señal
+[5486.92s -> 5488.92s]  que eran punticos blancos
+[5488.92s -> 5490.92s]  y punticos negros
+[5490.92s -> 5492.92s]  esos ruidos sal y pimienta
+[5492.92s -> 5494.92s]  ese tipo de ruido
+[5494.92s -> 5496.92s]  sigue otro tipo de distribución
+[5496.92s -> 5498.92s]  y estaríamos interesados
+[5500.92s -> 5502.92s]  si nos intentamos a ese ruido
+[5502.92s -> 5504.92s]  es a utilizar alguna técnica
+[5504.92s -> 5506.92s]  que nos permita eliminar
+[5506.92s -> 5508.92s]  solamente ese ruido
+[5510.92s -> 5512.92s]  sin comprometer
+[5512.92s -> 5514.92s]  información de lo que
+[5514.92s -> 5516.92s]  tenemos que tener mucho cuidado
+[5516.92s -> 5518.92s]  en ese sentido
+[5520.92s -> 5522.92s]  en la próxima clase
+[5522.92s -> 5524.92s]  vamos a ver es
+[5524.92s -> 5526.92s]  cómo empezar a eliminar ese ruido
+[5530.92s -> 5532.92s]  por eso necesito
+[5532.92s -> 5534.92s]  que esta semana
+[5534.92s -> 5536.92s]  trafiquen el histograma
+[5536.92s -> 5538.92s]  de tele imagen
+[5538.92s -> 5540.92s]  los que no lo hicieron
+[5540.92s -> 5542.92s]  hay algunos grupos
+[5542.92s -> 5544.92s]  que compartieron pantallas
+[5544.92s -> 5546.92s]  y hicieron la tarea
+[5546.92s -> 5548.92s]  en una imagen
+[5548.92s -> 5550.92s]  de 256 valores
+[5550.92s -> 5552.92s]  de intensidad
+[5552.92s -> 5554.92s]  una imagen plana
+[5554.92s -> 5556.92s]  ¿sí?
+[5556.92s -> 5558.92s]  yo puedo tener
+[5560.92s -> 5562.92s]  como esta
+[5564.92s -> 5566.92s]  aquí tengo
+[5566.92s -> 5568.92s]  cerro y aquí tengo
+[5568.92s -> 5570.92s]  255
+[5574.92s -> 5576.92s]  yo puedo
+[5576.92s -> 5578.92s]  adquirir la habilidad de tener el histograma
+[5578.92s -> 5580.92s]  solo ver el histograma
+[5580.92s -> 5582.92s]  yo ya puedo tener
+[5582.92s -> 5584.92s]  un overview
+[5584.92s -> 5586.92s]  de qué hay en la imagen
+[5586.92s -> 5588.92s]  sin necesidad de ver la imagen real
+[5588.92s -> 5590.92s]  entonces
+[5590.92s -> 5592.92s]  más o menos por esta zona
+[5592.92s -> 5594.92s]  de acá
+[5594.92s -> 5596.92s]  todo lo que hay acá son negros
+[5598.92s -> 5600.92s]  excelen de color negro en la imagen
+[5600.92s -> 5602.92s]  ahora
+[5602.92s -> 5604.92s]  todo lo que hay aquí
+[5604.92s -> 5606.92s]  son sombras
+[5606.92s -> 5608.92s]  en la imagen
+[5616.92s -> 5618.92s]  esto ya son valores
+[5618.92s -> 5620.92s]  medios
+[5622.92s -> 5624.92s]  tonos medios
+[5626.92s -> 5628.92s]  en la imagen
+[5628.92s -> 5630.92s]  ¿sí?
+[5630.92s -> 5632.92s]  esta zona de acá son altas luces
+[5634.92s -> 5636.92s]  y finalmente
+[5636.92s -> 5638.92s]  aquí tenemos
+[5638.92s -> 5640.92s]  unos blancos
+[5640.92s -> 5642.92s]  muy blancos
+[5642.92s -> 5644.92s]  como por ejemplo
+[5644.92s -> 5646.92s]  cráneo y todo esto
+[5648.92s -> 5650.92s]  todos estamos en una imagen plana
+[5650.92s -> 5652.92s]  en el proceso de tomar
+[5652.92s -> 5654.92s]  la foto a una pared blanca
+[5654.92s -> 5656.92s]  esta zona de aquí
+[5656.92s -> 5658.92s]  va a estar bien arriba
+[5658.92s -> 5660.92s]  o sea tiene altas frecuentes
+[5666.92s -> 5668.92s]  de esta forma nosotros
+[5668.92s -> 5670.92s]  podemos leer un histograma
+[5670.92s -> 5672.92s]  ¿ustedes qué pasa si yo tengo
+[5672.92s -> 5674.92s]  un histograma
+[5674.92s -> 5676.92s]  de este estilo?
+[5676.92s -> 5678.92s]  ¿qué pasa si yo tengo
+[5678.92s -> 5680.92s]  un histograma de este estilo?
+[5688.92s -> 5690.92s]  ¿qué más hay
+[5690.92s -> 5692.92s]  que hay más presente en la imagen
+[5692.92s -> 5694.92s]  a partir de ese histograma?
+[5694.92s -> 5696.92s]  puede ser con un negro
+[5696.92s -> 5698.92s]  con un fondo negro
+[5698.92s -> 5700.92s]  con tonos grises
+[5700.92s -> 5702.92s]  pues por el histograma
+[5702.92s -> 5704.92s]  se lo me da como
+[5704.92s -> 5706.92s]  ¿qué tanto ruido tengo?
+[5710.92s -> 5712.92s]  este histograma está
+[5712.92s -> 5714.92s]  esta imagen asociada este histograma está
+[5714.92s -> 5716.92s]  su respuesta
+[5716.92s -> 5718.92s]  por ejemplo
+[5722.92s -> 5724.92s]  redujo muchísimo
+[5724.92s -> 5726.92s]  si tuve la oportunidad
+[5726.92s -> 5728.92s]  de activar la imagen
+[5728.92s -> 5730.92s]  en un celular
+[5730.92s -> 5732.92s]  redujo muchísimo la iluminación
+[5732.92s -> 5734.92s]  en la exposición
+[5734.92s -> 5736.92s]  de lente
+[5736.92s -> 5738.92s]  a la luz
+[5742.92s -> 5744.92s]  ¿qué pasa si yo tengo
+[5746.92s -> 5748.92s]  una imagen de este estilo?
+[5750.92s -> 5752.92s]  un histograma de este estilo
+[5754.92s -> 5756.92s]  está expuesto hacia la izquierda
+[5756.92s -> 5758.92s]  ¿cierto?
+[5762.92s -> 5764.92s]  ¿dónde?
+[5764.92s -> 5766.92s]  ¿en qué zona
+[5766.92s -> 5768.92s]  el histograma
+[5768.92s -> 5770.92s]  cae?
+[5770.92s -> 5772.92s]  esta zona de
+[5772.92s -> 5774.92s]  que tiene mucha más frecuencia
+[5774.92s -> 5776.92s]  ¿dónde cae?
+[5780.92s -> 5782.92s]  ¿de esto acá?
+[5782.92s -> 5784.92s]  ¿dónde cae?
+[5786.92s -> 5788.92s]  es decir
+[5788.92s -> 5790.92s]  esta imagen
+[5790.92s -> 5792.92s]  es de fotos nocturnas
+[5800.92s -> 5802.92s]  la foto fue tomada de noche
+[5804.92s -> 5806.92s]  donde hay mucha sombra
+[5808.92s -> 5810.92s]  ahora
+[5810.92s -> 5812.92s]  una imagen así
+[5814.92s -> 5816.92s]  es ¿dónde cae?
+[5816.92s -> 5818.92s]  ¿dónde cae?
+[5820.92s -> 5822.92s]  esta es de exposición neutral
+[5826.92s -> 5828.92s]  se puede ver
+[5828.92s -> 5830.92s]  que tengo muchas
+[5830.92s -> 5832.92s]  muy altas frecuencias
+[5832.92s -> 5834.92s]  en los medios
+[5834.92s -> 5836.92s]  de la imagen, de acuerdo que esto va a ser
+[5836.92s -> 5838.92s]  a 215
+[5838.92s -> 5840.92s]  es decir
+[5840.92s -> 5842.92s]  por ahí en 120
+[5842.92s -> 5857.56s]  120, 120 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 140.
+[5859.84s -> 5868.36s]  Es decir, tengo medio sonos. Si, o sea, tengo, tengo altas luces y tengo altas sombras.
+[5868.36s -> 5879.48s]  ¿Sí? Ahora bien, ¿Qué pasa si tengo ya una cosa así? Este ya tengo una exposición hacia la derecha.
+[5883.88s -> 5893.40s]  ¿Sí? Y esta me sirve, o sea, yo puedo modificar el listograma de una imagen.
+[5893.40s -> 5900.12s]  ¿Sí? Yo puedo hacerle operaciones al listograma de la imagen,
+[5900.12s -> 5904.08s]  apunte por ahí cómo hacer operaciones al listograma de la imagen.
+[5904.08s -> 5910.84s]  Es decir, yo puedo modificar los valores de intensidad, ¿Para qué? ¿Para qué sigan?
+[5910.84s -> 5918.36s]  Otra distribución, para que el listograma resultante sea distinto.
+[5918.36s -> 5926.96s]  Yo puedo modificar los valores de intensidad, para que el listograma asociado tenga esta
+[5926.96s -> 5936.44s]  forma, por ejemplo. Y el listograma resultante de esta forma tiene menor ruido en una imagen plana.
+[5938.44s -> 5943.36s]  ¿Sí? O sea, me sirve como técnica para reducir el ruido en el mar.
+[5943.36s -> 5952.28s]  ¿Sí? Y por último, aquí lo voy a dejar chiquitico. Podemos tener esto así.
+[5954.84s -> 5959.84s]  ¿Esto? La imagen asociada a esta, a este histograma, ¿Cómo es?
+[5959.84s -> 5979.56s]  Con tono blanco, con alta luz, está sobreespuesta. ¿Sí? Está sobreespuesta. ¿A nivel artístico?
+[5982.44s -> 5985.52s]  Este curso no es para efectos artísticos, pero digamos,
+[5986.52s -> 5995.36s]  los que nos vamos a hacer a nivel artístico, es cuando yo abro demasiado la cámara,
+[5995.36s -> 6001.28s]  cuando son cámaras con lentes, ¿Sí? Cuando yo abro demasiado la cámara, ¿Para qué? ¿Para
+[6001.28s -> 6007.84s]  que la luz se vea mucho más? ¿Eso, para qué me sirve? Por ejemplo, en las fotos de noche,
+[6007.84s -> 6012.76s]  para capturar el movimiento de los carros. ¿Eso es efecto artístico de movimiento?
+[6013.76s -> 6014.96s]  ¿Sí?
+[6021.96s -> 6025.68s]  Por ejemplo, imagenes de movimiento.
+[6025.68s -> 6044.88s]  Estas. Estas imagenes. Tengo muchos blancos y muchas sombras, muchas regiones pues en sombras,
+[6044.88s -> 6054.20s]  pero tengo muchos picos blancos. ¿Sí? El histograma asociado puede ir por allí.
+[6056.68s -> 6064.76s]  Ya hemos visto formas de, o sea, ¿Cómo leer el histograma? Podemos saber. Estos picos nos
+[6064.76s -> 6071.60s]  permiten a nosotros saber dónde hay objetos en la imagen. Si yo estoy, si yo tengo varios picos en
+[6071.60s -> 6081.36s]  los tonos medios, es porque tengo varios objetos. Sí. Porque generalmente un objeto es de un mismo
+[6081.36s -> 6088.00s]  color, ¿Cierto? Que sí. O bueno, puede tener unos, unos, otros, otras tonalidades, pero generalmente,
+[6088.00s -> 6092.44s]  por ejemplo, la piel, la piel es más o menos del mismo color, ¿Cierto?
+[6095.20s -> 6102.64s]  Sí. Si yo le tomo la foto a una persona con los canelitas y le tomo la foto a una persona,
+[6102.64s -> 6112.08s]  pues bien, pues lo que nos hemos como decir, bien blanca esa persona, los, los, las tonalidades
+[6112.08s -> 6124.36s]  van a recibir más o menos en estas regiones. Sí. Entonces, vamos a tener dos picos asociados a esos
+[6124.36s -> 6133.64s]  dos objetos que son esas dos personas. Si me hago entender. A diferencia, yo tener altos
+[6133.64s -> 6141.04s]  picos aquí, altos picos acá, o altos picos acá donde ya son cosas que, o sea, no son objetos.
+[6143.96s -> 6152.32s]  Sí, no son objetos. Es con nomás leer el histograma, entonces eso es un ejercicio que toca,
+[6152.48s -> 6159.40s]  que toca hacer, ver varios histogramas, ver dónde reciben los objetos. O sea, son cosas que se
+[6159.40s -> 6165.08s]  cultivan con el tiempo. No son cosas que se aprenden de la noche a la mañana, pero aquí más o menos
+[6165.08s -> 6173.68s]  damos unos tips de cómo usted puede leer un histograma, de qué le va a buscar usted, cómo,
+[6173.68s -> 6180.16s]  cómo usted puede modificar el histograma. Eso se llama equalización del histograma,
+[6181.16s -> 6188.16s]  tal cual, como cuando no sé si ustedes hagan, hagan equalización de música, que yo quiero ir
+[6188.16s -> 6193.80s]  mal los bajos, que yo quiero ir mal los graves, que bueno, y toda esta cosa de musical, también la
+[6193.80s -> 6200.76s]  podemos aplicar aquí en las imágenes, modificar los valores de intensidad pixel, para que, para que
+[6201.76s -> 6212.80s]  los valores resultantes tengan por histograma otro histograma completamente distinto. Por
+[6212.80s -> 6219.36s]  ejemplo, fíjense aquí, cómo es la imagen, fíjense las sombras y todo el cuento. Este es el
+[6219.36s -> 6230.04s]  histograma asociado y ahora fíjense cómo se modifican los valores de intensidad para lograr
+[6230.04s -> 6235.92s]  tener una imagen de esto, donde ya las sombras se han eliminado por letra.
+[6237.48s -> 6243.92s]  Sí, y fíjense, la cosa tiende hacia la derecha, fíjense que también el ruido
+[6244.72s -> 6251.68s]  es bastante suavizado, fíjense aquí, esta zona ya es bastante homogénea, no tiene tantos,
+[6251.80s -> 6257.04s]  tanta pelucita y tantos, sí, como tantos punticos allí,
+[6261.84s -> 6268.16s]  fíjense, tiro hacia la derecha, se redujo el ruido en el mar,
+[6270.56s -> 6276.60s]  esto es una cosa totalmente distinta al histograma inicial, que era este,
+[6277.56s -> 6281.56s]  entonces usted va a apuntar allí, cómo equalizar el histograma,
+[6287.96s -> 6293.00s]  eso lo van a aplicar con una imagen plana que ustedes tienen,
+[6296.28s -> 6299.92s]  y con las imágenes médicos,
+[6300.20s -> 6308.64s]  hacer actualización del histograma. Dentro de ocho días, entonces ya nos vamos a adentrar,
+[6308.64s -> 6315.92s]  es cómo eliminar el ruido y para eso vamos a ofrecer una operación que se llama operación de
+[6315.92s -> 6317.08s]  convolución,
+[6320.92s -> 6323.48s]  operación de convolución.
+[6329.92s -> 6341.28s]  Hay un documentico aquí que quisiera mostrarles,
+[6342.64s -> 6344.88s]  a mí casi no me gusta mostrarles, es pero
+[6347.44s -> 6354.40s]  es bastante interesante saber cuándo se trabajan las imágenes de tomografía.
+[6354.40s -> 6364.96s]  No, no, no, no, no, no, no, no, no.
+[6384.40s -> 6402.00s]  ¿Qué está esto? A mí casi no me gusta leer de diapositivas, pero bueno,
+[6402.00s -> 6411.20s]  está más o menos interesante, específicamente para las imágenes de tomografía, y es cómo
+[6411.20s -> 6419.76s]  interpretar esos valores de unidades Hounsfield, dependiendo de qué tejido es. Hay mucha documentación
+[6419.76s -> 6427.60s]  de eso en internet, sí, pero pues aquí pues para que sepamos. Esta diapositiva yo la puedo subir
+[6427.60s -> 6434.12s]  al campus virtual, bueno, la historia, tal, tal, tal, bueno, guacho, no nos vamos a entrar tanto en
+[6434.12s -> 6445.28s]  las cosas, usted puede leer esto con la detalle, pero si quisiera mostrarles aquí es, bueno,
+[6445.28s -> 6454.76s]  esto es para qué estás sirviendo las imágenes de tomografía, todo esto, para extraer bitatos,
+[6454.76s -> 6459.52s]  latentes. ¿Qué es un dato latente? ¿Alguien sabe qué es dato latente?
+[6459.92s -> 6471.08s]  En Machine Learning, pues en computación, que es dato latente, son datos que no podemos ver en
+[6472.92s -> 6481.40s]  partir de un conjunto de números que tienen. Por ejemplo, cierran los ojos y piensen en el siguiente,
+[6481.88s -> 6493.40s]  en los siguientes números. Uno, dos, cuatro, ocho, dieciséis, treinta y dos, sesenta y cuatro.
+[6498.04s -> 6504.96s]  ¿Sí? Ustedes ve esos números, si usted dice así, el uno, el dos, el cuatro, el ocho, dice sí,
+[6505.96s -> 6512.60s]  alguien los ve y dice, ah, bueno, ok, pero usted en su cabeza ya está empezando a decir,
+[6512.60s -> 6520.52s]  no, me está diciendo potencia de dos. Ah, me está diciendo que es dos elevado a la altra,
+[6521.92s -> 6527.16s]  es decir, usted ya está identificando patrones en esos números que yo le acabé de decir.
+[6528.16s -> 6533.60s]  Usted con simplemente ver los números, usted no encontró esa relación,
+[6535.96s -> 6542.32s]  ¿Sí? Es decir, ese proceso de que usted hizo que, ah, me está diciendo números,
+[6542.32s -> 6549.48s]  potencia de dos y usted ya estaba haciendo esos cálculos en su mente, eso es dato latente. Es decir,
+[6549.48s -> 6555.12s]  son patrones que no se ven a simple vista, que hay que aplicar cálculos, los que sean,
+[6555.12s -> 6564.28s]  los cálculos que sean, pero que es transformar la información inicial para descubrir cosas
+[6564.28s -> 6573.72s]  que no se ven a simple vista. Por ejemplo, patrones entre un par de números, entre varios números,
+[6573.72s -> 6581.32s]  sí, eso, a eso le llamamos dato latente. Aplicando las operaciones que sean,
+[6581.32s -> 6589.08s]  los algoritmos que sean, pero siempre es para obtener información oculta entre un conjunto de
+[6589.08s -> 6600.20s]  números algo, ¿Sí? Aquí nosotros vamos a sacar información latente a partir de los valores
+[6600.20s -> 6607.44s]  de intensidad de los pinceles, pero para eso tenemos que hacer los primeros pasos que es que son,
+[6607.44s -> 6612.24s]  pues el primero eliminar el ruido, porque sí, ¿Qué pasa si nosotros no eliminamos el ruido?
+[6613.24s -> 6619.04s]  Entonces los datos latentes que saquemos a partir de esos valores de intensidad no van a corresponder
+[6619.04s -> 6628.20s]  con la realidad, porque es que es ruido. En el caso de las imágenes de tomografía,
+[6628.20s -> 6637.28s]  fíjense las escalas que se manejan. Para grasa visceral tenemos de menos 150 a 50 unidades
+[6637.28s -> 6646.68s]  homespills, es decir, si usted abre la matriz en una tajada de esta tomografía, entonces
+[6646.68s -> 6657.68s]  usted puló menos 150, menos 120, 20, 40, perdón, menos 10, perdón, es decir, menos 150, menos 120,
+[6657.68s -> 6663.40s]  menos 110, menos 90, menos 70, hasta menos 50, es pura grasa visceral.
+[6666.32s -> 6672.92s]  ¿Sí? A eso es lo que le llamamos nosotros las ventanas homespills. Y esto necesito porque claro
+[6672.92s -> 6679.08s]  es para que las personas quieran trabajar con esto en su trato de gramo. Para huesos,
+[6680.84s -> 6690.04s]  ¿Sí? Se va a dejar esta ventana entre 0 y 100 unidades homespills, músculo esquelético entre
+[6690.04s -> 6698.56s]  menos 29 y 150 unidades homespills. Ahí usted puede ver que algunas zonas se solaban con otras,
+[6699.28s -> 6705.92s]  por ejemplo, tenemos hueso trabecular que se está solapando con el músculo esquelético y pues tiene
+[6705.92s -> 6712.52s]  sentido porque el músculo esquelético está pegado a los huesos. El músculo esquelético es el que
+[6712.52s -> 6722.48s]  hace que el es el que hace que nosotros nos podamos mover, o sea, son los músculos que mueven los
+[6722.48s -> 6730.88s]  huesos. Usted mueve su brazo, el músculo esquelético es el que está inmoviendo el hueso de todo el brazo
+[6730.88s -> 6739.68s]  suyo para desplazarlo hacia la zona que su cerebro quiere moverla. ¿Sí? Y aquí tenemos pues otras
+[6739.68s -> 6747.52s]  zonas. Decídense cómo queda la segmentación después de haber aplicado todas las operaciones,
+[6747.68s -> 6754.04s]  ahí se le ponen colorcitos, pero esto no es más que una gráfica, es decir, ya que ya pasó todo un
+[6754.04s -> 6761.92s]  algoritmo de segmentación, de decir dónde está cada estructura. El músculo esquelético le pone
+[6761.92s -> 6769.72s]  un colorcito, pero es porque ya se sabe exactamente cuáles píxeles corresponden a qué zonas en
+[6769.72s -> 6777.44s]  particular. Eso es lo que queremos que se haga hasta el final del semestre. Bien, sea con
+[6777.44s -> 6784.04s]  las imágenes de resonancia magnética y con estas zonas de tomografía y con esta manera de tomografía,
+[6786.16s -> 6794.04s]  el calcio, grasa subcutánea, grasa visceral, sí, y esas otras zonas.
+[6798.48s -> 6799.40s]  Es por aquí.
+[6799.40s -> 6812.00s]  Bueno, aquí menciona lo que anteriormente sea. Bueno, anteriormente no. Incluso hoy en día
+[6812.00s -> 6817.82s]  se hace. Es decir, esto es muy futurista, pero es porque los algoritmos se han ido
+[6817.82s -> 6826.08s]  construyendo, pero ya bastantes fabricantes comerciales de resonadores y de estas zonas
+[6826.08s -> 6835.52s]  tomografía. Ya el software con el que vienen asociados ya te hace segmentación y todo esto,
+[6835.52s -> 6842.76s]  habiendo ya aplicado todos los algoritmos después de mucha investigación. O sea, son empresas que
+[6842.76s -> 6850.16s]  cogin los algoritmos de la academia y ya hacen industria a partir de eso. O empresas que están
+[6850.16s -> 6858.72s]  dedicadas a hacer investigación también las hay. Sí, entonces tenemos, y fíjense ya que
+[6858.72s -> 6866.12s]  automáticamente se hacen estas segmentaciones. No son del todo perfectas. Es decir, si yo la
+[6866.12s -> 6873.16s]  comparo con lo que debería hacer, hay errores, pero ya cada vez son menores los errores. Hasta
+[6873.16s -> 6883.04s]  el punto en el que ya se puede vender comercialmente. Les tenemos para músculo esquelético, desde que
+[6883.04s -> 6895.68s]  unida esa unidad es ba, cómo se ve específicamente, qué ocurre cuando el paciente está enfermo,
+[6895.84s -> 6904.64s]  cuando tiene problemas musculares, cuando tiene este mioestatosis, que es que ya la
+[6904.64s -> 6912.36s]  persona ya ya no se puede mover casi o que es que ya camina un despacio, todo eso. Cuando tiene ese,
+[6912.36s -> 6918.48s]  cuando tiene eso, van y le hacen una una tomografía, entonces se encuentran con valores de los que
+[6918.48s -> 6926.64s]  están diciendo aquí. Sí, sirve de biomarcador para detectar esta clase de problemas.
+[6930.56s -> 6939.16s]  Bueno, muchas cosas allí que ustedes pueden ir al calle y para eso,
+[6939.16s -> 6944.84s]  para riesgo de fractura, entonces, qué valores de unidad de house, que podemos ver en nuestra
+[6944.84s -> 6953.92s]  matriz de intensidades, cuando hay riesgos de fractura, perdidas dipós o menos riesgo
+[6953.92s -> 6961.56s]  metabólico, o sea, qué pasa con la parte de los valores de intensidad, qué podemos identificar en
+[6961.56s -> 6970.84s]  los valores que estamos viendo para identificar índice de masa corporales, anómalo y otros
+[6971.16s -> 6979.40s]  otros problemitas ahí por ahí. Para hígado, creo que van a trabajar algunos con imágenes de
+[6979.40s -> 6991.00s]  hígado, qué ocurre con los valores de unidades housefield. Por ejemplo, que cuando sí yo estoy
+[6991.00s -> 6999.12s]  viendo valores menores a 40 en imágenes de tomografía de hígado, que es porque probablemente
+[6999.60s -> 7005.36s]  estas cosas son, probablemente, no, supiere, probablemente, no, el de que vea, ya tiene esto,
+[7005.36s -> 7013.00s]  que al final es un ser humano, un médico, el que decide, el que decide si es verdad o si no lo es.
+[7017.88s -> 7024.28s]  ¿Qué pasa cuando le mandan a la gente una tomografía contrastada? Eso es una inyección que
+[7024.28s -> 7034.88s]  le ponen de qué, es que es lo que le inyectan a la gente en la sangre. No me acuerdo para qué,
+[7034.88s -> 7044.08s]  para que haya más contraste en la tomografía. Para que haya más contraste en la tomografía.
+[7046.20s -> 7052.20s]  Para mi hermano, una vez le mandaron tomografía contrastada, no sé qué y eso, le inyectan un
+[7052.20s -> 7059.52s]  líquido que hace que haya mayor contraste, que aquí están diciendo qué sucede con el tema del
+[7059.52s -> 7071.52s]  contraste. Es el líquido, él decía que hay que inyectaron ese líquido y me sentí caliente,
+[7071.52s -> 7077.28s]  caliente, caliente por un rato. Y obviamente la reacción geológica, pero el contraste es para
+[7077.28s -> 7082.56s]  ayudar a ver con mayor detalle ciertas cosas, en el caso de él era un tumulto.
+[7088.28s -> 7096.68s]  Y resumen es así, que todas las cositas que se pueden hacer a partir de estas imágenes de
+[7096.68s -> 7104.48s]  tomografía, y bueno, y esto ya es muy de lo que se está haciendo hoy en día.
+[7104.72s -> 7110.60s]  Esta depositiva la voy a subir al campus. De lo que sí sirve para ustedes es saber estas
+[7110.60s -> 7121.80s]  ventanas. ¿Qué valores y que necesariamente, qué implicaciones tiene que hagan ciertos valores
+[7121.80s -> 7127.68s]  en imágenes de hígado, por ejemplo, en imágenes de hueso, por ejemplo.
+[7127.68s -> 7137.16s]  Esto no lo vemos, por ejemplo, con imágenes de resonancia magnética. Hay cosas que no se
+[7137.16s -> 7143.80s]  pueden ver con imágenes de resonancia magnética. De hecho, hay dos tipos de resonancia magnética,
+[7143.80s -> 7151.72s]  una se llama T1 y otra se llama T2. Para las imágenes T1 de resonancia magnética sirve para
+[7151.72s -> 7161.68s]  haber tejidos principalmente. Es decir, la señal electromagnética no va a responder cuando hay
+[7161.68s -> 7168.44s]  aguas presentes, creen los hieles de cerebro, no va a detectar líquidos de cefalón aquídeo,
+[7168.44s -> 7179.08s]  no va a detectar líquidos en el cerebro. Mientras que las imágenes de resonancia magnética T2 sí,
+[7181.72s -> 7195.44s]  aquí fíjense cómo es una imagen T1 y cómo es una imagen T2. La imagen T1 nos sirve bastante para
+[7195.44s -> 7204.92s]  ver estructuras cerebrales, mientras que las imágenes T2 nos sirven para ver depósitos,
+[7204.92s -> 7212.60s]  depósitos de líquidos, depósitos de otras colores. Fíjense en la diferencia que hay. Las
+[7212.60s -> 7221.04s]  imágenes que yo les puse en el campo virtual son T1, o sea, es para ver que estructuras cerebrales,
+[7221.04s -> 7230.12s]  o sea, como es que se les dice, estructuras anatómicas, no queremos ver cosas líquidos
+[7230.28s -> 7239.72s]  a eso en la imagen, en el cerebro. Entonces, es dependiendo de qué quiera mirar el médico,
+[7239.72s -> 7249.48s]  el negrólogo, el psiquiatra, que le mandan T1 o T2 al paciente. ¿Quién es el responsable de mirarte
+[7249.48s -> 7265.40s]  uno de dos, todo es el radiólogo? ¿Sí? Bueno, preguntas. ¿Preguntican, muchachos?
+[7265.40s -> 7277.08s]  Profesor, más que todo lo que dijo que íbamos a hacer. Entonces, calculamos la distribución de la
+[7277.08s -> 7283.20s]  región del ruido de esa imagen que está en el campo. Sí. Llegamos hasta ahí, no más,
+[7283.20s -> 7289.16s]  hasta que tipo de distribución, ¿cierto? Y también mira cómo equalizar el histograma.
+[7289.64s -> 7296.96s]  Una pregunta, por ejemplo, esa imagen que se está mostrando ahí tiene bastante,
+[7296.96s -> 7305.44s]  si yo solo capturo un fragmento o una zona de esa imagen, ¿me puede dar un tipo de distribución
+[7305.44s -> 7315.60s]  diferente al capturar una región más grande o más pequeña? O obtengo un tipo de distribución
+[7315.60s -> 7323.40s]  más grande, capturando y analizando la región más completa de esa parte que quiero analizar.
+[7323.40s -> 7332.24s]  Si es para detectar ruido, la forma de saber la distribución del ruido de la imagen es
+[7332.24s -> 7337.84s]  analizando una sola región. Por ejemplo, si yo le tomo la foto a un paisaje,
+[7338.24s -> 7348.76s]  es solamente voy a tomar la parte del cielo, no solamente tomo la parte del pasto.
+[7352.76s -> 7363.88s]  La idea es que sean zonas planas. ¿Por qué? Porque es que obviamente si voy a tener los azules y
+[7363.88s -> 7369.04s]  los verdes, en el caso de una imagen de un paisaje, el azul del cielo y el verde del pasto,
+[7369.04s -> 7377.08s]  pues obviamente van a recibir en zonas del histograma distintas. Entonces yo necesito
+[7377.08s -> 7386.56s]  es decidirme por una sola zona, ¿ci? Una sola zona de la imagen y solo tomo esa zona.
+[7386.56s -> 7390.68s]  ¿De la imagen en general o del fragmento de ruido de la imagen?
+[7390.68s -> 7400.16s]  El ruido es el mismo para toda la imagen. Ok. O sea, la distribución de ruido de la
+[7400.16s -> 7406.72s]  imagen es igual para toda la imagen. En blanco y negro, es por ejemplo esa de la de cerebro,
+[7406.72s -> 7414.24s]  todo lo negro es el mismo ruido. Y en todo lo blanco, sino que es donde queremos seleccionar
+[7414.24s -> 7422.76s]  para ver qué tipo de distribución. Sí, que ya sabemos qué raro es. Pero para ver qué distribución
+[7422.76s -> 7429.68s]  es, pues vamos a tomar una región. La parte negra puede ser, sí, no es brindada bastante
+[7429.68s -> 7435.36s]  en formación. ¿Por qué? Porque lo negro debería ser negro en estas imágenes. Lo negro debería
+[7435.36s -> 7443.12s]  ser negro. No deberíamos tener en las zonas negras, no deberíamos tener púnticos blancos. ¿Por qué?
+[7443.60s -> 7453.62s]  En las zonas negras no hay tejido, debería ser completamente negro. Ok. Pero porque estamos
+[7453.62s -> 7460.96s]  teniendo pedacitos blancos, hay como hormiguitas blancas. Eso no debe hacer. Entonces esa zona
+[7460.96s -> 7468.72s]  es ideal para saber qué tipo de ruido hay. Ese mismo ruido se ocurre en las zonas blancas
+[7468.72s -> 7477.20s]  donde hay tejido. Pero allí no es más dificultoso aislar, perdón, no, no es más dificultoso ver
+[7477.20s -> 7483.64s]  el ruido porque estamos interfiriendo con valores de intensidad de píxeles que sí corresponden
+[7483.64s -> 7494.08s]  a tejido. Es solamente para saber qué tipo de ruido es, no más. Es que luego cuando...
+[7494.08s -> 7506.48s]  y vi que la exergición iba cambiando según el fragmento que analizaba. Claro, porque es que más
+[7508.56s -> 7516.68s]  en zonas de tejido estás mezclando ruido más tejido. Ya, ya lo entendí. Ya, ya me queda claro.
+[7516.96s -> 7524.64s]  Entonces queremos ver una zona donde no haya tejido para que lo que se grafique yo ya
+[7524.64s -> 7532.96s]  sé saber que verdaderamente es ruido. Es decir, queremos aislar el ruido mejor dicho, aislarlo de
+[7532.96s -> 7543.12s]  los valores de tejido. Eso lo agradece. Pero no, pero va a quedar la pregunta. Más pregunta, a ver lo demás.
+[7544.00s -> 7549.00s]  En 22 personas que iniciamos 30 y vamos 22 en esa red.
+[7552.48s -> 7560.00s]  Quien más a ver preguntas, de recuerden, ecualizar el histograma.
+[7561.16s -> 7570.32s]  Empiecen haciendo el ejemplito con imágenes planas de paisajes o de esta muchachalena que es la que
+[7570.32s -> 7577.04s]  se usa para procesamiento de tal de imágenes. Es como la más utilizada. Usaba cualquier tutorial
+[7577.04s -> 7583.88s]  y normalmente encuentra esa muchacha. También puede encontrarla de un señor en una cámara. La foto
+[7583.88s -> 7591.64s]  de un señor con una cámara de esas viejas. Normalmente esas son las que son utilizadas. Hay
+[7591.64s -> 7603.16s]  otra que la de un mono. Un mico. Finalmente esas tres son de las más utilizadas como ejemplos y sobre
+[7603.16s -> 7611.52s]  esas que se hacen los tutoriales. Hacerlo en ecualización del histograma, ver el ruido asociado
+[7611.52s -> 7623.40s]  a las imágenes. Y ya entonces con eso nos nos preparamos para ya empezar a ver algoritmos de
+[7623.40s -> 7633.04s]  reducir el ruido. Es basados en convolución. Principalmente hay otras estrategias en el
+[7633.04s -> 7638.84s]  contenido de las frecuencias, transformaciones de furier y bueno toda esta vuelta, pero por ahora
+[7638.84s -> 7653.20s]  solamente basamos en la imagen. Espero que dentro de yo le diga menos muchachas cuéntenos que hicieron
+[7653.20s -> 7665.92s]  y que varios grupos tienen compartido. Ya tienen más para preguntar. En cualquier momento llegan
+[7666.08s -> 7670.84s]  bueno muchachos, dentro de 15 días es el control uno, entonces vamos a mostrar lo que tenemos hasta
+[7670.84s -> 7678.24s]  este momento. Espero que no estén colgados. Ay, yo no he hecho nada. Ay, que yo tampoco he hecho nada.
+[7678.24s -> 7689.96s]  Lo que mi grupo no ha hecho. Espero que eso no ocurra. Preguntas.
+[7696.80s -> 7706.16s]  Si no hay preguntas, entonces vamos a almoxar. Muchas gracias por haberme atendido y nos vemos
+[7706.16s -> 7715.32s]  el otro miércoles. ¿Dudas al correo? Algunos se preguntan, otros no, pero ¿Dudas al correo? Buena tarde para todos.
+[7715.32s -> 7721.48s]  Vale, proba, muchas gracias. Hasta luego.
